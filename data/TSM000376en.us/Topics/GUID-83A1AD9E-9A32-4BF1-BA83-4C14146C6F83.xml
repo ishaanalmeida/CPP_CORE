@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-83A1AD9E-9A32-4BF1-BA83-4C14146C6F83" version="2" lang="en-US"?><tsTroubleshooting xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-83A1AD9E-9A32-4BF1-BA83-4C14146C6F83" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic tsTroubleshooting)                            (topic hi-d)    (topic sdlVariables-c)                             (topic ut-d)                             (topic indexing-d)                            (topic sw-d)                            (topic ui-d)                            (topic oce-d)                            (topic oceCommonElements-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c tsTroubleshooting oceTroubleshooting-c)   " class="- topic/topic tsTroubleshooting/tsTroubleshooting "><title translate="no" class="- topic/title ">11520 No logical command connection with print engine</title><abstract class="- topic/abstract " id="GUID-9CA464D2-0133-4689-89AE-CBA900480EB8"><p class="- topic/p "> The <ph class="- topic/ph " varid="controller">Windows controller</ph> failed to connect to the <ph class="- topic/ph " varid="Econtroller">Embedded controller</ph> at start-up time. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><tsBody class="- topic/body tsTroubleshooting/tsBody "><tsSymptoms id="GUID-33E1B64A-E818-4500-A780-C8BC692D14B2" class="- topic/section tsTroubleshooting/tsSymptoms "/><tsCauses id="GUID-15C67752-16A3-47EE-8E4A-034B75D4DAC6" class="- topic/section tsTroubleshooting/tsCauses "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The engine is not initializing 
+</p></li><li class="- topic/li "><p class="- topic/p "> The error 11520 is reported on the UI 
+</p></li></ul></tsCauses><tsDiagnose id="GUID-4191E917-01DD-4464-9764-C2FA570B7A12" class="- topic/section tsTroubleshooting/tsDiagnose "><fig id="GUID-9A30641B-F705-4C87-910A-71781F00E9D2" class="- topic/fig "><image href="GUID-BD0981D1-4372-4EFB-BC06-09D4487B7103-low.png" placement="inline" class="- topic/image " otherprops="GUID-BD0981D1-4372-4EFB-BC06-09D4487B7103-svg.svg"/></fig></tsDiagnose><tsResolve id="GUID-3C1C6427-CD21-4D92-AB0E-1F4BAB732086" class="- topic/section tsTroubleshooting/tsResolve "><table pgwide="1" id="GUID-1D9DB483-2F98-4297-A044-81EEDBD52597" class="- topic/table "><tgroup align="left" outputclass="suspect" cols="6" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.51*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="3.27*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="1.98*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="3.94*" class="- topic/colspec "/><colspec colname="col6" colnum="6" colwidth="3.94*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">To do 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Start 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "/><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Machine is reporting error 11520 on the UI. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Is the EC showing activity e.g., is the EC CPU fan running. 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Is the EC showing activity e.g., is the EC CPU fan running, 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect the UI cable from the Windows controller to the EC controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><fig id="GUID-983A1E08-FE01-4726-9C43-32E289307798" class="- topic/fig "><p class="- topic/p ">Disconnect the HDMI connector from the WINDOWS controller and connect it to the EC controller. 
+</p><p class="- topic/p ">This must be done while the engine is switched on, otherwise the UI will not have power and always show nothing. 
+</p><p class="- topic/p ">Remove the HDMI cable from position 1 and place it into position 2 (see picture). The HDMI cable can be routed over the Windows controller (see indication in the picture) 
+</p><image href="GUID-FAEB3331-1D83-4891-A661-ED7E8BD6993E-low.png" placement="inline" class="- topic/image " otherprops="GUID-FAEB3331-1D83-4891-A661-ED7E8BD6993E-low.png"/></fig><p class="- topic/p ">The applicable port is indicated with 5 in the image below. 
+</p><fig id="GUID-ED5776A6-ADE1-41B0-AF35-0498912CA884" class="- topic/fig "><image href="GUID-E3659B63-D1F7-486C-BEAD-973ADDC86DA7-low.png" placement="inline" class="- topic/image " otherprops="GUID-E3659B63-D1F7-486C-BEAD-973ADDC86DA7-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> When the UI is showing a text like 'booting', '_' (blinking underscore) in the upper left corner this is considered a Yes. 
+</p><p class="- topic/p "> Messages like: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Error 90 12V power error 
+</p></li><li class="- topic/li "><p class="- topic/p ">Error 91 USB cable not connected 
+</p></li><li class="- topic/li "><p class="- topic/p ">Error 92 Video cable not plugged 
+</p></li><li class="- topic/li "><p class="- topic/p "> Error 93 No video signal 
+</p></li><li class="- topic/li "><p class="- topic/p ">Error 94 Video resolution not supported / Video refresh rate not supported 
+</p></li><li class="- topic/li "><p class="- topic/p "> Progress bar 
+</p></li><li class="- topic/li "><p class="- topic/p ">Error 95 No communication with controller 
+</p></li><li class="- topic/li "><p class="- topic/p ">Continuously black screen 
+</p></li></ul><p class="- topic/p ">are considered as ‘No’ 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" morerows="3" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" morerows="3" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" morerows="3" class="- topic/entry "><p class="- topic/p ">Evaluate the UI message 
+</p></entry><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">UI message</b> 
+</p></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">UI message</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Blinking underscore ‘_’ 
+</p></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">EC application is running ok, disk is preprogrammed EC HDD 
+</p></entry></row><row class="- topic/row "><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">A “booting linux” message followed by a “Please press Enter to activate this console” e.g. 
+</p><fig id="GUID-A9C80A58-3BEA-4564-9AEA-65FB852294D8" class="- topic/fig "><image href="GUID-DDDBA636-A672-4F34-B75A-3F2315634CEC-low.png" placement="inline" class="- topic/image " otherprops="GUID-DDDBA636-A672-4F34-B75A-3F2315634CEC-low.png"/></fig></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">EC application is running ok, disk is preprogrammed EC HDD 
+</p></entry></row><row class="- topic/row "><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">“No option to boot to” e.g. 
+</p><fig id="GUID-EA4F22F2-5078-40E4-8A89-88F91A03DFF6" class="- topic/fig "><image href="GUID-55537CC4-7A51-401A-AA30-871500770F5C-low.png" placement="inline" class="- topic/image " otherprops="GUID-55537CC4-7A51-401A-AA30-871500770F5C-low.png"/></fig></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Empty disk. The disk needs to be replaced by preprogrammed EC HDD ( See partslist <ph varid="SPP-COLO_M-SERIES_BASE-Z-2103" class="- topic/ph ">
+          <xref href="PRT-SPP-COLO_M-SERIES_BASE-2103.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-2103</xref>
+        </ph>-0005). 
+</p><p class="- topic/p ">The disk can still be used in a windows controller. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Is the message shown on the UI of the EC controller OK 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the part indicated in the evaluation 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the part that resulted from the evaluation in step 5 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Re-Connect the UI cable from the EC controller to the windows controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><fig id="GUID-1FC69908-14BE-4990-8E1B-017DF4D7E2A6" class="- topic/fig "><p class="- topic/p "> Remove the HDMI cable back into its original position (position 1, see picture on the right). 
+</p><image href="GUID-2875DB68-BB24-4F20-9439-A2DAAD021F6C-low.png" placement="inline" class="- topic/image " otherprops="GUID-2875DB68-BB24-4F20-9439-A2DAAD021F6C-low.png"/></fig><p class="- topic/p ">The applicable port is indicated with 5 in the image below 
+</p><fig id="GUID-068D5D75-119D-4892-8474-F84BE8B77D06" class="- topic/fig "><image href="GUID-E3659B63-D1F7-486C-BEAD-973ADDC86DA7-low.png" placement="inline" class="- topic/image " otherprops="GUID-E3659B63-D1F7-486C-BEAD-973ADDC86DA7-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Via the printer UI, system menu, shutdown the system . 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><fig id="GUID-279213A9-1D03-4FB6-AB69-47192C21C2E2" class="- topic/fig "><image href="GUID-BECC2066-922A-49D2-BF0B-6D4FF1EA1AB4-low.png" placement="inline" class="- topic/image " otherprops="GUID-BECC2066-922A-49D2-BF0B-6D4FF1EA1AB4-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">switch off the main switch and wait 1 minute 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">switch on the main switch 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">When a different error from the embedded system is reported (every CAS group except group 11) then the 11520 error is resolved. 
+</p><p class="- topic/p "> Focus now on resolution described on the error reported. 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Error 11520 occurs 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">When a different error from the embedded system is reported (every CAS group except group 11) then the 11520 error is resolved. Focus now on resolution described on the error reported. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">switch the ethernet cables from the 2 ports on the EC controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Exchange the utp cables connected to the EC controller. 
+</p><p class="- topic/p ">Move UTP from position 6 to 9 and vice versa. 
+</p><note id="GUID-8E8F25E0-74D1-434A-9AC7-8421627CE74E" class="- topic/note "><p class="- topic/p "> This can end up in a situation that is not according to the specification but in some cases, this will resolve the connection issue. 
+</p></note><fig id="GUID-85887097-E255-46A6-869F-B36990EE4666" class="- topic/fig "><image href="GUID-7CA65C09-12B1-47E0-B602-1F247CB7BF25-low.png" placement="inline" class="- topic/image " otherprops="GUID-7CA65C09-12B1-47E0-B602-1F247CB7BF25-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The cover is positioned at the backside of the user interface. The easiest is to pull the cover. 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Switch the EC controller off with the switch on the EC powersupply 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><fig id="GUID-A0CFAD7F-9704-4BD3-BFE9-43373FD6DBA9" class="- topic/fig "><p class="- topic/p ">The switch indicated by number 1 is the off/on switch. 
+</p><image href="GUID-65DC2311-AF69-4202-908D-3791E985F21B-low.png" placement="inline" class="- topic/image " otherprops="GUID-65DC2311-AF69-4202-908D-3791E985F21B-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">wait 5 seconds and switch on the EC controller with the switch of the EC powersupply 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Is the UI show anything? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" morerows="3" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" align="left" valign="top" morerows="3" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" morerows="3" class="- topic/entry "><p class="- topic/p ">evaluate UI message 
+</p></entry><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">UI message</b> 
+</p></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Disk status</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Blinking underscore ‘_’ 
+</p></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">EC application is running ok, disk is preprogrammed EC HDD 
+</p></entry></row><row class="- topic/row "><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">A “booting linux” message followed by a “Please press Enter to activate this console” e.g. 
+</p><fig id="GUID-EE28AAF8-88B9-42FC-88CC-41E4E9C515BB" class="- topic/fig "><image href="GUID-DDDBA636-A672-4F34-B75A-3F2315634CEC-low.png" placement="inline" class="- topic/image " otherprops="GUID-DDDBA636-A672-4F34-B75A-3F2315634CEC-low.png"/></fig></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">EC application is running ok, disk is preprogrammed EC HDD 
+</p></entry></row><row class="- topic/row "><entry colname="col5" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">“No option to boot to” e.g. 
+</p><fig id="GUID-7475D0DC-0680-4AFF-9481-B7798A91AD63" class="- topic/fig "><image href="GUID-55537CC4-7A51-401A-AA30-871500770F5C-low.png" placement="inline" class="- topic/image " otherprops="GUID-55537CC4-7A51-401A-AA30-871500770F5C-low.png"/></fig></entry><entry colname="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Empty disk. The disk needs to be replaced by preprogrammed EC HDD ( See partslist <ph varid="SPP-COLO_M-SERIES_BASE-Z-2103" class="- topic/ph ">
+          <xref href="PRT-SPP-COLO_M-SERIES_BASE-2103.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-2103</xref>
+        </ph>-0005). 
+</p><p class="- topic/p ">The disk can still be used in a windows controller. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the part indicated in the evaluation 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the part that resulted from the evaluation in step 5 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">23 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Is the UI connected correctly? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the EC controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> As the UI was presumed to show information from the windows controller before switching the cable, it is assumed that the Graphics part of the EC controller is not functioning correctly. 
+</p><p class="- topic/p ">See: <ph varid="SPP-COLO_M-SERIES_BASE-Z-2103" class="- topic/ph ">
+          <xref href="PRT-SPP-COLO_M-SERIES_BASE-2103.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-2103</xref>
+        </ph> Left Side: EC C14 Controller with index 001 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Is Streamer PBA on top of powered and all connectors connected? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the LED on the Steamer PBA is ON and check if all connectors to Steamer PBA are connected.
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">26 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Does the controller have AC input? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">27 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Switch the EC controller off with the switch on the EC powersupply 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">28 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Wait 5 seconds and switch on the EC controller with the switch of the EC powersupply 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">29 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Is the EC controller showing activity ? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">30 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Reset possible sleep state 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The EC controller can be in a deep sleep state. 
+</p><p class="- topic/p ">The controller can exit the sleep state by creating a shortcut between Pin 1 and Pin 2 on the power supply of the controller as indicated in the image below: 
+</p><fig id="GUID-B0FD09E7-21B4-4E90-9D41-501621E7C0A4" class="- topic/fig "><title class="- topic/title "/><image href="GUID-1A94554F-5C92-4E8D-8ECF-47E021BA18C6-low.png" placement="inline" class="- topic/image " otherprops="GUID-1A94554F-5C92-4E8D-8ECF-47E021BA18C6-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">31 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Is the EC controller showing activity ? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">32 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the voltages from the EC internal power supply 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the PSU output: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">1) Short out pins 15 and 16 on the 24-pin motherboard power connector with a small piece of wire. 
+</p><fig id="GUID-7626B55A-522E-4177-A8BA-A9D5CD196337" class="- topic/fig "><image href="GUID-92A5EC95-6B3B-4E7A-AC27-00BEA0150528-low.png" placement="inline" class="- topic/image " otherprops="GUID-92A5EC95-6B3B-4E7A-AC27-00BEA0150528-low.png"/></fig></li><li class="- topic/li "><p class="- topic/p ">Connect the negative probe on the multimeter (black) to any ground wired pin and connect the positive probe (red) to the first power line you want to test. 
+</p><p class="- topic/p ">The 24-pin main power connector has +3.3 VDC, +5 VDC, -5 VDC (optional), +12 VDC, and -12 VDC lines across multiple pins. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remove the short 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remount the connectors to their original position 
+</p></li></ol></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">33 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Decision 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Voltages ok? 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">34 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the EC controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">35 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the power input into the EC controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Measure if there is 230V/110V AC on the power cord to the PSU 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">36 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the PSU of the EC controller 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">See parts list <ph varid="SPP-COLO_M-SERIES_BASE-Z-2103" class="- topic/ph ">
+          <xref href="PRT-SPP-COLO_M-SERIES_BASE-2103.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-2103</xref>
+        </ph> Left Side: EC C14 Controller with index 006 
+</p></entry></row></tbody></tgroup></table></tsResolve></tsBody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-52AC0B80-9752-46D4-B024-EBDD1101329A.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</tsTroubleshooting>

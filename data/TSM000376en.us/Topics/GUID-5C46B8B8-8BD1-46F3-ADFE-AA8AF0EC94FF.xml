@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-5C46B8B8-8BD1-46F3-ADFE-AA8AF0EC94FF" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-5C46B8B8-8BD1-46F3-ADFE-AA8AF0EC94FF" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">ORS connection if the printer is point-to-point connected to the RIP </title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-780852DB-FFDA-4A5A-9D56-34B0370D62C9" class="- topic/section "><title class="- topic/title ">Remark</title><p class="- topic/p "> 
+</p><p class="- topic/p ">The ORS Remote Service Platform is an important mechanism for service visit preparation, remote assistance, and printer data visibility. Unfortunately, a number of Colorado printers are connected to their RIP host with a P2P (Point-to-Point) network connection and can’t see the local network or the internet. The printers connected this way, there has been no way to connect to ORS (On Remote Service), until now. 
+</p><p class="- topic/p ">Video: 
+<xref href="http://localhost:20346/preformat?doc=VIDEO00394EN.US&amp;sessionid=1684303577319" format="html" scope="external" class="- topic/xref "><?ditaot gentext?>http://localhost:20346/preformat?doc=VIDEO00394EN.US&amp;sessionid=1684303577319</xref> 
+</p><fig id="GUID-7BBC1646-E520-4635-8BDE-3D1D56F47FD9" class="- topic/fig "><title class="- topic/title "/><image href="GUID-A6615A08-D273-4E20-8AE7-8826CFE2623F-low.png" placement="inline" class="- topic/image " otherprops="GUID-A6615A08-D273-4E20-8AE7-8826CFE2623F-low.png"/></fig></section><section id="GUID-02AC293E-AF4A-4805-BBDF-54C9A5CACF6E" class="- topic/section "><title class="- topic/title ">Introduction</title><p class="- topic/p ">Sometimes printers are connected P2P (Point-to-Point) to the RIP PC. 
+</p><p class="- topic/p "> In other words: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The RIP PC is equipped with a second network card 
+</p></li><li class="- topic/li "><p class="- topic/p ">The printer is connected to this second network card 
+</p></li><li class="- topic/li "><p class="- topic/p ">The RIP PC is connected to the customer network 
+</p></li></ul><p class="- topic/p ">Consequence: as the printer is not directly connected to the customer network, it is impossible to connect it to ORS. Hence, getting printer log data, visit preparation, remote assistance sessions, updates, are more difficult or impossible. 
+</p><p class="- topic/p ">Possible solution:<b class="+ topic/ph hi-d/b "> Install a proxy server like Squid on the RIP PC</b>. 
+</p><note id="GUID-0773F86B-0AF2-4C6A-A80A-15588735CDF4" class="- topic/note "><p class="- topic/p ">This solution is only relevant for printers supporting ORS. 
+</p></note></section><section id="GUID-C442967C-5148-4DE6-90CE-1E0D70AD4684" class="- topic/section "><title class="- topic/title ">Where to get Squid?</title><p class="- topic/p ">Squid is freely available under the terms of the GNU General Public License. It is available for several platforms like Microsoft Windows and also Linux platforms like Debian (one of the platforms used for Caldera). 
+</p><p class="- topic/p ">More information and also the installation packages are available at: 
+</p><p class="- topic/p "><xref href="https://wiki.squid-cache.org/SquidFaq/BinaryPackages" format="html" scope="external" class="- topic/xref "><?ditaot gentext?>https://wiki.squid-cache.org/SquidFaq/BinaryPackages</xref> 
+</p><p class="- topic/p ">Squid has a configuration file. 
+</p><p class="- topic/p ">After the installation this configuration needs to be replaced with the one you can download from the following link: 
+</p><p class="- topic/p "><ph varid="graphiPLAZA_Support" translate="no" class="- topic/ph "><xref href="https://graphiplaza.cpp.canon/support/service-support/" format="html" scope="external" class="- topic/xref "><?ditaot gentext?>https://graphiplaza.cpp.canon/support/service-support/</xref></ph> 
+</p><p class="- topic/p ">[This zip file will download directly and contains the configuration file mentioned in the next chapter]. 
+</p><p class="- topic/p ">The following sections describe how to tune this configuration file to the customers situation. 
+</p></section><section id="GUID-68B8B0FB-5EA2-4096-9B43-C90E2E2B2E46" class="- topic/section "><title class="- topic/title ">Installation and configuration</title><note id="GUID-958CFD0D-68F1-4F79-B844-3277D413B113" class="- topic/note "><p class="- topic/p ">The Squid version that was used for testing this solution is 3.5.28 (you can find this version number in Control Panel &gt; Programs and Features after installing squid). 
+</p><p class="- topic/p ">This description describes the installation and configuration on Microsoft Windows 10 Pro. 
+</p></note></section><section id="GUID-2AA1D3C9-82CA-4E4D-9D91-E2839E9B9486" class="- topic/section "><title class="- topic/title ">Prerequisites</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">A working familiarity with configuring IP addresses as an administrator 
+</p></li><li class="- topic/li "><p class="- topic/p ">A working setup, able to print (network connection between RIP and printer up and running, both switched on). 
+</p></li><li class="- topic/li "><p class="- topic/p ">Administrator credentials on the RIP PC. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Squid.msi (see previous paragraph where to download it). 
+</p></li><li class="- topic/li "><p class="- topic/p ">Configuration file squid.conf (see previous section) 
+</p></li><li class="- topic/li "><p class="- topic/p ">Proxy settings 
+</p></li><li class="- topic/li "><p class="- topic/p ">IP address of the printer and IP address of the second network card in the RIP PC 
+</p><p class="- topic/p ">Example in this description: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">printer IP address: 192.168.100.101 
+</p></li><li class="- topic/li "><p class="- topic/p ">second network card in RIP PC: 192.168.100.100 
+</p></li></ul><note id="GUID-8CB31AB9-CD03-4C96-B6DC-125C72F78EAF" class="- topic/note "><p class="- topic/p ">This was the setup in our test environment. Your customer situation can be completely different! 
+</p></note></li></ul></section><section id="GUID-AD260D6C-3C7A-4183-B9AE-00F9EA37C945" class="- topic/section "><title class="- topic/title ">Install Squid on the RIP PC</title><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Open a command prompt using “Run as administrator” 
+</p></li><li class="- topic/li "><p class="- topic/p ">From this command prompt: run squid.msi (type squid.msi and press &lt;enter&gt;) 
+</p></li><li class="- topic/li "><p class="- topic/p ">Confirm the license 
+</p></li><li class="- topic/li "><p class="- topic/p ">If needed adjust the “Destination folder” 
+</p></li><li class="- topic/li "><p class="- topic/p ">Confirm the installation. 
+</p></li></ol></section><section id="GUID-A6BA496A-151B-4B7D-908E-130E3AECF7CC" class="- topic/section "><title class="- topic/title ">Configure Squid</title><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Replace &lt;installation location&gt;/etc/squid/squid.conf with the provided squid.conf 
+</p><note id="GUID-867D686F-2728-4426-B541-6EDE2174271E" class="- topic/note "><p class="- topic/p ">This file contains comment lines starting with # UPDATE where you need to modify the content. 
+</p></note></li><li class="- topic/li "><p class="- topic/p ">Open squid.conf in an editor such as notepad 
+</p></li><li class="- topic/li "><p class="- topic/p "> Find the line: ”acl localnet src 192.168.0.0/24” 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Type “ipconfig” in the command prompt 
+</p><p class="- topic/p ">Example: 
+</p><fig id="GUID-00D3AAEA-1108-47BC-A5FE-1ABB8993CFD5" class="- topic/fig "><title class="- topic/title "/><image href="GUID-F6B23CD0-F114-432A-90B8-5BB94226D6F6-low.png" placement="inline" class="- topic/image " otherprops="GUID-F6B23CD0-F114-432A-90B8-5BB94226D6F6-low.png"/></fig></li><li class="- topic/li "><p class="- topic/p ">Find the network with “IPv4 Address” and “Subnet Mask” matching the IP-address ofthe printer. In this example it is “Ethernet adapter Ethernet 2”. 
+</p><p class="- topic/p ">In the config file, replace the subnet “192.168.0.0/24” with the subnet information retrieved from ipconfig. 
+</p><p class="- topic/p ">Note that you have to change the notation from ipconfig output 255.255.255.0 style to/24 style in squid.conf. 
+</p><p class="- topic/p ">In this example the subnet is changed to: 192.168.100.0/24. 
+</p><p class="- topic/p ">Write down the IP-address of the RIP PC on this network: this must be filled in as proxy on the printer later on. 
+</p><p class="- topic/p ">In this example: it is 192.168.100.100. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Find the line: ”dns_nameservers 8.8.8.8 208.67.222.222” 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If the customer has a proxy: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Look-up the dns servers by running “ipconfig /all” from the command prompt. 
+</p></li><li class="- topic/li "><p class="- topic/p ">From the output of ipconfig, read the IP-address(es) from the entry”DNS Servers . . . . . . . . . . .” 
+</p></li><li class="- topic/li "><p class="- topic/p ">Typically, there is only one network with DNS Servers, if not, select the DNSServers from the network connection that is used to connect the RIP to the customer network 
+</p></li><li class="- topic/li "><p class="- topic/p ">Replace 8.8.8.8 208.67.222.222 with the IP-address(es) found 
+</p></li><li class="- topic/li "/></ul></li><li class="- topic/li "><p class="- topic/p ">If the customer has no proxy: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Do not change this line 
+</p></li></ul></li></ul></li><li class="- topic/li "><p class="- topic/p ">Find the line “cache_peer proxy.corp.com parent 81 0 proxy-only login=PASSTHRU” 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If the customer has a proxy: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Replace “proxy.corp.com” with the customers provided proxy name. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Replace “81” with the customer provided port number. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">If the customer has no proxy: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Remove the line. 
+</p></li></ul></li></ul></li><li class="- topic/li "><p class="- topic/p ">Get Squid to read the new configuration 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Save the file squid.conf. 
+</p></li><li class="- topic/li "><p class="- topic/p ">From the command prompt with administrative rights: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">“net stop squidsrv” 
+</p></li><li class="- topic/li "><p class="- topic/p ">“net start squidsrv” 
+</p></li></ul></li></ul></li></ol></section><section id="GUID-14372B87-36FF-4912-BAEE-3421B7CBD300" class="- topic/section "><title class="- topic/title ">Configure the printer</title><p class="- topic/p ">On the operator panel: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Select Remote Services 
+</p></li><li class="- topic/li "><p class="- topic/p ">Login as System Administrator 
+</p></li><li class="- topic/li "><p class="- topic/p ">Expand Proxy Settings 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Ensure “Proxy server” is enabled 
+</p></li><li class="- topic/li "><p class="- topic/p ">Enter in the field “Proxy server name”: the IP-address of the RIP on the network to the printer (in this example: 192.168.100.100). 
+</p></li><li class="- topic/li "><p class="- topic/p ">Enter in the field “Proxy server port”: 3128 
+</p></li><li class="- topic/li "><p class="- topic/p ">If the customer proxy server requires authentication: set “Proxy server authentication required” to “yes”, and fill in the domain, authentication type, User name and Password. 
+</p><p class="- topic/p "> If the customer proxy server does not require authentication: set “Proxy server authentication required” to “no”. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Restart the printer (necessary to activate the changes). 
+</p></li><li class="- topic/li "><p class="- topic/p ">Test the ORS connection to the printer. 
+</p></li></ol></section><section id="GUID-1F8FD68E-D5B2-4B76-990C-D0D3EBFF729C" class="- topic/section "><title class="- topic/title ">Additional notes</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If the printer supports Remote Assistance via ORS, then you can also use this with this setup. 
+</p><p class="- topic/p ">Note that Remote Assistance uses Teamviewer, which might be blocked in the firewall of the customer. If they white list it based on the PC using it, then they need to white list the RIP PC to which the printer is connected. 
+</p></li><li class="- topic/li "><p class="- topic/p ">If the customer makes changes in the network (for example a new proxy server), then the Squid configuration file needs to be updated accordingly. 
+</p></li></ul></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-DFD95E44-6FE2-4690-855D-446A64ABF90C.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>ORS: On Remote Service</linktext></link></linkpool></related-links>
+</task>

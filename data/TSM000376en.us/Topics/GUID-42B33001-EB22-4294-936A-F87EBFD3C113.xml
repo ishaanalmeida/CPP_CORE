@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-42B33001-EB22-4294-936A-F87EBFD3C113" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-42B33001-EB22-4294-936A-F87EBFD3C113" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">21 The function of the Embedded controller (<comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Embedded controller PBA</compname><compcodenr translate="no" class="+ topic/keyword oce-d/compcodenr "> 21PBA03 </compcodenr></comp>)</title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">What is the function of the <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Embedded controller PBA</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 21PBA03 </compcodenr></comp>? 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="GUID-F5034822-753A-4C8B-A7CD-E44CE7EBD702" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">Definition</ph></title><p class="- topic/p ">The <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Embedded controller PBA</compname><compcodenr translate="no" class="+ topic/keyword oce-d/compcodenr "> 21PBA03 </compcodenr></comp>is the interface between the Windows controller and the imaging system. It also controls some system functions. 
+</p></section><section id="SECTION_3A8592FC0895455AB0226CFDE08830B6" class="- topic/section "><title class="- topic/title ">Block diagram</title><fig id="FIG_F752961A6BFE40369BEF5BC5A62343BE" class="- topic/fig "><image href="GUID-9D85AFC1-B5BB-414D-AD84-F840BBA96DB5-low.png" id="IMAGE_66579623BB10470A918B2429E1C5526C" placement="inline" class="- topic/image " otherprops="GUID-9D85AFC1-B5BB-414D-AD84-F840BBA96DB5-low.png"/></fig><table id="TABLE_701C0A5E0D814870903AA64FD5985157" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Number 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Mains power inlet. 
+</p><p class="- topic/p ">Interface used to connect to the mains power. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Power supply (PSU) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Motherboard 
+</p><p class="- topic/p ">iBase MB981 ATX motherboard 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Central Processing Unit (CPU) 
+</p><p class="- topic/p ">CPU with embedded Intel(R) HD Graphics. Mounted on the motherboard with cooler. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Memory 
+</p><p class="- topic/p ">DDR3 Memory modules 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Mass storage: HDD, PROGRAMMED (SERVICE) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Graphic Processing Unit (GPU) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Back panel I/O 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PCI/PCI express slots 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Internal control interface 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Internal power interface 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">External power interface: Not used. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">External control interface: Not used. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Trusted Platform Module (TPM): Not used. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Housing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="SECTION_56DF4D4D9542488CADC7A00F2173A95C" class="- topic/section "><title class="- topic/title ">PCI-E X16 Slot</title><p class="- topic/p ">The PCI-E X16 Slot is used for the Riser PBA and <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">DRC PBA</compname><compcodenr translate="no" class="+ topic/keyword oce-d/compcodenr "> 21PBA04 </compcodenr></comp>. 
+</p><fig id="FIG_0106D2AC0399401F9DF395A6EADDB5A7" class="- topic/fig "><image href="GUID-A564C468-6A31-44BE-AF67-34663373452B-low.png" id="IMAGE_C4DC988A25A54E639EC6D755BE4A4D44" placement="inline" class="- topic/image " otherprops="GUID-A564C468-6A31-44BE-AF67-34663373452B-low.png"/></fig></section><section id="SECTION_A661DBB4BFC1450FB051ED230C277F4E" class="- topic/section "><title class="- topic/title ">Connector overview</title><fig id="FIG_EC75B2143E5845B59E39F7A6A7B7C7A5" class="- topic/fig "><image href="GUID-3FAD17DB-CA28-419A-B39A-332C636B3998-low.png" id="IMAGE_4FFCDDB75923428F8569B0479C3DD1CB" placement="inline" class="- topic/image " otherprops="GUID-3FAD17DB-CA28-419A-B39A-332C636B3998-low.png"/></fig><table id="TABLE_46A0BF437CF9400AB8951B174052CCA7" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="30*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="70*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Connector / Port 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Display Port Connector (HDMI) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">COM1 and COM 2 serial ports 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">DVI-D abd DVI-I connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HD Audio connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">USB2.0 connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Gigabit LAN2 and USB ports 2 and 3 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Gigabit LAN1 and USB ports 0 and 1 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CN8 ... CN13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SATA connectors 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "/><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Audio Pin Header for chassis front panel 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SPDIF I/O 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ATX 12V power connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J4 ... J7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">COM3 - COM6 RS232 Serial Ports 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Digital IO 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J9, J11, J15, J17 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">USB connectors 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J20 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J21 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">J22 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ATX Power Supply Connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CPU_Fan1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CPU fan power connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">SYS_Fan1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">System fan 1 power connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">SYS_Fan2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">System fan 2 power connector 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">PCIE3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Used for the <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">DRC PBA</compname><compcodenr translate="no" class="+ topic/keyword oce-d/compcodenr "> 21PBA04 </compcodenr></comp> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">PCIE2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">PCIE1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">PCI1 ... PCI14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-0AFDBAB0-4E30-4BC0-AA0D-6AC80B191C49.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

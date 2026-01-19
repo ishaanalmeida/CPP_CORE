@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-5EF5D65C-8942-487A-9330-4CE150F43ADA" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-5EF5D65C-8942-487A-9330-4CE150F43ADA" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">02 Ink expiration</title><abstract class="- topic/abstract " id="M057031-B22"><p class="- topic/p ">The UVgel ink has an expiry date like all other UV inks. The ink will slowly change its properties when aging. Light and heat will increase the aging effect. Under normal transport and storage conditions the ink is good to use for one year after production. 
+</p><p class="- topic/p "> After that time, the ink properties might have changed so that print quality cannot be guaranteed anymore. Different ink viscosity will result in wrong droplet sizes. 
+</p><p class="- topic/p "> Very old ink might result in clogging of filters or nozzles inside the printhead. 
+</p><p class="- topic/p "> The customer is responsible for maintaining the printer in a proper shape. He also must prevent expired ink situations in the printer. Failures related to expired ink must be paid by customers. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="SECTION_67770D587E6E42D28738F9D83CCA5B72" class="- topic/section "><title class="- topic/title ">Expiry date of the ink bottles</title><p class="- topic/p "> The expiry date of the ink bottle is programmed into the RFID chip of the bottle. 
+</p><p class="- topic/p "> The expiry date is set to 1 year after production. 
+</p><p class="- topic/p "> Expired ink bottles will be rejected by the printer and cannot be loaded by the customer. A service warning (0290015) will be booked, if an expired ink bottle is detected by the printer. 
+</p></section><section id="GUID-9275A0D2-F5D4-4066-AE44-6898EAB842ED" class="- topic/section "><title class="- topic/title "> Expiry date of ink in the printer</title><p class="- topic/p "> For the ink inside the printer, an expiry date is calculated and shown on the operator panel. There is one expiry date for each color. The expiry date of the ink inside the printer is a weighted average of the current ink in the jar + the newly added bottle. 
+</p><p class="- topic/p "> Next to the expiry date, every color got an 
+<b class="+ topic/ph hi-d/b ">expiry state</b> as well. 
+</p><p class="- topic/p "> The state can be 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 'not expired' = ink expiration date is more than 28 days in the future 
+</p></li><li class="- topic/li "><p class="- topic/p ">'almost expired' = the ink will expire in less than 28 days 
+</p></li><li class="- topic/li "><p class="- topic/p ">'expired' = the ink expiration date is past. 
+</p></li></ul><note id="GUID-57DC9A4A-D6E3-44F9-AC2D-0AD78AC34F05" class="- topic/note "><p class="- topic/p "> During initial install, with an empty ink tank, the ink expiration date shown on the operator panel will be ink bottle expiration date + 28 days! 
+</p></note><p class="- topic/p "> The expiry state is shown in SDS parameter 02-1-004. The expiry dates can also be calculated from parameter values in SDS and ORS. 
+</p><p class="- topic/p "> SDS parameter 02-1-003 shows the (almost) expiry date of the ink tank (intermediate ink reservoir). 
+</p><p class="- topic/p "> The date in SDS is the moment when the UI will show an 'almost expired' warning. 
+</p><p class="- topic/p "> A service warning (0290022) is generated as well and the SDS parameter 02-1-004 will change to 'almost expired'. 
+</p><p class="- topic/p "> Without further action, the ink will expire in 28 days from now (the date in SDS) and another service warning (0290020) will be generated. The expiry state will change from 'almost expired' to 'expired'. 
+</p><p class="- topic/p ">Examples on the screen of the operator panel: 
+</p><fig id="GUID-D670F82D-8A2D-47F5-86B5-8DB3033836D8" class="- topic/fig "><image href="GUID-C00AD408-E1A7-420A-83B2-8F92E3F8CD41-low.png" placement="inline" class="- topic/image " otherprops="GUID-C00AD408-E1A7-420A-83B2-8F92E3F8CD41-low.png"/></fig><fig id="GUID-99472BC5-AC23-40A8-A3F0-AC0664C68A46" class="- topic/fig "><image href="GUID-C6AAC6E1-F00F-421F-BF34-715D5442AB5B-low.png" placement="inline" class="- topic/image " otherprops="GUID-C6AAC6E1-F00F-421F-BF34-715D5442AB5B-low.png"/></fig></section><section id="GUID-511755AA-4993-4F88-AA5D-D6BAFBBC18CB" class="- topic/section "><title class="- topic/title ">Calculation of the expiry date</title><p class="- topic/p "> The expiry date is adapted when an ink bottle is loaded. The new expiry date is averaged out of the amount of ink inside the printer and its current expiry date and the expiry date of the newly loaded ink bottle. 
+</p><note id="GUID-565DB8E3-22DC-403B-8D41-EE63DA6E2E96" class="- topic/note "><p class="- topic/p ">The new expiry date can be both, earlier or later than the current expiry date, depending on the age of the loaded bottle. 
+</p></note></section><section id="GUID-4AF90C21-06D2-4B4F-BD1B-D5CD200BCB87" class="- topic/section "><title class="- topic/title ">Overview and required actions</title><fig id="GUID-A1113E23-2950-4853-8674-6043654E2AA8" class="- topic/fig "><image href="GUID-8C55307B-3F35-4D7E-A709-7B8603D6CA1E-low.png" placement="inline" class="- topic/image " otherprops="GUID-8C55307B-3F35-4D7E-A709-7B8603D6CA1E-low.png"/></fig></section><section id="GUID-192D034C-80F8-4FC5-A1B2-CBB598F438CC" class="- topic/section "><title class="- topic/title ">Overview with 4 examples including the calculation details</title></section><section id="GUID-69D185C7-C7EA-4881-98C7-8E6574D57198" class="- topic/section "><title class="- topic/title ">Example1</title><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Condition: A bottle of ink is added while still 0.5L ink is in the ink tank (which is not expired).</b> 
+</p><p class="- topic/p "> 0.5L ink is in the ink tank. The expiration date for this ink currently in the ink tank is 1-6-2019 (not expired). 
+</p><p class="- topic/p "> The expiration date on the new bottle (always with a volume of 0.7L) is 27-11-2019 (not expired). 
+</p><p class="- topic/p "> The calculated new expiration date after adding the new bottle is for the total volume of 1.2L ink: 
+<b class="+ topic/ph hi-d/b ">12-10-2019</b>. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Calculation details:</b> 
+</p><p class="- topic/p "> Existing 0.5L (with expiration date 1-6-2019) is 5/12 of the total volume (1.2L) after adding 0.7L. 
+</p><p class="- topic/p "> New 0.7L (with expiration date 27-11-2019), is 7/12 of the total volume (1.2L) after adding 0.7L. 
+</p><p class="- topic/p "> Difference between 1-6-2019 and 27-11-2019 is 180 days. 
+</p><p class="- topic/p "> 7/12 of 180 days = 105 days. 105 days needs to be 
+<b class="+ topic/ph hi-d/b ">added</b> to the initial 1-6-2019 = 14-9-2019. 
+</p><p class="- topic/p "> Additional 28 days need to be added for the date displayed: 
+<b class="+ topic/ph hi-d/b ">22-10-2019</b>. 
+</p></section><section id="GUID-EACCA7A7-87C3-4905-B8B2-AA4CF8A80B7F" class="- topic/section "><title class="- topic/title "> Example 2</title><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Condition: Ink tank is completely empty.</b> 
+</p><p class="- topic/p "> The expiration date on the new bottle is 15-8-2019. 
+</p><p class="- topic/p "> The calculated new expiration date after adding the new bottle is for the total volume of 0.7L ink: 
+<b class="+ topic/ph hi-d/b ">12-9-2019</b>. 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Calculation details:</b> 
+</p><p class="- topic/p "> The expiration date on the new bottle (always with a volume of 0.7L) is 15-8-2019. 
+</p><p class="- topic/p "> Additional 28 days need to be added for the date displayed: 
+<b class="+ topic/ph hi-d/b ">12-9-2019</b>. 
+</p></section><section id="GUID-33CC6AC2-7081-402D-9A3F-3F179B503504" class="- topic/section "><title class="- topic/title ">Example 3</title><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Condition: A bottle of ink is added while still 0.2L ink is in the ink tank which is expired.</b> 
+</p><p class="- topic/p "> 0.2L ink is in the ink tank. The expiration date for this ink currently in the jar is 20-03-2019 (is expired). 
+</p><p class="- topic/p "> The expiration date on the new bottle (always with a volume of 0.7L) is 1-6-2019 (not expired). 
+</p><p class="- topic/p "> The calculated new expiration date after adding the new bottle is for the total volume of 0.9L ink: 
+<b class="+ topic/ph hi-d/b ">12-6-2019</b>. 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Calculation detail :</b> 
+</p><p class="- topic/p "> Existing 0.2L (with expiration date 20-03-2019) is 2/9 of the total volume (0.9L) after adding 0.7L. 
+</p><p class="- topic/p "> New 0.7L (with expiration date 1-6-2019), is 7/9 of the total volume (0.9L) after adding 0.7L. 
+</p><p class="- topic/p "> Difference between 20-3-2019 and 1-6-2019 is 72 days. 
+</p><p class="- topic/p ">7/9 of 72 days = 56 days. 56 days needs to be 
+<b class="+ topic/ph hi-d/b ">added</b> to the initial 20-3-2019 = 15-5-2019. 
+</p><p class="- topic/p "> Additional 28 days need to be added for the date displayed: 
+<b class="+ topic/ph hi-d/b ">12-6-2019</b>. 
+</p></section><section id="GUID-ADB1560D-4021-474D-9155-4D92DB45A46B" class="- topic/section "><title class="- topic/title ">Example 4</title><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Condition: A bottle with 
+<u class="+ topic/ph hi-d/u ">older</u> ink than the 
+<u class="+ topic/ph hi-d/u ">current</u> ink, of which still 0.6L is in the ink tank, is added</b> 
+</p><p class="- topic/p "> 0.6L Ink is in the ink tank. The expiration date for this ink currently in the ink tank is 20-11-2019 (not expired). 
+</p><p class="- topic/p "> The expiration date on the new bottle (always with a volume of 0.7L) is 19-8-2019 (not expired). 
+</p><p class="- topic/p "> The calculated new expiration date after adding the new bottle is for the total volume of 1.3L ink: 
+<b class="+ topic/ph hi-d/b ">27-10-2019</b>. 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> So in this example the expiration date comes earlier after adding the "new" bottle of ink!</b> 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Calculation details:</b> 
+</p><p class="- topic/p "> The existing 0.6L (with expiration date 20-11-2019) is 6/13 of the total volume (1.3L) after adding 0.7L. 
+</p><p class="- topic/p "> New 0.7L (with expiration date 19-8-2019), is 7/13 of the total volume (1.3L) after adding 0.7L. 
+</p><p class="- topic/p "> Difference between 20-11-2019 and 19-8-2019 is -96 days. 
+</p><p class="- topic/p ">7/13 of -96 days = -52 days. 52 days needs to be 
+<b class="+ topic/ph hi-d/b ">subtracted</b> from the initial 20-11-2019 = 29-9-2019. 
+</p><p class="- topic/p "> Additional 28 days need to be added for the date displayed: 
+<b class="+ topic/ph hi-d/b ">27-10-2019</b>. 
+</p></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-FE35F538-1785-4DC7-A246-E1EB5ED33BE7.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-96B3FD5F-826E-4464-B3E5-968ED22A262E" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-96B3FD5F-826E-4464-B3E5-968ED22A262E" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Image position slowly drifting / Winding not correct</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-50B00AD6-0A38-41AB-B3CF-DCE2951AFA8A" class="- topic/section "><title class="- topic/title "/><table id="GUID-53E5F599-B620-44AD-919D-C7253ABD770C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Schematic overview 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Real example 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><fig id="GUID-226521D7-2308-485B-8351-EF20E0275D82" class="- topic/fig "><title class="- topic/title "/><image href="GUID-13610565-624F-45F1-AEC8-857616660C45-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-13610565-624F-45F1-AEC8-857616660C45-low.png"/></fig></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-2978535C-CC40-4750-A298-74AC29575D58" class="- topic/fig "><title class="- topic/title "/><image href="GUID-49165A90-48C7-4633-8FAE-F42D2D33A983-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-49165A90-48C7-4633-8FAE-F42D2D33A983-low.png"/></fig><fig id="GUID-CF0D995D-F2BE-4F2A-9CBC-73657CD35F3A" class="- topic/fig "><title class="- topic/title "/><image href="GUID-7EA6CB0E-F213-4F31-AB05-C0327A7E92A1-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7EA6CB0E-F213-4F31-AB05-C0327A7E92A1-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-EC1EAE23-40EC-4B10-A2C9-83873F76DC70" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Symptoms</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> The position of the image relative to the media edge is drifting 
+</p></li><li class="- topic/li "><p class="- topic/p "> The media is not wound correctly 
+</p></li></ul></section><section id="GUID-75E5BDE8-76A4-4922-92D3-7B8DB876FE8C" class="- topic/section "><title class="- topic/title ">Functional Logging (if available)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Media Step Accuracy</b> 
+</p><p class="- topic/p ">In case there is a difference the media step errors between the left and right side of the media (Orange and Blue line) this might point to Y-movement of the media. 
+</p><p class="- topic/p ">In the graph below this can be seen in the first 3.5 meters of this print. 
+</p><fig id="GUID-A9F2ED4D-1694-417D-AA97-C7AE7A0A09B8" class="- topic/fig "><image href="GUID-9887738B-AC37-48DC-B652-2DCABBB7D30E-low.png" placement="inline" class="- topic/image " otherprops="GUID-9887738B-AC37-48DC-B652-2DCABBB7D30E-low.png"/></fig><p class="- topic/p "> 
+</p><p class="- topic/p ">Buffer plate
+</p><p class="- topic/p ">
+</p><p class="- topic/p ">In case the drifting is caused by the media input (Drawer or Jumbo roll) the performance of the buffer plate is also deviating (see example below). 
+</p><p class="- topic/p ">In those cases the orange (right side of the buffer plate) and the blue line (left side of the buffer plate) are not parallel. 
+</p><fig id="GUID-218BB190-6B0C-431E-9CFF-31A24178360E" class="- topic/fig "><image href="GUID-5B890039-DCD1-4333-8313-6D5177E4544F-low.png" placement="inline" class="- topic/image " otherprops="GUID-5B890039-DCD1-4333-8313-6D5177E4544F-low.png"/></fig></section><section id="GUID-36EBDAEE-0F97-4B84-B3A4-97EDC261D340" class="- topic/section "><title class="- topic/title ">ADAM-triggers</title><p class="- topic/p ">No available ADAM-triggers 
+</p></section><section id="GUID-DDCC1BB0-B402-4010-9156-67DB737F3DE5" class="- topic/section "><title class="- topic/title ">Analyze/Repair</title><fig id="GUID-7D3401C7-4F31-4283-B254-BBD91785ED47" class="- topic/fig "><title class="- topic/title "/><image href="GUID-9AD53D29-1670-433B-BA0C-74DA03691FDD-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-9AD53D29-1670-433B-BA0C-74DA03691FDD-svg.svg"/></fig></section><section id="GUID-BB9BDDD1-E29C-42C5-BF10-2854E3AE4223" class="- topic/section "><title class="- topic/title ">Steps explanation</title><table pgwide="1" id="GUID-D963269B-E108-446A-A212-4581FEAA8740" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">To do 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the media is telescoping in the drawer 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Function logging Ref A)</b>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Reload media 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if platen is clean (no ink contamination or glue) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Perform manual maintenance 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the platen according to operation video 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video06/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Clean the platen 
+</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the buffer plate according to operation video 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video19/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Clean the buffer plate</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean and/or replace X-tran rollers according to the operation video 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video15/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Replace the rollers of the Xtran pinch</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the guide profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-55938495-2C4B-47FA-BA6B-101DF4A106E1" class="- topic/fig "><title class="- topic/title "/><image href="GUID-F7C46B86-F25E-4D99-A905-D3762412B90F-low.png" placement="inline" class="- topic/image " otherprops="GUID-F7C46B86-F25E-4D99-A905-D3762412B90F-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean or replace foam-strip 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video17/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>replace the winder foams &amp; roller assy</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean or replace roller assy 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video17/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>replace the winder foams &amp; roller assy</xref> 
+</p><fig id="GUID-08326184-5A80-4909-876E-55A21679FD11" class="- topic/fig "><title class="- topic/title "/><image href="GUID-4BA164AB-9C39-4661-8FB9-FA9B5B68C20A-low.png" placement="inline" class="- topic/image " otherprops="GUID-4BA164AB-9C39-4661-8FB9-FA9B5B68C20A-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the cardboard core on the winder in clean 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">The core may not contain any pollution like tape or remaining glue which might have influence on the local diameter of the core 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Use another core 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Use an clean core 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check the condition of the take-up roll : No dents, gear is not damaged 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-F79DFC7A-5CCA-46EE-B3A3-D5D27E520207" class="- topic/fig "><title class="- topic/title "/><image href="GUID-2AFEE7BF-1EC6-48FD-8CD5-4FC02D4D224B-low.png" placement="inline" class="- topic/image " otherprops="GUID-2AFEE7BF-1EC6-48FD-8CD5-4FC02D4D224B-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Repair or replace media shaft 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video12/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Replace a drive gear on a media shaft 
+</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check the condition of the tension bar 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Check the gears on the tension bar 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace tension bar 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Level the printer 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-BFB208B3-526A-4117-A30A-531AB313DE9A" class="- topic/fig "><title class="- topic/title "/><image href="GUID-D87BAC1D-04B5-41B8-B81C-35DF6903937C-low.png" placement="inline" class="- topic/image " otherprops="GUID-D87BAC1D-04B5-41B8-B81C-35DF6903937C-low.png"/></fig><p class="- topic/p "><xref keyref="ENGADJU01" class="- topic/xref " href="GUID-2BFE3033-C726-47A1-9A09-044CAA7F04FE.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 00 How to level the printer?>00 How to level the printer</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check that the media runs straight through the printer. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Load a media roll on the printer. Preferably use IJM613 media or MPI2000 
+</p></li><li class="- topic/li "><p class="- topic/p "> Select: Print without winding. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Start Print job 
+</p></li><li class="- topic/li "><p class="- topic/p "> During printing tape a piece of tape beside the media edge on the platen, as a reference, to see if the media is running straight through the printer. 
+</p></li></ul><fig id="GUID-E789B918-968D-4FDF-9012-4A76C569B4F9" class="- topic/fig "><title class="- topic/title "/><image href="GUID-38E68F46-9E5D-41A1-9AF3-197E0F7DF20D-low.png" placement="inline" class="- topic/image " otherprops="GUID-38E68F46-9E5D-41A1-9AF3-197E0F7DF20D-low.png"/></fig><fig id="GUID-EC40CA6A-94BA-426F-AA19-34D6DAAFB113" class="- topic/fig "><title class="- topic/title "/><image href="GUID-906F39B9-6624-4901-B555-5BDCBAC3F9C9-low.png" placement="inline" class="- topic/image " otherprops="GUID-906F39B9-6624-4901-B555-5BDCBAC3F9C9-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Function logging Ref B)</b>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the winder is positioned correctly 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-4641D145-CB03-4AA6-9F3F-B6F1CCFEAB26" class="- topic/fig "><title class="- topic/title "/><image href="GUID-C524EAAB-F7E0-46D6-AFB7-A00CF5BDE0F4-low.png" placement="inline" class="- topic/image " otherprops="GUID-C524EAAB-F7E0-46D6-AFB7-A00CF5BDE0F4-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Reposition the winder 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="19DISA017" class="- topic/xref " href="GUID-692040EE-18C9-45A4-88CD-940D0BBFA925.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 19 How to remove the winder assembly?>19 How to remove the winder assembly</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the winder clamp is moving freely and is not touching the bracket in Down-position. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-E972BF5A-7AEC-4C42-8B73-F57D0DDE1C44" class="- topic/fig "><title class="- topic/title "/><image href="GUID-E81682DC-50DB-416C-AD41-2FC076181713-low.png" placement="inline" class="- topic/image " otherprops="GUID-E81682DC-50DB-416C-AD41-2FC076181713-low.png"/></fig><p class="- topic/p ">Move winder clamp manually by hand and check if winder clamp is moving freely and strip is not touching the bracket. Or use SDS-test 19-6-002. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">In case the strip is touching the bracket. 
+<b class="+ topic/ph hi-d/b ">Call Service HQA.</b> 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Replace part in case part is damaged. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">23 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the X-tran rollers are clean and not worn. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean and/or replace X-tran rollers according to the operation video 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video15/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Replace the rollers of the Xtran pinch</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check the performance of the buffer plate 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="15ADJU004" class="- topic/xref " href="GUID-DCF00A51-9FFA-40C1-BEA7-097A8EFB8F9F.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 15 How to check / adjust the buffer plate?>15 How to check/adjust the buffer plate</xref> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Functional logging ref C)</b>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">26 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Adjust buffer plate 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="15ADJU004" class="- topic/xref " href="GUID-DCF00A51-9FFA-40C1-BEA7-097A8EFB8F9F.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 15 How to check / adjust the buffer plate?>15 How to check/adjust the buffer plate</xref> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Functional logging ref C)</b>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">27 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the media is not sticking to the rear covers. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Load a media roll on the printer. Preferably use IJM613 media or MPI2000 
+</p></li><li class="- topic/li "><p class="- topic/p "> Select: Print without winding. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Start Print job 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">28 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Connect rear covers to electrical ground. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">29 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Confirm the jumbo roll is used instead of the drawer 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">30 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Adjust Jumbo-roll 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Function logging Ref D)</b>
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Functional logging References:</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">A)</b> 
+</p><p class="- topic/p ">In case the media is telescoping this is also visible in the performance of the buffer plate. 
+</p><p class="- topic/p ">In such case the left and right side of the media are not parallel (see example of “buffer plate” below). 
+</p><fig id="GUID-295B2B6D-73C5-4618-927C-8BA5EAFE6C5E" class="- topic/fig "><image href="GUID-1516AF43-1D58-4F7E-84F4-5C86E060342F-low.png" placement="inline" class="- topic/image " otherprops="GUID-1516AF43-1D58-4F7E-84F4-5C86E060342F-low.png"/></fig></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">B)</b> 
+</p><p class="- topic/p "> In case the media is running smoothly over the platen the “media step accuracy” should show two parallel lines (see example below). 
+</p><fig id="GUID-039B3C7F-5C4C-4452-B970-FFA806BA8F90" class="- topic/fig "><title class="- topic/title "/><image href="GUID-A849C562-CD67-45DF-A915-15883AE573AD-low.png" placement="inline" class="- topic/image " otherprops="GUID-A849C562-CD67-45DF-A915-15883AE573AD-low.png"/></fig></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">C)</b> 
+</p><p class="- topic/p "> In case the buffer plate is in a static position the sensors of left and right side of the buffer plate should be same value (difference Orange and Blue lines &lt;30). 
+</p><fig id="GUID-E3B19965-7001-4CC4-A55E-6EBF8B531E8D" class="- topic/fig "><image href="GUID-FCBC3AB8-3155-4CCC-A055-EB112247323A-low.png" placement="inline" class="- topic/image " otherprops="GUID-FCBC3AB8-3155-4CCC-A055-EB112247323A-low.png"/></fig></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">D)</b> 
+</p><p class="- topic/p "> When the Jumbo roll is aligned correctly and working within specification the “buffer plate” should show two parallel lines (see example below). 
+</p><fig id="GUID-A169AF02-D777-4C57-9A56-1378DA402B28" class="- topic/fig "><image href="GUID-07B48506-E9C1-4FBA-8E43-C6BE8AD0F13B-low.png" placement="inline" class="- topic/image " otherprops="GUID-07B48506-E9C1-4FBA-8E43-C6BE8AD0F13B-low.png"/></fig></li></ul></section><section id="GUID-2513E5DF-C282-453D-9841-6E539DB0EB51" class="- topic/section "><title class="- topic/title ">Evaluate/Prevention</title><p class="- topic/p ">During installation the engine should be aligned correctly (platen horizontal and no torsion). During usage of the engine the customer should maintain the engine according to the care/use poster. 
+</p></section><section id="GUID-987F83F9-80F0-41BC-B82B-BB16DA268203" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">The position of the image on the media is controlled by the buffer plate in combination with the winder. The buffer plate will automatically steer the media towards the center of the platen. 
+</p><p class="- topic/p ">The winder will wind the media on a output-core. If the winder is not working well (eg: Defective shaft or not aligned correctly) the winder is able to pull the media out of the center. This will result in a drifting position or bad winder quality. As the deviations in media position are stacking during the print the amount of drifting increases during the length of the print. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-00803BE3-C849-4315-B1B2-2BBE04B8DBA4.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Solutions</linktext></link></linkpool></related-links>
+</task>

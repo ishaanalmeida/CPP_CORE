@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-11C3F6FD-8128-4D1C-910D-2BB3D7D8A019" version="4" lang="en-US"?><tsTroubleshooting xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-11C3F6FD-8128-4D1C-910D-2BB3D7D8A019" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic tsTroubleshooting)                            (topic hi-d)    (topic sdlVariables-c)                             (topic ut-d)                             (topic indexing-d)                            (topic sw-d)                            (topic ui-d)                            (topic oce-d)                            (topic oceCommonElements-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c tsTroubleshooting oceTroubleshooting-c)   " class="- topic/topic tsTroubleshooting/tsTroubleshooting "><title class="- topic/title ">How to distinguish between technical or application related PQ-issues</title><abstract class="- topic/abstract " id="GUID-B87BF88B-91B2-4C27-A55C-91B9B6986C8A"><p class="- topic/p "> Follow this workflow to diagnose print quality problems and understand the output quality. 
+</p><p class="- topic/p "> This procedure provides all steps that must be executed successfully to guarantee that the engine is within print quality specifications. 
+</p><p class="- topic/p ">If a step fails you have to diagnose the problem using the TSM 
+</p><p class="- topic/p "> If the procedure is successful the engine is OK and the problem is related to the media/application. If the customer still complains, advice the customer to contact Canon for Application Support. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Procedure</b> 
+</p><table class="- topic/table " id="M148565-TB33"><tgroup align="left" class="- topic/tgroup " cols="2" outputclass="free"><colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="10*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="90*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" morerows="0" valign="top"><p class="- topic/p ">Step 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" morerows="0" valign="top"><p class="- topic/p ">Description 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">1 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p "> Load the service reference media (MPI2000 or IJM613). 
+</p><p class="- topic/p "> For print quality diagnoses use MPI2000, MPI3000 or IJM614. 
+</p><p class="- topic/p ">The IJM613 media can be used for engine calibration. The ink spread on IJM613 is not optimal to judge print quality. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "> 2 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Set/verify the media thickness [um] via SDS: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="SDS25-1-004" href="GUID-826D615A-727F-419F-95A1-320B551FB319.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 25-1-004 Media thickness of Service tests - Vinyl media [µm] [Parameters]?>25-1-004 Media thickness of Service tests - Vinyl media [µm] [Parameters]</xref> for Vinyl e.g. MPI2000 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="SDS25-1-005" href="GUID-96D4284A-979E-4C56-B741-B435D7F5B276.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 25-1-005 Media thickness of Service tests - Film media [um] [Parameters]?>25-1-005 Media thickness of Service tests - Film media [um] [Parameters]</xref> for Film 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="SDS25-1-006" href="GUID-E1376CFC-53DD-41B7-BC10-10CBF8A7CF75.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 25-1-006 Media thickness of Service tests - Paper media [um] [Parameters]?>25-1-006 Media thickness of Service tests - Paper media [um] [Parameters]</xref> Paper e.g. IJM613. 
+</p></li></ul></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "> 3 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Reload the media and select the appropriate Service test media type to ensure that the correct media thickness is taken. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">4 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Set the output configuration to “no” via the operator panel (winder off). 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">5 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Do manual maintenance without nozzle optimization chart selection via the operator panel. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">6 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Do automatic maintenance including nozzle optimization chart selection via the operator panel. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">7 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Calibrate the service media via the operator panel. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">8 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Get the actual nozzle status via SDS test 
+<xref class="- topic/xref " keyref="SDS04-6-002" href="GUID-80EF4539-4481-4CD3-9E0E-62465202BFA9.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04-6-002 Get nozzle status [Special Tests]?>04-6-002 Get nozzle status [Special Tests]</xref>. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">9 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Cut the media. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">10 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Do the Media Step Accuracy test via SDS test 
+<xref class="- topic/xref " keyref="SDS15-6-024" href="GUID-EABA62B3-1059-406C-BB18-0F2AD8C6399E.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 15-6-024 Measure media step accuracy in High Quality mode (4_pass) [Special Tests]?>15-6-024 Measure media step accuracy in High Quality mode (4_pass) [Special Tests]</xref>. 
+</p><p class="- topic/p ">Verify that the media step accuracy is within specification: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> "Segment AverageErrors" should be lower than +/- 33 um among all 6 segments. 
+</p></li><li class="- topic/li "><p class="- topic/p "> "SegmentErrorRanges" should be lower than 50 um. 
+</p></li></ul></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">11 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Cut the media 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">12 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p "> Print the PQT in 8 pass matte mode and verify the print quality is OK. 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">13 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Cut the media 
+</p></entry></row><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">14 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p "> Print the Demo print via the operator panel. 
+</p><p class="- topic/p "> Verify the print quality is OK. 
+</p><p class="- topic/p "> If needed, show the customer this print as proof that the engine is within specifications. 
+</p><note class="- topic/note " id="GUID-1CF7167B-8158-4319-BFA2-A740780A874F"><p class="- topic/p "> Software version before R2.3 has the Demo print as third part of the Printhead Quality Check print via the operator panel. 
+</p></note></entry></row></tbody></tgroup></table></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-EF42FFF3-C6AF-4939-AE5C-9EB2061E0E1B.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Image Quality</linktext></link></linkpool></related-links>
+</tsTroubleshooting>

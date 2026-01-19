@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-49A127C4-9991-4AF2-9C7C-39C16CF7C53E" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-49A127C4-9991-4AF2-9C7C-39C16CF7C53E" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">PM Advise</title><abstract class="- topic/abstract " id="GUID-2EF263F9-A99A-45BB-AF5C-8D515965D735"/><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Preventive maintenance</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="SECTION_B5B1B1E2C09D4CF8A3083DDDF591EC0A" class="- topic/section "><title class="- topic/title ">Visit preparation</title><table id="M148538-TB13" class="- topic/table "><tgroup cols="2" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="45*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Checks 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">1. Check maintenance plan on PRISMAservice</b> 
+</p><p class="- topic/p "><xref href="https://prismalogin.cpp.canon/login/eu?redirect_uri=https://prismaservice-eu.cpp.canon&amp;applicationids=e0d88ee3-3563-425e-8646-233015bb3948&amp;providers=canon,cpp,partner" scope="external" format="html" class="- topic/xref "><?ditaot usertext?>PRISMAservice(cpp.canon)</xref> 
+</p><p class="- topic/p ">Check expired and upcoming notifications and plan visit tasks. 
+</p><note id="GUID-00EE37AC-F1B1-49AC-A598-B6DBA9B27EAE" class="- topic/note "><p class="- topic/p ">Expired triggers notfications are also visible in ADAM. 
+</p></note></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><fig id="GUID-396527C3-3766-4480-8BF5-A48DB69B93AD" class="- topic/fig "><image href="GUID-36085A6E-2617-4268-B118-B89FB62A17E0-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-36085A6E-2617-4268-B118-B89FB62A17E0-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">2. Check Error list on PRISMAservice</b> 
+</p><p class="- topic/p "><xref href="https://prismalogin.cpp.canon/login/eu?redirect_uri=https:%2F%2Fprismaservice-eu.cpp.canon&amp;applicationids=e0d88ee3-3563-425e-8646-233015bb3948&amp;providers=canon,cpp,partner" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>PRISMAservice(cpp.canon)</xref> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Request new Diagnostic data and analyze the datalog within ADAM</b> 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><fig id="GUID-62754636-FDDB-48B7-AE76-1A39F2D21400" class="- topic/fig "><image href="GUID-EE39D600-FB02-483A-8C13-99FDEF4379F9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EE39D600-FB02-483A-8C13-99FDEF4379F9-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">3. Check modifications on PRISMAservice</b> 
+</p><p class="- topic/p "><xref href="https://prismalogin.cpp.canon/login/eu?redirect_uri=https:%2F%2Fprismaservice-eu.cpp.canon&amp;applicationids=e0d88ee3-3563-425e-8646-233015bb3948&amp;providers=canon,cpp,partner" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>PRISMAservice(cpp.canon)</xref> 
+</p><p class="- topic/p ">For Safety, Mandatory and Advised modification, triggers are available on the worklist of ADAM. 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><fig id="GUID-A69AE8CD-F67C-4017-B9F6-548EA2E3A772" class="- topic/fig "><image href="GUID-75F53647-03B1-4B49-A9E4-42D7CA325097-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-75F53647-03B1-4B49-A9E4-42D7CA325097-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">4. Order parts when needed 
+</b> 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="SECTION_CD84B7EB9DC449FDAA4CF92DEF8D1F74" class="- topic/section "><title class="- topic/title ">During visit (in addition to CM activities)</title><table id="TABLE_2B727F4D1064489A951028A634812659" class="- topic/table "><tgroup cols="2" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="45*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Activity 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">1. Perform maintenance plan actions</b> 
+</p><p class="- topic/p ">Mark them in ADAM as Done 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><fig id="GUID-8C20C59E-C405-40D2-8689-B1EF2F1B58FA" class="- topic/fig "><image href="GUID-37EBB652-A965-49B4-9B8A-0448F4CB5732-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-37EBB652-A965-49B4-9B8A-0448F4CB5732-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">2. Implement Safety/Mandatory Modifications</b> 
+</p><p class="- topic/p ">Mark them in ADAM as Done 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><fig id="GUID-0B8BC600-910E-4388-B79E-B83E9319CE82" class="- topic/fig "><image href="GUID-CBD89513-45B2-4CC0-BFCD-4179750882C1-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-CBD89513-45B2-4CC0-BFCD-4179750882C1-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">3. Check KOM status visually</b> 
+</p><p class="- topic/p ">Instruct/train the customer when needed 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> See: 
+</p><p class="- topic/p "><xref keyref="ExtOperationGuide" class="- topic/xref " href="GUID-250A5CF0-B4FF-4B2C-B7C2-66A319226098.xml" format="dita" locktitle="yes" type="reference"><?ditaot usertext?><?xm-replace_text Operation and Safety information?>Operation and Safety information</xref> 
+</p><p class="- topic/p ">External document-&gt;Operation and Safety information-&gt;Care and Use poster 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">4. Do the PM Checks</b> 
+</p><p class="- topic/p ">Preventive Maintenance checks are listed in below table 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="SECTION_0F9A55881FCB4F24BD005B256F5CB17E" class="- topic/section "><title class="- topic/title ">PM checks (target 5 minutes)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Checks every visit</b> 
+</p><table id="TABLE_57A74B68F8824757B09EF11ED6BBC67F" class="- topic/table "><tgroup cols="3" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.13*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.00*" align="left" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="2.27*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">TSM Z-page – index nr 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Check PM triggers (ADAM) 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Perform PM actions 
+</p><p class="- topic/p ">and report as Done in ADAM 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0105-1070128161" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0105-1070128161.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0105</xref>
+        </ph>-INDEX 0025 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Lubricators curing 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Check counter &gt; 4200000, inform self-replacing customer or replace if customer is not self-replacing 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0203-1070127994" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0203-1070127994.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0203</xref>
+        </ph>-INDEX 0064 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> TUBE PUMP-CPL 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Check for 290005/250001 Errors/ replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0203-1070127994" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0203-1070127994.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0203</xref>
+        </ph>-INDEX 0164 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> TUBE &amp; GREASE SET 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Check for 290005/250001 Errors/ replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0102-1070128158" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0102-1070128158.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0102</xref>
+        </ph>-INDEX 0415 
+</p><p class="- topic/p "><ph varid="SPP-Z-0505-1070128165" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0505-1070128165.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0505</xref>
+        </ph>-INDEX 0091 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> BELT DRIVE ASSY-TANTO 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Visual check / replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0102-1070128158" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0102-1070128158.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0102</xref>
+        </ph>-INDEX 0312 
+</p><p class="- topic/p "><ph varid="SPP-Z-0505-1070128165" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0505-1070128165.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0505</xref>
+        </ph>-INDEX 0016 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> SHAFT-TRANSMISSION-ASSY 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Visual check / clean when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0102-1070128158" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0102-1070128158.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0102</xref>
+        </ph>-INDEX 0398 
+</p><p class="- topic/p "><ph varid="SPP-Z-0505-1070128165" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0505-1070128165.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0505</xref>
+        </ph>-INDEX 0090 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">PULLEY-PGGT-3MR-20-CPL 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Visual check / clean when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0504-1070127996" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0504-1070127996.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0504</xref>
+        </ph>-INDEX0090 
+</p><p class="- topic/p "> 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> AIR-CHANNEL-ASSY (SERVICE) 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Visual check / clean / replace when needed 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Checks every 24 months (@Yearly Volume 20-50k)</b> 
+</p><table id="GUID-EA64A13F-BF01-49C0-809D-080C44D805C6" class="- topic/table "><tgroup cols="3" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.13*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.00*" align="left" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="2.27*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">TSM Z-page – index nr 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Part description 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0502-1070127997" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0502-1070127997.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0502</xref>
+        </ph>-INDEX0015 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">FLEXCABLE-ASSY 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Visual check / replace when needed 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Checks every 12 months (@Yearly Volume &gt;50k)</b> 
+</p><table id="GUID-93D4B447-5E1A-4622-8E01-AF5677811B95" class="- topic/table "><tgroup cols="3" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.13*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.00*" align="left" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="2.27*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">TSM Z-page – index nr 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Part description 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0502-1070127997" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0502-1070127997.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0502</xref>
+        </ph>-INDEX0015 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">FLEXCABLE-ASSY 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Visual check / replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0502-1070127997" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0502-1070127997.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0502</xref>
+        </ph>-INDEX0001 to 0009 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">INK TUBES 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Visual check / replace when needed 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Check and/or part replacements @150k</b> 
+</p><p class="- topic/p "> For high volume customers, we advise to check below list of parts every 150K besides the regular maintenance checks:
+</p><table id="GUID-404FB1CA-9963-4CF8-AD86-4CFFF1C40365" class="- topic/table "><tgroup cols="3" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.13*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.00*" align="left" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="2.27*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">TSM Z-page – index nr 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Check PM triggers (ADAM) 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Perform PM actions 
+</p><p class="- topic/p ">and report as Done in ADAM 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0102-1070128158" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0102-1070128158.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0102</xref>
+        </ph>-0415
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">BELT DRIVE ASSY-TANTO (curing)
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Replace when not replaced in the recent past.
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0105-1070128161" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0105-1070128161.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0105</xref>
+        </ph>-0001
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">RUNNER-BLOCK
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Visual check on rust, pollution and check basic adjustment of the curing carriage / replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0106-1070128160" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0106-1070128160.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0106</xref>
+        </ph>-0001
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">MEASUREMENT AND CONTROL UNIT (PACKED)
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Visual check for pollution/ clean when needed
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0505-1070128165" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0505-1070128165.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0505</xref>
+        </ph>-0091
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> BELT DRIVE ASSY-TANTO (PH carriage)
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Replace when not replaced in the recent past.
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0502-1070127997" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0502-1070127997.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0502</xref>
+        </ph>-0020
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">STRIP SUPPORT (PACKED) 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Visual check on wear and tear / replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0502-1070127997" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0502-1070127997.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0502</xref>
+        </ph>-0015
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">FLEX-CABLE-ASSY-(SERVICE)
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> Replace 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-0702-1070127714" class="- topic/ph ">
+          <xref href="PRTV2-SPP-0702-1070127714.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-0702</xref>
+        </ph>-0002
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">WIPER ASSY (PACKED) 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">For C1630/40/50: Visual check / replace when needed
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-1510-1070128176" class="- topic/ph ">
+          <xref href="PRTV2-SPP-1510-1070128176.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-1510</xref>
+        </ph>-0007
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">ROLL-XTRAN-SERVICE
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Visual check for severe pollution / replace when needed 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-1909-1070128183" class="- topic/ph ">
+          <xref href="PRTV2-SPP-1909-1070128183.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-1909</xref>
+        </ph>-0142
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">GUIDE-GRIP
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Visual check for wear out / replace when needed
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p "><ph varid="SPP-Z-1512-1070128177" class="- topic/ph ">
+          <xref href="PRTV2-SPP-1512-1070128177.xml" scope="external" type="extpl" format="html" class="- topic/xref "><?ditaot usertext?>Z-1512</xref>
+        </ph>-0001
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">FAN UNIT (PACKED)
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">When polluted with ink -&gt; replace
+</p></entry></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-AE482382-4925-4EFB-985E-8DF8BE795C1D.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Preventive maintenance</linktext></link></linkpool></related-links>
+</concept>

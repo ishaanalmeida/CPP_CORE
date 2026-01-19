@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-9DFFB319-C723-4D84-9CA2-21F5B2DCBE79" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-9DFFB319-C723-4D84-9CA2-21F5B2DCBE79" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">07 How to replace the pressure manifold</title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">This document describes how to remove the pressure manifolds. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Dis-assembly</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="GUID-92F3C2B2-01C6-4078-AEA6-4C8E31663AA0" class="- topic/section "><title class="- topic/title ">Before you begin</title><p class="- topic/p ">Go to COLD SDS and disconnect the Service jumper. 
+</p></section><section id="GUID-AF146350-9059-4A85-ACB2-B63A6674BC5F" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b ">Required tools</b> </title><p class="- topic/p ">Protective gloves : Microflex 93-260 gloves 
+</p><p class="- topic/p ">New manifolds: 
+</p><p class="- topic/p "> - 05Y3 (CAR_PURGE_1_VA) 
+</p><p class="- topic/p ">- 05Y2 (CAR_PURGE_2_VA) 
+</p><p class="- topic/p ">- 05Y1 (CAR_PURGE_3_VA) 
+</p></section><section id="GUID-93C4C16B-FD87-4947-A01B-5568A408F0F2" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b ">Warning / Caution</b> </title><fig id="GUID-9F51AA01-D15E-4D47-880B-3FF1E14E44DE" class="- topic/fig "><title class="- topic/title "/><image href="GUID-3C660C39-E7A4-463A-98BE-DAB0F69DF3B1-low.gif" placement="inline" class="- topic/image " otherprops="GUID-3C660C39-E7A4-463A-98BE-DAB0F69DF3B1-low.gif"/></fig><p class="- topic/p ">Caution 
+</p><fig id="GUID-B7001EB9-947A-43E9-BB14-CE5D4356C6A4" class="- topic/fig "><title class="- topic/title "/><image href="GUID-6D624E2E-BBD4-44F5-9576-D20A9270E669-low.png" placement="inline" class="- topic/image " otherprops="GUID-6D624E2E-BBD4-44F5-9576-D20A9270E669-low.png"/></fig><p class="- topic/p ">Avoid skin contact with ink: wear protective gloves. 
+</p><fig id="GUID-F2F2FCE6-9D38-4DE0-B46B-DE7978DD0AA2" class="- topic/fig "><title class="- topic/title "/><image href="GUID-1D118925-8F73-4607-85AD-AA3C93F064D9-low.png" placement="inline" class="- topic/image " otherprops="GUID-1D118925-8F73-4607-85AD-AA3C93F064D9-low.png"/></fig><p class="- topic/p ">Protect your eyes from splashing ink: wear safety glasses. 
+</p></section><section id="GUID-F5034822-753A-4C8B-A7CD-E44CE7EBD702" class="- topic/section "><title class="- topic/title ">Illustration</title><fig id="GUID-F8C9A01E-FCB8-4137-8EAE-23BB68BA0B22" class="- topic/fig "><title class="- topic/title "/><image href="GUID-279C20BD-3317-458C-92CC-E22575617E6D-low.png" placement="inline" class="- topic/image " otherprops="GUID-279C20BD-3317-458C-92CC-E22575617E6D-low.png"/></fig><p class="- topic/p "> 
+</p><p class="- topic/p ">Each manifold is connected by two printheads. See the table below. 
+</p><p class="- topic/p "> 
+</p><table id="GUID-5D8C247C-BB4B-4D89-9B18-C31E67EA9035" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Manifold 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Right 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Left 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">White 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">- 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Magenta 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Yellow 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Cyan 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Black 
+</p></entry></row></tbody></tgroup></table><table id="GUID-25FC27F3-40DA-4CFA-8183-80059A8E9462" class="- topic/table "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">How to remove</b></title><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="5.91*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="5.21*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Close all white clamps of printheads (4 or 5) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><fig id="GUID-680CC209-0F63-429E-A399-125CC4218CB1" class="- topic/fig "><title class="- topic/title "/><image href="GUID-51C183A8-9497-4D5F-825F-899BDB241A43-low.png" placement="inline" class="- topic/image " otherprops="GUID-51C183A8-9497-4D5F-825F-899BDB241A43-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Remove all 4 air-tubes from manifold 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Squeeze two clamps on the side of the manifold to release manifold from plate. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><fig id="GUID-83DF003C-668B-4F2C-B0BC-9732EFA6E5FD" class="- topic/fig "><title class="- topic/title "/><image href="GUID-1A3C9F34-3F7B-49E1-BE82-07BA84900564-low.png" placement="inline" class="- topic/image " otherprops="GUID-1A3C9F34-3F7B-49E1-BE82-07BA84900564-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Replace Manifold 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row></tbody></tgroup></table><table id="GUID-44CC9D37-524C-4240-A579-9C6FC3D85313" pgwide="1" class="- topic/table "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b ">How to install</b> </title><tgroup cols="5" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="8.82*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="7.44*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="6.08*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="6.08*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" namest="col3" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Install in reverse order 
+</p></entry><entry colname="col3" namest="col3" nameend="col5" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" morerows="7" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" morerows="7" valign="top" class="- topic/entry "><p class="- topic/p ">Reset counters of leak detections and activations 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Manifold</b>
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Counter</b>
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">SDS-test</b>
+</p></entry></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Activations
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7-8-033
+</p></entry></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Leak detections
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7-8-037
+</p></entry></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Activations
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7-8-034
+</p></entry></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Leak detections
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7-8-038
+</p></entry></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Activations 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7-8-035
+</p></entry></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Leak detections
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7-8-039
+</p></entry></row><row class="- topic/row "><entry colname="col3" namest="col3" nameend="col5" valign="top" class="- topic/entry "><note id="GUID-B1DA67B6-DA07-4429-866C-5DD643D492F1" class="- topic/note "><p class="- topic/p ">Execute mentioned SDS-tests and press 
+<b class="+ topic/ph hi-d/b ">"RESET"</b>
+</p></note></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Reconnect the Service jumper, exit SDS and press 'Restart' on the operator panel. 
+</p></entry><entry colname="col3" namest="col3" nameend="col5" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-0F7980D1-A91D-4C41-A064-C5BDCAF29C59" class="- topic/section "><title class="- topic/title "/></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-6C227E52-0223-48E4-A655-F691AD09A3EC.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Dis-assembly</linktext></link></linkpool></related-links>
+</concept>

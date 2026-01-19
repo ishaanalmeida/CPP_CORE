@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-55730884-558B-4B63-9E78-4D56476F4A60" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-55730884-558B-4B63-9E78-4D56476F4A60" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> 15910: Media back step calibration failed</b> </title><abstract class="- topic/abstract " id="GUID-B1840FAA-47DA-43DE-BF2C-2C9877E3E5A9"><p class="- topic/p ">The media back step calibration is only used for the calibration SAV-media.
+</p></abstract><taskbody class="- topic/body task/taskbody "><section id="GUID-5AD55134-249F-406E-B955-608101BC8812" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Collect</b> </title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Calibration step</u> 
+</p><p class="- topic/p ">This warning is generated during the calibration step: "MediaBackStep" which is part of the SAV-media calibration sequence.
+</p><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Patterns in calibration print</u> 
+</p><table id="GUID-E21CFF09-4E42-4041-A1CC-A222680ABA85" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="8.62*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "> C1640/C1650/
+</p><p class="- topic/p "> C1630/CMxx
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-909D0F76-3C6C-496E-9A44-A98103062479" class="- topic/fig "><image href="GUID-4E94059E-0177-4CFF-B345-31BA7BE5C1BE-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4E94059E-0177-4CFF-B345-31BA7BE5C1BE-low.png"/></fig><fig id="GUID-1BBA8C98-3371-45D7-BD4B-821BCC5DAF1D" class="- topic/fig "><title class="- topic/title "/><image href="GUID-BC07091C-74FB-42AA-8A59-6C6C8C2BEAED-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-BC07091C-74FB-42AA-8A59-6C6C8C2BEAED-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-16DFC392-AA7D-4E1C-8417-0DE543B323BF" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Analyse/Repair</b> </title><fig id="GUID-91998C6E-3028-4FFF-ADB4-6C7891944A54" class="- topic/fig "><image href="GUID-B5E28F8E-6AC7-458E-A9B8-E3FBAA36D6F8-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B5E28F8E-6AC7-458E-A9B8-E3FBAA36D6F8-svg.svg"/></fig><table id="GUID-44C39CDA-4A55-444B-92DD-996735752431" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Steps
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check if pattern is visible on the media (see example on top of this page)
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the media is polluted (non-white)
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> The calibration can only be done on white media
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Use clean white smooth media
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean use M&amp;C-scanner according to the Care/Use poster
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean printheads by manual maintenance (see care/use poster
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Or use SDS 7-6-002 using "Powerful pulse "
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace printhead
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" class="- topic/xref "/>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the M&amp;C-scanner is working well
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> SDS 5-6-017: M&amp;C scanner test [Special Tests]
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Calibrate scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1. Do SDS test: 
+<xref href="GUID-D650BDBB-4674-4B96-BD64-98FDD9BAF4CB.xml" class="- topic/xref " type="task"><?ditaot gentext?>21-6-002 Select required printer calibrations [Special Tests]</xref> and select: M&amp;C scanner calibration . 
+</p><p class="- topic/p ">2. Do SDS test: 
+<xref href="GUID-B828E436-A124-4809-981E-2DBE1E09A388.xml" class="- topic/xref " type="task"><?ditaot gentext?>21-6-003 Execute selected printer calibrations [Special Tests]</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-51BF4133-31A2-4C73-B074-0D6BE17EC097" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">Make sure the used media is not polluted, and the engine is maintained correctly.
+</p></section><section id="GUID-5CDB53E2-FA35-4266-9D69-400778A46FA2" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Background info</b> </title><p class="- topic/p ">This calibration step is only used for the media calibration of SAV-media. 
+</p><p class="- topic/p ">During this calibration the media is stretched on the platen to ensure a flat and defined surface.
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-12A22F29-4989-4601-A883-7BC951F448D2.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

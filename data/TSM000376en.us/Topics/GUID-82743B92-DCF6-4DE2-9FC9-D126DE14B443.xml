@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-82743B92-DCF6-4DE2-9FC9-D126DE14B443" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-82743B92-DCF6-4DE2-9FC9-D126DE14B443" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Extended installation wizard steps (part 2) (R4.3 and higher)</title><abstract class="- topic/abstract " id="M148553-B105"><p class="- topic/p "> This part describes the wizard from the moment of the required reboot until completion. 
+</p><p class="- topic/p ">Settings that were made before the restart are applied now. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-D04FE361-B34A-4779-B5A6-17C4C1A38F67" class="- topic/section "><title class="- topic/title ">Part 2 : After the reboot</title><table id="GUID-71D42BED-DEC2-4CDE-B1CF-4C322E9DBA89" pgwide="1" class="- topic/table "><tgroup cols="2" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" align="left" class="- topic/colspec "/><thead class="- topic/thead "><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody class="- topic/tbody "><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Setup the System Administrator Password: 
+</p><p class="- topic/p "> By default, the System Administrator password is set to 
+<b class="+ topic/ph hi-d/b ">71617000</b> 
+</p><p class="- topic/p "> If the customer prefers to set their own password, this can be accomplished later through the Settings Editor (Configuration &gt; Users &gt; System Administrator &gt; Edit). 
+</p><fig id="GUID-9306BF9F-1A4E-4FE3-98BB-6159B4191C30" class="- topic/fig "><image href="GUID-A6B45772-CF83-4AB7-87BF-E7E63925417A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-A6B45772-CF83-4AB7-87BF-E7E63925417A-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> The email address from the system administrator can be entered here. 
+</p><p class="- topic/p "> This is used to inform the system administrator on the reception of software updates and for the reset of the system administrator password. 
+</p><fig id="GUID-2C3BCC43-F2C7-45C7-BB12-AC5081D38DA3" class="- topic/fig "><image href="GUID-2110AA85-B4F0-4BEB-999F-6F038E50F291-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-2110AA85-B4F0-4BEB-999F-6F038E50F291-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Setting up the mail server is necessary to ensure the System Administrator receives notifications regarding password recovery and firmware updates. 
+</p><fig id="GUID-414F21D2-A0A2-4A36-B94D-F81959497BFC" class="- topic/fig "><image href="GUID-F2619D62-F7FF-4D55-8765-097C5FA7F7A8-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-F2619D62-F7FF-4D55-8765-097C5FA7F7A8-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">The mail server settings are tested. 
+</p><p class="- topic/p ">When not configured press OK to continue with the next step. 
+</p><fig id="GUID-755F2ED7-5414-4844-8DAB-022319DBF5C5" class="- topic/fig "><image href="GUID-54523BFC-9B46-4FC2-A96E-D883B3CF4071-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-54523BFC-9B46-4FC2-A96E-D883B3CF4071-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">On Remote Service (ORS) needs to be configured here. 
+</p><p class="- topic/p ">Please Enable the remote connection. 
+</p><p class="- topic/p ">Enter the Organization IDentifier of the organization that sold the machine. 
+</p><p class="- topic/p ">In case the machine is installed for a dealer organization use the SOID of the dealer organization. 
+</p><p class="- topic/p ">It is essential for the visibility in the service tools like PRISMAservice that the SOID and Verification code is set correctly. 
+</p><fig id="GUID-9CD78A75-3522-4746-9AFB-1D618EFB2E16" class="- topic/fig "><image href="GUID-61D55FC5-07CE-4EB2-989F-4A28FBE7AC8A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-61D55FC5-07CE-4EB2-989F-4A28FBE7AC8A-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> The connection of On Remote Service and the remote assistance (TEAMviewer) are tested here. 
+</p><p class="- topic/p ">Section indicated with 1 is relevant for the ORS and section 2 is about the remote assistance. 
+</p><p class="- topic/p "> When either is not indicating a successful connection than the machine is not connected to the network and/or proxy settings. 
+</p><p class="- topic/p ">See &lt;Proxy and Firewall requirements; Proxy_and_Firewal_requirements;<xref keyref="Proxy_and_Firewal_requirements" class="- topic/xref " href="GUID-6AA16343-FD4F-4A39-9CA0-5ED532F3AE65.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Proxy and Firewall requirements</xref> 
+</p><fig id="GUID-725F0C15-8F09-402F-8257-BBA387B58A69" class="- topic/fig "><image href="GUID-4426BD94-DC1D-4561-BA83-5B5E32C36396-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4426BD94-DC1D-4561-BA83-5B5E32C36396-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> The license number needs to be filled when using ORS for the automatic retrieval of the licenses in a later stage. 
+</p><p class="- topic/p "> It is not required to fill this now. In a later stage this still can be done via the settings editor (&lt;How to request a license&gt;<xref keyref="GENINSTALLLICENSE001" class="- topic/xref " href="GUID-83541379-2C72-4191-948E-292B66F16EE2.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to request a license</xref> ) 
+</p><fig id="GUID-89B7A4B6-E85E-41FE-9751-49E5BE178481" class="- topic/fig "><image href="GUID-37B5CB45-2D23-46B7-8168-C0E80898DBA9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-37B5CB45-2D23-46B7-8168-C0E80898DBA9-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Select the system of measurement. 
+</p><p class="- topic/p "> Metric or Imperial 
+</p><fig id="GUID-1084F554-6CF9-4D1A-BCD7-9EB02C5A3F0D" class="- topic/fig "><image href="GUID-A272500D-A79B-4B55-A64A-39384E1411BC-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-A272500D-A79B-4B55-A64A-39384E1411BC-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">During the installation of the printer a SAM key must be inserted in the Embedded controller. 
+</p><p class="- topic/p ">Verification is done here. 
+</p><p class="- topic/p ">In case of incorrect or failing SAM key this will be reported. 
+</p><p class="- topic/p ">Details and handling on the SAM key errors are described in the first part of the installation wizard. 
+</p><fig id="GUID-DD8477E8-13B1-4BFE-9FE8-5D58782239CA" class="- topic/fig "><image href="GUID-4F06EE4B-F9BA-4321-90F8-837248AA512D-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4F06EE4B-F9BA-4321-90F8-837248AA512D-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Select the media type that will be used during the calibrations. 
+</p><p class="- topic/p "> Selectable are: Paper, Film, Vinyl. 
+</p><note id="GUID-33C00FFD-3C50-48DB-BCDD-DC4CEED2D573" class="- topic/note "><p class="- topic/p "> It could be that when the initializing.. is reported that the popup is not immediately shown. 
+</p></note><fig id="GUID-C958C404-3461-4EFD-B777-946EC4742B00" class="- topic/fig "><image href="GUID-4DE735F4-A8DA-4828-9863-CBB5D71DD609-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4DE735F4-A8DA-4828-9863-CBB5D71DD609-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> For the selected media type that will be used we need to fill the thickness of the media. 
+</p><p class="- topic/p "> By pressing the number field a keypad is shown where a new field can be entered directly. 
+</p><p class="- topic/p "> See &lt; 12 How to measure the media thickness &gt; 
+<xref keyref="12adju002" class="- topic/xref " href="GUID-E9976EFB-9920-4523-8E63-376189B17D02.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>12 How to measure the media thickness</xref> 
+</p><fig id="GUID-637AC236-49DD-456A-BA52-D3FA202EECDC" class="- topic/fig "><image href="GUID-2BAD1203-7BB0-4016-8618-ADFB830F1347-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-2BAD1203-7BB0-4016-8618-ADFB830F1347-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> At this moment in the process it is necessary to load media on the roll position 1 and configure the media for the calibrations. 
+</p><p class="- topic/p ">By pressing next the wizard will be closed and in the normal UI the follow up actions must be executed. 
+</p><fig id="GUID-A26CA443-6AD8-47A5-A313-053E957D2AEF" class="- topic/fig "><image href="GUID-B77A5D7C-FA11-471A-9647-263E3F50B731-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B77A5D7C-FA11-471A-9647-263E3F50B731-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> On the normal UI, “Operator intervention required” or red tiles can be indicated. 
+</p><p class="- topic/p ">The red tiles or actions need to be resolved before loading the media and continuing the wizard. 
+</p><p class="- topic/p ">See also the generic section on handling the wizard. 
+</p><note id="GUID-6D2D28CE-F5E7-4DAA-9131-13508742FC08" class="- topic/note "><p class="- topic/p ">It is important to first solve the reported errors, followed by the red tiles on the waste tray and the maintenance cassette before any other. 
+</p></note><fig id="GUID-3E7E3AB4-BFD0-4092-A70C-B76624C938CC" class="- topic/fig "><image href="GUID-511959CB-9AB1-417F-A002-0BAB56A7CDF9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-511959CB-9AB1-417F-A002-0BAB56A7CDF9-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-808D969F-AD0E-470B-AB5B-CD90EB739F44" class="- topic/fig "><p class="- topic/p ">On opening the drawer, the media tile will become orange. 
+</p><image href="GUID-2B143C2B-9734-4DE3-A21B-4DF66085AB01-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-2B143C2B-9734-4DE3-A21B-4DF66085AB01-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> For the media type; select the media that was selected earlier for the use. 
+</p><fig id="GUID-A2439CDC-B74F-4DC6-867B-99124B8CC7A5" class="- topic/fig "><image href="GUID-57393B6F-36E2-459D-8E3B-2E8B456374B3-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-57393B6F-36E2-459D-8E3B-2E8B456374B3-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">When all the red section (excluding the Resume installation wizard ) are resolved, continue the wizard by pushing the resume button. 
+</p><note id="GUID-51B47508-EAB7-4711-8611-7502A15BB4EA" class="- topic/note "><p class="- topic/p "> The status "system not operational" refers to the fact that the system does not accept print jobs until the wizard is completed. 
+</p></note><fig id="GUID-EF8A3CF8-B42B-4E82-B6BA-B3DD1C5A0D55" class="- topic/fig "><image href="GUID-F42F64D8-269E-45E5-A039-06E032E56F03-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-F42F64D8-269E-45E5-A039-06E032E56F03-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Before starting the calibration check if the SAM key is inserted and if the media is loaded and configured. 
+</p><fig id="GUID-B4D4B340-2F28-4DC6-BCE4-99DC0DE805E2" class="- topic/fig "><image href="GUID-22834C74-8BA0-4A33-A8D3-3CB688486D66-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-22834C74-8BA0-4A33-A8D3-3CB688486D66-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> When the engine is not ready, the action is postponed showing this message. 
+</p><p class="- topic/p ">The wizard takes care of setting and resetting the value. 
+</p><fig id="GUID-2E88B596-D41D-4C33-ABFC-F6ED77CE541D" class="- topic/fig "><image href="GUID-C5778C62-2BD2-434C-A40B-EF90A06AF1B7-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-C5778C62-2BD2-434C-A40B-EF90A06AF1B7-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Part of alternative scenario</b> : 
+</p><p class="- topic/p ">If the calibration process encounters an error, an error code will be shown. 
+</p><p class="- topic/p ">Please check the corresponding TSM page for this error code to find the necessary steps for resolution. 
+</p><fig id="GUID-12E05DF6-C71C-4FD6-852C-6030CB82C6E3" class="- topic/fig "><image href="GUID-7D2C449B-49CB-4D6C-BECC-4A3FA0D9D231-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7D2C449B-49CB-4D6C-BECC-4A3FA0D9D231-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> The nozzle check is executed here, this can take up to 30 minutes in the case also the engine need to warmup and ink needs to be loaded into the printheads. 
+</p><note id="GUID-8A16C433-2FC8-4B4A-8EC2-21529CB24945" class="- topic/note "><p class="- topic/p "> When ink is loaded into the printheads, the heads are cleaned multiple times by the tissuewipe unit. 
+</p></note><fig id="GUID-E30A3528-53B5-4BC5-BC11-3F98EB2F7AFB" class="- topic/fig "><image href="GUID-351F1A56-21C9-4923-84E4-536B717B2940-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-351F1A56-21C9-4923-84E4-536B717B2940-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> When the nozzle status indicated that additional maintenance is necessary and additional cleaning action is executed. 
+</p><fig id="GUID-CFCFCE3E-1B0C-4F8B-A5F3-C9671D5AA7A4" class="- topic/fig "><image href="GUID-6B5C4946-35B2-4465-8941-CC092FC5927B-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-6B5C4946-35B2-4465-8941-CC092FC5927B-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Part of alternative scenario:</b> 
+</p><p class="- topic/p "> In case the cleaning action failed due to a detected airleak this is reported. 
+</p><p class="- topic/p "> In the given screenshot valve 3 is the cause for this error. 
+</p><p class="- topic/p ">This can be reported and valve 1, 2 or 3. 
+</p><fig id="GUID-734F8450-AA6F-46A9-9FBD-F48A063D60CF" class="- topic/fig "><image href="GUID-B672A5C5-8A9D-4ABC-B6DF-A2D8E4B1EBB6-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B672A5C5-8A9D-4ABC-B6DF-A2D8E4B1EBB6-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">23 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Preparing calibration – selection calibrations 
+</b> 
+</p><p class="- topic/p ">After the preparation of the printheads the subset of calibrations needs to be configured. 
+</p><p class="- topic/p "> Typically this is not visible as it is set too quickly 
+</p></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">The calibration of the printheads is executed. 
+</p><p class="- topic/p ">By default these are 7 steps. 
+</p><p class="- topic/p ">When the printer decides to redo a calibration the 7 can increase to a higher number. 
+</p><p class="- topic/p ">Before executing, media related errors can be reported: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">The selected roll is not the currently active roll.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load the service media in position 1, and resume the installation wizard. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">No roll is loaded in position 1. 
+</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load the service media in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">No media is detected in roll position 1. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">'Wind the output' is not set to 'No'</b> 
+</p><p class="- topic/p "> Touch Cancel to exit the wizard, change 'Wind the output' manually to 'No', and resume the wizard. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The medium is too small.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load wider service media in position 1, and resume the installation wizard. 
+</p><p class="- topic/p "> A minimum width 50 inch (1270 mm) is required. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The medium is not suitable for calibrations</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load suitable media in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">The media should be smooth, white, opaque. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">The calibrations are not allowed with manual cut media.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load media without manual cut in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">The configured media has manual cut configured. 
+</p><p class="- topic/p ">Select a servicemedia for the mediatype. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The calibrations are not allowed with media safe mode.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load media without safe mode 
+</p><p class="- topic/p ">in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">Select a servicemedia for the mediatype. 
+</p></li></ol><fig id="GUID-689784F2-488A-4FE9-95A1-B3CC70E6B668" class="- topic/fig "><image href="GUID-DFAD68FA-9528-45FC-BCF6-8230091E0913-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DFAD68FA-9528-45FC-BCF6-8230091E0913-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Part of alternative scenario:</b> 
+</p><p class="- topic/p "> When the calibration fails an error code is reported. 
+</p><p class="- topic/p ">Please refer to the TSM page of this error code for the required actions to solve this. 
+</p><fig id="GUID-414CDC4E-0751-4FFC-8007-AD2A9C7D77DB" class="- topic/fig "><image href="GUID-B1F2B7CE-2076-4E7E-BF80-100842A1E4E8-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B1F2B7CE-2076-4E7E-BF80-100842A1E4E8-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">26 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">The calibration of the printheads is executed. 
+</p><p class="- topic/p "> By default these are 5 steps. 
+</p><p class="- topic/p "> When the printer decides to redo a calibration the 5 can increase to a higher number. 
+</p><p class="- topic/p "> Before executing, media related errors can be reported: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The selected roll is not the currently active roll.</b> 
+</p><p class="- topic/p "> Touch Cancel to exit the wizard, load the service media in position 1, and resume the installation wizard. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">No roll is loaded in position 1.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load the service media in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">No media is detected in roll position 1. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">'Wind the output' is not set to 'No'</b> 
+</p><p class="- topic/p "> Touch Cancel to exit the wizard, change 'Wind the output' manually to 'No', and resume the wizard. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The medium is too small.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load wider service media in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">A minimum width 50 inch (1270 mm) is required. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The medium is not suitable for calibrations.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load suitable media in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">The media should be smooth, white, opaque. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The calibrations are not allowed with manual cut media.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load media without manual cut in position 1, and resume the installation wizard. 
+</p><p class="- topic/p ">The configured media has manual cut configured. 
+</p><p class="- topic/p ">Select a servicemedia for the mediatype. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">The calibrations are not allowed with media safe mode.</b> 
+</p><p class="- topic/p ">Touch Cancel to exit the wizard, load media without safe mode in position 1, and resume the installation wizard. Select a servicemedia for the mediatype. 
+</p></li></ol><fig id="GUID-66455117-4A66-4001-A6D5-4AE2B0966140" class="- topic/fig "><image href="GUID-3A99D0EC-D7FE-4138-90D4-81E3B9B99D8C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-3A99D0EC-D7FE-4138-90D4-81E3B9B99D8C-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">27 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Part of alternative scenario:</b> 
+</p><p class="- topic/p "> When the calibration fails an error code is reported. 
+</p><p class="- topic/p ">Please refer to the TSM page of this error code for the required actions to solve this. 
+</p><fig id="GUID-46D3E2F5-027A-4EA0-B19B-93FD122D6437" class="- topic/fig "><image href="GUID-99141979-883E-4DD9-BFAA-ABAF8BF5FF20-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-99141979-883E-4DD9-BFAA-ABAF8BF5FF20-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">28 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> When the calibrations are finished the media is automatically cut. 
+</p><fig id="GUID-A6467608-209E-4367-8D5F-BBAF4EBC53CA" class="- topic/fig "><image href="GUID-0E657E0B-0EAC-4281-A706-694D9211A3AE-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-0E657E0B-0EAC-4281-A706-694D9211A3AE-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">29 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> In case ORS was configured and connected, the license file is already retrieved. 
+</p><p class="- topic/p ">The license file is applied at this moment. 
+</p><p class="- topic/p ">To activate the license a restart is required. 
+</p><p class="- topic/p ">Press next to execute a restart. 
+</p><fig id="GUID-617FD6A1-301C-4990-8265-D548E4B6DF9A" class="- topic/fig "><image href="GUID-7233F82A-6306-4A83-AA00-B4D99DDBCE66-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7233F82A-6306-4A83-AA00-B4D99DDBCE66-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">30 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Part of alternative scenario:</b> 
+</p><p class="- topic/p ">In case ORS was configured and connected, the license file could be retrieved. 
+</p><p class="- topic/p ">Will not be shown when ORS connection is not configured. 
+</p><p class="- topic/p ">When ORS is configured. 
+</p><fig id="GUID-251B3EAF-C7EE-43DE-ADDB-5457425614B2" class="- topic/fig "><image href="GUID-CBE07CB3-F822-4EDA-9058-D26930370DFD-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-CBE07CB3-F822-4EDA-9058-D26930370DFD-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">31 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Part of alternative scenario:</b> 
+</p><p class="- topic/p ">When ORS is set to ‘Not connected’, this is a reminder to manually retrieve and apply the license files. 
+</p><p class="- topic/p ">(&lt;How to request a license&gt;<xref keyref="GENINSTALLLICENSE001" class="- topic/xref " href="GUID-83541379-2C72-4191-948E-292B66F16EE2.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to request a license</xref> ) 
+</p><fig id="GUID-9C65F157-5E57-482D-B673-E2AD8E1949BD" class="- topic/fig "><image href="GUID-B43F3587-636A-4FED-9F9C-F420BF9B902A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B43F3587-636A-4FED-9F9C-F420BF9B902A-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">32 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Restart is only done when a license files was received and applied. 
+</p><fig id="GUID-89D1D25A-4ABF-4656-BE0D-7C3B9D9577CA" class="- topic/fig "><image href="GUID-29CD8FFD-ABBA-45C8-8F54-28501F7B1E89-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-29CD8FFD-ABBA-45C8-8F54-28501F7B1E89-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">33 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">After the restart a check is done if the SAM key is inserted. 
+</p><p class="- topic/p ">When a SAM key is already inserted it may look like this step is skipped. 
+</p><p class="- topic/p ">In case of incorrect or failing SAM key this will be reported. 
+</p><p class="- topic/p ">Details and handling on the SAM key errors are described in the first part of the installation wizard. 
+</p><fig id="GUID-4601051D-6F0B-487E-82A7-666344C8400C" class="- topic/fig "><image href="GUID-4F06EE4B-F9BA-4321-90F8-837248AA512D-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4F06EE4B-F9BA-4321-90F8-837248AA512D-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">34 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> The configuration and calibrations of the engine are finished now. 
+</p><p class="- topic/p "> Only the installation report must be made in ADAM. 
+</p><p class="- topic/p ">When the ADAM report is finished a demo print can also be made as a handover to the customer. 
+</p><p class="- topic/p "> By pressing 'Finish' the wizard closes and ADAM is opening automatically. 
+</p><p class="- topic/p "> The tools tile will not show the option to resume the wizard anymore. 
+</p><fig id="GUID-D3BEBF5C-E536-4D43-970E-ECB4CE076B5E" class="- topic/fig "><image href="GUID-2AEA868F-7EB7-4B6D-8559-D80AABB8641D-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-2AEA868F-7EB7-4B6D-8559-D80AABB8641D-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">35 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-0688F467-F2BF-48FE-B28C-F8516C732984" class="- topic/fig "><p class="- topic/p ">Adam is opening. 
+</p><p class="- topic/p ">This will only be done when the SAM key is inserted. 
+</p><image href="GUID-EA8EBCE6-0F4C-4F1C-A10D-7FE0ECB561E9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EA8EBCE6-0F4C-4F1C-A10D-7FE0ECB561E9-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">36 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Press 'Yes' as you are installing a new system. 
+</p><fig id="GUID-E40DE35D-5BE9-4EA3-9983-706367304B02" class="- topic/fig "><image href="GUID-A6E94931-2428-43C1-BAF2-5D6DE5DCA008-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-A6E94931-2428-43C1-BAF2-5D6DE5DCA008-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">37 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Via the Collect menu add issues that you encountered during the installation. 
+</p><fig id="GUID-55E8A790-A675-47BB-A13E-E996BF998138" class="- topic/fig "><image href="GUID-3422FFB4-2A35-4481-ABA3-12DE0977170C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-3422FFB4-2A35-4481-ABA3-12DE0977170C-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">38 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">For every item press the checkbox and select the actions executed/applicable for the Area. 
+</p><fig id="GUID-4564EE8B-E03D-463D-A253-8DCAE9A4C06C" class="- topic/fig "><image href="GUID-4A1BA5F8-9184-421D-BAE5-340FAE0EFBAB-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4A1BA5F8-9184-421D-BAE5-340FAE0EFBAB-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">39 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-1C4E76FD-1C07-4C3C-93C3-29611269F942" class="- topic/fig "><p class="- topic/p "> On exit enter the time that was needed for the installation. 
+</p><p class="- topic/p ">Installation time: “From the moment the machine is at the final location until the machine is handed over to the customer, excluding the additional time needed to apply modification kits.” 
+</p><image href="GUID-355278AB-4063-4F98-AE1F-209F8C77053C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-355278AB-4063-4F98-AE1F-209F8C77053C-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">40 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Before handing over the machine to the customer, go to tools tile and start the Periodic maintenance. 
+</p><p class="- topic/p ">Clean the matrix plate before handover to customer. 
+</p><p class="- topic/p ">This will remove the orange tile and makes sure that you handover a clean machine. 
+</p><fig id="GUID-CC9F6FF6-796A-4009-9BAC-081DEDB77889" class="- topic/fig "><image href="GUID-6B53CC50-6346-4E07-81F7-7E52ABD334FF-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-6B53CC50-6346-4E07-81F7-7E52ABD334FF-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">41 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> If desired, load appropriate media provided by the customer to create the demonstration print as an optional step. 
+</p><fig id="GUID-6E6C4DA6-BA61-443F-91E8-C952EB629B0C" class="- topic/fig "><image href="GUID-DECB87BF-9F05-422A-9703-52840F2E4639-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DECB87BF-9F05-422A-9703-52840F2E4639-low.png"/></fig></entry></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7D3F358C-1AB9-4A5D-9B0E-C75D689F152E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Installation</linktext></link></linkpool></related-links>
+</task>

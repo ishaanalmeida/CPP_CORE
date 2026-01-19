@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-2F88B95D-16BC-42B7-A2AD-A9FEE37FFE46" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-2F88B95D-16BC-42B7-A2AD-A9FEE37FFE46" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Service tools</title><abstract class="- topic/abstract " id="GUID-048A981C-B8DB-46CA-A419-6E2BE396798F"><p class="- topic/p ">Let us look at the tools available to a service technician. 
+</p><p class="- topic/p ">Part of the tools can be used as preparation and part of the tools can be done during the service visit. 
+</p><p class="- topic/p ">Preparation should be used to make sure you have the tools, parts, and time needed for the service visit. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Tools</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-55BECD2D-C3FF-4E08-B52A-597FAB1BE48B" class="- topic/section "><title class="- topic/title ">Overview</title><fig id="GUID-472BEDB1-C862-47AE-AC4D-C9D1FF93F73F" class="- topic/fig "><title class="- topic/title "/><image href="GUID-6AFBB4EF-A00B-4B6B-AE66-B024CCFEEB2D-low.png" placement="inline" class="- topic/image " otherprops="GUID-6AFBB4EF-A00B-4B6B-AE66-B024CCFEEB2D-low.png"/></fig></section><section id="GUID-BD979D72-1928-42AF-96D2-4AFFDD5DEA1A" class="- topic/section "><title class="- topic/title ">The tools</title><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Manuals / videos / downloads.</b> 
+</p><p class="- topic/p ">There are a lot of manuals and videos available for download and consultation. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">The TSM</b>. (Technical Service Manual) 
+</p><p class="- topic/p ">The TSM ready for use, and it offers a lot of solutions for error messages and common problems on the printer. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Technical documentation.</b> 
+</p><p class="- topic/p ">There are several application guides and white papers available for additional help. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">ORS/local: Service worklist.</b> 
+</p><p class="- topic/p ">Via ORS or local connection you can contact the print system and get service (worklist) information.
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">ORS/local: Error analysis.</b> 
+</p><p class="- topic/p ">Via ORS or local connection you can get error information from the print system. 
+</p><p class="- topic/p ">For each error in the system there is a link to an error document (in the TSM) that will allow you to fix the error. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">ORS/local: Digital logbook</b> 
+</p><p class="- topic/p ">Via ORS or local connection you can look into the digital logbook that contains all statistics from the print system. 
+</p><p class="- topic/p ">You will find statistics on all error that occurred in the print system.
+</p><p class="- topic/p ">If deemed necessary you should fix the errors.
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">ORS:/local remote assistance</b> 
+</p><p class="- topic/p ">Via remote assistance you can take over the User interface of the customer (after his approval). 
+</p><p class="- topic/p ">You can check all setting and the behavior of the system before you go there.
+</p></li><li class="- topic/li "><p class="- topic/p ">SDS (Service Diagnostic System)
+</p><p class="- topic/p ">The SDS provides you with a tool to check/operate most parts of the print system.
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">ORS/local: maintenance scheduler</b> 
+</p><p class="- topic/p ">Via ORS or local connection you can see if maintenance is due on the print system. 
+</p><p class="- topic/p ">If so it can now be carried out now. All required materials should be available if you prepared your visit. 
+</p></li></ol></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-926475FC-2290-4598-98DD-0D62BDEABBE4.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Service operations</linktext></link></linkpool></related-links>
+</task>

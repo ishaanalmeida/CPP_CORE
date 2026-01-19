@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-C09C1F38-A74C-40FD-A1B9-0BBBD00A3370" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-C09C1F38-A74C-40FD-A1B9-0BBBD00A3370" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">11 How to check which .NET version is installed</title><abstract class="- topic/abstract " id="M140828-B205"><p class="- topic/p ">This procedure describes how to check which .NET framework version is installed on a workstation or laptop. 
+</p><p class="- topic/p ">Depending on the CreateUSB version you have installed there are different requirements to the .Net version. 
+</p><p class="- topic/p ">The CreateUSB version 4.0.0.0 or higher requires .Net version 6.0.22 or higher. 
+</p><p class="- topic/p ">For the older CreateUSB versions, used in the Colorado product a version between version 4.6.1 and version 6.x is required. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="M140828-B207" class="- topic/section "><title class="- topic/title ">Required tools</title><ul id="UL_722C828A7C8B49C38ED1C503C2455D18" class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Workstation operating system: Windows 7, 8 or 10. 
+</p></li><li class="- topic/li "><p class="- topic/p ">To use this procedure you need administrator rights. 
+</p></li></ul></section><section id="SECTION_8B2EDF5F2405440097F73F1429FA79F0" class="- topic/section "><title class="- topic/title ">Procedure to determine .Net V4 versions</title><p class="- topic/p ">This procedure uses Windows 10 as an example and will show what .net version of version 4 is installed. 
+</p><table id="GUID-44E51CAE-2EF5-431B-BFBB-AE0F0810C645" pgwide="1" class="- topic/table "><tgroup cols="2" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead class="- topic/thead "><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody class="- topic/tbody "><row valign="top" class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">In the Search the web and Windows field, type in Regedit. 
+</p><p class="- topic/p ">The following window displays: 
+</p><fig id="GUID-696905FB-5068-41E6-8DEF-28026B1C90B7" class="- topic/fig "><image href="GUID-7FB39581-96D3-4465-A61A-2E764CB9BFE0-low.png" placement="inline" class="- topic/image " otherprops="GUID-7FB39581-96D3-4465-A61A-2E764CB9BFE0-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">In the Best match section, click Regedit (run command). 
+</p><p class="- topic/p ">(You must have administrator credentials to run regedit.exe.) 
+</p></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> In the Registry Editor, open the following subkey: 
+</p><p class="- topic/p ">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full (The path to the Full subkey includes the Net Framework subkey instead of .NET Framework.) 
+</p><note id="GUID-AB706042-8797-4707-9700-BD6FE82AB430" class="- topic/note "><p class="- topic/p ">If the 
+<b class="+ topic/ph hi-d/b ">Full</b> subkey is not present, then .NET Framework 4.5 or later is not installed on the workstation. 
+</p></note></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Check for a DWORD value named Release. (The presence of the Release DWORD indicates .NET Framework 4.5 or greater is installed on the workstation.) 
+</p></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><fig id="GUID-896ADC6D-73B6-4476-8564-D868B32DB492" class="- topic/fig "><image href="GUID-BB3ECD23-9190-4317-94DE-96672E917010-low.png" placement="inline" class="- topic/image " otherprops="GUID-BB3ECD23-9190-4317-94DE-96672E917010-low.png"/></fig><p class="- topic/p ">The Release DWORD value indicates which .NET framework version is installed: See the table below : 
+</p></entry></row></tbody></tgroup><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Value of the DWORD 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Version 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">378389 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.5 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">378675 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.5.1 installed with windows 8.1 or Windows server 2012 R2 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">378758 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.5.1 installed with windows 8 or Windows Vista SP2 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">379893 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.5.2 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">393295 on a Windows 10 systems 
+</p><p class="- topic/p ">393297 on al other OS versions 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.6 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">394254 on Windows 10 November update systems 
+</p><p class="- topic/p ">394271 on all other OS versions 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.6.1 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">394802 on Windows 10 Anniversary Update 
+</p><p class="- topic/p ">394806 on all other OS versions 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.6.2 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">460798 on Windows 10 Creators Update 
+</p><p class="- topic/p ">460805 on all other Windows operating systems (including other Windows 10 operating systems) 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> .NET Framework 4.7 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">461308: On Windows 10 Fall Creators Update and Windows Server, version 1709 
+</p><p class="- topic/p ">461310: On all other Windows operating systems (including other Windows 10 operating systems) 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.7.1 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "> 461808 on Windows 10 April 2018 Update 
+</p><p class="- topic/p ">461808: On Windows 10 April 2018 Update and Windows Server, version 1803 
+</p><p class="- topic/p ">461814: On all Windows operating systems other than Windows 10 April 2018 Update and Windows Server, version 1803 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.7.2 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">528040 on Windows 10 May 2019 Update and Windows 10 November 2019 Update 
+</p><p class="- topic/p ">528372 on Windows 10 May 2020 Update, October 2020 Update, May 2021 Update, November 2021 Update, and 2022 Update 
+</p><p class="- topic/p ">528449 On Windows 11 and Windows Server 2022 
+</p><p class="- topic/p ">528049 On all other Windows operating systems (including other Windows 10 operating systems) 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> .NET Framework 4.8 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">533320 On Windows 11 2022 Update 
+</p><p class="- topic/p ">533325 All other Windows operating systems 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">.NET Framework 4.8.1 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-75E81A50-4AAE-4B64-A663-086871320831" class="- topic/section "><title class="- topic/title ">Additional information</title><p class="- topic/p ">For additional information see : 
+<xref href="https://msdn.microsoft.com/en-us/library/hh925568(v=vs.110).aspx" format="html" scope="external" class="- topic/xref "><?ditaot gentext?>https://msdn.microsoft.com/en-us/library/hh925568(v=vs.110).aspx</xref> 
+</p></section><section id="GUID-483EBE93-9AB9-4F94-A602-93F116D32D90" class="- topic/section "><title class="- topic/title ">Procedure to determine .Net V6 versions</title><p class="- topic/p ">This procedure uses Windows 10 as an example and will show if and what .net version 6 is installed. 
+</p><table id="GUID-FD03A5D4-5777-4E34-89E8-132E0B0359C6" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> The following window displays: 
+</p><fig id="GUID-9A0994EC-7CDA-446A-B29D-E9F88E5E624F" class="- topic/fig "><image href="GUID-7FB39581-96D3-4465-A61A-2E764CB9BFE0-low.png" placement="inline" class="- topic/image " otherprops="GUID-7FB39581-96D3-4465-A61A-2E764CB9BFE0-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">In the Best match section, click Regedit (run command). (You must have administrator credentials to run regedit.exe.) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">In the Registry Editor, open the following subkey: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\dotnet\Setup\InstalledVersions\x64\sharedhost 
+</p><note id="GUID-E3118228-2676-4BDE-B994-D50059539BA4" class="- topic/note "><p class="- topic/p ">If the<b class="+ topic/ph hi-d/b "> Full</b> subkey is not present, then .NET Framework 6.x or later is not installed on the workstation. 
+</p></note></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Check for a DWORD value named Version. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-6C340390-7F9C-484A-AC0E-D24C326D3BF0" class="- topic/fig "><image href="GUID-5E3E1110-DCA7-4C01-A3E2-67CEEEBDE14B-low.png" placement="inline" class="- topic/image " otherprops="GUID-5E3E1110-DCA7-4C01-A3E2-67CEEEBDE14B-low.png"/></fig><p class="- topic/p ">The Version DWORD value indicates which .NET framework version is installed
+</p></entry></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-724C7F1C-09E3-4D8F-B77B-2B159E768314.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Installation</linktext></link></linkpool></related-links>
+</task>

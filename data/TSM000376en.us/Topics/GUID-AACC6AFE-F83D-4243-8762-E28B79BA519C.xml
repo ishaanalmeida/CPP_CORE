@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-AACC6AFE-F83D-4243-8762-E28B79BA519C" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-AACC6AFE-F83D-4243-8762-E28B79BA519C" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">5902 Media Thickness measurement failed</title><abstract class="- topic/abstract " id="GUID-3B8396B2-0D4E-43D6-8FCF-9ED52C96F256"><p class="- topic/p ">This warning is given when the media thickness calibration has failed. 
+</p><p class="- topic/p ">This means the engine was unable to determine the correct media thickness. 
+</p><p class="- topic/p ">An incorrect media-thickness might lead to bi-directional errors in the print quality (eg : text sharpness). 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-75ED5B85-A349-4BF2-9823-0D8FBAF8E150" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Collect</b></title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u "><b class="+ topic/ph hi-d/b ">Calibration step</b></u>
+</p><p class="- topic/p ">.
+</p><p class="- topic/p ">This warning is generated during the calibration step : “Media Thickness” which is part of one the following calibration sequences. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Media calibration (SAV) or 
+</p></li><li class="- topic/li "><p class="- topic/p ">Media calibration (other) 
+</p></li></ul><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u "><b class="+ topic/ph hi-d/b ">Patterns in calibration step</b></u> 
+</p><p class="- topic/p ">.
+</p><table id="GUID-083B019A-85DC-4CBD-A98B-F1CD8E9B1169" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="6.39*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1640/C1650 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-46B56479-4908-4368-A825-B45094FFAC8C" class="- topic/fig "><title class="- topic/title "/><image href="GUID-D655CD90-7BA9-4899-A0C6-81A1CAEF5A8C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-D655CD90-7BA9-4899-A0C6-81A1CAEF5A8C-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1630/CMxx 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-8D98DE5D-3E76-41C7-9C8D-378B9023FA3D" class="- topic/fig "><title class="- topic/title "/><image href="GUID-DC9F2194-17C3-4CE1-927C-D95F15209B11-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DC9F2194-17C3-4CE1-927C-D95F15209B11-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-35E5C412-9841-4B8B-A117-B0540B7E70C4" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Analyse/Repair</b></title><fig id="GUID-5D048181-1517-4E0F-838D-CEEA3F604D83" class="- topic/fig "><image href="GUID-76A9F6AD-5638-44C9-9521-EA853821F41C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-76A9F6AD-5638-44C9-9521-EA853821F41C-svg.svg"/></fig><table id="GUID-9C0FE4DE-3CBF-4B6E-8F7F-101E6A58DF92" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="2.27*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="13.71*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="10.58*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 Decision Check whether correct thickness is entered in RIP 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Action Measure thickness using gauge and enter correct value 12 How to measure the media thickness 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<xref href="GUID-E9976EFB-9920-4523-8E63-376189B17D02.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>12 How to measure the media thickness</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if pattern is visible on the media (see example on top of this page) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">White pattern on white media is accounted as not visible 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">A ction Change colour of the pattern in the RIP (CMxx only) In case of dark media use White patterns. In all other cases use black 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> In case of dark media use White patterns. In all other cases use black 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if pattern is printed without missing lines 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Compare pattern with example at top of the page 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean printheads 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">CMxx : 7-6-002 
+</p><p class="- topic/p ">Other : 7-6-002 followed by Manual maintenance 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" scope="local" format="dita" class="- topic/xref "/> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the M&amp;C-scanner is working well 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-17F448B7-8A72-45B1-B56D-FC5C0BE28701.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05-6-017 M&amp;C scanner test [Special Tests]</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean and calibrate M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><xref href="GUID-D650BDBB-4674-4B96-BD64-98FDD9BAF4CB.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>21-6-002 Select required printer calibrations [Special Tests]</xref>and select: M&amp;C scanner calibration 
+</p></li><li class="- topic/li "><p class="- topic/p ">Do SDS test: 
+<xref href="GUID-B828E436-A124-4809-981E-2DBE1E09A388.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>21-6-003 Execute selected printer calibrations [Special Tests]</xref> 
+</p></li></ol></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if Z-motion system is working correctly 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-75AE17B8-5F54-400C-8190-B48448F45966.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>03-6-020 Check Z motion system range [Special Tests]</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Repair system 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-97459A76-8A4B-4476-8A59-32CE7D9C01B9.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>03 How to remove the Z motion system height adjust right/left motor (03M3/4)</xref> 
+</p><p class="- topic/p "><xref href="GUID-F8EBDA79-3CE7-42AA-9AC3-E2D788AC8CEB.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>03 How to remove the Z motion home left/right sensor (03B5/6)</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Adjust Z-motion offset 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-5C85D6FC-5E14-4490-AB29-1EEC54BC3FB5.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>03 How to adjust the print height (calibration)</xref> 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-FEAE8DCA-C235-453F-AB84-89976B0A6B67" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">In most cases this warning is caused by an operator fault at the customer (entering the wrong media thickness). 
+</p><p class="- topic/p ">In rare cases the Z-motion system or M&amp;C-scanner of the engine is broken. 
+</p></section><section id="GUID-45E72CCA-32F0-41FD-ACF2-4A4D42D55C79" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Background info</b></title><p class="- topic/p ">The build up of a printed image is done is both directions of the carriage movement (Bi-Directional). 
+</p><p class="- topic/p ">Bi-directional errors might be caused by an incorrect media thickness. 
+</p><p class="- topic/p ">Therefore, the thickness of the media is determined as part of the media calibration. 
+</p><p class="- topic/p ">. 
+</p><p class="- topic/p ">The build up of a printed image is done is both directions of the carriage movement (Bi-Directional). 
+</p><p class="- topic/p ">Bi-directional errors might be caused by an incorrect media thickness. 
+</p><p class="- topic/p ">Therefore, the thickness of the media is determined as part of the media calibration. 
+</p><p class="- topic/p ">. 
+</p><p class="- topic/p ">The build up of a printed image is done is both directions of the carriage movement (Bi-Directional). 
+</p><p class="- topic/p ">Bi-directional errors might be caused by an incorrect media thickness. 
+</p><p class="- topic/p ">Therefore, the thickness of the media is determined as part of the media calibration. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-480B4E14-7AB9-4230-BBE2-97A999EC3E19.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

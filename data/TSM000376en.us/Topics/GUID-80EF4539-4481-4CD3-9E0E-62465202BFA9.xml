@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-80EF4539-4481-4CD3-9E0E-62465202BFA9" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-80EF4539-4481-4CD3-9E0E-62465202BFA9" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">04-6-002 Get nozzle status [Special Tests]</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">SDS</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-2BD8C3DB-27B0-44E5-B999-CF486EF1CE0D" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">SDS</ph></title><p class="- topic/p "> 
+<object id="GUID-FA24686A-7E0D-4AF1-94EA-FA56C28BE705" class="- topic/object "><desc class="- topic/desc "><p class="- topic/p ">Get nozzle status </p></desc><param name="testid" value="046002" class="- topic/param "/><param name="target" value="NIL" class="- topic/param "/><param name="axmodule" value="None" class="- topic/param "/></object> 
+</p></section><section id="GUID-1156E15C-FA11-42F7-80CE-F9823F371FA9" class="- topic/section "><title class="- topic/title ">Function</title><p class="- topic/p ">Use this test to get the nozzle status of each printhead. 
+</p><note id="GUID-A8C74089-5870-48D1-BC64-2B26C2F5B440" class="- topic/note "><p class="- topic/p "> Running SDS test 4-6-002 "get nozzle status", right after waking the machine from keep healthy, could produce false results (&gt;300 dirt nozzles per head). This is caused by the ink film on the nozzles. Workaround: First make a small print or perform an Automatic maintenance procedure. 
+</p></note><note id="GUID-09A02650-AFD4-4B78-A32A-763D60B38AC4" class="- topic/note "><p class="- topic/p "> As the UVGel ink might dry out when nozzles are not used the result of this test could produce false results (&gt;100 dirt nozzles per head).
+</p><p class="- topic/p "> When the test is repeated after several minutes the amount of false results increases.
+</p><p class="- topic/p "> Workaround : perform 4-6-002 only directly after a purge/wipe.
+</p></note></section><section id="GUID-92369981-F020-4E62-9707-58F93D054214" class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p "> This test does the following: 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Part 1:</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Perform a manual PAINt action. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Give an 
+<b class="+ topic/ph hi-d/b ">Actual PAINt results</b> overview of the status of each printhead. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Electrical</b> : 
+</p><p class="- topic/p ">There is a real nozzle defect. Permanent and not recoverable. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Air</b> : 
+</p><p class="- topic/p ">Can be recovered by automatic maintenance. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Dirt</b> : 
+</p><p class="- topic/p ">Can be recovered by automatic maintenance and/or manual maintenance. 
+</p></li></ul></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Part 2:</b> 
+</p><p class="- topic/p ">This overview includes suspicious nozzles detected by M&amp;C unit during the last automatic nozzle optimization. 
+</p><p class="- topic/p "> This is indicated in the lines with the gray background. These are the 
+<b class="+ topic/ph hi-d/b ">Last valid M&amp;C results</b>. 
+</p><p class="- topic/p ">There are 2 types of nozzle information: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Misdirected</b> : 
+</p><p class="- topic/p ">The nozzle does not fire in the desired direction. Recoverable. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Non-jetting</b> : 
+</p><p class="- topic/p ">The nozzles where blocked for some reason. Recoverable. 
+</p></li></ul><fig id="GUID-D37BF43E-C877-4FA6-BF76-FF2A0918FCE2" class="- topic/fig "><title class="- topic/title ">Overview</title><image href="GUID-D07724B4-D477-4F67-8801-3DB5E3494AEE-low.png" placement="inline" class="- topic/image " otherprops="GUID-D07724B4-D477-4F67-8801-3DB5E3494AEE-low.png"/></fig><p class="- topic/p ">If the sum of misdirected and non-jetting nozzles is more than 20, it is possible that the M&amp;C scanner is polluted. In this case, clean the M&amp;C scanner and repeat the nozzle optimization. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-686678F1-A321-4B08-84D3-63C9CD28C7FA.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>SDS</linktext></link></linkpool></related-links>
+</task>

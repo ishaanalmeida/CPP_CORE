@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-36980814-B41B-4AFD-B05F-6D57C557C949" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-36980814-B41B-4AFD-B05F-6D57C557C949" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Installation wizard (part 1) (upto R4.3)</title><abstract class="- topic/abstract " id="M148553-B105"><p class="- topic/p ">The installation wizard starts when the printer is connected to the network and switched on for the first time at customer site. 
+</p><p class="- topic/p ">It allows you to configure the printer for integration in the customer’s environment. 
+</p><p class="- topic/p ">This document describes part 1 of the wizard after the 1st boot. 
+</p><note class="- topic/note " id="GUID-DC0E4A40-44D7-46D8-8593-BD9667A41746"><p class="- topic/p ">The installation wizard cannot be started manually. 
+</p><p class="- topic/p ">Use the settings editor to change these settings if necessary after the installation wizard has finished. 
+</p></note></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-8E2C2C62-EA17-419B-9B2F-0FA4DA71CA76" class="- topic/section "><title class="- topic/title ">Prerequisites</title><ul class="- topic/ul "><li id="LI_8D4654E109714EE49EBD0F809E60DB5E" class="- topic/li "><p class="- topic/p ">Prepared filled in Site Preparation Guide. 
+</p><p class="- topic/p ">The Site Preparation Guide should provide you with all required information. 
+</p></li></ul></section><section id="SECTION_F0C46BBCD2F642BC89CFC563F50CE61E" class="- topic/section "><title class="- topic/title ">Part 1: First boot</title><table id="TABLE_AB12398ADAC24FBF9EA1C29CD821223F" pgwide="1" class="- topic/table "><tgroup cols="2" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" align="left" class="- topic/colspec "/><thead class="- topic/thead "><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody class="- topic/tbody "><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">System language selection: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Select the required system language from the drop down list. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Tap Next. 
+</p></li></ol><fig id="GUID-9C65F3B2-8595-4969-9FCA-F95CA6AAA657" class="- topic/fig "><image href="GUID-4C7B5CC2-E949-4F4E-8D41-EDA5785B8EF3-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-4C7B5CC2-E949-4F4E-8D41-EDA5785B8EF3-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">The End User License agreement displays. 
+</p><p class="- topic/p ">Tap Next. 
+</p><fig id="GUID-18A73956-D9E3-406B-B00D-05EF449DA483" class="- topic/fig "><image href="GUID-2D539327-2109-461F-9756-AEACCE3CA2A5-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-2D539327-2109-461F-9756-AEACCE3CA2A5-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Time zone selection: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Tap the Time zone button. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Select the local time zone from the drop down list. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Tap Next. 
+</p></li></ol><fig id="GUID-373E6968-6265-4829-9ECE-A5DBDEA97332" class="- topic/fig "><image href="GUID-60B2CBEA-FF7F-48B2-B50C-1954BF442C31-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-60B2CBEA-FF7F-48B2-B50C-1954BF442C31-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Date and time setting: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Configure all the date and time settings. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap Next. 
+</p></li></ol><fig id="GUID-F9FA3979-0C4F-457D-8052-62F0D8A6DAA1" class="- topic/fig "><image href="GUID-67ECEC63-72E7-4A16-B172-9154C56220E5-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-67ECEC63-72E7-4A16-B172-9154C56220E5-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Authorization for install from USB must be given by the System Administrator to Service. 
+</p><p class="- topic/p "> (Information available from the Security checklist of the Site Preparation Guide, “Service role authorization” section): 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Tap the Install from USB button to select Enabled or Disabled. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap Next. 
+</p></li></ol><fig id="GUID-9171DEC6-86EF-4781-84B9-BE00D88DBE06" class="- topic/fig "><image href="GUID-F56C68DF-1ABB-4F0B-890B-2C6090BE23F3-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-F56C68DF-1ABB-4F0B-890B-2C6090BE23F3-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">System hostname setup: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Tap the Hostname button: 
+</p><p class="- topic/p ">A virtual keyboard displays. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Type in the hostname. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap OK. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap Next. 
+</p></li></ol><fig id="GUID-89031B66-6D3A-4045-B042-2D0AF5A54CD2" class="- topic/fig "><image href="GUID-E173F610-BB70-4920-B628-E70449508CF8-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-E173F610-BB70-4920-B628-E70449508CF8-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Link speed and duplex mode setup: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Tap the Link speed and duplex mode button. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Select a value from the drop down list. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap Next. 
+</p></li></ol><fig id="GUID-6CC5E15A-4679-436C-B89D-0F8C9DC058D1" class="- topic/fig "><image href="GUID-1A41EFB9-7012-4F69-B666-7E5914C646DB-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-1A41EFB9-7012-4F69-B666-7E5914C646DB-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> TCP/IP setup: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Configure all the TCP/IP settings. 
+</p><p class="- topic/p ">Use the scroll bar to see all available settings. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap Next. 
+</p></li></ol><fig id="GUID-CB8C3012-0B48-4D72-B90A-DA98FD557102" class="- topic/fig "><image href="GUID-233DE0CD-245E-4F90-BC20-6905CFE2A9AA-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-233DE0CD-245E-4F90-BC20-6905CFE2A9AA-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Proxy server setup: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Configure all the Proxy server settings. 
+</p><p class="- topic/p ">Use the scroll bar to see all available settings. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Tap Next. 
+</p></li></ol><fig id="GUID-9019B8DF-2CC2-4E0E-9E21-47590B5A5E22" class="- topic/fig "><image href="GUID-ECA678BB-4B9A-4C71-A835-84DB8C5FE920-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-ECA678BB-4B9A-4C71-A835-84DB8C5FE920-low.png"/></fig></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">License file installation: 
+</p><p class="- topic/p ">Skip this step. 
+</p><p class="- topic/p ">The license installation procedure is done after the 2nd installation wizard 
+</p></entry></row><row valign="top" class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Restart the system to activate the selected settings: 
+</p><p class="- topic/p ">Tap Finish. 
+</p><fig id="GUID-87A24629-DBB8-4D01-9A6C-A970851C96A0" class="- topic/fig "><image href="GUID-B7FC45ED-F905-40E5-B23C-D311E5BB5F4C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B7FC45ED-F905-40E5-B23C-D311E5BB5F4C-low.png"/></fig></entry></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7D3F358C-1AB9-4A5D-9B0E-C75D689F152E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Installation</linktext></link></linkpool></related-links>
+</task>

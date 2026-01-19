@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-46B5B312-0187-4828-A0E6-D652F94E53A4" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-46B5B312-0187-4828-A0E6-D652F94E53A4" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">490007 PHD Y-alignment failed (Array To Array)</title><abstract class="- topic/abstract " id="GUID-8CE52EEF-FCB2-4EC8-AA6B-2ECAB004EEBD"><p class="- topic/p ">The array-to-array Y-alignment of the printhead does not meet the target.
+</p></abstract><taskbody class="- topic/body task/taskbody "><section id="GUID-0DFBAC5E-755C-4C2B-B5BD-2478580B577A" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Collect</b> </title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Patterns in calibration print</u>
+</p><table id="GUID-D88B03A2-9C33-448A-A7D9-95A51A96FBF3" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="9.58*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1640/C1650
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-17BA3F2B-813D-406E-986B-E39F09962C26" class="- topic/fig "><image href="GUID-C2A9F785-50A0-4724-A89E-AFBA8B8D639E-low.png" placement="inline" class="- topic/image " otherprops="GUID-C2A9F785-50A0-4724-A89E-AFBA8B8D639E-low.png"/></fig><fig id="GUID-9E4A32CF-F20F-4187-A906-511A3B42BF49" class="- topic/fig "><image href="GUID-EDE1BFF1-0D38-4892-A174-B7C13BF553BD-low.png" placement="inline" class="- topic/image " otherprops="GUID-EDE1BFF1-0D38-4892-A174-B7C13BF553BD-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1630
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-2B42BF31-1DE3-4DF6-98FB-D277D184FA48" class="- topic/fig "><image href="GUID-5C7327A5-51C0-463D-9B87-2EC4CDD76745-low.png" placement="inline" class="- topic/image " otherprops="GUID-5C7327A5-51C0-463D-9B87-2EC4CDD76745-low.png"/></fig><fig id="GUID-47081739-61B0-4FE5-84BF-7DD1AE0D6A49" class="- topic/fig "><image href="GUID-69AF2810-2679-4374-8719-27CFBB8FF94E-low.png" placement="inline" class="- topic/image " otherprops="GUID-69AF2810-2679-4374-8719-27CFBB8FF94E-low.png"/></fig></entry></row></tbody></tgroup></table><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Calibration step</u> 
+</p><p class="- topic/p ">This warning is generated in the calibration step "ArrayToArray" which is part of one the following calibration sequences:
+</p><p class="- topic/p ">- Carriage calibration via the UI
+</p><p class="- topic/p ">- Calibration during installation
+</p><p class="- topic/p ">- SDS 21-6-004: “Measure print characteristics [Special Tests]”
+</p></section><section id="GUID-BFDF2D91-830F-4D1C-A3B7-88D70B2CBFC6" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Analyse/Repair</b></title><fig id="GUID-683F2107-1CD4-4820-B782-F5CA0962009C" class="- topic/fig "><image href="GUID-48E62E9A-3ECC-4C5E-AB77-89550B3FB0FC-low.png" placement="inline" class="- topic/image " otherprops="GUID-48E62E9A-3ECC-4C5E-AB77-89550B3FB0FC-low.png"/></fig><table id="GUID-DC004820-7915-43FC-939C-F8F05ADC05A2" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="2.74*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="3.19*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="4.96*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether clean media is used
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the media using IPA or cut the polluted part of the media
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the used media is white.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">This calibration can only be executed on white and smooth media.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the M&amp;C-scanner needs to be cleaned
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the glass-window of the M&amp;C-scanner using IPA.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the printed pattern look complete (no deviation droplets)
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> See example top of this page
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform manual maintenance on the printheads.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check the M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-17F448B7-8A72-45B1-B56D-FC5C0BE28701.xml" class="- topic/xref " type="task"><?ditaot gentext?>05-6-017 M&amp;C scanner test [Special Tests]</xref>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the printhead
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" class="- topic/xref "/>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-C1EFD393-088C-432B-A56C-F359BAB2BFC6" class="- topic/section "><title class="- topic/title ">Evaluation/Prevention</title><p class="- topic/p ">-
+</p></section><section id="GUID-915CF84E-F2F9-4FBB-B5B5-F735CB33A661" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">The build up of a printed image is done is both directions of the carriage movement (Bi-Directional). Bi-directional errors might be caused by an incorrect media thickness. Therefore, the thickness of the media is determined as part of the media calibration.
+</p><p class="- topic/p ">
+</p><p class="- topic/p ">During this calibration lines are printed from left to right and from right to left and the distances between these lines is measured over the width of the media. This bidirectional error will be corrected after this calibration.
+</p></section><example id="GUID-11499A37-E18C-4D23-BC34-49840D0E7CF6" class="- topic/example "><p class="- topic/p "> 
+</p></example></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-F2864082-F34C-4657-B37E-EA7C5343FE90.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

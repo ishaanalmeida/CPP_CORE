@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-0A9015C3-DC1C-417D-8B80-D6AE9F8C4B83" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-0A9015C3-DC1C-417D-8B80-D6AE9F8C4B83" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">02 The ink replacement procedure</title><abstract class="- topic/abstract " id="GUID-0E3E2CA2-5349-4FAF-80F5-347AA9765351"><p class="- topic/p ">This document describes how to replace all ink in the system: ink bottles, ink tubes, ink tanks, pump tubes and printheads. 
+</p><p class="- topic/p ">The procedure consists of the following steps : 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Preparation. 
+</p><p class="- topic/p ">Switch OFF the printer and gain access to all the parts involved. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remove the old ink. 
+</p><p class="- topic/p ">You remove the old ink tanks and mount new empty ones. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Refill the system with new ink. 
+</p><p class="- topic/p ">The newly installed ink tanks are reset and refilled. The ink tubes are also filled with new ink. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Load media and condition system. 
+</p><p class="- topic/p ">In this procedure the printheads are flushed and refilled with the new ink. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Do the calibrations. 
+</p><p class="- topic/p ">In this procedure the printheads are calibrated with the new ink. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Final 
+</p><p class="- topic/p ">Dispose the used media according the local procedures. 
+</p></li></ol></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Adjustment</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-E4895B67-7FC1-4974-A5C8-D34725505879" class="- topic/section "><title class="- topic/title ">Required tools</title><ul id="UL_44E3E3F07D374BF6964EC50817FE9018" class="- topic/ul "><li id="LI_52DBF4023EA944F89CD5A1B41DA11017" class="- topic/li "><p class="- topic/p ">Onyx application 
+</p></li><li class="- topic/li "><p class="- topic/p ">Download the Tiff file from graphiPLAZA 
+</p></li><li class="- topic/li "><p class="- topic/p ">Screwdriver Torx T20 
+</p></li><li class="- topic/li "><p class="- topic/p ">Screwdriver Torx T25 
+</p></li><li class="- topic/li "><p class="- topic/p ">A set of 4 maintenance trays and lids 
+</p></li><li class="- topic/li "><p class="- topic/p ">Lint free cloth 
+</p></li><li class="- topic/li "><p class="- topic/p ">A roll of cheap media &gt;=50" (1270 mm) 
+</p></li><li class="- topic/li "><p class="- topic/p ">A roll of media for the calibration 
+</p></li><li class="- topic/li "><p class="- topic/p ">Clip 
+</p></li><li class="- topic/li "><p class="- topic/p ">4 Ink tanks. 
+</p></li><li class="- topic/li "><p class="- topic/p ">4 x 2 bottles of new ink C, M, Y, and K. 
+</p><fig id="GUID-5E5F8014-E38E-4EA0-8BF2-8701BB9E30F4" class="- topic/fig "><image href="GUID-DC1BE8D8-A6AE-489D-927D-1F1537C92118-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DC1BE8D8-A6AE-489D-927D-1F1537C92118-low.png"/></fig></li><li id="LI_929C0F12811B4096BB70DA320BD9C6C8" class="- topic/li "><p class="- topic/p ">Towel 
+</p></li><li class="- topic/li "><p class="- topic/p ">Protective gloves : 
+<b class="+ topic/ph hi-d/b ">Microflex</b> 93-260 gloves. 
+</p></li></ul></section><section id="GUID-C02D66D1-E3CC-4BC2-95F8-775D93D93431" class="- topic/section "><title class="- topic/title ">Warning / Caution</title><note type="caution" id="GUID-A97040BC-F110-4E4B-9CFF-E8082B9DA00E" class="- topic/note "><fig id="GUID-F56D2715-E266-4396-9B34-5C0D37B6D01C" class="- topic/fig "><image href="GUID-FCF86E23-0DD4-40BC-ACDF-FF8ABA1E6502-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-FCF86E23-0DD4-40BC-ACDF-FF8ABA1E6502-low.png"/></fig><p class="- topic/p ">Avoid skin contact with ink: wear protective gloves. 
+</p><fig id="GUID-7C716739-2AD7-42F8-8EF6-B28A8E7B1F76" class="- topic/fig "><image href="GUID-D8099BBE-C3A2-4392-8B56-C532EDDD6073-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-D8099BBE-C3A2-4392-8B56-C532EDDD6073-low.png"/></fig><p class="- topic/p "> Protect your eyes from splashing ink: wear safety glasses. 
+</p></note></section><section id="SECTION_7BCF39D178844448B3A21E7E56376710" class="- topic/section "><title class="- topic/title ">1. Preparation</title><table id="TABLE_5FBEFB7447DE4A1D819BDF873A72E3DB" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Remove all ink bottles. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Power OFF the system</b>: 
+</p><p class="- topic/p ">On the operator panel, tap on the [System] icon on the right. Tap on [Power management]. Tap on [Power off]. The system shuts down. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Switch off the power supply</b>: 
+</p><p class="- topic/p ">When the system has shut down, pull to open the cover under the roll winder. Switch the power switch to the 'OFF' position. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the knife compartment cover. 
+</p><p class="- topic/p ">See : 
+<xref keyref="24DISA034" class="- topic/xref " href="GUID-1D8187CA-1F3B-4EBF-9E0A-F130AF910D4A.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 24 How to remove the knife compartment cover?>24 How to remove the knife compartment cover</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the cover below the cover of the knife compartment. 
+</p><p class="- topic/p ">See : 
+<xref keyref="24DISA032" class="- topic/xref " href="GUID-704C0C6B-5CA9-4D4D-B8A9-6C1132D65581.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 24 How to remove the cover below the cover of the knife...?>24 How to remove the cover below the cover of the knife compartment</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the media input right cover. 
+</p><p class="- topic/p ">See : 
+<xref keyref="24DISA022" class="- topic/xref " href="GUID-A1586343-23C1-47B2-BE4B-BB8972057671.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 24 How to remove the media input right cover?>24 How to remove the media input right cover</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the ink system. 
+</p><p class="- topic/p ">See : 
+<xref keyref="02DISA012" class="- topic/xref " href="GUID-1C874C66-3A17-4AC4-886B-753A1A37D196.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 Open the ink system?>02 Open the ink system</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the rear top cover of the ink system . 
+</p><p class="- topic/p ">See : 
+<xref keyref="02DISA014" class="- topic/xref " href="GUID-44A21941-A21F-4C37-A066-3CEA7BE54DAA.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 How to remove the rear top cover of the ink system...?>02 How to remove the rear top cover of the ink system</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the lower cover of the ink system. 
+</p><p class="- topic/p ">See : 
+<xref keyref="24DISA052" class="- topic/xref " href="GUID-3EA4F7FC-3249-452F-A681-38FC94D794B9.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 24 How to remove the lower cover of the ink system?>24 How to remove the lower cover of the ink system</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the top cover of the ink system. 
+</p><p class="- topic/p ">See : 
+<xref keyref="24DISA056" class="- topic/xref " href="GUID-0EC7B866-5C12-4DD8-B785-606D4BE4F19B.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 24 How to remove the top cover of the ink system?>24 How to remove the top cover of the ink system</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the middle cover of the ink system. 
+</p><p class="- topic/p ">See : 
+<xref keyref="24DISA054" class="- topic/xref " href="GUID-3DDBA7E4-FC98-4D59-B862-147D49213A2E.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 24 How to remove the middle cover of the ink system?>24 How to remove the middle cover of the ink system</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Close the 2 valves of all printheads. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-18047E98-1902-4A82-B8FC-42BC124F1E24" class="- topic/fig "><image href="GUID-6300CCF7-8C5C-47D9-9260-0154B5D56159-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-6300CCF7-8C5C-47D9-9260-0154B5D56159-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-DAA76E44-17DA-4172-B724-20E3389834BB" class="- topic/section "><title class="- topic/title ">2. How to remove the old ink</title><note id="GUID-4480BAEB-DCBE-48FC-8DFE-3A6CCE0D78FE" class="- topic/note "><p class="- topic/p ">Do this procedure for each color (C, M, Y, K). 
+</p></note><table pgwide="1" id="GUID-A85C321B-F308-43E0-934E-A3E1E02ABCC6" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Disconnect the connector of stirring motor. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-AD8D04FE-CB43-4240-AEEF-62F0FCD4F9E6" class="- topic/fig "><image href="GUID-52807C11-80BF-43FA-B5E1-51F2E962A199-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-52807C11-80BF-43FA-B5E1-51F2E962A199-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Open the ink pumps of this ink tank and remove the ink pump tubes from the pump. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-76A56D74-8B7E-41C5-A457-53ABD9A07056" class="- topic/fig "><image href="GUID-DF57B7A6-D42F-4AA8-9E01-4317CF6C5116-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DF57B7A6-D42F-4AA8-9E01-4317CF6C5116-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the screw of the locking bracket of the ink tank. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Lift and remove the ink tank. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-57D1326D-072D-4C46-A186-D59DEAA97059" class="- topic/fig "><image href="GUID-FE8C6987-65AE-45F2-878C-6C4842E2546B-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-FE8C6987-65AE-45F2-878C-6C4842E2546B-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place a new empty maintenance tray in front of the ink tank. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the lid of the ink tank. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-DF5E22CA-D004-4C34-81DE-8006E1115323" class="- topic/fig "><image href="GUID-07114D24-9B7D-4ABB-801B-461B82B067F0-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-07114D24-9B7D-4ABB-801B-461B82B067F0-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Hold the ink tank and carefully slide out the mixer blade. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-084C866B-0F8C-4F2F-A950-A43AB1C3FE9F" class="- topic/fig "><image href="GUID-F2D4C3A0-219B-4D36-B415-16906312ED7D-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-F2D4C3A0-219B-4D36-B415-16906312ED7D-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place the mixer blade in the maintenance tray. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-E44495C0-7186-4A4A-8CF7-3D53559BA3C7" class="- topic/fig "><image href="GUID-27B3BFE8-7C57-49A9-AAE3-94F0BF91F33B-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-27B3BFE8-7C57-49A9-AAE3-94F0BF91F33B-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the mixer blade with a lint free cloth. 
+</p><p class="- topic/p ">. 
+</p><p class="- topic/p ">Dispose of the lint free cloth in the old ink tank and close it with the provided lid. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-F5DD8DFD-3611-49AA-AABB-F272638506AD" class="- topic/fig "><image href="GUID-D5B328FD-EA85-4626-B159-A2FB8CDA63B0-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-D5B328FD-EA85-4626-B159-A2FB8CDA63B0-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Slide the mixer blade in the 
+<b class="+ topic/ph hi-d/b ">new</b> ink tank. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Lock the lid. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-ABBF50D5-390B-4A7B-A3A2-09E59C33F6F0" class="- topic/fig "><image href="GUID-43324D7F-2676-48F0-A28A-9666F65E128E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-43324D7F-2676-48F0-A28A-9666F65E128E-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place the ink tank, flat surface of the ink tank at the sensors side, in the unit. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Secure the locking bracket with a screw. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect the connector of the stirring motor. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Place the ink pump tubes in the ink pump and close the ink pumps. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-0FAD4634-AD1B-4C0D-B126-BE1782FC1D9F" class="- topic/fig "><image href="GUID-DF57B7A6-D42F-4AA8-9E01-4317CF6C5116-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DF57B7A6-D42F-4AA8-9E01-4317CF6C5116-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Install the ink refill unit. 
+</p><p class="- topic/p ">Clean the end of the funnel so that all ink is removed. 
+</p><note type="important" id="GUID-B7B9F502-5ED9-4713-9375-6D16E474A718" class="- topic/note "><p class="- topic/p ">Make sure the funnel is placed correctly in the top cover of the ink tank. 
+</p></note><p class="- topic/p ">See : 
+<xref keyref="02DISA009" class="- topic/xref " href="GUID-0DEE531B-1829-44B1-9D7D-2489745F722D.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 How to remove the ink refill unit?>02 How to remove the ink refill unit</xref>. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-715A25C1-2260-4B1E-BFCB-5F9DF8CFAA07" class="- topic/fig "><image href="GUID-B86D8410-36A2-495E-98D2-7734E2E5649F-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B86D8410-36A2-495E-98D2-7734E2E5649F-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Check:</b> Use a flashlight to make sure the funnel is in the top cover of the ink tank. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Continue with the next color until they are all done. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the 2 valves of all printheads. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-234D70A5-41EC-40E2-9E43-4217D346F540" class="- topic/section "><title class="- topic/title ">3. Refill the system with new ink</title><table id="GUID-BDB87D50-9E70-4086-AC9E-FA7970C76B0D" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><note type="caution" id="GUID-08AF00C8-009C-489F-B962-10850E24E7E8" class="- topic/note "><p class="- topic/p ">Close all covers. 
+</p></note></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Switch ON the system. 
+</p><p class="- topic/p ">Start-up the printer in cold SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Reset the ink levels: Do Special test 02-6-004 for each color (C, M, Y, K). 
+</b> 
+</p><p class="- topic/p ">See 
+<xref keyref="SDS02-6-004" class="- topic/xref " href="GUID-5A6A8E82-2BDB-4C92-BCB6-017CAE3FAF10.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02-6-004 Estimated ink level / Mark ink jar as empty (C, M, Y, K or W) [Special Tests]?>02-6-004 Estimated ink level / Mark ink jar as empty (C, M, Y, K or W) [Special Tests]</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Go to Warm SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">When the green refill LEDs turn on: place the new well shaken ink bottles. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-B62504D4-49A4-4473-97DD-3A8D2B310CCA" class="- topic/fig "><image href="GUID-DC1BE8D8-A6AE-489D-927D-1F1537C92118-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DC1BE8D8-A6AE-489D-927D-1F1537C92118-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Wait at least 60 seconds after placement of the last ink bottle. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The RFID tag of the bottle needs to be successfully written. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Go to Cold SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the top cover. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Slide the printhead carriage to the middle of the platen (print surface). 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place a sheet of media on the platen. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place a maintenance tray on the sheet. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Close the 8 valves of the printheads. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Disconnect the ink tube from printheads. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Guide 
+<b class="+ topic/ph hi-d/b ">only 1</b> ink tubes into the maintenance tray. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Lock the tube to the maintenance tray with a clip / tape. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Open the valve of the tube after you mounted it. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-BD2EB3CE-E413-4C39-80F5-CD2457F8C3EA" class="- topic/fig "><image href="GUID-1BE61C74-E5E1-4927-9260-FB5959D1D8CE-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-1BE61C74-E5E1-4927-9260-FB5959D1D8CE-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Do SDS test 
+<xref keyref="SDS02-6-001" class="- topic/xref " href="GUID-AB12A141-328E-4CED-9904-40E53DC5D78D.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02-6-001 Fill ink tube(s) [Special Tests]?>02-6-001 Fill ink tube(s) [Special Tests]</xref>. 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Select "Pump &amp; color + number" and 400 seconds (Time to flush the complete volume of the ink tube). 
+</p><p class="- topic/p ">Repeat this once again. (so 800 seconds in total) 
+</p><p class="- topic/p ">Fill the ink tubes one by one. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Check the ink flow: After the air bubbles (due to air in the ink tube) disappeared the ink must have a constant flow for 30 seconds from the ink tube. 
+</p></li><li class="- topic/li "><p class="- topic/p ">When there is still air left in the ink tube, you can extend the 400 seconds by pressing continue in the SDS test. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Result : tube is air free if the ink flow has a heartbeat rhythm from the pump. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Result : tube is air free if the ink flow has a heartbeat rhythm from the pump. 
+</p><p class="- topic/p ">
+<object type="video/mp4" height="480" id="GUID-A5840670-5192-466B-B243-90A24B22A52F" class="- topic/object " data="Ready correct inkflow.mp4" width="600"/>
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Close the valves of the ink tube. (Reason: prevent air pocket in tube). 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect the ink tube to the printhead. 
+</p><p class="- topic/p ">Make sure to connect the correct tube to each printhead. (Use the tube length as an indication) 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-699A68F3-8763-4528-B167-EA51C5924750" class="- topic/fig "><title class="- topic/title "/><image href="GUID-E320064B-7750-44C2-8140-E362F70520D2-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-E320064B-7750-44C2-8140-E362F70520D2-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Continue with the next ink tube (at step 13) until all ink tubes are done. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the all valves of ink tube. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the maintenance tray from the sheet. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the sheet from the platen. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Go to Service User mode. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">23 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the maintenance station / wiper and clean wall. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the matrix plate. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the waste tray and reset the counter via the wizard on the user interface. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">26 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Leave Service User mode 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">27 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Leave SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-68A11FA1-03A4-4931-BB79-41C1B4AE9C5C" class="- topic/section "><title class="- topic/title ">4. Load media and condition the system (print files with Onyx)</title><table id="TABLE_77D6483D6DAB4FD1BA8424A29FA75649" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Load any cheap media &gt;=50” (or &gt;=1270 mm) at roll position 1. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Set the output configuration to: 
+<b class="+ topic/ph hi-d/b ">Wind the output = YES.</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Start Onyx on the workstation of the customer. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Load the Tiff file: "Flushprint" 
+</p><p class="- topic/p ">Use the following setting: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Scale to fit 
+</p></li><li class="- topic/li "><p class="- topic/p ">No CMM (Color ManageMent) 
+</p></li><li class="- topic/li "><p class="- topic/p ">Production mode 
+</p></li><li class="- topic/li "><p class="- topic/p ">15 prints 
+</p></li></ul></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Unload the cheap media. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-4D2BC8DB-4C8B-4192-98C5-981E6A5A8CEA" class="- topic/section "><title class="- topic/title ">5. Do the calibrations</title><table pgwide="1" id="GUID-65480284-6377-44DA-B21D-CB8A2D979F54" class="- topic/table "><tgroup align="left" outputclass="step" cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Execute SDS Task [A] 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS Task [B] 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS Task [D] 
+</p></li><li class="- topic/li "><p class="- topic/p ">Judge the PQ according to the TSM. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Exit SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remove the installation media from the printer. 
+</p></li></ol></entry></row></tbody></tgroup></table></section><section id="GUID-90A061B0-0A86-4EF7-BF6B-17BE15C79BC3" class="- topic/section "><title class="- topic/title ">6. Final</title><table pgwide="1" id="GUID-1DA0C7A1-7C3B-4549-BA61-7F6137833AAC" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Dispose of the old ink tanks, maintenance trays, gloves etcetera according to the local procedures. 
+</p><note id="GUID-A3BC9DF0-046C-477F-A3A5-4997E4EFE428" class="- topic/note "><p class="- topic/p ">If you are confused about the indicated ink levels please see the explanation in this document : 
+<xref keyref="02FUNC02" class="- topic/xref " href="GUID-B182E6B2-C192-49EF-A460-6AE139F1F6CD.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 02 The function of the ink level sensors?>02 The function of the ink level sensors</xref> 
+</p></note></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-5FD80AE8-25CD-48D0-A58E-331C6E9FF682.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Adjustment</linktext></link></linkpool></related-links>
+</task>

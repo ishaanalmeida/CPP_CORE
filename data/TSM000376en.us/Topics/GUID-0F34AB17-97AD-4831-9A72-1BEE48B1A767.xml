@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-0F34AB17-97AD-4831-9A72-1BEE48B1A767" version="3" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-0F34AB17-97AD-4831-9A72-1BEE48B1A767" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Increasing lines in 1 color</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-50B00AD6-0A38-41AB-B3CF-DCE2951AFA8A" class="- topic/section "><title class="- topic/title "/><table id="GUID-53E5F599-B620-44AD-919D-C7253ABD770C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Schematic overview 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Real example 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><fig id="GUID-CC98D505-2EB5-4D3B-A088-6C300CA47C7D" class="- topic/fig "><image href="GUID-FAA01455-8D94-4BEB-B84E-46D70AC73D52-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-FAA01455-8D94-4BEB-B84E-46D70AC73D52-low.png"/></fig></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-BC536C56-FC2F-4D8E-85BB-477A51AC3EE4" class="- topic/fig "><image href="GUID-6D11B9A5-502D-480A-A856-9765807D8838-low.png" placement="inline" class="- topic/image " otherprops="GUID-6D11B9A5-502D-480A-A856-9765807D8838-low.png"/></fig><fig id="GUID-61E38331-42BC-4E40-8904-4B4CF93D6C0F" class="- topic/fig "><image href="GUID-DA0F6D5A-3AD0-4A72-B95B-8047345DAB9D-low.png" placement="inline" class="- topic/image " otherprops="GUID-DA0F6D5A-3AD0-4A72-B95B-8047345DAB9D-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-EC1EAE23-40EC-4B10-A2C9-83873F76DC70" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Symptoms</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> White/lighter/deviating lines visible in carriage direction. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Only visible in 1 color and it’s mixed colors. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Increasing amount of lines during printing 
+</p></li><li class="- topic/li "><p class="- topic/p ">Rate of increasement of the lines increases with ink coverage on a print 
+</p></li><li class="- topic/li "><p class="- topic/p "> In some cases the time to return the printhead carriage after the swath increases. 
+</p></li><li class="- topic/li "><p class="- topic/p "> In extreme cases the print will be aborted by MRE 11526. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">ADAM-triggers</b>
+</p><p class="- topic/p ">No ADAM-triggers available
+</p></section><section id="GUID-93C707B3-B76C-47EF-A035-789C0C572FDC" class="- topic/section "><title class="- topic/title ">Analyze/Repair</title><fig id="GUID-421CE715-9E44-4749-88F4-90C79383F01F" class="- topic/fig "><image href="GUID-22819565-CE2B-474B-BB17-371A669EC9FB-low.png" placement="inline" class="- topic/image " otherprops="GUID-22819565-CE2B-474B-BB17-371A669EC9FB-svg.svg"/></fig></section><section id="GUID-E44A02E0-3ADB-4F48-8C99-2B9A86122E92" class="- topic/section "><title class="- topic/title ">Step explanation</title><table id="GUID-1BAD49EA-2171-4ACD-8774-0BFAC91E29FD" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.12*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="5.79*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="7.12*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the ink has expired
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if ICC is set correctly in the profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust ICC settings in profile
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Current software version greater than R4.4.0 ?
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Upgrade to R4.4.1
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Reset PH-calibrations and redo calibrations.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1) Execute SDS 4-6-025
+</p><p class="- topic/p ">2) Execute SDS 4-6-026
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform an inkflow test and check if the result indicates nozzle failures.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1) SDS 21-6-012 can be used as an indicator.
+</p><p class="- topic/p "> 2) Other option is to print a 100% coverage of one color of 1 meter on Speciality mode and check visually. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the BFU of the affected printhead
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-A0CE2B4B-139D-421F-9933-A4955E7DD62B.xml" class="- topic/xref " type="task"><?ditaot gentext?>04 How to remove the boiler unit</xref>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform a inkflow test and check if the result indicates nozzle failures.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1) SDS 21-6-012 can be used as an indicator.
+</p><p class="- topic/p ">2) Other option is to print a 100% coverage of one color of 1 meter on Speciality mode and check visually.
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">As printhead have been removed from matrix plate a “Carriage Y” calibration needs to be done
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1) Perform SDS 21-6-002
+</p><p class="- topic/p ">2) Select “Carriage Y”
+</p><p class="- topic/p ">3) Perform SDS 21-6-003
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the ink system
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-AE6E7FC4-ACE1-4B00-889B-5403AB94DE5C" class="- topic/xref "/>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the affected printheads
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" class="- topic/xref "/>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-7BD0EEF4-FF0F-45BB-9BBB-8879579E2D28" class="- topic/section "><title class="- topic/title ">Evaluate/Prevention</title><p class="- topic/p ">As the viscosity of ink increases after expiry date this can clog the internal filters inside the printhead and reduces the ink flow capacity of the printhead. 
+</p><p class="- topic/p ">Prevent expiry of the ink.
+</p></section><section id="GUID-DDCC1BB0-B402-4010-9156-67DB737F3DE5" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">
+</p><p class="- topic/p ">After a nozzle has jetted ink it needs to be refilled again. If refilling takes too long air will be sucked into the nozzle which will lead to a failing nozzle. The capability of refilling the nozzles is depends on the flowrate of ink inside the printhead. If the requested amount of ink is larger than the flowrate inside the printhead starvation will appear. When printing high ink load the chance of sucking air increases. 
+</p><p class="- topic/p ">Inside the printhead two filters are present to prevent pollution inside the nozzle. During the lifetime of the printhead these filters might get clogged due to amount of pollution in the ink (eg. Clogging of expired ink), therefor the maximum flowrate might decrease in time.
+</p><p class="- topic/p ">In most cases the failing nozzles will recover when the nozzle is not jetting anymore (eg. Stand by), therefor SDS-test 04-6-002 “Get nozzle status” will not show a lot of missing nozzles for the related printhead. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-BDE42A10-0DAA-46D3-99F7-D18695E3843E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Solutions</linktext></link></linkpool></related-links>
+</task>

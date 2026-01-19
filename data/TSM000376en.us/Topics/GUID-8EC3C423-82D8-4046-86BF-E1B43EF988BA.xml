@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-8EC3C423-82D8-4046-86BF-E1B43EF988BA" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-8EC3C423-82D8-4046-86BF-E1B43EF988BA" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">5903: Scanner test measurement failed </title><abstract class="- topic/abstract " id="GUID-3B8396B2-0D4E-43D6-8FCF-9ED52C96F256"><p class="- topic/p ">Measuring the patterns during the scanner self-test failed. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-75ED5B85-A349-4BF2-9823-0D8FBAF8E150" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Collect</b></title><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "><u class="+ topic/ph hi-d/u ">Patterns in calibration print 
+</u></b>
+</p><table id="GUID-A1718274-C252-4775-A3A3-2E00B9B6E12C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="4.94*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">All Colorado printers
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-B56C4E48-F455-4202-9DE3-1024F9C4EB6C" class="- topic/fig "><image href="GUID-BC812F89-8240-4F35-A62A-C3C66493C663-low.png" placement="inline" class="- topic/image " otherprops="GUID-BC812F89-8240-4F35-A62A-C3C66493C663-low.png"/></fig></entry></row></tbody></tgroup></table><p class="- topic/p "><b class="+ topic/ph hi-d/b "><u class="+ topic/ph hi-d/u ">Calibration step</u></b>
+</p><p class="- topic/p ">This warning is generated in the calibration step: “ScannerTest(MeasureOnly)” which is part of one the following calibration sequences.
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> SDS 05-6-017 ‘ScannerTest’
+</p></li><li class="- topic/li "><p class="- topic/p ">Carriage calibration via the UI 
+</p></li></ul></section><section id="GUID-35E5C412-9841-4B8B-A117-B0540B7E70C4" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Analyse/Repair</b></title><fig id="GUID-EED49F8F-C032-4F58-83E6-5899484B86D3" class="- topic/fig "><image href="GUID-9297D32A-399E-4674-972F-DD9567CC13CA-low.png" placement="inline" class="- topic/image " otherprops="GUID-9297D32A-399E-4674-972F-DD9567CC13CA-svg.svg"/></fig><table id="GUID-9C0FE4DE-3CBF-4B6E-8F7F-101E6A58DF92" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="2.27*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="13.71*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="10.58*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether clean media is used.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the media using IPA or cut the polluted part of the media.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the used media is white.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">This calibration can only be executed on white and smooth media.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the M&amp;C-scanner needs to be cleaned.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the glass-window of the M&amp;C-scanner using IPA.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Desicion
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the printed pattern look complete (no deviation droplets).
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">See example top of this page.
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Perform manual maintenance on the printheads.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check the M&amp;C-scanner.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-17F448B7-8A72-45B1-B56D-FC5C0BE28701.xml" class="- topic/xref " type="task"><?ditaot gentext?>05-6-017 M&amp;C scanner test [Special Tests]</xref>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the printhead.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" class="- topic/xref "/>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the M&amp;C-scanner.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-FEAE8DCA-C235-453F-AB84-89976B0A6B67" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">Maintain the M&amp;C-scanner as described in the Care&amp;Use-poster.
+</p></section><section id="GUID-45E72CCA-32F0-41FD-ACF2-4A4D42D55C79" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Background info</b></title><p class="- topic/p ">When the patterns of the test-chart for the self-test of the M&amp;C-scanner are not measured correctly this error is raised. 
+</p><p class="- topic/p ">In most case this is caused by a polluted scanner or patterns that are not printed correctly.
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-480B4E14-7AB9-4230-BBE2-97A999EC3E19.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-65801C08-0C00-4779-92DB-79F805618990" version="2" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-65801C08-0C00-4779-92DB-79F805618990" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">02 The function of the ink bottle</title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">The ink bottle is used to refill an ink tank. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="GUID-F5034822-753A-4C8B-A7CD-E44CE7EBD702" class="- topic/section "><title class="- topic/title ">Overview</title><table id="GUID-44CC9D37-524C-4240-A579-9C6FC3D85313" pgwide="1" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="20*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="80*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Function 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Ink bottle 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">An ink bottle contains 0.7 liter of ink. 
+</p><fig id="GUID-FD8D7B1E-9237-47CD-B246-98AB0C677696" class="- topic/fig "><image href="GUID-B51F9B0B-99DA-4719-A31F-CD6D79B808D0-low.png" placement="inline" class="- topic/image " otherprops="GUID-B51F9B0B-99DA-4719-A31F-CD6D79B808D0-low.png"/></fig><p class="- topic/p ">Each bottle is clearly marked for the different colors (C/M/Y/K/W). 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RFID tag 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Each bottle contains an RFID tag with the following information: 
+</p><ul id="UL_6E56F21E5E22469580B8276A4E2B8389" class="- topic/ul "><li id="LI_9C21117177554F46A4EE2263B6D0B143" class="- topic/li "><p class="- topic/p ">The color of the ink (C, M, Y, k or W) 
+</p></li><li id="LI_848C177D5FAE44F68721647ED879971D" class="- topic/li "><p class="- topic/p ">Expiration date. 
+</p><p class="- topic/p ">Production date + maximum time on the shelf + maximum time in the system. 
+</p><p class="- topic/p ">When the expiration date has expired the bottle will be rejected by the system. 
+</p></li><li id="LI_F370B016CBB14F9EAEE85FE2026A23AB" class="- topic/li "><p class="- topic/p "> and some additional production information. 
+</p><fig id="GUID-85F531E4-FF59-4A0E-8EBA-F6FFBD8F7599" class="- topic/fig "><image href="GUID-31E70D75-F9D3-42A2-A409-749CF8B5CD77-low.png" placement="inline" class="- topic/image " otherprops="GUID-31E70D75-F9D3-42A2-A409-749CF8B5CD77-low.png"/></fig></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RFID PBA 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">The RFID PBA is positioned behind the ink bottle and reads the RFID tag information from the ink bottle. 
+</p><p class="- topic/p ">To ensure proper reading of the RFID tags position the bottle correctly. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Bottle rejection 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Bottles will be rejected if : 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The color is not correct for this position. 
+</p></li><li class="- topic/li "><p class="- topic/p ">If the ink type is incorrect. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The expiration date of the ink bottle has passed. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The ink batch is blacklisted (if connected to ORS). 
+</p></li></ul><p class="- topic/p ">If the bottle is rejected the locking handle is not released and cannot be used. No ink refill can be started. The refill LED will flash when this happens. 
+</p><p class="- topic/p ">The operator panel will show why the bottle is rejected. 
+</p><p translate="yes" class="- topic/p ">When a used, refilled or 3<sup class="+ topic/ph hi-d/sup ">rd</sup> party ink has been detected, the printer goes into <ph translate="no" class="- topic/ph ">"safe mode"</ph>: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Nozzle Failure Compensation (NFC) is switched off 
+</p></li><li class="- topic/li "><p class="- topic/p ">Every 10 minutes a maintenance action: a decrease in productivity and more waste ink. 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Refill LED indication. 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> A LED, at the front side of the ink supply unit, above each of the 4 ink tanks, indicates if a new refill bottle can be inserted. 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p ">Electrical diagram refill mechanism 
+</p><p class="- topic/p ">See: 
+<xref keyref="02ELEC03" class="- topic/xref " href="GUID-77AE2988-5F7C-477B-A59A-621019B52EC5.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 02 Electrical diagram refill mechanism?>02 Electrical diagram refill mechanism</xref>
+</p><p class="- topic/p ">Additional information Refill LED indication and Green handle 
+</p><table id="GUID-1445E5EB-6A3D-4D5F-8458-32B5152D229A" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Refill LED indication 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Green handle up / Status 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Green handle down / Status 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">LED on 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">A new bottle can be placed. 
+</p><p class="- topic/p ">The handle is not blocked and can be moved downwards. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> A new bottle can be placed on the ink bottle interface. 
+</p><p class="- topic/p ">When an RFID is detected the led starts to blink fast. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">LED blinks fast 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Not applicable 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Handle cannot be moved. 
+</p><p class="- topic/p ">The RFID of the bottle is detected and checked. 
+</p><p class="- topic/p ">Wait until the LED stops blinking. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">LED blinks slowly 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Not applicable 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Handled is locked. 
+</p><p class="- topic/p ">Something is wrong. 
+</p><p class="- topic/p ">Do<b class="+ topic/ph hi-d/b "> not</b> move the green handle. 
+</p><p class="- topic/p ">Check on the operator panel for an explanation. (Ink-loading not yet possible, incorrect color, ink expired or RFID failure). 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">LED off 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">No new ink is allowed to load. 
+</p><p class="- topic/p ">Within 15 minutes after loading new ink the solenoid is blocked. The bottle is still draining. 
+</p><p class="- topic/p ">15 minutes after loading new ink the draining timeout is passed. The bottle can be removed. The solenoid is not blocking anymore. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">No new ink is allowed to load. 
+</p><p class="- topic/p ">When an ink bottle is placed it will start blinking. 
+</p></entry></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-FE35F538-1785-4DC7-A246-E1EB5ED33BE7.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 249.45 464.88">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st1, .st2, .st3, .st4, .st5 {
+        stroke: #000;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st1, .st3, .st4, .st5, .st6 {
+        stroke-width: .5px;
+      }
+
+      .st7 {
+        fill: #ffe0b2;
+      }
+
+      .st2 {
+        stroke-width: .25px;
+      }
+
+      .st2, .st3, .st6 {
+        fill: none;
+      }
+
+      .st8, .st9 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 6px;
+        font-weight: 700;
+      }
+
+      .st9 {
+        display: none;
+      }
+
+      .st4 {
+        fill: #bbdefb;
+      }
+
+      .st10 {
+        font-family: ArialMT, Arial;
+        font-size: 4px;
+      }
+
+      .st5 {
+        fill: #c8e6c9;
+      }
+
+      .st6 {
+        stroke: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <g id="Bckground">
+    <rect class="st0" width="249.73" height="464.88"/>
+  </g>
+  <g id="Frame">
+    <g>
+      <rect class="st6" x="5.78" y="5.67" width="237.89" height="453.54"/>
+      <rect class="st6" x="5.78" y="328.82" width="237.89" height="130.39"/>
+    </g>
+    <text class="st8" transform="translate(8.5 13.65)"><tspan x="0" y="0">Customer / Remote support</tspan></text>
+    <text class="st8" transform="translate(8.5 337.32)"><tspan x="0" y="0">Field engineer</tspan></text>
+    <text class="st9" transform="translate(8.5 212.08)"><tspan x="0" y="0">Service engineer</tspan></text>
+  </g>
+  <g id="Blocks">
+    <g>
+      <g>
+        <rect class="st7" x="65.2" y="28.35" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+        <rect class="st3" x="65.2" y="28.35" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+      </g>
+      <text class="st10" transform="translate(89.32 36.78)"><tspan x="0" y="0">Start</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="150.24" y="79.37" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(161.8 94.98)"><tspan x="0" y="0">Clean or cut media</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="150.24" y="147.4" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(163.35 163.01)"><tspan x="0" y="0">Use White media</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="150.24" y="215.43" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(160.58 231.04)"><tspan x="0" y="0">Clean M&amp;C-scanner</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M93.54,56.69l28.35,14.17-28.35,14.17-28.35-14.17,28.35-14.17Z"/>
+      <text class="st10" transform="translate(81.09 72.3)"><tspan x="0" y="0">Media clean ?</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M93.54,124.72l28.35,14.17-28.35,14.17-28.35-14.17,28.35-14.17Z"/>
+      <text class="st10" transform="translate(80.76 140.33)"><tspan x="0" y="0">White media ?</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M93.54,192.76l28.35,14.17-28.35,14.17-28.35-14.17,28.35-14.17Z"/>
+      <text class="st10" transform="translate(81.32 205.96)"><tspan x="0" y="0">M&amp;C-scanner </tspan><tspan x="5.78" y="4.8">clean ?</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="150.24" y="283.46" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(160.01 299.07)"><tspan x="0" y="0">Manual maintenance</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="65.2" y="345.83" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(75.09 361.43)"><tspan x="0" y="0">Check M&amp;C-scanner</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="150.24" y="345.83" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(162.35 361.43)"><tspan x="0" y="0">Replace printhead</tspan></text>
+    </g>
+    <g>
+      <rect class="st4" x="65.2" y="391.18" width="56.69" height="28.35"/>
+      <text class="st10" transform="translate(73.42 406.79)"><tspan x="0" y="0">Replace M&amp;C-scanner</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M93.54,260.79l28.35,14.17-28.35,14.17-28.35-14.17,28.35-14.17Z"/>
+      <text class="st10" transform="translate(79.42 273.99)"><tspan x="0" y="0">Printed patterns </tspan><tspan x="8" y="4.8">good ?</tspan></text>
+    </g>
+    <g>
+      <g>
+        <rect class="st7" x="65.2" y="436.54" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+        <rect class="st3" x="65.2" y="436.54" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+      </g>
+      <text class="st10" transform="translate(89.98 444.97)"><tspan x="0" y="0">End</tspan></text>
+    </g>
+  </g>
+  <g id="Lines">
+    <g>
+      <line class="st7" x1="93.54" y1="42.52" x2="93.54" y2="56.69"/>
+      <g>
+        <line class="st2" x1="93.54" y1="42.52" x2="93.54" y2="54.43"/>
+        <path d="M93.54,56.69c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <polyline class="st2" points="121.89 70.87 178.58 70.87 178.58 77.11"/>
+      <path d="M178.58,79.37c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M133.94,70.87c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+        <path class="st3" d="M133.94,70.87c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+      </g>
+      <text class="st10" transform="translate(126.42 72.36)"><tspan x="0" y="0">No</tspan></text>
+    </g>
+    <g>
+      <line class="st7" x1="93.54" y1="85.04" x2="93.54" y2="124.72"/>
+      <g>
+        <line class="st2" x1="93.54" y1="85.04" x2="93.54" y2="122.46"/>
+        <path d="M93.54,124.72c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M98.5,92.13c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+        <path class="st3" d="M98.5,92.13c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+      </g>
+      <text class="st10" transform="translate(90.1 93.62)"><tspan x="0" y="0">Yes</tspan></text>
+    </g>
+    <g>
+      <polyline class="st2" points="178.58 107.72 178.58 116.22 95.81 116.22"/>
+      <path d="M93.54,116.22c1.06-.4,2.39-1.07,3.21-1.78l-.65,1.78.65,1.78c-.82-.71-2.14-1.39-3.21-1.78Z"/>
+    </g>
+    <g>
+      <polyline class="st2" points="121.89 138.9 178.58 138.9 178.58 145.14"/>
+      <path d="M178.58,147.4c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M133.94,138.9c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+        <path class="st3" d="M133.94,138.9c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+      </g>
+      <text class="st10" transform="translate(126.42 140.39)"><tspan x="0" y="0">No</tspan></text>
+    </g>
+    <g>
+      <line class="st7" x1="93.54" y1="153.07" x2="93.54" y2="192.76"/>
+      <g>
+        <line class="st2" x1="93.54" y1="153.07" x2="93.54" y2="190.49"/>
+        <path d="M93.54,192.76c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M98.5,160.16c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+        <path class="st3" d="M98.5,160.16c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+      </g>
+      <text class="st10" transform="translate(90.1 161.65)"><tspan x="0" y="0">Yes</tspan></text>
+    </g>
+    <g>
+      <polyline class="st2" points="178.58 175.75 178.58 184.25 95.81 184.25"/>
+      <path d="M93.54,184.25c1.06-.4,2.39-1.07,3.21-1.78l-.65,1.78.65,1.78c-.82-.71-2.14-1.39-3.21-1.78Z"/>
+    </g>
+    <g>
+      <polyline class="st2" points="121.89 206.93 178.58 206.93 178.58 213.17"/>
+      <path d="M178.58,215.43c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M133.94,206.93c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+        <path class="st3" d="M133.94,206.93c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+      </g>
+      <text class="st10" transform="translate(126.42 208.42)"><tspan x="0" y="0">No</tspan></text>
+    </g>
+    <g>
+      <line class="st7" x1="93.54" y1="221.1" x2="93.54" y2="260.79"/>
+      <g>
+        <line class="st2" x1="93.54" y1="221.1" x2="93.54" y2="258.52"/>
+        <path d="M93.54,260.79c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M98.5,228.19c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+        <path class="st3" d="M98.5,228.19c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+      </g>
+      <text class="st10" transform="translate(90.1 229.68)"><tspan x="0" y="0">Yes</tspan></text>
+    </g>
+    <g>
+      <polyline class="st2" points="178.58 243.78 178.58 252.28 95.81 252.28"/>
+      <path d="M93.54,252.28c1.06-.4,2.39-1.07,3.21-1.78l-.65,1.78.65,1.78c-.82-.71-2.14-1.39-3.21-1.78Z"/>
+    </g>
+    <g>
+      <polyline class="st2" points="121.89 274.96 178.58 274.96 178.58 281.2"/>
+      <path d="M178.58,283.46c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M133.94,274.96c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+        <path class="st3" d="M133.94,274.96c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83h0c0-1.56,1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83h0Z"/>
+      </g>
+      <text class="st10" transform="translate(126.42 276.45)"><tspan x="0" y="0">No</tspan></text>
+    </g>
+    <g>
+      <line class="st7" x1="93.54" y1="289.13" x2="93.54" y2="345.83"/>
+      <g>
+        <line class="st2" x1="93.54" y1="289.13" x2="93.54" y2="343.56"/>
+        <path d="M93.54,345.83c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="st7" x1="178.58" y1="311.81" x2="178.58" y2="345.83"/>
+      <g>
+        <line class="st2" x1="178.58" y1="311.81" x2="178.58" y2="343.56"/>
+        <path d="M178.58,345.83c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="st7" x1="93.54" y1="374.17" x2="93.54" y2="391.18"/>
+      <g>
+        <line class="st2" x1="93.54" y1="374.17" x2="93.54" y2="388.92"/>
+        <path d="M93.54,391.18c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="st7" x1="93.54" y1="419.53" x2="93.54" y2="436.54"/>
+      <g>
+        <line class="st2" x1="93.54" y1="419.53" x2="93.54" y2="434.27"/>
+        <path d="M93.54,436.54c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="st0" d="M98.5,296.22c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+        <path class="st3" d="M98.5,296.22c0,1.56-1.28,2.83-2.83,2.83h-4.25c-1.56,0-2.83-1.28-2.83-2.83s1.28-2.83,2.83-2.83h4.25c1.56,0,2.83,1.28,2.83,2.83Z"/>
+      </g>
+      <text class="st10" transform="translate(90.1 297.71)"><tspan x="0" y="0">Yes</tspan></text>
+    </g>
+    <g>
+      <polyline class="st2" points="178.58 374.17 178.58 445.04 124.15 445.04"/>
+      <path d="M121.89,445.04c1.06-.4,2.39-1.07,3.21-1.78l-.65,1.78.65,1.78c-.82-.71-2.14-1.39-3.21-1.78Z"/>
+    </g>
+  </g>
+  <g id="Numbers">
+    <g>
+      <circle class="st1" cx="59.53" cy="70.87" r="5.67"/>
+      <text class="st8" transform="translate(57.86 72.88)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="59.53" cy="138.9" r="5.67"/>
+      <text class="st8" transform="translate(57.86 140.91)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="144.57" cy="93.54" r="5.67"/>
+      <text class="st8" transform="translate(142.9 95.55)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="144.57" cy="161.57" r="5.67"/>
+      <text class="st8" transform="translate(142.9 163.59)"><tspan x="0" y="0">4</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="144.57" cy="229.61" r="5.67"/>
+      <text class="st8" transform="translate(142.9 231.62)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="59.53" cy="206.93" r="5.67"/>
+      <text class="st8" transform="translate(57.86 208.94)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="144.57" cy="297.64" r="5.67"/>
+      <text class="st8" transform="translate(142.9 299.65)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="59.53" cy="360" r="5.67"/>
+      <text class="st8" transform="translate(57.86 362.01)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="144.57" cy="360" r="5.67"/>
+      <text class="st8" transform="translate(141.23 362.01)"><tspan x="0" y="0">10</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="59.53" cy="405.35" r="5.67"/>
+      <text class="st8" transform="translate(56.19 407.37)"><tspan x="0" y="0">11</tspan></text>
+    </g>
+    <g>
+      <circle class="st1" cx="59.53" cy="274.96" r="5.67"/>
+      <text class="st8" transform="translate(57.86 276.97)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+  </g>
+</svg>

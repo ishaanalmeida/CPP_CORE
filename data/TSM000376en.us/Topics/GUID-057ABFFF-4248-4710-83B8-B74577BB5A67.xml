@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-057ABFFF-4248-4710-83B8-B74577BB5A67" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-057ABFFF-4248-4710-83B8-B74577BB5A67" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title "> 5918: The medium is not smooth, white, or opaque enough </title><abstract class="- topic/abstract " id="GUID-910BE886-C430-433A-97D2-B8CB4957868F"><p class="- topic/p ">The media is not smooth, white, or opaque enough.
+</p><p class="- topic/p ">The measurement for checking whether the media is smooth, white, and opaque enough for calibrations has determined that the scan of the media does not meet the criteria.
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-C65B4430-1C7B-43EE-A2D0-314C1C1A8B16" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p ">
+</p><p class="- topic/p "><u class="+ topic/ph hi-d/u ">Calibration step</u>
+</p><p class="- topic/p ">This warning is the calibration step: “MediumSmoothWhiteOpaqueCheck” which is part of one the following calibration sequences
+</p><p class="- topic/p ">- Media calibrations
+</p><p class="- topic/p ">- Printhead calibration
+</p><p class="- topic/p ">- Carriage calibration
+</p><p class="- topic/p "><u class="+ topic/ph hi-d/u ">Patterns in calibration print</u>
+</p><table id="GUID-5B9A34D0-16A3-4880-BDF9-77057B63179A" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1640/C1650
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">No patterns are printed
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "> C1630/CMxx
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">No patterns are printed
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-F5C71D37-E98E-4F78-ABE6-8BDE72123D78" class="- topic/section "><title class="- topic/title ">Analyse/Repair</title><p class="- topic/p ">
+</p><fig id="GUID-4F0281F3-CC3C-42BC-879B-2F970E671601" class="- topic/fig "><title class="- topic/title ">Analyse/Repair</title><image href="GUID-EC2E84B2-7D77-4F54-A398-DE850AE6F408-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EC2E84B2-7D77-4F54-A398-DE850AE6F408-svg.svg"/></fig><table id="GUID-7CD073D4-83BC-4FF4-AF1C-37ECF57F6F74" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.26*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="4.35*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="2.21*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the correct media thickness is set in the RIP
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust the media-thickness in the RIP
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the media is flat on the platen (print surface) : No bulging.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust vacuum setting in the RIP
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the used media is white, smooth and opaque.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> This calibration can only be executed on white, smooth and opaque media.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the M&amp;C-scanner needs to be cleaned
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the glass-window of the M&amp;C-scanner using IPA.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Calibrate the M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-D650BDBB-4674-4B96-BD64-98FDD9BAF4CB.xml" class="- topic/xref " type="task"><?ditaot gentext?>21-6-002 Select required printer calibrations [Special Tests]</xref>
+</p><p class="- topic/p ">: Select M&amp;C scanner
+</p><p class="- topic/p "><xref href="GUID-B828E436-A124-4809-981E-2DBE1E09A388.xml" class="- topic/xref " type="task"><?ditaot gentext?>21-6-003 Execute selected printer calibrations [Special Tests]</xref>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-5A4A1795-EA20-4AA5-B083-5CA1EE83DA0E" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">In most cases this calibration fails due to polluted or incorrect media. 
+</p><p class="- topic/p ">The contrast of the media in respect to the printed markers should be large enough. 
+</p><p class="- topic/p ">Secondly maintaining the printer by doing regular cleaning will also minimises the change of failing calibrations.
+</p></section><section id="GUID-D1265FBE-6AF5-43D9-BC1D-1107B1302EA1" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Background info</b> </title><p class="- topic/p ">The media (used for calibrations) is checked whether its suitable for the calibrations. 
+</p><p class="- topic/p ">For instance, when "AutodisableNozzles" (Part of the nozzle optimalisation) is performed on structured media the results will be very bad, and many nozzles will be flagged as non-jetting.
+</p><p class="- topic/p ">As not all customers are aware of this requirement this calibration-step is present for all calibrations which can be started from the UI.
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-480B4E14-7AB9-4230-BBE2-97A999EC3E19.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

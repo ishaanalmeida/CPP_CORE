@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-7D1AA9F8-C042-4F34-A6C0-89D7688B29C4" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-7D1AA9F8-C042-4F34-A6C0-89D7688B29C4" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">White/light lines in 1 primary color and its mixed colors</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-50B00AD6-0A38-41AB-B3CF-DCE2951AFA8A" class="- topic/section "><title class="- topic/title "/><table id="GUID-53E5F599-B620-44AD-919D-C7253ABD770C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Schematic overview 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Real example 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><fig id="GUID-B5B7EF67-49C1-4FAA-888D-BCDC2B61FB72" class="- topic/fig "><image href="GUID-DF4EA74D-6BB7-47CF-9CD9-818A7B2021E9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-DF4EA74D-6BB7-47CF-9CD9-818A7B2021E9-low.png"/></fig></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-F4BE4B82-EF7B-47FF-A15D-D8CD5CB6622D" class="- topic/fig "><image href="GUID-CE1473DD-4097-4522-AA89-A35459107DA7-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-CE1473DD-4097-4522-AA89-A35459107DA7-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-EC1EAE23-40EC-4B10-A2C9-83873F76DC70" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Symptoms</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Sharp white/lighter lines visible in the carriage direction. 
+</p></li><li class="- topic/li "><p class="- topic/p "> One or multiple lines per media step/swath. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Only visible in 1 primary color and its mixed colors. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Visibility of lines decreases with slower print modes. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Appearance can be very similar to “<xref keyref="PQ_24" class="- topic/xref " href="GUID-AF87EEBC-46C6-48A6-BEEA-0CCAFF5B836B.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text Light/dark lines every swath after 1 meter after leading edge?>Light/dark lines every swath after 1 meter after leading edge</xref>” 
+</p></li></ul></section><section id="GUID-5EB4F635-D44B-4FA2-9A5A-B13A2E388E6B" class="- topic/section "><title class="- topic/title ">Function Logging (if available)</title><p class="- topic/p "> 
+</p><p class="- topic/p "><i class="+ topic/ph hi-d/i ">Printhead score</i> 
+</p><p class="- topic/p ">In case a printhead has a low “printhead score” this 
+<b class="+ topic/ph hi-d/b ">might</b> result in white/lighter lines in the print. 
+</p><p class="- topic/p ">This chart should be used as comparison only. 
+</p><p class="- topic/p ">This score can be used to determine the printhead which is causing the lines (in the example below Magenta printheads are the least performing). 
+</p><fig id="GUID-142B424D-0DC8-4C27-988B-71C0484E2B02" class="- topic/fig "><image href="GUID-B5E7E500-78FF-4CE2-96C8-C03D9615ABF4-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B5E7E500-78FF-4CE2-96C8-C03D9615ABF4-low.png"/></fig><p class="- topic/p "> 
+</p><p class="- topic/p "> 
+<i class="+ topic/ph hi-d/i "> Nozzle performance</i> 
+</p><p class="- topic/p "> In case the printhead performance of a specific print (ECID) needs to be verified the "Nozzle performance" charts can be used. 
+</p><p class="- topic/p ">In the example below it can be seen all printheads show some deviations. 
+</p><p class="- topic/p ">A large amount of deviations 
+<b class="+ topic/ph hi-d/b "> 
+<u class="+ topic/ph hi-d/u ">might</u> 
+</b> cause lighter/white lines , however there is no 1:1 correlation. 
+</p><p class="- topic/p ">This chart should be used as comparison only! 
+</p><p class="- topic/p "> When looking at the black printheads K5 seems to have more failing nozzles than K4. It's more likely K5 is the cause of lighter lines than K4. 
+</p><fig id="GUID-7CDC5842-EBBA-4C38-84BA-A04C8DE0F939" class="- topic/fig "><image href="GUID-09C9C67E-CA4C-4A95-A84A-321763EB1AD9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-09C9C67E-CA4C-4A95-A84A-321763EB1AD9-low.png"/></fig></section><section id="GUID-BDB65D1A-E4EB-4367-A9E1-E237E4A2DA84" class="- topic/section "><title class="- topic/title ">ADAM-triggers</title><p class="- topic/p ">In case 
+<b class="+ topic/ph hi-d/b ">04-T-001</b> is given in ADAM this might be the rootcause for this printquality artefact. 
+</p><p class="- topic/p ">Replace the printhead mentioned in this ADAM-trigger. 
+</p></section><section id="GUID-DDCC1BB0-B402-4010-9156-67DB737F3DE5" class="- topic/section "><title class="- topic/title ">Analyze/Repair</title><fig id="GUID-E6D2A206-1D2A-4F47-BD46-B58A0D3B4414" class="- topic/fig "><image href="GUID-6F33A53A-D753-4958-AB69-22DB0C497A7F-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-6F33A53A-D753-4958-AB69-22DB0C497A7F-svg.svg"/></fig></section><section id="GUID-BB9BDDD1-E29C-42C5-BF10-2854E3AE4223" class="- topic/section "><title class="- topic/title ">Steps explanation</title><table pgwide="1" id="GUID-D963269B-E108-446A-A212-4581FEAA8740" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">To do 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if manual maintenance is done within the required time frame. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute manual maintenance 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">See video : 
+<xref href="http://localhost:20346/VIDEO10004EN.US/video05/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Clean the Matrix Plate</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if nozzle optimization is done recently. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Perform nozzle optimization 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">See video : 
+<xref href="http://localhost:20346/VIDEO10004EN.US/video02/index.htmlGUID-48DD6500-2402-467E-9990-D3B2E3961B69" scope="external" format="html" class="- topic/xref "><?ditaot usertext?>Automatic Nozzle Optimization</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the print is made in a print mode that guarantees good print quality (Speciality mode) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Select higher quality print mode 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute SDS 21-6-005 and compare it to the specifications 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="PQ_installation" class="- topic/xref " href="GUID-9CDB8B72-647C-4A37-ABE2-4624004C3FE2.xml" format="dita" locktitle="yes" type="reference"><?ditaot usertext?><?xm-replace_text Print quality specifications (installation)?>Print quality specifications (installation)</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Print quality is within specifications. No reason to proceed. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute SDS 4-6-002 to determine failing printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">In case FLOG-data is available also “Nozzle performance” can be used. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the ink has expired 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the ink system 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><xref keyref="02DISA032" class="- topic/xref " href="GUID-75297796-EAE5-4576-B6C4-EF2403C660F8.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 How to remove the ink from the ink tank?>02 How to remove the ink from the ink tank</xref> 
+</p></li><li class="- topic/li "><p class="- topic/p "><xref keyref="SDS02-6-001" class="- topic/xref " href="GUID-AB12A141-328E-4CED-9904-40E53DC5D78D.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02-6-001 Fill ink tube(s) [Special Tests]?>02-6-001 Fill ink tube(s) [Special Tests]</xref> 
+</p></li></ol></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the affected printheads 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="04DISA002" class="- topic/xref " href="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: Overview document?>04 How to replace a (failing) printhead: Overview document</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether 04-T-001 is present in ADAM 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute SDS 07-6-009 to verify the performance of the cleaning unit 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute SDS 4-6-002 to determine failing printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">In case FLOG-data is available also “Nozzle performance” can be used. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">In case of a failing printhead in C1640, this might be recoverable by using Cleaner D. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Apply cleaner D to affected printheads. 
+</p><note type="important" id="GUID-46CEDE33-5C6A-4EC4-A090-48A885588702" class="- topic/note "><p class="- topic/p "> NEVER do this on the Colorado M-series!
+</p></note></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="04TOOLS002" scope="local" format="dita" class="- topic/xref "><?ditaot usertext?><?xm-replace_text xref?></xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute SDS 21-5-012 to verify the ink flow through the printheads 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">In case FLOG-data is available also “Nozzle performance” can be used. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace BFU 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="04DISA001" class="- topic/xref " href="GUID-A0CE2B4B-139D-421F-9933-A4955E7DD62B.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to remove the boiler unit?>04 How to remove the boiler unit</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Escalate this case to Venlo 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-2513E5DF-C282-453D-9841-6E539DB0EB51" class="- topic/section "><title class="- topic/title ">Evaluate/Prevention</title><p class="- topic/p ">The lifetime of a printhead decreases if maintenance isn’t done frequently. 
+</p><p class="- topic/p ">Regular maintenance (see care &amp; use poster) keeps the nozzles in shape. 
+</p><p class="- topic/p ">As Media with a high content of fibers (eg. Textile) can release these fibers additional attention is required for regular maintenance (see examples below). 
+</p><fig id="GUID-A32C5002-124C-44DF-9578-D0DCA94340D3" class="- topic/fig "><image href="GUID-C0756506-C0F3-4347-8FB9-94E53F5D6889-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-C0756506-C0F3-4347-8FB9-94E53F5D6889-low.png"/></fig><fig id="GUID-DDB1E586-9E1C-4E5B-86D9-E0D05F06A7A8" class="- topic/fig "><image href="GUID-93CD7A14-991F-4A06-A537-6B39A60D96F0-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-93CD7A14-991F-4A06-A537-6B39A60D96F0-low.png"/></fig><p class="- topic/p ">If a printheads failed due to a loose nozzleplate (C1640/C1650) in most cases this is caused by 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Bad maintenance : Nozzleplate broken during cleaning of the matrix-plate using the swap-sticks. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Media crash : Wrong media-profile (media thickness/ Vacuum settings) or pollution of the platen. 
+</p></li></ul><p class="- topic/p ">An C1630 printhead does not contain a nozzleplate, but can also be damaged during manual maintenance. 
+</p></section><section id="GUID-987F83F9-80F0-41BC-B82B-BB16DA268203" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">Thin white lines appear when NFC (NozzleFailureCompensation) is not able to correct failing nozzles of a printhead. 
+</p><p class="- topic/p ">NFC uses two sources of information to determine the need of compensation: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Data from the latest Nozzle-optimalisation : During nozzle optimalisation each nozzle is activated and the position of each droplet is determined by the M&amp;C-scanner. If a droplet cannot be found (non-jetting nozzles) or the position of the droplet is not where it supposed to be (Misdirected nozzles) the nozzle is marked as “Avoid” or “DoNotUse”. This information is used until the next nozzle optimalisation is performed. 
+</p><note id="GUID-7E24C7E5-37FA-4628-B701-B87CAD64E905" class="- topic/note "><p class="- topic/p ">If manual maintenance is performed to decrease the amount of misdirected nozzles and nozzle optimalisation is not performed the effect of maintenance might not be visible. 
+</p></note></li><li class="- topic/li "><p class="- topic/p "> Dynamic performance data of the nozzles via Paint : The condition of each nozzle is monitored after each swath. If a disturbance is detected the particular nozzle will also be marked by NFC. As the status is checked after each swath a failure during the last swath will be compensated in the next swath. This might lead to a single white line which starts somewhere during a swath and will only be visible in that particular swath. This flag is removed after each print. As nozzles might regenerate during printing these nozzles will be reused again. If they however fail again this might lead to another white line in the print. 
+</p></li></ol><p class="- topic/p ">More information can be found at : 
+<xref keyref="04-func-nozzle-failure" class="- topic/xref " href="GUID-B4CAA874-AEF6-4292-ACF9-46930A729737.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 04 The process of the Nozzle Failure detection, Nozzle Failure Compensation and PAINt?>04 The process of the Nozzle Failure detection, Nozzle Failure Compensation and PAINt</xref> 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-BDE42A10-0DAA-46D3-99F7-D18695E3843E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Solutions</linktext></link></linkpool></related-links>
+</task>

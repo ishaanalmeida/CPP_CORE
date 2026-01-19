@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-60FD69F5-5ED0-4F83-A3CE-BB3799EB5C73" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-60FD69F5-5ED0-4F83-A3CE-BB3799EB5C73" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> 
+<b translate="no" class="+ topic/ph hi-d/b "> 490024: Too many failing nozzles during PAINT recalibration</b> </title><abstract class="- topic/abstract " id="GUID-F19FDAAB-4DB0-4414-AD5D-D37FFFB17A78"><p class="- topic/p ">Too many nozzles failed on the mentioned printhead to be able to calculate the correct paint characteristics during re-calibration. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">No actions are required unless the print quality is out of specification</b>. 
+</p></abstract><taskbody class="- topic/body task/taskbody "><section id="GUID-BE36AE82-9DEA-4782-AD56-FE2EEE04C944" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Collect</b> </title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Calibration step</u> 
+</p><p class="- topic/p ">This warning is generated during the calibration step: "PrintheadPAINtReference" which is part of the printhead calibration sequence. 
+</p><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Patterns in calibration print</u> 
+</p><table id="GUID-3657D50A-D481-4549-A439-A8BF985DE5A4" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="5.71*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1640/C1650/ 
+</p><p class="- topic/p "> C1630/CMxx 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-EC63974B-0B80-45A5-9C87-FFB4D3EF0FF7" class="- topic/fig "><image href="GUID-73444CFA-1DC3-45A4-9C1C-5EE26F6E6B6E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-73444CFA-1DC3-45A4-9C1C-5EE26F6E6B6E-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-518D6284-A201-45C9-8387-3D1C52D3EA6F" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Analyse/Repair</b> </title><fig id="GUID-001262E7-D290-4718-B455-40DCEA953E56" class="- topic/fig "><image href="GUID-341FC785-8758-4F82-B85A-E3415AB5B81A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-341FC785-8758-4F82-B85A-E3415AB5B81A-svg.svg"/></fig><table id="GUID-4201D084-76CE-4834-8034-A367472D6F52" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Repeat the calibration procedure 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform an automatic maintenance 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Purse printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Execute SDS 07-6-002 using "Filling pulse" 3 times 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check air hoses and manifolds for possible blockades which causes failing PH-vacuum 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Presence of 250012 "Unexpected ink drop" might indicate on blockade. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>04 How to replace a (failing) printhead: Overview document</xref> 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-A90C856E-07DF-4611-BED3-972CE02FB288" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">Before executing any printhead-calibration make sure the installation procedure has performed correctly. 
+</p></section><section id="GUID-E71F62A5-08D3-421C-B6EC-757013753104" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Background info</b> </title><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p ">To be able to determine the correct PAINT reference values a minimum number of nozzles needs to be operational. 
+</p><p class="- topic/p ">In case this calibration fails the data from a previous successful calibration is used or even the production data from this printhead. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">In most cases this calibration is executed when a new printhead is placed into the printer. 
+</p><p class="- topic/p ">In case the filling of this new printhead was unsuccessful air might still be present in the printhead. 
+</p><p class="- topic/p ">The main goal of the mentioned procedure is to get possible air out of the printhead. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-F2864082-F34C-4657-B37E-EA7C5343FE90.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-4B26B629-4BEA-4BEE-8EBF-0318DF5EE2F6" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-4B26B629-4BEA-4BEE-8EBF-0318DF5EE2F6" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">How to install a used printer</title><abstract class="- topic/abstract " id="M148553-B105"><p class="- topic/p ">This document gives an overview of the installation procedure of a used printer. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-7559EFDE-78AF-4C15-810F-3DC4AF34D8C6" class="- topic/section "><title class="- topic/title ">Unpack the printer</title><table id="TABLE_9811772F203F410B9A68CF17D0402387" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Preparations: 
+</p><ul id="UL_7052E04749824CE7BA53508C98ED8848" class="- topic/ul "><li id="LI_E29CBEA033A84375A318E5516687D748" class="- topic/li "><p class="- topic/p "><xref keyref="ENGINST04" class="- topic/xref " href="GUID-B1F7465C-0101-41F9-943E-640812B84974.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Dimension and weight of the crate</xref> 
+</p></li><li id="LI_6A623F5BB60D458CB0367027286F0F7B" class="- topic/li "><p class="- topic/p "><xref keyref="Printerdimension001" class="- topic/xref " href="GUID-01BC8361-BFAB-4CFF-B6F3-063EE47E4FE6.xml" format="dita" locktitle="yes" type="reference"><?ditaot usertext?><?xm-replace_text xref?>Printer dimensions</xref> 
+</p></li><li id="LI_731A7E7E66B64EB29D33AB90D390EF2B" class="- topic/li "><p class="- topic/p "><xref keyref="SpecFloorSpace" class="- topic/xref " href="GUID-C80191EB-B171-45F7-AB3D-CFDA08574B59.xml" format="dita" locktitle="yes" type="reference"><?ditaot usertext?><?xm-replace_text xref?>Floor space requirements</xref> 
+</p></li></ul></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Unpack the printer. 
+</p><p class="- topic/p ">See 
+<xref keyref="ENGINST02" class="- topic/xref " href="GUID-EC9DCDAE-FC80-4BF9-8B65-2612AF54E279.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to unpack the printer</xref>. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Place the printer 
+<b class="+ topic/ph hi-d/b ">and</b> all other parts delivered with the system on the final location. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-C93DA330-2E35-4984-AF8E-D4C2F62BE7F7" class="- topic/section "><title class="- topic/title ">Finalize the printer</title><table id="M148553-TB97" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the transport locking from the printer. 
+</p><p class="- topic/p ">See 
+<xref keyref="ENGINST03" class="- topic/xref " href="GUID-2C891C9E-77F8-4CF4-B85D-F15BEE655BDF.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Remove the transport locking material from the printer</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Install the filters or external exhaust: 
+</p><p class="- topic/p ">Do 
+<xref keyref="24Install001" class="- topic/xref " href="GUID-AC604C6C-F75C-49CE-802D-16B819549D30.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>24 How to install the Frame filters</xref> 
+</p><p class="- topic/p ">or 
+</p><p class="- topic/p ">Do 
+<xref keyref="24Install002" class="- topic/xref " href="GUID-C6929516-4D3F-4BCB-8B58-4E45EA2322B9.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>24 How to install the exhaust</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Level the printer. 
+</p><p class="- topic/p ">See 
+<xref keyref="ENGADJU01" class="- topic/xref " href="GUID-2BFE3033-C726-47A1-9A09-044CAA7F04FE.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>00 How to level the printer</xref>. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check winder unit is still in correct position after transport no play in the halve moon is allowed. (left and right side)
+</p><p class="- topic/p ">The picture shows a wrong position.
+</p><p class="- topic/p ">In case of a wrong position, loosen the screws, the winder will re-position itself and tighten te screws again
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-4A303EB2-475B-4BEB-89F1-9BDCDBC6884D" class="- topic/fig "><image href="GUID-C5216E0B-3029-4B0C-A10F-28D31A6EC001-low.png" placement="inline" class="- topic/image " otherprops="GUID-C5216E0B-3029-4B0C-A10F-28D31A6EC001-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Adjust the winder. 
+</p><p class="- topic/p ">See 
+<xref keyref="19ADJU002" class="- topic/xref " href="GUID-D7027CEA-D5AB-4EDB-A8A6-C62E98486F84.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>19 How to adjust the winder with respect to the printer</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Install the user panel. 
+</p><p class="- topic/p ">See 
+<xref keyref="ENGGENINSTUSERPANEL001" class="- topic/xref " href="GUID-66DA01A7-3214-4E75-8AD4-489533703FF8.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Install the operator panel</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the interlock switches: 
+</p><p class="- topic/p ">Do 
+<xref keyref="24ADJU003" class="- topic/xref " href="GUID-D21117EB-3577-4323-8C37-CD7715B9EC83.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>24 How to adjust the top cover door switches (24S1 and 24S5)</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><note type="important" id="GUID-C73879E6-B1D8-4483-807F-757C6870C37A" class="- topic/note "><p class="- topic/p ">If you skip this step it might lead soon to a service call. 
+</p></note></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the 4 nuts (Open ended spanner 17 mm). 
+</p><p class="- topic/p ">Keep the nuts with the other transport locking. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-9BA61EF7-1D0F-435F-9B06-7EF61E8610AD" class="- topic/fig "><image href="GUID-D6B60B73-DC9C-468C-91B7-6B8AEBEDBCA9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-D6B60B73-DC9C-468C-91B7-6B8AEBEDBCA9-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Fill the chiller with cooling liquid. 
+</p><p class="- topic/p ">See 
+<xref keyref="fillchillercooling" class="- topic/xref " href="GUID-D3650796-0743-4A38-A09E-D30FA69E8314.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>06 how to fill the V2 chiller with cooling liquid</xref>. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Install the 3 feet in the stand. 
+</p><p class="- topic/p ">Place the stand underneath the chiller. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Lift the chiller with the stand. 
+</p><p class="- topic/p ">See 
+<xref scope="local" format="dita" keyref="06DISA010" class="- topic/xref "><?ditaot usertext?><?xm-replace_text xref?></xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Install the 4 used printheads. 
+</p><p class="- topic/p ">Check carefully the used positions. 
+</p><p class="- topic/p ">See 
+<xref keyref="04INST001" class="- topic/xref " href="GUID-2388CE18-EA64-412B-9157-B31DB3FD34CE.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>04 How to install the printheads</xref>. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the power switch in the OFF position. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place the bag with 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">the 4 caps of the ink tubes 
+</p></li><li class="- topic/li "><p class="- topic/p ">the 4 caps of the air tubes 
+</p></li><li class="- topic/li "><p class="- topic/p ">the 2 protection caps of the glass fiber cable 
+</p></li></ul><p class="- topic/p ">in the service box. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-9F967AFB-DCBA-4CA3-8EE0-85329B6589D4" class="- topic/fig "><image href="GUID-7EFB7BFE-4EEA-4508-A478-672C0B99D441-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7EFB7BFE-4EEA-4508-A478-672C0B99D441-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place the service box below the media drawer. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-FE06BE80-0968-41DA-85DF-4FAB9891C297" class="- topic/fig "><image href="GUID-0C1EBCFB-E073-4F82-A1F4-20CCD09F0400-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-0C1EBCFB-E073-4F82-A1F4-20CCD09F0400-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Mount the cover of the knife compartment. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the lower cover. 
+</p><p class="- topic/p ">Connect the 2 mains cables. 
+</p><note type="caution" id="GUID-53F4ECBA-6AB4-414E-9D89-6A47AD99D5EE" class="- topic/note "><p class="- topic/p ">Use protective gloves if you guide the cables underneath the printer. 
+</p></note></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-44841893-4822-47B0-A285-5AFB63C462B2" class="- topic/fig "><image href="GUID-906EBCDC-0B3F-4AAD-8F27-E9371BBBA381-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-906EBCDC-0B3F-4AAD-8F27-E9371BBBA381-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place the 2 rollers on the winder. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-6234F2CA-58E5-4C72-B4FB-73301F8F769A" class="- topic/fig "><image href="GUID-EF3737E3-8421-40A0-AA85-69F763911131-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EF3737E3-8421-40A0-AA85-69F763911131-low.png"/></fig><fig id="GUID-0B4462ED-57C9-4614-AEED-C2A3F50DBC34" class="- topic/fig "><image href="GUID-B0EBDBA8-80DD-4A17-9232-FE3AFB291B48-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-B0EBDBA8-80DD-4A17-9232-FE3AFB291B48-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-234D70A5-41EC-40E2-9E43-4217D346F540" class="- topic/section "><title class="- topic/title ">Fill ink in the used system</title><table id="GUID-BDB87D50-9E70-4086-AC9E-FA7970C76B0D" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check all tube connectors in the pump / Reservoir unit to prevent air in the tubes. 
+</p><note type="caution" id="GUID-08AF00C8-009C-489F-B962-10850E24E7E8" class="- topic/note "><p class="- topic/p ">Close all covers. 
+</p></note></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Switch ON the system. 
+</p><p class="- topic/p ">Start-up the printer in cold SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Go to Warm SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Do SDS test 
+<xref keyref="SDS02-6-004" class="- topic/xref " href="GUID-5A6A8E82-2BDB-4C92-BCB6-017CAE3FAF10.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>02-6-004 Estimated ink level / Mark ink jar as empty (C, M, Y, K or W) [Special Tests]</xref>. Mark the ink jars as empty. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">When the green refill LEDs turn on: place the new well shaken ink bottles. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Wait at least 60 seconds after placement of the last ink bottle. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The RFID tag of the bottle needs to be successfully written. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Go to Cold SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the top cover. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Slide the printhead carriage to the middle of the platen (print surface). 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place a sheet of media on the platen. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Place a maintenance tray on the sheet. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Close the 8 valves of the printheads. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Disconnect the ink tube from printhead. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Guide 
+<b class="+ topic/ph hi-d/b ">only 1</b> ink tube into the maintenance tray. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Lock the tube to the maintenance tray with a clip/tape. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Open the valve of the tubs after you mounted it. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><fig id="GUID-BD2EB3CE-E413-4C39-80F5-CD2457F8C3EA" class="- topic/fig "><image href="GUID-1BE61C74-E5E1-4927-9260-FB5959D1D8CE-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-1BE61C74-E5E1-4927-9260-FB5959D1D8CE-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Do SDS test 
+<xref keyref="SDS02-6-001" class="- topic/xref " href="GUID-AB12A141-328E-4CED-9904-40E53DC5D78D.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>02-6-001 Fill ink tube(s) [Special Tests]</xref>. 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Select "Pump &amp; color + number" and 400 seconds (Time to flush the complete volume of the ink tube). 
+</p><p class="- topic/p ">Fill the ink tubes one by one. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Check the ink flow: After the air bubbles (due to air in the ink tube) disappeared the ink must have a constant flow for 30 seconds from the ink tube. 
+</p></li><li class="- topic/li "><p class="- topic/p ">When there is still air left in the ink tube, you can extend the 400 seconds by pressing continue in the SDS test. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Result: tube is air free if the ink flow has a heartbeat rhythm from the pump. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Result : tube is air free if the ink flow has a heartbeat rhythm from the pump. 
+</p><p class="- topic/p ">In case still air is in the ink tube: squeeze the ink pump together to improve the functionality of the pump or check/lock the ink tube couplings. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Close the valve of the ink tube. (Reason: prevent air pocket in tube). 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect the ink tube to the printhead. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Continue with the next ink tube (at step 13) until all 4 tubes are done. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the all valves of ink tube. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the maintenance tray from the sheet. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remove the sheet from the platen. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Go to Service User mode. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">23 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the maintenance station / wiper and clean wall. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the matrix plate. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the waste tray and reset the counter via the wizard in the user interface. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">26 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Leave Service User mode 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">27 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Leave SDS. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">28 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">In case of 25xxxx errors please execute test 04-6-020 Mark printhead(s) as empty. 
+</p><p class="- topic/p ">See 
+<xref keyref="SDS04-6-020" class="- topic/xref " href="GUID-76FA0F98-276D-43D0-B9BF-6ABC38D906A7.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>04-6-020 Mark printhead(s) as empty [Special Tests]</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-E203C7C6-36F6-46B1-872C-44BEEF2F4623" class="- topic/section "><title class="- topic/title ">Set configuration filters (optional)</title><table id="GUID-CC9457B8-C190-4002-8192-C7110AF8958F" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Optional: only with external exhaust. 
+</p><p class="- topic/p ">Insert the SAM key and start SDS 
+</p><p class="- topic/p ">Set the filters or external exhaust configuration: 
+</p><p class="- topic/p ">Do 
+<xref keyref="SDS24-1-001" class="- topic/xref " href="GUID-FF412B50-9595-4D6D-95B7-9B8DAC9763DF.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>24-1-001 Type of air filtering [Parameters]</xref>. Set the correct configuration (Default: Filters available). 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-BEEB7888-22D3-4D55-AEE6-FAB34C4E2978" class="- topic/section "><title class="- topic/title ">Manual maintenance action</title><table pgwide="1" id="GUID-E8ACC464-1639-4530-A558-42FF6F9089A5" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Manual maintenance: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Start manual maintenance on the operator panel. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Perform the listed actions: 
+</p><p class="- topic/p ">Clean the maintenance station, wiper and clean wall. 
+</p><p class="- topic/p ">Clean the matrix plate and black protection cover. 
+</p><p class="- topic/p ">Clean the platen. 
+</p></li><li class="- topic/li "><p class="- topic/p "> The printer performs a purge and wipe to clean the nozzles. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do not:</b> Print a nozzle classification chart to automatically optimize the 
+</p><p class="- topic/p ">nozzles. 
+</p></li></ol></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-4D2BC8DB-4C8B-4192-98C5-981E6A5A8CEA" class="- topic/section "><title class="- topic/title ">Do the calibrations</title><table pgwide="1" id="GUID-65480284-6377-44DA-B21D-CB8A2D979F54" class="- topic/table "><tgroup align="left" outputclass="step" cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Measure the media thickness of the installation media by means of a caliper. 
+</p><p class="- topic/p ">See 
+<xref keyref="12adju002" class="- topic/xref " href="GUID-E9976EFB-9920-4523-8E63-376189B17D02.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>12 How to measure the media thickness</xref>. 
+</p><p class="- topic/p ">Examples: MPI2000 = 265 µm, IJM613 = 145 µm. 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Use SDS test: 25-1-004 Vinyl, 2501-005 Film or 25-1-006 Paper and fill in the measured media thickness.</b> 
+</p></li><li class="- topic/li "><p class="- topic/p ">Load installation media (e.g. MPI2000 or IJM613) on roll position 1. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Select in the UI one of the media profiles that begin with ‘Service tests’: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Service tests – Vinyl (e.g. for MPI2000) or 
+</p></li><li class="- topic/li "><p class="- topic/p ">Service tests – Paper (e.g. for IJM613) or 
+</p></li><li class="- topic/li "><p class="- topic/p ">Service tests – Film. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Type the correct media width. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Start SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS 21-6-002 ‘Select required printer calibrations’ and select: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Media transport calibration 
+</p></li><li class="- topic/li "><p class="- topic/p ">M&amp;C scanner calibration 
+</p></li><li class="- topic/li "><p class="- topic/p ">Carriage Y calibration. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Printhead nozzle optimization 
+</p><note id="GUID-849D6B7F-6549-449D-A109-90B0B1DE36FE" class="- topic/note "><p class="- topic/p ">Note: This test will set/reset some parameters for the next SDS tests. 
+</p></note></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Select: Wind the output = No</b> 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Execute SDS 04-6-026 ‘Execute printhead calibrations’ 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Select Roll1. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">If no error / warning occurred during calibration, proceed. Otherwise continue to solve the error. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS 21-6-003 ‘Execute selected printer calibrations’ 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Select Roll 1 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p "> If no error / warning occurred during calibration, proceed. Otherwise continue to solve the error. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Exit SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Do the Media calibration from the UI. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Do the Automatic maintenance and select the Automatic nozzle optimization. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Start SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS 21-6-004 ‘PQT in High Quality mode (4_pass)’ 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Select Roll 1 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Judge the Print Quality (PQ) according to the TSM. 
+</p><note id="GUID-F89B95CC-48BB-48C2-A531-E7445BE967FD" class="- topic/note "><p class="- topic/p ">In case of Print Quality / Calibration issues: Check SDS test 04-6-002 
+</p></note></li><li class="- topic/li "><p class="- topic/p "> Exit SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remove the installation media from the printer. 
+</p></li></ol></entry></row></tbody></tgroup></table></section><section id="GUID-32316D2E-F997-43A7-A324-113F6E43526F" class="- topic/section "><title class="- topic/title ">Quality check</title><table id="TABLE_D76062377F624F5595271FD1C2524FBD" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the winding, cutting and print quality of the system. 
+</p><p class="- topic/p ">See 
+<xref keyref="PQ_installation" class="- topic/xref " href="GUID-9CDB8B72-647C-4A37-ABE2-4624004C3FE2.xml" format="dita" locktitle="yes" type="reference"><?ditaot usertext?><?xm-replace_text xref?>Print quality specifications (installation)</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-275FF3F0-45F6-4E49-8EFA-940132676599" class="- topic/section "><title class="- topic/title ">Finalize Printer</title><table pgwide="1" id="GUID-2F8CFD75-9D87-4E22-86BE-96AF8A0FD2A6" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Install the lower cover. 
+</p><p class="- topic/p ">See 
+<xref keyref="GENINSTCOVERS002" class="- topic/xref " href="GUID-96F9FF64-25D2-4811-93E7-BF1426ED831E.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Install the media output lower cover</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Mount all covers on the printer. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-5F62FF3C-B2C6-436C-90C7-0D1D6AEBCB15" class="- topic/section "><title class="- topic/title ">RIP</title><table id="TABLE_2D33F156AE1749229350233964232A5C" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect to the RIP. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Onyx</b>: 
+</p><ul id="UL_80A00B677F164B6B896AC3673E4D1D4C" class="- topic/ul "><li id="LI_133613DF68D24945B61EC5D84D969BEB" class="- topic/li "><p class="- topic/p ">Do 
+<xref keyref="Onyx_install_001" class="- topic/xref " href="GUID-A0CF4E06-375D-4F8F-9407-FAC17310F5FF.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to install the Colorado printer driver in ONYX</xref> 
+</p></li></ul></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Print from RIP. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Onyx</b>: 
+</p><p class="- topic/p ">Do 
+<xref keyref="Onyx_install_004" class="- topic/xref " href="GUID-2FB6105E-9D58-4917-9A1A-C36A83AE8A79.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Print the ONYX test print</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-736B225C-5CEB-475A-AC18-45F135E6E0AA" class="- topic/section "><title class="- topic/title ">Settings editor and Operation guide </title><table id="GUID-72C04720-9B90-473B-9589-7004B09C1C86" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Ask the customer to create a shortcut to the Settings editor on a customers PC. 
+</p><p class="- topic/p "> Access the Settings editor via any web browser, by typing in the printer's: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">IP address 
+</p><p class="- topic/p ">or 
+</p></li><li class="- topic/li "><p class="- topic/p "> Hostname 
+</p></li></ul><p class="- topic/p ">Use the link to create a shortcut on the desktop. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Install the Operation guide. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-40872B37-9A4C-4795-A6CE-F747365DB86F" class="- topic/section "><title class="- topic/title ">Remote Service (ORS)</title><table id="TABLE_8AFD9221C388443DAD4E8E3BD68B77D4" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Set-up Remote Service. 
+</p><p class="- topic/p ">See 
+<xref keyref="ORSSETUP001" class="- topic/xref " href="GUID-07BC7664-5AAE-4C27-A331-C2F6D4AB2349.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to set up On Remote Service (ORS)</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-543DF028-1ABD-4ABF-98DD-B144C8DF5882" class="- topic/section "><title class="- topic/title ">HTML TSM</title><table id="TABLE_920DBE9262C0485B8A080650DE541812" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Set-up the TSM with a USB key or ORS. 
+</p><p class="- topic/p ">See 
+<xref keyref="HTMLRobin004" class="- topic/xref " href="GUID-9F86EFE8-588D-4B84-A174-4CA4038D6670.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Install the HTML TSM from a USB key</xref> 
+</p><p class="- topic/p ">See 
+<xref keyref="HTMLORS001" class="- topic/xref " href="GUID-2627AC38-117B-44C1-AD22-59CB29A2B34F.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Install the embedded HTML TSM</xref> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Optional: Standard HTML TSM is already installed. 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-9AB526BF-1A30-43F6-A3F6-D19930A88464" class="- topic/section "><title class="- topic/title ">Customer instruction</title><table id="M148553-TB102" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Carry out the Quick Start instruction. 
+</p><p class="- topic/p ">See 
+<xref keyref="1.0.0.Quickstart" class="- topic/xref " href="GUID-A55DBC84-C502-45E0-B779-DC9D1AC3901F.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Quick Start instruction</xref>. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><note id="GUID-FFA04B15-0B4D-4033-B676-713245B7A026" class="- topic/note "><p class="- topic/p ">For Germany only: Hand over the hard copy of the safety manual. 
+</p></note></entry></row></tbody></tgroup></table></section><section id="GUID-3E1A93FC-943A-4446-8284-4D2FBF822869" class="- topic/section "><title class="- topic/title ">Finalize</title><table id="TABLE_BACC0E62E5FD451DA24A70BB6F845040" pgwide="1" class="- topic/table "><tgroup align="left" outputclass="step" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Create and Save the installation visit in ADAM. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Store the transport packing material, blisters, foam blocks and the media of calibration at the customers place. 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7D3F358C-1AB9-4A5D-9B0E-C75D689F152E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Installation</linktext></link></linkpool></related-links>
+</task>

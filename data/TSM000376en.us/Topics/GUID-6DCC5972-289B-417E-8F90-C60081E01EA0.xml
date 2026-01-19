@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-6DCC5972-289B-417E-8F90-C60081E01EA0" version="4" lang="en-US"?><tsTroubleshooting xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-6DCC5972-289B-417E-8F90-C60081E01EA0" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic tsTroubleshooting)                            (topic hi-d)    (topic sdlVariables-c)                             (topic ut-d)                             (topic indexing-d)                            (topic sw-d)                            (topic ui-d)                            (topic oce-d)                            (topic oceCommonElements-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c tsTroubleshooting oceTroubleshooting-c)   " class="- topic/topic tsTroubleshooting/tsTroubleshooting "><title translate="no" class="- topic/title ">250001 Ink delivery to printhead failed</title><abstract class="- topic/abstract " id="GUID-B87BF88B-91B2-4C27-A55C-91B9B6986C8A"><p class="- topic/p "> Ink delivery to printhead failed (PH1, PH3, PH4, PH5, PH6). 
+</p><p class="- topic/p ">After starting the ink supply, it is expected to be stopped within a given time. When this doesn't occur this error is reported. 
+</p><p class="- topic/p ">This error can have to 2 different root causes. 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">The ink was not transported to the printhead in time 
+</p></li><li class="- topic/li "><p class="- topic/p ">The level sensor in the printhead didn’t detect the received ink. 
+</p></li></ol><p class="- topic/p "> The flowchart below can be used to minimize the MTTR and reduce the change of a second visit. 
+</p><fig class="- topic/fig " id="GUID-E6ACBFE2-B06A-42E1-9F98-D004BC924E73"><title class="- topic/title "/><image class="- topic/image " href="GUID-CE33D010-398B-40C7-AB2B-8E98AA53FC96-low.png" keyref="" placement="inline" otherprops="GUID-CE33D010-398B-40C7-AB2B-8E98AA53FC96-svg.svg"/></fig><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Decision 1) : New installation</b> 
+</p><p class="- topic/p "> Did the error occur during the installation of a new printhead ( Z-0402 ) or new ink tube ( Z-0502 )? 
+</p><note class="- topic/note " id="GUID-0C486A15-46FC-4085-9D5A-6858298BA622"><p class="- topic/p ">In some rare cases it's known the ink valve of a printhead might be blocked (even if the valve is opened). 
+</p><p class="- topic/p ">In those cases please replace the valve by a new one (1070078229) or by removing the blockade by pushing a Torx-screwdriver through the valve. 
+</p><p class="- topic/p ">Don't replace the printhead. 
+</p></note><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Action 1) : Mark as empty</b> 
+</p><p class="- topic/p "> Mark printheads as empty and restart filling. 
+</p><p class="- topic/p "> See 
+<xref class="- topic/xref " keyref="SDS04-6-020" href="GUID-76FA0F98-276D-43D0-B9BF-6ABC38D906A7.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04-6-020 Mark printhead(s) as empty [Special Tests]?>04-6-020 Mark printhead(s) as empty [Special Tests]</xref> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 2) : Closed valves</b> 
+</p><p class="- topic/p "> Check if the ink valves or air clamps on the printheads are closed. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 2) : Open valves</b> 
+</p><p class="- topic/p "> Open valves on carriage. 
+</p><p class="- topic/p "> Open clamps on air hose, rub the air hose to make sure the hose is open. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 3) : Warning 290020</b> 
+</p><p class="- topic/p "> Has warning 290020 appeared sometime before error 250001? 
+</p><p class="- topic/p ">Filter polluted with ink: mark the head as empty, replace the ink tube. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 3): Clean ink system</b> 
+</p><p class="- topic/p "> The ink in the printer is expired, this might result is clogged or viscous ink. 
+</p><p class="- topic/p "> Clean ink system 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 4) : Warning 290005</b> 
+</p><p class="- topic/p "> Has warning 290005 appeared sometime before error 250001? 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 4): Replace pump tubes</b> 
+</p><p class="- topic/p "> Check replace pump tubes 
+</p><table class="- topic/table " id="GUID-43F20D88-E5F8-4BB2-AF94-C06758BED1E9" pgwide="1"><tgroup align="left" class="- topic/tgroup " cols="6" outputclass="suspect"><colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="15*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="25*"/><colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="15*"/><colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="20*"/><colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="10*"/><colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="15*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">Index 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Description 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p ">Test 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Action 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p ">Info 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p ">Diagram 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "><ph class="- topic/ph " varid="SPP-Z-0203-1070127994">
+          <xref class="- topic/xref " format="html" href="PRTV2-SPP-0203-1070127994.xml" scope="external" type="extpl"><?ditaot usertext?>Z-0203</xref>
+        </ph>-0064 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p "> Pump tube 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p "> 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Check / replace 
+</p><p class="- topic/p "><xref class="- topic/xref " keyref="02DISA026" href="GUID-17BE5A1E-1F83-432B-A7C3-6E2D5D312EEC.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 How to remove the pump tube of the ink pump?>02 How to remove the pump tube of the ink pump</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p "><xref class="- topic/xref " keyref="mapprintheads" href="GUID-67370C7B-66D6-4187-925F-34D9A20977DB.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text Mapping pumps to printheads?>Mapping pumps to printheads</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="02ELEC01" href="GUID-75F92436-156E-4A46-B4B2-21D436EB31B2.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 02 Electrical diagram ink delivery?>02 Electrical diagram ink delivery</xref> 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Decision 5) : Bad pump tube</b> 
+</p><p class="- topic/p "> Check the pump tube on wear out. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 5): Replace pump tubes</b> 
+</p><p class="- topic/p "> Check replace pump tubes 
+</p><table class="- topic/table " id="GUID-CE11FDA8-9376-4BFD-A56E-A6DD5357F75C" pgwide="1"><tgroup align="left" class="- topic/tgroup " cols="6" outputclass="suspect"><colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="15*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="25*"/><colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="15*"/><colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="20*"/><colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="10*"/><colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="15*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">Index 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Description 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p ">Test 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Action 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p ">Info 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p ">Diagram 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "><ph class="- topic/ph " varid="SPP-Z-0203-1070127994">
+          <xref class="- topic/xref " format="html" href="PRTV2-SPP-0203-1070127994.xml" scope="external" type="extpl"><?ditaot usertext?>Z-0203</xref>
+        </ph>-0064 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p "> Pump tube 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p "> 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Check / replace 
+</p><p class="- topic/p "><xref class="- topic/xref " keyref="02DISA026" href="GUID-17BE5A1E-1F83-432B-A7C3-6E2D5D312EEC.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 How to remove the pump tube of the ink pump?>02 How to remove the pump tube of the ink pump</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p "><xref class="- topic/xref " keyref="mapprintheads" href="GUID-67370C7B-66D6-4187-925F-34D9A20977DB.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text Mapping pumps to printheads?>Mapping pumps to printheads</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="02ELEC01" href="GUID-75F92436-156E-4A46-B4B2-21D436EB31B2.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 02 Electrical diagram ink delivery?>02 Electrical diagram ink delivery</xref> 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Decision 6) : Heartbeat</b> 
+</p><p class="- topic/p "> Disconnect the ink tube from printheads 
+</p><p class="- topic/p "> (See<xref class="- topic/xref " keyref="02ADJU004" href="GUID-0A9015C3-DC1C-417D-8B80-D6AE9F8C4B83.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 The (expired) ink replacement procedure including flushing tubes?>02 The ink replacement procedure</xref> , Chapter 3. Refill the system with new ink : Step 7 - 27 (end)) 
+</p><p class="- topic/p "> Is there a heartbeat after this procedure ? 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 7) : Electrical issue</b> 
+</p><p class="- topic/p "> Check/ re-seat the electrical wiring and connectors of the ink pump(s). 
+</p><p class="- topic/p "> Action 7): Solve electrical issue 
+</p><table class="- topic/table " id="GUID-89EBFA90-15AF-44B8-AE94-AC6467FED4D0" pgwide="1"><tgroup align="left" class="- topic/tgroup " cols="6" outputclass="suspect"><colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="15*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="25*"/><colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="15*"/><colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="20*"/><colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="10*"/><colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="15*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">Index 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Description 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p ">Test 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Action 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p ">Info 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p ">Diagram 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "><ph class="- topic/ph " varid="SPP-Z-0202-1070127992">
+          <xref class="- topic/xref " format="html" href="PRTV2-SPP-0202-1070127992.xml" scope="external" type="extpl"><?ditaot usertext?>Z-0202</xref>
+        </ph>-0075 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p "> <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Ink supply PBA</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 02PBA01 </compcodenr></comp> 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p "> 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Check / replace 
+</p><p class="- topic/p "><xref class="- topic/xref " keyref="02DISA006" href="GUID-7C24EF4F-47B6-4682-A8B0-E557A0237DC0.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 How to remove the Ink supply PBA 02PBA01?>02 How to remove the Ink supply PBA ( 02PBA01 ;)</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p "><xref class="- topic/xref " keyref="mapprintheads" href="GUID-67370C7B-66D6-4187-925F-34D9A20977DB.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text Mapping pumps to printheads?>Mapping pumps to printheads</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="02ELEC01" href="GUID-75F92436-156E-4A46-B4B2-21D436EB31B2.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 02 Electrical diagram ink delivery?>02 Electrical diagram ink delivery</xref> 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 8) : Leakage</b> 
+</p><p class="- topic/p "> Are there any traces of leaked ink inside the machine? (example: Valves, not connected tubes, ruptured tubes) 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 8): Repair leakage</b> 
+</p><p class="- topic/p "> Replace leaking valves 
+</p><p class="- topic/p "> Reconnect tube 
+</p><p class="- topic/p "> Replace ruptured tubes 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 9) : Clogged ink tube</b> 
+</p><p class="- topic/p "> Disconnect the ink tube from printheads 
+</p><p class="- topic/p "> (See<xref class="- topic/xref " keyref="02ADJU004" href="GUID-0A9015C3-DC1C-417D-8B80-D6AE9F8C4B83.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 The (expired) ink replacement procedure including flushing tubes?>02 The ink replacement procedure</xref> , Chapter 3. Refill the system with new ink : Step 7 - 14) 
+</p><p class="- topic/p "> Disconnect the pump tube from the ink tube. 
+</p><p class="- topic/p "> Use a syringe to pull ink through the ink tubes. 
+</p><p class="- topic/p "> If ink is flowing freely through the ink tube, reconnect tubes and fill ink tubes 
+</p><p class="- topic/p "> (See<xref class="- topic/xref " keyref="02ADJU004" href="GUID-0A9015C3-DC1C-417D-8B80-D6AE9F8C4B83.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 The (expired) ink replacement procedure including flushing tubes?>02 The ink replacement procedure</xref> , Chapter 3. Refill the system with new ink : Step 15 - 27) 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 9A): Replace ink tube</b> 
+</p><table class="- topic/table " id="GUID-4FD9816A-81C5-40F9-8A9E-7725D7770CFE" pgwide="1"><tgroup align="left" class="- topic/tgroup " cols="6" outputclass="suspect"><colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="15*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="25*"/><colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="15*"/><colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="20*"/><colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="10*"/><colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="15*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">Index 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Description 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p ">Test 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Action 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p ">Info 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p ">Diagram 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "><ph class="- topic/ph " varid="SPP-Z-0402-1070128164">
+          <xref class="- topic/xref " format="html" href="PRTV2-SPP-0402-1070128164.xml" scope="external" type="extpl"><?ditaot usertext?>Z-0402</xref>
+        </ph>-002
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Boiler unit of the printhead 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p "> 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Check / replace 
+</p><p class="- topic/p "><xref class="- topic/xref " keyref="04DISA001" href="GUID-A0CE2B4B-139D-421F-9933-A4955E7DD62B.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>04 How to remove the boiler unit</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="04COMP01" href="GUID-DF50154C-9672-4767-A789-CF04D38BD803.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>04 The components of the printhead</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="04ELEC01" href="GUID-A78436AA-F839-4445-B996-2874CF9AAD16.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>04 Electrical diagram printheads</xref> 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 9B): Contact LFG-CS</b> 
+</p><p class="- topic/p "> Check if heartbeat is present (See decision 6). 
+</p><p class="- topic/p "> If still no heartbeat, escalate to LFG-CS 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 10) : O-ring type</b> 
+</p><p class="- topic/p ">Not applicable for this system. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 10): Replace printhead</b> 
+</p><table class="- topic/table " id="GUID-836C68AC-7C84-47D5-B6CF-7D429D0C7B53" pgwide="1"><tgroup align="left" class="- topic/tgroup " cols="6" outputclass="suspect"><colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="15*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="25*"/><colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="15*"/><colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="20*"/><colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="10*"/><colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="15*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">Index 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Description 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p ">Test 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Action 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p ">Info 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p ">Diagram 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "><ph class="- topic/ph " varid="SPP-Z-0402-1070128164">
+          <xref class="- topic/xref " format="html" href="PRTV2-SPP-0402-1070128164.xml" scope="external" type="extpl"><?ditaot usertext?>Z-0402</xref>
+        </ph>- 001 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Printhead (PHD) 1 ... 6. 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p "> 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Check / replace 
+</p><p class="- topic/p "><xref class="- topic/xref " keyref="04DISA002" href="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>04 How to replace a (failing) printhead: Overview document</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="04COMP01" href="GUID-DF50154C-9672-4767-A789-CF04D38BD803.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>04 The components of the printhead</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="04ELEC01" href="GUID-A78436AA-F839-4445-B996-2874CF9AAD16.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>04 Electrical diagram printheads</xref> 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Decision 11) : Air filter clogged</b> 
+</p><p class="- topic/p "> Check if air filter of printhead contains ink. If the tube is completely filled with ink the air filter will be colored (see example below) 
+</p><fig class="- topic/fig " id="GUID-38B34359-7DF9-47AD-B198-B99ED43AAC77"><title class="- topic/title "/><image class="- topic/image " href="GUID-A4F46D0B-DB2D-4205-91EE-728E9F927DD1-low.png" keyref="" placement="inline" otherprops="GUID-A4F46D0B-DB2D-4205-91EE-728E9F927DD1-low.png"/></fig><p class="- topic/p ">In some cases the tube is not completely filled with ink and the air tube needs to be inspected at the bottom of the printhead (near the ink reservoir). This can be done by gently sliding the sleeve a few centimeters upward (see below). This way the transparent air tube will be visible. If this is colored there is ink inside the air tube. 
+</p><p class="- topic/p ">Check the condition of the tubes at the backside of the polluted airfilter 
+</p><note class="- topic/note " id="GUID-251770FC-87D9-413C-A281-9F28CDEC5329"><p class="- topic/p ">If Ink passed the inkfilter into the manifold, no pressure can be given because the manifolds are blocked with ink. 
+</p><p class="- topic/p ">There will be no air leakage. also the observation is that the closed ink just flows through the printheads instead of being kept into the heads. 
+</p></note><fig class="- topic/fig " id="GUID-0DECD449-647C-4FA2-A985-B8DEF9AF98E1"><title class="- topic/title "/><image class="- topic/image " href="GUID-94613DEE-6C6F-4645-9E36-E76D2A0250B5-low.png" keyref="" placement="inline" otherprops="GUID-94613DEE-6C6F-4645-9E36-E76D2A0250B5-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 11A) : Replace air hose</b> 
+</p><p class="- topic/p "> See 
+<xref class="- topic/xref " keyref="04DISAAIRHOSE001" href="GUID-5A857576-AEE8-4F06-9521-73897D6BB258.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to remove the air hose?>04 How to remove the air hose</xref> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 11B) : Replace Boiler unit</b> 
+</p><p class="- topic/p "> See 
+<xref class="- topic/xref " keyref="04DISA001" href="GUID-A0CE2B4B-139D-421F-9933-A4955E7DD62B.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to remove the boiler unit?>04 How to remove the boiler unit</xref>. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Decision 12) : Out of other options</b> 
+</p><p class="- topic/p ">Check if ink is coming out of recirculation circuit, if yes replace VALVE-TUBE-ASSY 
+<xref class="- topic/xref " format="dita" href="GUID-C7CD297B-5F83-4EE0-85D2-E388D7CF879B.xml" scope="local" type="task"><?ditaot gentext?>02 How to remove the white ink 3-way valve</xref> 
+</p><p class="- topic/p ">If all previous actions did not solve the error and the error occurs on the white printhead, please check the 02Y5 (YMS_CAR_RECIRC_VA). 
+</p><p class="- topic/p ">You can do this by performing SDS 02-6-010 White Ink Recirculation (Special Test). 
+</p><p class="- topic/p ">If this did not solve the error, replace printhead.
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Action 12): Remove printhead</b> 
+</p><table class="- topic/table " id="GUID-5C269BB4-2B14-45C3-A16A-BCC3D56C5817" pgwide="1"><tgroup align="left" class="- topic/tgroup " cols="6" outputclass="suspect"><colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="15*"/><colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="25*"/><colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="15*"/><colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="20*"/><colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="10*"/><colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="15*"/><thead class="- topic/thead " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p ">Index 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Description 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p ">Test 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Action 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p ">Info 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p ">Diagram 
+</p></entry></row></thead><tbody class="- topic/tbody " valign="top"><row class="- topic/row "><entry align="left" class="- topic/entry " colname="col1" valign="top"><p class="- topic/p "><ph class="- topic/ph " varid="SPP-Z-0402-1070128164">
+          <xref class="- topic/xref " format="html" href="PRTV2-SPP-0402-1070128164.xml" scope="external" type="extpl"><?ditaot usertext?>Z-0402</xref>
+        </ph>- 001 
+</p></entry><entry align="left" class="- topic/entry " colname="col2" valign="top"><p class="- topic/p ">Printhead (PHD) 1 ... 6. 
+</p></entry><entry align="left" class="- topic/entry " colname="col3" valign="top"><p class="- topic/p "> 
+</p></entry><entry align="left" class="- topic/entry " colname="col4" valign="top"><p class="- topic/p ">Check / replace 
+</p><p class="- topic/p "><xref class="- topic/xref " keyref="04DISA002" href="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>04 How to replace a (failing) printhead: Overview document</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col5" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="04COMP01" href="GUID-DF50154C-9672-4767-A789-CF04D38BD803.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>04 The components of the printhead</xref> 
+</p></entry><entry align="left" class="- topic/entry " colname="col6" valign="top"><p class="- topic/p "> 
+<xref class="- topic/xref " keyref="04ELEC01" href="GUID-A78436AA-F839-4445-B996-2874CF9AAD16.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>04 Electrical diagram printheads</xref> 
+</p></entry></row></tbody></tgroup></table></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-6156A0C9-4E7C-4C9A-B779-DCE93CB0A1DC.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</tsTroubleshooting>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-518EA931-C2DA-426A-9740-7FDC6A037521" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-518EA931-C2DA-426A-9740-7FDC6A037521" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> 5933: Scanner X-resolution failed</b></title><abstract class="- topic/abstract " id="GUID-6DB37F40-442D-4EAC-AC5D-86EEE70549C5"><p class="- topic/p ">This warning can only be reported during tests within R&amp;D and are not relevant for a technician. However, when this warning is raised the normal diagnostics flow can be followed. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-2B7D367F-0C6A-483D-A8F2-C42B33A49F99" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Patterns in calibration print</u> 
+</p><table id="GUID-BB34A5F6-2313-47F4-B2A8-2C0287F479D9" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="5.69*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CMxx 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-77652E8A-5135-4A83-9105-059FA6F5C069" class="- topic/fig "><image href="GUID-66A96C44-027F-43F5-A0A1-0446124B070F-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-66A96C44-027F-43F5-A0A1-0446124B070F-low.png"/></fig></entry></row></tbody></tgroup></table><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Calibration step</u> 
+</p><p class="- topic/p ">This warning is generated during the calibration step “ScannerXResolution” which is part of one the following calibration sequences in the CMxx: 
+</p><p class="- topic/p ">- Printhead calibration via the UI 
+</p><p class="- topic/p ">- Carriage calibration via the UI 
+</p><p class="- topic/p "> - Calibrations during installation 
+</p><p class="- topic/p ">- Nozzle optimalisation after maintenance 
+</p><p class="- topic/p ">- SDS 21-6-004: Measure print characteristics [Special Tests] 
+</p></section><section id="GUID-EC534601-B044-49C8-BC94-BCA7667C2C65" class="- topic/section "><title class="- topic/title ">Analyse/Repair</title><fig id="GUID-8604D435-2A43-48F3-AC1A-89D1BC203DE8" class="- topic/fig "><title class="- topic/title "/><image href="GUID-04C2DF67-4C4E-4A7A-8F2C-25A791B591B7-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-04C2DF67-4C4E-4A7A-8F2C-25A791B591B7-svg.svg"/></fig></section><section id="GUID-B86D93EF-7D9E-44B6-829F-F3FC4C278489" class="- topic/section "><title class="- topic/title "/><p class="- topic/p "><?xm-replace_text Prevent product damage (Start with a simple command (Do not ..) and describe the possible risk).?>
+</p></section><section id="GUID-2D40871D-6C80-445E-AFC3-DE45A41B2508" class="- topic/section "><title class="- topic/title "/><table id="GUID-79701E8E-1B75-430E-AADB-2169B5933D21" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether clean media is used 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the media using IPA or cut the polluted part of the media 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the media using IPA or cut the polluted part of the media 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> This calibration can only be executed on white and smooth media. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the M&amp;C-scanner needs to be cleaned 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the glass-window of the M&amp;C-scanner using IPA. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Decision Check whether the printed pattern look complete (no deviation droplets) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> See example top of this page 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform manual maintenance on the printheads. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check the M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-17F448B7-8A72-45B1-B56D-FC5C0BE28701.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05-6-017 M&amp;C scanner test [Special Tests]</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>04 How to replace a (failing) printhead: Overview document</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref> 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-CEA96587-5F1F-406E-991D-C5EB54FD37E2" class="- topic/section "><title class="- topic/title ">Evaluate/Prevention</title><p class="- topic/p ">- 
+</p></section><section id="GUID-97AAB0BB-4032-4559-86AB-E9140F21924E" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">This warning can only be reported during tests within R&amp;D and are not relevant for a technician. 
+</p></section><example id="GUID-F9A15F62-2D5F-47B7-91F0-BAA961BFA6D6" class="- topic/example "><p class="- topic/p "> 
+</p></example></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-480B4E14-7AB9-4230-BBE2-97A999EC3E19.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

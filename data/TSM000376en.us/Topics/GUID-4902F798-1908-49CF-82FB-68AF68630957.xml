@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-4902F798-1908-49CF-82FB-68AF68630957" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-4902F798-1908-49CF-82FB-68AF68630957" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">04-6-026 Execute printhead calibrations [Special Tests]</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">SDS</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-2BD8C3DB-27B0-44E5-B999-CF486EF1CE0D" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">SDS</ph></title><p class="- topic/p "> 
+<object id="GUID-138FAE2F-3715-44E6-9B80-8EF16339C5AC" class="- topic/object "><desc class="- topic/desc "><p class="- topic/p ">Execute printhead calibrations </p></desc><param name="testid" value="046026" class="- topic/param "/><param name="target" value="NIL" class="- topic/param "/><param name="axmodule" value="None" class="- topic/param "/></object> 
+</p></section><section id="GUID-7C4C8E3F-E27D-4F77-B60B-F15F00FFD2A9" class="- topic/section "><title class="- topic/title "/><fig id="GUID-666EE3E6-8105-4A99-8CC2-F00B672AF6F5" class="- topic/fig "><image href="GUID-38C97EAA-19CC-4E20-8908-AC8CB5174426-low.png" placement="inline" class="- topic/image " otherprops="GUID-38C97EAA-19CC-4E20-8908-AC8CB5174426-low.png"/></fig></section><section id="GUID-1156E15C-FA11-42F7-80CE-F9823F371FA9" class="- topic/section "><title class="- topic/title ">Function</title><p class="- topic/p ">Execute Printhead calibrations. 
+</p><note id="GUID-78534504-D880-4B44-A6B2-F8F1C9949191" class="- topic/note "><p class="- topic/p ">On the operator panel tap on the [Output]  icon. Make sure [Wind the output]  is set to [No]. 
+</p></note><p class="- topic/p ">The media thickness is shown in the screen. 
+</p><note id="GUID-3583E9CC-4CC0-4CB1-8321-775A9E739E15" class="- topic/note "><p class="- topic/p ">When using the Service tests media profiles this value might differ from the set value in SDS 25-1-00x once a media calibration via the UI has been performed. 
+</p></note><p class="- topic/p ">Double check that SDS 25-1-00x reflects the media thickness of the media in case of doubts. Despite the different value in the SDS screen, the calibration will use the correct media thickness. 
+</p></section><section id="GUID-8B850BDF-E4F3-4353-8EA8-26E9EC89A7EC" class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">This special test is a shorter version of the printhead calibrations that can be started from the printer operator panel. 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Start SDS test. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Select the roll to use. 
+</p><p class="- topic/p ">You need a white, smooth, opaque media of at least 50 inch (1270 mm) wide for this test. Otherwise the test will not start! 
+</p></li><li class="- topic/li "><p class="- topic/p ">Check the media thickness and press Continue. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The Calibration starts. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The test should end successfully. 
+</p></li></ol><note id="GUID-0DF3B87E-5062-4CA1-A0FC-F0FAB10C1360" class="- topic/note "><p class="- topic/p ">In case calibrations fail due to a not replaced printhead that still is good enough this test can be done with that printhead disabled with SDS test 04-6-012 (first start in Zero SDS) 
+</p></note><p class="- topic/p ">After the calibration, go to the Error history screen and check if one or more of the following warnings occurred during the printhead calibration: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 490010 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490014 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490015 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490016 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490017 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490018 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490019 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490020 
+</p></li></ul><p class="- topic/p ">Only check for warnings on NEW installed PHs. (Possible warnings on older PHs can be ignored). 
+</p><p class="- topic/p ">If warning(s) occurred on new PHs, repeat the printhead calibration. 
+</p><p class="- topic/p ">If after a retry still warnings occur, execute 3x SDS 07-6-002 with a “Powerful pressure pulse”. 
+</p><p class="- topic/p ">Repeat the printhead calibration. 
+</p><note id="GUID-FCCA96D7-BED4-4E1B-9380-24903D053729" class="- topic/note "><p class="- topic/p ">The Y-calibrations are necessary after this special test. 
+</p></note></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-686678F1-A321-4B08-84D3-63C9CD28C7FA.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>SDS</linktext></link></linkpool></related-links>
+</task>

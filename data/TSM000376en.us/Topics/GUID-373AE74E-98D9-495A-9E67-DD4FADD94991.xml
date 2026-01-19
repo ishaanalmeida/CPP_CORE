@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-373AE74E-98D9-495A-9E67-DD4FADD94991" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-373AE74E-98D9-495A-9E67-DD4FADD94991" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">03 MOD10 Colorado M Series Height adjustment check</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Adjustment</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-924DD708-E17B-45CF-AA26-E221CB6B1D56" class="- topic/section "><title class="- topic/title ">Colorado M Series Height adjustment check</title><table id="GUID-21554240-45F2-485A-86FC-CA84CDE7CC8D" class="- topic/table "><tgroup cols="8" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="*" class="- topic/colspec "/><colspec colname="col6" colnum="6" colwidth="*" class="- topic/colspec "/><colspec colname="col7" colnum="7" colwidth="*" class="- topic/colspec "/><colspec colname="col8" colnum="8" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">Machine information 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col4" valign="top" class="- topic/entry "/><entry colname="col5" namest="col5" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">Serial number range 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Model series</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Config.</b> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Comp. type</b> 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">F/S*</b> 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">From**</b> 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Up to &amp; Incl.**</b> 
+</p></entry><entry colname="col7" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Exc. range</b> 
+</p></entry><entry colname="col8" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Add. range</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CMXX 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMXX 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">S 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990400100 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">990401136 
+</p></entry><entry colname="col7" valign="top" class="- topic/entry "/><entry colname="col8" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col4" valign="top" class="- topic/entry "><p class="- topic/p ">*) F= factory installed / S = Service installable change 
+</p></entry><entry colname="col5" namest="col5" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">**) 59 systems affected in the given range  see list of SNs in Chapter 2 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Intr. Year &amp; cal. Week:</b> 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" valign="top" class="- topic/entry "><p class="- topic/p ">2023 wk 30 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Due date:</b> 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">CAS group (s):</b> 
+</p></entry><entry colname="col3" namest="col3" nameend="col4" valign="top" class="- topic/entry "><p class="- topic/p ">03 Z Motion System 
+</p></entry><entry colname="col5" namest="col5" nameend="col6" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Field installation:</b> 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">Advice on next visit 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "/><entry colname="col3" namest="col3" nameend="col4" valign="top" class="- topic/entry "/><entry colname="col5" namest="col5" nameend="col6" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Duration:</b> 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">30 minutes 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-E4895B67-7FC1-4974-A5C8-D34725505879" class="- topic/section "><title class="- topic/title ">Required Parts &amp; Tools</title><p class="- topic/p ">No CPP parts required; Set of feeler gauges with the least resolution of 50 μm (0.05 mm). 
+</p></section><section id="GUID-1F928ED0-FAEA-4F79-ACD8-FE14F662CC05" class="- topic/section "><title class="- topic/title ">Summary</title><p class="- topic/p ">This bulletin describes 
+<b class="+ topic/ph hi-d/b ">Modification 10</b> for the Colorado M-series: 
+<b class="+ topic/ph hi-d/b ">Height Adjustment Check.</b> 
+</p></section><section id="GUID-63453375-8C1D-4A18-905B-B3618C766D9F" class="- topic/section "><title class="- topic/title ">1 Reason</title><p class="- topic/p ">In the factory, a potential measurement error has been detected during the height adjustment check on certain machines. 
+</p><p class="- topic/p ">Some machines were recalled for correction, and it was determined that these machines were within specification in terms of parts and adjustment. 
+</p><p class="- topic/p ">Consequently, the prevailing expectation is that this discrepancy is merely a measurement error within the factory. 
+</p><p class="- topic/p ">However, given the potential risks, it is crucial to verify this. If left unverified, it could lead to challenging print quality issues. 
+</p><p class="- topic/p ">As a precautionary measure, we recommend re-adjusting the printhead gap height for the identified systems (please refer to chapter 2 for a complete list). 
+</p></section><section id="GUID-1CB905AD-7F73-420F-9490-A7FA9D45324D" class="- topic/section "><title class="- topic/title ">2 Description</title><p class="- topic/p ">The printhead gap height adjustment is a standard procedure described in the TSM. 
+</p><p class="- topic/p ">Below an overview is shown of affected SNs and the final regional destination: 
+</p><table id="GUID-7A5AA7B1-CB32-490B-8C3F-B789B0D17CDA" class="- topic/table "><tgroup cols="9" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="*" class="- topic/colspec "/><colspec colname="col6" colnum="6" colwidth="*" class="- topic/colspec "/><colspec colname="col7" colnum="7" colwidth="*" class="- topic/colspec "/><colspec colname="col8" colnum="8" colwidth="*" class="- topic/colspec "/><colspec colname="col9" colnum="9" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Engine 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Engine 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" valign="top" class="- topic/entry "><p class="- topic/p ">Engine 
+</p></entry><entry colname="col8" valign="top" class="- topic/entry "/><entry colname="col9" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">serialnumber 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">serialnumber 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">serialnumber 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401134 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CCN 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401102 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990400191 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401136 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CCN 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401104 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990400508 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400480 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401113 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990400842 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400516 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401114 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990400862 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400528 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401115 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990400972 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400937 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401116 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990400990 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400963 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401118 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401000 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400966 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401119 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401011 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400967 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401122 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401017 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400987 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401123 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401049 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990400991 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401124 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401088 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401009 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401125 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401089 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401012 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401126 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401109 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401013 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401127 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401111 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401020 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401130 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401120 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401021 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401041 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CPPA 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401121 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401060 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401043 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CPPA 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401128 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401066 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401045 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CPPA 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401131 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401075 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">990401135 
+</p></entry><entry colname="col6" valign="top" class="- topic/entry "><p class="- topic/p ">CPPA 
+</p></entry><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401132 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "><p class="- topic/p ">990401078 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "><p class="- topic/p ">990401133 
+</p></entry><entry colname="col9" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "/><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "/><entry colname="col9" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "/><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "/><entry colname="col9" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "/><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "/><entry colname="col9" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "/><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "/><entry colname="col9" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col2" valign="top" class="- topic/entry "/><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "/><entry colname="col6" valign="top" class="- topic/entry "/><entry colname="col7" namest="col7" nameend="col8" valign="top" class="- topic/entry "/><entry colname="col9" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-F551337A-0DFA-4052-8B56-5859191495F8" class="- topic/section "><title class="- topic/title ">3 Instruction</title><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p ">Please execute the SDS Adjustment as written in the Colorado M-series TSM: 
+</p><p class="- topic/p ">Area / Engine / 03 Z Motion System / Adjustment / 03 How to adjust the print height (calibration)
+</p><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p ">This document describes the adjustment of the height between the guidance and carriage assembly and the print surface (platen).
+</p><fig id="GUID-7EE7B666-9FCB-4EC2-A467-EAC2B1ED2018" class="- topic/fig "><title class="- topic/title "/><image href="GUID-F2DEF24F-8D80-4ABC-A820-6E913DE3E384-low.png" placement="inline" class="- topic/image " otherprops="GUID-F2DEF24F-8D80-4ABC-A820-6E913DE3E384-low.png"/></fig></section><section id="GUID-EA7F591C-FDCB-4D0B-84C6-9659B44E610E" class="- topic/section "><title class="- topic/title ">4 Documents Affected</title><p class="- topic/p ">TSM: Area / Engine / 03 Z Motion System / Adjustment / 03 How to adjust the print height (calibration)
+</p></section><section id="GUID-873D1846-5A47-4E61-913D-92079D06D4BF" class="- topic/section "><title class="- topic/title ">5 Registration</title><p class="- topic/p ">Please mark modification 10 on the yellow sticker and in SDS (mri: //system/printer) after installing this modification
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-60D7E25B-44DC-4B60-83F8-4A86C0AEA1A8.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Adjustment</linktext></link></linkpool></related-links>
+</task>

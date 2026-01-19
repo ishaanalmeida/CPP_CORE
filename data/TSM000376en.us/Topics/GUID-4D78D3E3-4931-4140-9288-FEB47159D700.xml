@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-4D78D3E3-4931-4140-9288-FEB47159D700" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-4D78D3E3-4931-4140-9288-FEB47159D700" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b ">ADAM: How long does a service application work after removal of the SAM key</b></title><abstract class="- topic/abstract " id="GUID-E7A31B8A-01EF-4341-871A-08EF409DC7ED"><p class="- topic/p "> On the printer the service applications, ADAM, SDS and the TSM make use of the SAM key. 
+</p><p class="- topic/p ">On the service laptop, the TSM application makes also use of the SAM key. 
+</p><p class="- topic/p ">A service engineer has typical 1 SAM key and in practice within the system it is handy to use the TSM on the laptop and use the SDS and ADAM at the same time. 
+</p><p class="- topic/p ">The tables below lists that this is possible.
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-51920319-1B37-4841-B8EF-7D11260F59D3" class="- topic/section "><title class="- topic/title ">On the printer</title><table id="GUID-355B21AC-F36F-44E9-AA95-879F9F5FAA8C" class="- topic/table "><tgroup cols="5" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="25*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="20*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="25*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SAM key
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ADAM
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">SDS
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">TSM
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">In 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Out
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">OK (technician ID must be added manually)
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">Not OK
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">In
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-BCBECCBF-1D8A-420A-8EF3-13378F582DC4" class="- topic/section "><title class="- topic/title ">On the service laptop</title><table id="GUID-8352974F-7F74-4FDC-8679-D00CDBE32A9E" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="45*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SAM key
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">TSM
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">In 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Out
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Not OK
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">In
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">OK
+</p></entry></row></tbody></tgroup></table><note id="GUID-74174BE4-F6B7-4DF9-82CD-C38E3AA9C3A8" class="- topic/note "><p class="- topic/p "> OK: Service application runs until ADAM is closed or power on the Windows controller is cut. 
+</p></note></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-3823F84D-ACBC-47D2-BC36-31C46B5849A8.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>ADAM</linktext></link></linkpool></related-links>
+</task>

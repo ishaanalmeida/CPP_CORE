@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-74F67C1D-1110-4942-88BC-025BB9902714" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-74F67C1D-1110-4942-88BC-025BB9902714" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">07 The function of the Maintenance and Tissue Wipe Unit</title><abstract class="- topic/abstract " id="GUID-03E6D096-5C71-4D4F-B3B8-210A2E785583"><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Definition 
+</b> 
+</p><p class="- topic/p "> The maintenance unit is located on the right hand side of the printer and consists of: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Clean tray unit: this unit holds the disposable Tissue wipe cassette containing the tissue and realizes correct cassette positioning and movements. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Purge tray unit: this unit holds the heated funnel to collect purge liquids and ink leakages from the printheads and transport them to the liquid waste unit. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Air Pressure Supply Unit (APSU) 
+</p></li><li class="- topic/li "><p class="- topic/p ">Pressure Manifolds. Required to enable choosing which printheads to purge. 
+</p></li></ul><fig class="- topic/fig " id="GUID-7B3CAFE2-AF4A-4478-9433-CF1F070CE2D7"><image class="- topic/image " href="GUID-B564DD0B-D70B-44F0-8571-90576006DC7E-low.png" keyref="" placement="inline" otherprops="GUID-B564DD0B-D70B-44F0-8571-90576006DC7E-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b "> The maintenance unit has the following main functions:</b> 
+</p><p class="- topic/p "> The basis of printhead maintenance tissue wiper is: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> To keep the M10 nozzle plate and Front Finish Plate [FFP] free from ink residues. 
+</p></li><li class="- topic/li "><p class="- topic/p ">To keep CYMKW ink in the print head in good condition. 
+</p></li><li class="- topic/li "><p class="- topic/p ">To keep the nozzle plate in good condition at the start of a print. 
+</p></li></ul><p class="- topic/p ">Collection of residual ink from the purge and spitting actions in a maintenance tray. 
+</p><p class="- topic/p ">Create an under or over-pressure for the CYMKW print heads. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-A96E7526-6B07-4BAD-BA18-E9BE8CF60C2E" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Functional</b></title><p class="- topic/p "> Within the tissue wipe concept, different process flows have been defined to ensure a clean and dry nozzle plate. 
+</p><p class="- topic/p ">These process flows are initiated by maintenance strategies, specifically designed for the Colorado M-series configuration with inks. 
+</p><p class="- topic/p ">Inline print quality measurements (e.g. PAINt) are used as input parameters within maintenance strategies. 
+</p></section><section id="GUID-441BBE69-6C67-42DC-A5F3-12E2D96BDA9A" class="- topic/section "><title class="- topic/title ">The functional steps of the tissue wiper</title><p class="- topic/p ">The tissue wiper steps are: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Purge:</b> 
+</p><p class="- topic/p ">This action flushes the nozzles. 
+</p><p class="- topic/p ">During a purge ink is dripping out of the nozzles into the purge tray unit. 
+</p><p class="- topic/p ">For this purpose the purge tray unit is positioned below the printheads. 
+</p><p class="- topic/p ">From the purge tray unit the ink flows into the waste ink container which collects all waste ink. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tissue Wipe: 
+</b> 
+</p><p class="- topic/p "> After a purge action the nozzle plate is wiped with a tissue. 
+</p><p class="- topic/p ">This results in a dry and clean nozzle plate. 
+</p><p class="- topic/p ">The cassette moves up to the nozzle plate and the tissue is transported to refresh the tissue continuously. 
+</p><p class="- topic/p ">Ink is absorbed by the tissue and is disposed via the tissue. 
+</p><p class="- topic/p ">During a wipe the tissue is in contact with the nozzle plate with a pre-defined pressure. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Spit</b> (during printing modus and stand-by modus): 
+</p><p class="- topic/p ">This action is the jetting of ink and it is performed to keep the nozzle plate dry and keep nozzles in right condition. 
+</p><p class="- topic/p ">This can be performed in standby, and during printing. 
+</p><p class="- topic/p ">Spitting is performed in the purge tray unit. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Standby:</b> 
+</p><p class="- topic/p "> In standby mode the print heads are positioned above the purge tray unit. 
+</p><p class="- topic/p ">Ink leakages can be collected here without contaminating the engine. 
+</p></li></ol><p class="- topic/p "> Besides automatic maintenance also manual maintenance procedures have been developed. 
+</p><p class="- topic/p ">These procedures are required periodically and in case of a calamity. 
+</p><p class="- topic/p ">The periodic manual maintenance is triggered via a 
+<b class="+ topic/ph hi-d/b ">counter</b> and includes the cleaning of the matrix plate and surroundings, and the maintenance unit surroundings by using a swab stick, towels and methyl benzoate. 
+</p><p class="- topic/p ">This is a Key Operator Maintenance action, it is not allowed to touch the nozzle plate. 
+</p><p class="- topic/p ">In case a printhead recovery is needed a soaking action can be performed by service. 
+</p><p class="- topic/p ">Dabbing is no longer part of the manual maintenance. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Attributes</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tissue wipe cassette</b> 
+</p></li></ul><fig id="GUID-948BEC65-281D-4D94-ADEC-E601B990D267" class="- topic/fig "><title class="- topic/title "/><image href="GUID-3FA060BF-A55F-4C28-9659-4F242A0518BF-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-3FA060BF-A55F-4C28-9659-4F242A0518BF-low.png"/></fig><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The cassette is disposable and can be replaced by the customer when the tissue is finished. 
+</p><p class="- topic/p "> Two printheads are cleaned per action (CK/YM/W [2 Print heads per colour] where the tissue absorbs the ink. 
+</p><p class="- topic/p "> Number of wipes per day: 5 x 3 = 15; 1 cassette/month on average usage (15K sqm/yr); total time = 5 x 1.5 minute = 7.5 minutes per day. 
+</p></li></ul><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Purge tray unit (funnel)</b> 
+</p></li></ul><fig id="GUID-3A3EEC4C-EEC0-4018-9DDB-3A1CC0A9D7B2" class="- topic/fig "><title class="- topic/title "/><image href="GUID-27C2F346-F3F5-4C4E-B21F-477BD903DB42-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-27C2F346-F3F5-4C4E-B21F-477BD903DB42-low.png"/></fig><p class="- topic/p "> Spitting volumes need to be collected. 
+<u class="+ topic/ph hi-d/u ">In the past 
+</u>this was done on paper, however, the large amounts of spitting volumes will be visible on paper. 
+</p><p class="- topic/p ">To overcome this problem the following three scenario's have been analyzed: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Spit on paper via spitbar 
+</p></li><li class="- topic/li "><p class="- topic/p ">Spit in tissue 
+</p></li><li class="- topic/li "><p class="- topic/p ">Spit in purge tray unit (PTU) 
+</p></li></ol><p class="- topic/p ">The new purge tray unit (funnel) has been designed to collect purged, spitted and leaked ink and transport these volumes to the liquid waste unit. 
+</p><p class="- topic/p "> The purge tray unit (funnel) is heated in order to let the ink flow. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Temperature: Tmin: 50 ºC, Ttarget: 70 ºC, Tmax: 85 ºC 
+</p></li><li class="- topic/li "><p class="- topic/p ">Heating must occur on regular basis to prevent waste build up in the purge tray unit 
+</p></li><li class="- topic/li "><p class="- topic/p ">Heating is timer based to switch off after reaching the setpoint time. 
+</p></li></ul></section><section id="SECTION_9FA0B86C08EF44CBA97BCD708828306E" class="- topic/section "><title class="- topic/title ">Maintenance tray unit</title><fig id="GUID-BAF3DBCA-3E05-4388-A6FF-06E81E62DEDE" class="- topic/fig "><title class="- topic/title "/><image href="GUID-BCB14FAE-173F-4EDC-A803-7FE185792B08-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-BCB14FAE-173F-4EDC-A803-7FE185792B08-low.png"/></fig><p class="- topic/p "> A sensor at the rear of the unit detects the maximum ink level in the maintenance tray. 
+</p><p class="- topic/p ">The volume of the maintenance tray is 1.2L. 
+</p><p class="- topic/p ">Almost full level warning @82% = 656 ml. 
+</p><p class="- topic/p ">Total volume in Maintenance Tray @100% = 800 ml. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">In the pictures you see examples of a rather empty maintenance tray and an almost full maintenance tray. 
+</p><fig id="GUID-5E7277D6-B6DF-4113-950E-6CDC6626752F" class="- topic/fig "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Nearly empty maintenance tray</b></title><image href="GUID-7AFEA799-8479-44CB-85BB-A83E5D8695FA-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7AFEA799-8479-44CB-85BB-A83E5D8695FA-low.png"/></fig><fig id="GUID-2858825C-561C-4C36-9681-01BB6F4FC23D" class="- topic/fig "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Almost full maintenance tray</b></title><image href="GUID-66A8E2E6-D5CB-401D-B394-99C9FDB2AA60-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-66A8E2E6-D5CB-401D-B394-99C9FDB2AA60-low.png"/></fig><p class="- topic/p "> 
+</p><p class="- topic/p "> 
+</p></section><section id="GUID-045DD829-F45A-4096-9DC4-AAAF8ABCA6E5" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Pressure maniflod</b></title><fig id="GUID-60EF34DD-15C4-4DD2-B6FB-FCF0DD63CCD3" class="- topic/fig "><image href="GUID-E8373C3A-60DD-4820-86D9-F716D71FFEB9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-E8373C3A-60DD-4820-86D9-F716D71FFEB9-low.png"/></fig><fig id="GUID-5BF62D8E-AD1E-4CE4-9FC3-3FDFD771D6BB" class="- topic/fig "><image href="GUID-56AE9E3F-09D8-46A0-B721-6558829F543E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-56AE9E3F-09D8-46A0-B721-6558829F543E-low.png"/></fig><p class="- topic/p ">The pressure manifold is located at the printhead carriage. 
+</p><fig id="GUID-30851A41-94EA-44E1-938C-381C1A97500F" class="- topic/fig "><image href="GUID-6BD06EDD-0C68-4F4E-9432-BE08AF909626-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-6BD06EDD-0C68-4F4E-9432-BE08AF909626-low.png"/></fig><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p "> A pressure manifold is required to enable choosing which heads to purge. 
+</p><p class="- topic/p ">The pressure manifold consists of an air supply, a valve and an air outlet. 
+</p><p class="- topic/p "> The pressure manifold is designed for pressure from -15 mbar to 250 mbar. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "> 
+</p></section><section id="GUID-A944BCB7-C00A-4A12-B4C7-BDEFF263DBAA" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Air Pressure Supply Unit (APSU)</b></title><p class="- topic/p "> The main function of the Air Pressure Supply Unit is: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Maintain an under pressure to prevent ink-leakage of the printheads. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Provide pressure pulses for purging of the printhead. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Attributes</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">A flow restriction. 
+</p></li><li class="- topic/li "><p class="- topic/p ">PBA with the air pressure sensor. 
+</p></li><li class="- topic/li "><p class="- topic/p ">A buffer vessel. 
+</p></li></ul><p class="- topic/p "> 
+</p><fig id="GUID-405ED887-47D4-445A-AB85-BCB55C507BED" class="- topic/fig "><image href="GUID-58B6818F-4607-4EFD-BE67-4329FCD9F7D9-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-58B6818F-4607-4EFD-BE67-4329FCD9F7D9-low.png"/></fig><p class="- topic/p "> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Process 
+</b> 
+</p><p class="- topic/p ">In general the operation of the unit proceeds in 4 steps. 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Calibrate</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">At startup, calaibrate the pressure sensor by storing the sensor reading at ambient pressure 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Under pressure</b> used in different states 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">During printing and ready to print state the pressure is kept on -10 mbar. 
+</p></li><li class="- topic/li "><p class="- topic/p ">During all other states the under-pressure at the printheads must be between -20 and -6 mbar 
+</p></li><li class="- topic/li "><p class="- topic/p ">In this state the air flow from the APSU to the printheads is almost zero, so the pressure measured at the APSU is representative for the pressure at the printheads. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Over pressure</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Provide a (short) over-pressure pulse of 160 or 240 mbar to purge the printheads during cleaning. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Flush out a small amount of ink from the nozzles. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Power-off 
+</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">When the system is powered down, maintain sufficient under-pressure on the printheads for specified time. 
+</p></li></ul></li></ol></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7D5B53CB-3982-4605-BCF7-3C60D862DECE.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</task>

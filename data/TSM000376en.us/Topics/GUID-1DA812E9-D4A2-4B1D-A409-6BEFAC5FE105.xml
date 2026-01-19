@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-1DA812E9-D4A2-4B1D-A409-6BEFAC5FE105" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-1DA812E9-D4A2-4B1D-A409-6BEFAC5FE105" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">Calibrate the printhead carriage after replacement (Part 2) [Tasks]</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">SDS</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-2BD8C3DB-27B0-44E5-B999-CF486EF1CE0D" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">SDS</ph></title><p class="- topic/p "> 
+</p></section><section id="GUID-1156E15C-FA11-42F7-80CE-F9823F371FA9" class="- topic/section "><title class="- topic/title ">Function</title><p class="- topic/p ">Calibrate the printhead carriage after replacement (Part 2). 
+</p><p class="- topic/p ">This is part 2 of the procedure. 
+</p><p class="- topic/p ">Start conditions: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Part 1 is successfully done. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Printheads are installed in the printhead carriage 
+</p></li></ul><table id="GUID-D0AEBD94-2251-411F-B2D9-EEFA0DEB9EB8" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="30*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="30*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SDS number 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">SDS name 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Step description 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">01-6-001 
+</p><p class="- topic/p "><xref keyref="SDS01-6-001" class="- topic/xref " href="GUID-D8E038CE-9D98-45E8-B362-A1C9227FCAE7.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 01-6-001 Align the mirrors of the printhead and curing carriage [Special Tests]?>01-6-001 Align the mirrors of the printhead and curing carriage [Special Tests]</xref> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Align the printhead and curing carriage. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Align the 2 carriages. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">21-6-002 
+</p><p class="- topic/p "><xref keyref="SDS21-6-002" class="- topic/xref " href="GUID-D650BDBB-4674-4B96-BD64-98FDD9BAF4CB.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 21-6-002 Select required printer calibrations [Special Tests]?>21-6-002 Select required printer calibrations [Special Tests]</xref> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Select required printer calibrations 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Select the M&amp;C calibration:</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">M&amp;C scanner calibration</b> 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">21-6-003 
+</p><p class="- topic/p "><xref keyref="SDS21-6-003" class="- topic/xref " href="GUID-B828E436-A124-4809-981E-2DBE1E09A388.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 21-6-003 Execute selected printer calibrations [Special Tests]?>21-6-003 Execute selected printer calibrations [Special Tests]</xref> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Execute selected printer calibrations 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Execute calibrations 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">21-6-002 
+</p><p class="- topic/p "><xref keyref="SDS21-6-002" class="- topic/xref " href="GUID-D650BDBB-4674-4B96-BD64-98FDD9BAF4CB.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 21-6-002 Select required printer calibrations [Special Tests]?>21-6-002 Select required printer calibrations [Special Tests]</xref> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Select required printer calibrations 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Select the Carriage calibrations: 
+</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Carriage Y calibration 
+</b> 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">21-6-003 
+</p><p class="- topic/p "><xref keyref="SDS21-6-003" class="- topic/xref " href="GUID-B828E436-A124-4809-981E-2DBE1E09A388.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 21-6-003 Execute selected printer calibrations [Special Tests]?>21-6-003 Execute selected printer calibrations [Special Tests]</xref> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Execute selected printer calibrations 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Execute calibrations 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-CAB53886-53D4-4E0F-B6E4-F23235AF7530" class="- topic/section "><title class="- topic/title ">Procedure</title><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Click on the desired test to run it. 
+</p></li><li class="- topic/li "><p class="- topic/p ">You will get the regular dialog of the test. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Run all tests in the list from top to bottom. 
+</p></li></ol></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-3AD12DA3-F651-4B11-BEB9-FD79AA9649BB.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>SDS</linktext></link></linkpool></related-links>
+</task>

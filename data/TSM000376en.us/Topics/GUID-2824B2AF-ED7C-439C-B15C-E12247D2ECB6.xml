@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-2824B2AF-ED7C-439C-B15C-E12247D2ECB6" version="3" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-2824B2AF-ED7C-439C-B15C-E12247D2ECB6" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">The backup and restore procedure</title><abstract class="- topic/abstract " id="M148550-B40"><p class="- topic/p ">This document provides you with full instructions on the backup and restore of the print system's user, service and engine settings. 
+</p><note class="- topic/note " id="GUID-9E65AA16-D71B-4D32-BAB8-B7F09351FBC0"><p class="- topic/p ">Under normal circumstances it is NOT required to restore engine configuration at all and it is therefore NOT advised to do so. 
+</p></note></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="GUID-2E316147-78DB-4B32-878F-25E5FE585A3B" class="- topic/section "><title class="- topic/title ">Information</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Backups include user, service and engine settings 
+</p></li><li class="- topic/li "><p class="- topic/p "> Licenses are not part of a backup (they are stored in a USB key connected permanently to the controller) 
+</p></li><li class="- topic/li "><p class="- topic/p "> Backups can be created locally with Settings Editor or remotely with ORS. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Regular backups are automatically performed by the controller at each printer start-up and at least once every 24 hours. 
+</p><p class="- topic/p "> (These backups are internally managed by the automatic recovery process and are not visible in Settings Editor) 
+</p></li><li class="- topic/li "><p class="- topic/p "> A setting in Settings Editor (Support &gt; Backups &gt; Confidential data) allows a System Administrator to include or exclude security data from a backup (proxy username/password, System Administrator username/password, HTTPS certificates, imported certificates). 
+</p></li><li class="- topic/li "><p class="- topic/p "> A backup requested with ORS never includes security data (whatever the current setting for ‘Include confidential data’). 
+</p><p class="- topic/p ">Its content is the same as the one of a local backup created with ‘Include confidential data’ unchecked. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Backups are created on the controller. 
+</p><p class="- topic/p ">They can then be saved with Settings Editor by an Export to a USB key, a workstation directory or a network location. 
+</p></li><li class="- topic/li "><p class="- topic/p ">If the automatic creation and retrieval of backups is configured in ORS, the backups can be retrieved via PRISMAservice (<xref keyref="machine-backup-retrievel" class="- topic/xref " href="GUID-732BB7E2-792F-41DF-8432-5562BDB9BF08.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text Machine backup retrieval?>Machine backup retrieval</xref>
+</p></li></ul></section><section id="GUID-32059822-EABB-49A7-A971-5F1F88348893" class="- topic/section "><title class="- topic/title ">Pre-requisites</title><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> System Administrator login information available (password required) 
+</p></li><li class="- topic/li "><p class="- topic/p "> A USB key (if you have to save backups on such a device) 
+</p></li></ol></section><section id="M148550-B41" class="- topic/section "><title class="- topic/title "> Manually creation of a backup</title><table id="NEW" class="- topic/table "><tgroup align="left" outputclass="step" cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the Settings Editor 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to: Support &gt; Backups 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click configure Confidential data. 
+</p><p class="- topic/p ">The System Administrator login window displays: 
+</p><fig id="GUID-FDB58925-CE48-408C-821F-1987FE000414" class="- topic/fig "><image href="GUID-7D4C8203-373C-41D3-AB22-703719691BA1-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7D4C8203-373C-41D3-AB22-703719691BA1-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Type in the System Administrator password 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Log in. 
+</p><p class="- topic/p ">The Include confidential data window displays: 
+</p><fig id="GUID-C90149D0-6AF7-4273-8B81-C86F6F004CCB" class="- topic/fig "><image href="GUID-A5DDE3D8-E456-49F3-854B-C1FB7577F77A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-A5DDE3D8-E456-49F3-854B-C1FB7577F77A-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check or uncheck Confidential data included in backup 
+</p><p class="- topic/p ">Select for the Export of confidential data “Enable for system administrators and service” If no password is known, reuse the default password of the system administrator: 71617000 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK to close the window 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Create. 
+</p><p class="- topic/p ">The Create backup window displays: 
+</p><fig id="GUID-E82DA2D8-7E83-45A4-A13C-7E2C771D79C4" class="- topic/fig "><image href="GUID-56AA1591-79D1-4220-AA38-E6B78514C8EA-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-56AA1591-79D1-4220-AA38-E6B78514C8EA-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Type in a backup name in the Description field 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK 
+</p><p class="- topic/p ">The new backup is created (on the controller) and added to the available backups list: 
+</p><fig id="GUID-956D328E-9A5C-4EBE-B265-849FC60BB2BA" class="- topic/fig "><image href="GUID-A625CC71-885A-4C4C-B27C-E4DC6865495B-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-A625CC71-885A-4C4C-B27C-E4DC6865495B-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the box in front of the backup to save: 
+</p><fig id="GUID-6E3EBDEA-1E94-4E15-97D7-8826C7C6C7CB" class="- topic/fig "><image href="GUID-1F321C86-50D9-45D1-95FE-AE1F76492250-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-1F321C86-50D9-45D1-95FE-AE1F76492250-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Export. 
+</p><p class="- topic/p ">The Export backup window displays: 
+</p><fig id="GUID-5AD5DF82-A4BC-4A9B-AC06-29CB770830F5" class="- topic/fig "><image href="GUID-24382477-45DF-4A35-9335-DECB3A52B3E8-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-24382477-45DF-4A35-9335-DECB3A52B3E8-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK 
+</p><p class="- topic/p ">The following message displays at the bottom of the browser window: 
+</p><fig id="GUID-F38AB617-AB49-48E5-9C6C-86EE24B668AF" class="- topic/fig "><image href="GUID-7D1F7287-2688-455D-B19B-374A5E794D82-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7D1F7287-2688-455D-B19B-374A5E794D82-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Select Save as in the drop down list 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to the workstation directory, network location or USB key where the backup file has to be stored: 
+</p><fig id="GUID-9BDDCFE4-E502-441F-9D32-2C24D2A43514" class="- topic/fig "><image href="GUID-BC7A1524-076F-4D70-95D4-46B6843DD5E2-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-BC7A1524-076F-4D70-95D4-46B6843DD5E2-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Save 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-5FA976AC-AE85-40C9-9291-8FDCD46C9CE7" class="- topic/section "><title class="- topic/title ">Restore the backup</title><p class="- topic/p ">Restoring an up-to-date backup is required after installing the system software on an empty disk. (All settings are lost and need a restore) 
+</p><table id="GUID-C4F6DB71-5AA3-4FD7-B329-5177C338FEAB" class="- topic/table "><tgroup align="left" outputclass="step" cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Open the Settings Editor 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to: Support &gt; Backups 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">In case the software was just reinstalled and the backup contains confidential information: 
+</p><p class="- topic/p ">Click Log in. 
+</p><p class="- topic/p ">The Include confidential data window displays: 
+</p><fig id="GUID-16217397-0177-4E01-8396-BE61D21BFDC0" class="- topic/fig "><image href="GUID-78331045-6F31-47B4-9E0A-1F450DAD659A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-78331045-6F31-47B4-9E0A-1F450DAD659A-low.png"/></fig><p class="- topic/p ">Check the Include confidential data. 
+</p><p class="- topic/p "> Fill the passphrase. 
+</p><p class="- topic/p ">Select for the Export of confidential data “Enable for system administrators and service” 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Import. 
+</p><p class="- topic/p ">The System Administrator login window displays: 
+</p><fig id="GUID-A37AF2A8-B2F1-48D6-B891-6AAE79226666" class="- topic/fig "><image href="GUID-7D4C8203-373C-41D3-AB22-703719691BA1-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7D4C8203-373C-41D3-AB22-703719691BA1-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Type in the System Administrator password 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Log in. 
+</p><p class="- topic/p ">The Import backup window displays: 
+</p><fig id="GUID-E7AD9C8C-9D97-4053-AB5B-247B203760B4" class="- topic/fig "><image href="GUID-E5064A00-4B52-4C90-A773-99DB456E7EDB-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-E5064A00-4B52-4C90-A773-99DB456E7EDB-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to the backup file location (USB key, workstation directory or network location): 
+</p><fig id="GUID-4B2D21F9-FD2D-4C6A-AAF1-232F60F147C9" class="- topic/fig "><image href="GUID-364708A6-0BC2-409C-8ED5-2892FD88D6A8-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-364708A6-0BC2-409C-8ED5-2892FD88D6A8-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Select the backup file to restore 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Open 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click Import. 
+</p><p class="- topic/p ">The restored backup is added to the available backups list: 
+</p><fig id="GUID-6711DB90-845A-45ED-A82E-174A9DFE00D4" class="- topic/fig "><image href="GUID-222A7EB2-81E7-469B-A98C-F17B55AC1F37-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-222A7EB2-81E7-469B-A98C-F17B55AC1F37-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Select the backup to restore: 
+</p><fig id="GUID-959DA117-21DF-4407-95E8-2E65A10A031B" class="- topic/fig "><image href="GUID-83393758-AEF6-45A9-9D95-C067E7E6CB9A-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-83393758-AEF6-45A9-9D95-C067E7E6CB9A-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click 
+<b class="+ topic/ph hi-d/b ">Restore complete configuration</b>. 
+</p><p class="- topic/p ">The Restore backup window displays: 
+</p><fig id="GUID-2AE10D1C-6A36-4990-BEDE-AE2D9759235A" class="- topic/fig "><image href="GUID-69188320-3D24-4BB5-B122-D62B4D1420FB-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-69188320-3D24-4BB5-B122-D62B4D1420FB-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK 
+</p><p class="- topic/p ">After a few seconds, the Restart required window displays: 
+</p><fig id="GUID-D4EE17CA-4722-40AB-9722-3B15D99EA8D6" class="- topic/fig "><image href="GUID-EFC9B1B9-0431-4E8A-9132-C614CD1E3B9E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EFC9B1B9-0431-4E8A-9132-C614CD1E3B9E-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK. 
+</p><p class="- topic/p ">The printer restarts. 
+</p><p class="- topic/p ">After approximately 10 minutes the Settings Editor displays again. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to: Support &gt; Backups. Select the backup to restore again. 
+</p><fig id="GUID-95ECFB74-8D36-40B0-A6B6-5F776C05DE82" class="- topic/fig "><image href="GUID-58C19056-B9B2-4B8A-9344-40E50873573B-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-58C19056-B9B2-4B8A-9344-40E50873573B-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click 
+<b class="+ topic/ph hi-d/b ">Restore engine configuration</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Log in as System Administrator. 
+</p><p class="- topic/p ">The Restore backup window displays. 
+</p><fig id="GUID-4B00EF90-30AD-4242-A8D4-684FC8E43FE5" class="- topic/fig "><image href="GUID-EFC9B1B9-0431-4E8A-9132-C614CD1E3B9E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EFC9B1B9-0431-4E8A-9132-C614CD1E3B9E-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK. 
+</p><p class="- topic/p ">After a few seconds, the Restart required window displays. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK. 
+</p><p class="- topic/p ">The printer restarts. 
+</p><p class="- topic/p ">After approximately 10 minutes the Settings Editor displays again. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to: Support &gt; Backups. Select the backup to restore again. 
+</p><fig id="GUID-B00A0F21-BA40-457C-844D-E5E8F86CA2E2" class="- topic/fig "><image href="GUID-42D4D944-0FFC-442E-8778-73F475326583-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-42D4D944-0FFC-442E-8778-73F475326583-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click 
+<b class="+ topic/ph hi-d/b ">Restore user configuration</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Log in as System Administrator. 
+</p><p class="- topic/p ">The Restore backup window displays. 
+</p><fig id="GUID-1DCC64A4-8473-41EE-9FDB-C60375702B5C" class="- topic/fig "><image href="GUID-EFC9B1B9-0431-4E8A-9132-C614CD1E3B9E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-EFC9B1B9-0431-4E8A-9132-C614CD1E3B9E-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">23 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK. 
+</p><p class="- topic/p ">After a few seconds, the Restart required window displays. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Click OK. 
+</p><p class="- topic/p ">The printer restarts. 
+</p><p class="- topic/p ">After approximately 10 minutes the Settings Editor displays again. 
+</p><p class="- topic/p ">The backup is fully restored. 
+</p></entry></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7D3F358C-1AB9-4A5D-9B0E-C75D689F152E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Installation</linktext></link></linkpool></related-links>
+</concept>

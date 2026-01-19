@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 149.95 294.8">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 8px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-3, .cls-6, .cls-7, .cls-8 {
+        stroke-width: .5px;
+      }
+
+      .cls-9 {
+        fill: #ffe0b2;
+      }
+
+      .cls-5 {
+        stroke-width: .25px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-10 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 6px;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        fill: #bbdefb;
+      }
+
+      .cls-2 {
+        font-size: 4px;
+      }
+
+      .cls-8 {
+        stroke: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <g id="Bckground">
+    <rect class="cls-4" width="149.95" height="294.8"/>
+  </g>
+  <g id="Frame">
+    <rect class="cls-8" x="4.9" y="5.67" width="140.15" height="283.46"/>
+    <rect class="cls-8" x="4.9" y="133.23" width="140.15" height="155.91"/>
+    <text class="cls-10" transform="translate(9.24 13.65)"><tspan x="0" y="0">Customer / Remote support</tspan></text>
+    <text class="cls-10" transform="translate(9.24 144.57)"><tspan x="0" y="0">Engineer</tspan></text>
+  </g>
+  <g id="Blocks">
+    <g>
+      <g>
+        <rect class="cls-9" x="45.21" y="28.35" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+        <rect class="cls-6" x="45.21" y="28.35" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+      </g>
+      <text class="cls-2" transform="translate(69.34 36.78)"><tspan x="0" y="0">Start</tspan></text>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-9" x="45.21" y="269.29" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+        <rect class="cls-6" x="45.21" y="269.29" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+      </g>
+      <text class="cls-2" transform="translate(70 277.73)"><tspan x="0" y="0">End</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-7" x="45.21" y="56.69" width="56.69" height="28.35"/>
+      <text class="cls-2" transform="translate(57.44 69.9)"><tspan x="0" y="0">Repeat calibration</tspan><tspan x="7.12" y="4.8">procedure</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-7" x="45.21" y="99.21" width="56.69" height="28.35"/>
+      <text class="cls-2" transform="translate(57.22 112.42)"><tspan x="0" y="0">Perform automatic</tspan><tspan x="4.89" y="4.8">maintenance</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-7" x="45.21" y="141.73" width="56.69" height="28.35"/>
+      <text class="cls-2" transform="translate(59.44 157.34)"><tspan x="0" y="0">Purse printhead</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-7" x="45.21" y="184.25" width="56.69" height="28.35"/>
+      <text class="cls-2" transform="translate(59.11 199.86)"><tspan x="0" y="0">Check airhorses</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-7" x="45.21" y="226.77" width="56.69" height="28.35"/>
+      <text class="cls-2" transform="translate(57.33 242.38)"><tspan x="0" y="0">Replace printhead</tspan></text>
+    </g>
+    <g>
+      <path class="cls-3" d="M45.21,70.58c0,3.29-2.67,5.95-5.95,5.95s-5.95-2.67-5.95-5.95,2.67-5.95,5.95-5.95,5.95,2.67,5.95,5.95Z"/>
+      <text class="cls-1" transform="translate(37.03 73.29)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g>
+      <circle class="cls-3" cx="39.26" cy="113.67" r="5.95"/>
+      <text class="cls-1" transform="translate(37.03 116.37)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g>
+      <circle class="cls-3" cx="39.26" cy="156.19" r="5.95"/>
+      <text class="cls-1" transform="translate(37.03 158.89)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <g>
+      <circle class="cls-3" cx="39.26" cy="198.71" r="5.95"/>
+      <text class="cls-1" transform="translate(37.03 201.41)"><tspan x="0" y="0">4</tspan></text>
+    </g>
+    <g>
+      <circle class="cls-3" cx="39.26" cy="241.23" r="5.95"/>
+      <text class="cls-1" transform="translate(37.03 243.93)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+  </g>
+  <g id="Lines">
+    <g>
+      <line class="cls-9" x1="73.56" y1="42.52" x2="73.56" y2="56.69"/>
+      <g>
+        <line class="cls-5" x1="73.56" y1="42.52" x2="73.56" y2="54.43"/>
+        <path d="M73.56,56.69c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-9" x1="73.56" y1="255.12" x2="73.56" y2="269.29"/>
+      <g>
+        <line class="cls-5" x1="73.56" y1="255.12" x2="73.56" y2="267.03"/>
+        <path d="M73.56,269.29c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-9" x1="73.56" y1="85.04" x2="73.56" y2="99.21"/>
+      <g>
+        <line class="cls-5" x1="73.56" y1="85.04" x2="73.56" y2="96.95"/>
+        <path d="M73.56,99.21c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-9" x1="73.56" y1="127.56" x2="73.56" y2="141.73"/>
+      <g>
+        <line class="cls-5" x1="73.56" y1="127.56" x2="73.56" y2="139.47"/>
+        <path d="M73.56,141.73c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-9" x1="73.56" y1="170.08" x2="73.56" y2="184.25"/>
+      <g>
+        <line class="cls-5" x1="73.56" y1="170.08" x2="73.56" y2="181.99"/>
+        <path d="M73.56,184.25c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-9" x1="73.56" y1="212.6" x2="73.56" y2="226.77"/>
+      <g>
+        <line class="cls-5" x1="73.56" y1="212.6" x2="73.56" y2="224.51"/>
+        <path d="M73.56,226.77c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

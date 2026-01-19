@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-87104B23-69BC-46A0-9DFD-2A01F23EE708" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-87104B23-69BC-46A0-9DFD-2A01F23EE708" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">5929 Differential X-Disturbances measuring failed </title><abstract class="- topic/abstract " id="GUID-1B600B3D-34D2-47DA-80E6-140DA1A52917"><p class="- topic/p ">This warning is generated when the measurement of the special test-print for banding in Y-direction has failed. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-F7D2B889-CFDF-469A-8528-CEBCA064E9DA" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Patterns in calibration print</u> 
+</p><table id="GUID-4B39857F-D6FE-4073-A04D-D293FBB76802" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="9.70*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1650 
+</p><p class="- topic/p ">C1630 
+</p><p class="- topic/p ">CMxx 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-928CCB95-E30D-4BE3-B5D3-F3BF1F3DC7DD" class="- topic/fig "><title class="- topic/title "/><image href="GUID-69BAEDA7-F1A6-41E4-A202-4C4A5CB72AC3-low.png" placement="inline" class="- topic/image " otherprops="GUID-69BAEDA7-F1A6-41E4-A202-4C4A5CB72AC3-low.png"/></fig><fig id="GUID-124B61D4-E82F-4912-B672-9AA977B3DCF2" class="- topic/fig "><title class="- topic/title "/><image href="GUID-BDDA84A7-5F6B-4552-9502-AF87D1B6ED84-low.png" placement="inline" class="- topic/image " otherprops="GUID-BDDA84A7-5F6B-4552-9502-AF87D1B6ED84-low.png"/></fig></entry></row></tbody></tgroup></table><p class="- topic/p "><u class="+ topic/ph hi-d/u ">Calibration step</u> 
+</p><p class="- topic/p ">This warning is generated during the calibration step: "DifferentialXDisturbances" which is part of SDS 04-6-035 "Measure differential X disturbances [Special Tests]". 
+</p></section><section id="GUID-1453133E-D97B-450F-8B1D-29D8136FC827" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Analyse/Repair</b> </title><p class="- topic/p ">Customer/Remote support 
+</p><fig id="GUID-08EAA65B-6970-40FE-862B-9BB88013EF96" class="- topic/fig "><title class="- topic/title "/><image href="GUID-8CEDD076-D7BD-401A-A67F-E5009E869406-low.png" placement="inline" class="- topic/image " otherprops="GUID-8CEDD076-D7BD-401A-A67F-E5009E869406-svg.svg"/></fig><table id="GUID-329357B1-D072-4452-A1EF-5423F4B0CAF2" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="1.27*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="7.98*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="3.43*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether clean media is used 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the media using IPA or cut the polluted part of the media 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the used media is white. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> This calibration can only be executed on white and smooth media. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the M&amp;C-scanner needs to be cleaned 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the glass-window of the M&amp;C-scanner using IPA. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the printed pattern look complete (no deviation droplets) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> See example top of this page. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform manual maintenance on the printheads. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">p 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform print height calibration 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-5C85D6FC-5E14-4490-AB29-1EEC54BC3FB5.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>03 How to adjust the print height (calibration)</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" scope="local" format="dita" class="- topic/xref "/> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check the M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-17F448B7-8A72-45B1-B56D-FC5C0BE28701.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05-6-017 M&amp;C scanner test [Special Tests]</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref> 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-2AA2CF8D-9B63-45F9-A553-3A54A5CE2F7A" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">Maintain the printer as described in the Care&amp;Use poster. 
+</p></section><section id="GUID-57A5811C-4D80-43BE-9E9F-4BC6D0E42DCB" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Background info</b> </title><p class="- topic/p ">This warning is raised when SDS-test 04-6-035 has failed. In that case not all bars could be measured correctly. 
+</p><p class="- topic/p ">This SDS-test can help finding root causes for banding in Y-direction, however this test is still being developed by R&amp;D. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-480B4E14-7AB9-4230-BBE2-97A999EC3E19.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-63B913A3-1AA0-4A60-B332-E04C962D34ED" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-63B913A3-1AA0-4A60-B332-E04C962D34ED" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Print double-sided with manual cut</title><abstract class="- topic/abstract " id="GUID-F787BFB9-D6C8-48A0-98AE-88FFC24C41EE"/><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">User task</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><prereq id="GUID-BAAA6B51-9CC9-4A57-A2FC-A68EF2E40E0C" class="- topic/section task/prereq "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">RIP</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Media Characteristics</uicontrol>, set automatic advance correction (AAC) to <uicontrol class="+ topic/ph ui-d/uicontrol ">Enhanced</uicontrol> to achieve an optimal x-registration. 
+</p><p class="- topic/p ">AAC prints yellow, white, or black markers on the media that the printer uses as guidance to optimize the media step accuracy. See "Change the media settings" in the operation guide. 
+</p></li><li class="- topic/li "><p class="- topic/p ">In 
+<menucascade class="+ topic/ph ui-d/menucascade "><uicontrol class="+ topic/ph ui-d/uicontrol ">Placement strategy</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">General</uicontrol></menucascade>, make sure that the left and right are identical. 
+</p></li><li class="- topic/li "><p class="- topic/p ">In 
+<menucascade class="+ topic/ph ui-d/menucascade "><uicontrol class="+ topic/ph ui-d/uicontrol ">Placement strategy</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Options</uicontrol></menucascade>, make sure that the space between copies values are 0. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Printer</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Use the tension bar (locked). 
+</p><p class="- topic/p "> In case the media is normally (single-sided) printed without tension bar, switch to the locked tension bar mode. 
+</p><p class="- topic/p ">You can change this tension bar setting for the media type in the RIP. Change from <uicontrol class="+ topic/ph ui-d/uicontrol ">No tension bar</uicontrol> to <uicontrol class="+ topic/ph ui-d/uicontrol ">Locked tension bar</uicontrol>. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Use a matte print mode, preferably the same mode for both sides. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Do not enable automatic media advance or moist sensitivity settings. 
+</p></li><li class="- topic/li "><p class="- topic/p ">If necessary calibrate the media. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tools</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> A media suitable for double sided printing. 
+</p></li><li class="- topic/li "><p class="- topic/p ">2 empty cores with the same width as the media you want to use. 
+</p></li><li class="- topic/li "><p class="- topic/p ">A roll of tape. 
+</p></li></ul></prereq><section id="GUID-A62FCDFC-E64D-4863-92A4-7E9D3CA607A7" class="- topic/section "><title class="- topic/title "/><p class="- topic/p "><indexterm class="- topic/indexterm ">2-sided</indexterm><indexterm class="- topic/indexterm ">Double sided</indexterm><indexterm class="- topic/indexterm ">Print 2-sided</indexterm> 
+</p><table class="- topic/table " id="GUID-27C89705-CD1F-429E-896F-E1214B5E252F"><tgroup class="- topic/tgroup " cols="2"><colspec colname="col1" class="- topic/colspec " colnum="1" colwidth="*"/><colspec colname="col2" class="- topic/colspec " colnum="2" colwidth="*"/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" class="- topic/entry " valign="top"><p class="- topic/p ">Print side 1 
+</p></entry><entry colname="col2" class="- topic/entry " valign="top"><p class="- topic/p ">Print side 2 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" class="- topic/entry " valign="top"><fig id="GUID-716EED79-6168-4B4E-BAB1-73714A06F75B" class="- topic/fig "><image href="GUID-1F03ABDC-9F52-4ECA-8D18-C2DD9D1ADD51-low.png" placement="inline" class="- topic/image " otherprops="GUID-1F03ABDC-9F52-4ECA-8D18-C2DD9D1ADD51-low.png"/></fig></entry><entry colname="col2" class="- topic/entry " valign="top"><fig id="GUID-14890E28-931A-4338-9774-2662C41BEDB0" class="- topic/fig "><image href="GUID-5D9B3489-F0FC-459E-BCF1-38070B8FE858-low.png" placement="inline" class="- topic/image " otherprops="GUID-5D9B3489-F0FC-459E-BCF1-38070B8FE858-low.png"/></fig></entry></row></tbody></tgroup></table><table id="GUID-50CECFD3-057D-4E4E-AC5C-874F3F2B92F3" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="45*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Strip 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Function 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Length of the strip 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Leading strip 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1600 mm (63 inch) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lead-in image 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">250 mm (9.84 inch) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lead-out image 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">250 mm (9.84 inch) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Trailing strip with a cutting line 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1600 mm (63 inch) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Leading strip 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1600 mm (63 inch) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lead-in image 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">250 mm (9.84 inch) 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p ">Be aware you have to rotate the job for the inside 180 degrees. 
+</p><p class="- topic/p "> The lead-in and lead-out images are used by the AAC to measure and correct for additional media step errors caused by the ink layer of side 1, while printing side 2. 
+</p></section><steps id="GUID-92E257A9-9BF8-4EE1-BD47-F2F72DBAE036" class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Load a media roll on position 2 in the media drawer, with the flap pointing towards you. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Pull the media towards you. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Uncurl the media using an empty roll. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Turn the media back onto the roll in the drawer. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Load the media in the inside printing manner.
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Place a new empty take-up roll core and push the media shaft back on the winder. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">On the operator panel tap on the <uicontrol class="+ topic/ph ui-d/uicontrol "><text class="- topic/text ">Media</text></uicontrol> icon. 
+</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">Select the required media and media width. 
+</p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">On the operator panel tap on the <uicontrol class="+ topic/ph ui-d/uicontrol "><text class="- topic/text ">Default settings</text></uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol "><text class="- topic/text ">System</text></uicontrol> icon and change the leading and trailing edge length to 1600mm (63 inch). 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Prepare a nest of prints for the outside of the media in one of the supported RIP software applications. 
+</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">In ONYX the nesting function is called <uicontrol class="+ topic/ph ui-d/uicontrol ">Group jobs</uicontrol>. Change the group setting from <uicontrol class="+ topic/ph ui-d/uicontrol ">Conserve media</uicontrol> to <uicontrol class="+ topic/ph ui-d/uicontrol ">Group jobs together</uicontrol>. The RIP will not change the order of the images and will treat all jobs in the group as 1 image. 
+</p><p class="- topic/p ">The nest includes: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> a lead-in image (in any color) 
+</p></li><li class="- topic/li "><p class="- topic/p "> the user images 
+</p></li><li class="- topic/li "><p class="- topic/p ">a lead-out image (in any color) 
+</p></li></ul><note id="GUID-7FCA74CF-95EC-4818-90C0-8B9640C4E7EF" class="- topic/note "><p class="- topic/p ">Please note that when you apply additional space between the separate images, you have to subtract this additional space from the 1600 mm (63 inch) at the trailing edge. 
+</p></note></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Submit the job to the printer and follow the instructions on the operator panel to print the first side. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Tape the media to the empty take-up media roll core. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Place the tension bar. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Lock the tension bar. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Adjust the position of the media guides on the left and right side. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">On the operator panel tap the <uicontrol class="+ topic/ph ui-d/uicontrol "><text class="- topic/text ">Completed</text></uicontrol> when you are ready to start the print job. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Cut the media manually beneath the printed line when the print is completed and follow the instructions on the operator panel. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Remove the take-up media roll from the winder
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Cut the media precisely on the printed line. Do this outside of the printer. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Place a new empty take-up roll core and push the media shaft back on the winder. 
+</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">This ends the printing procedure of side 1. 
+</p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Prepare the nest of prints for side 2 of the double-sided print in one of the supported RIP software applications. 
+</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">The nest includes: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> a lead-in image (in any color) 
+</p></li><li class="- topic/li "><p class="- topic/p "> the user images 
+</p></li></ul><note id="GUID-9FA2457D-0A87-409F-9CFE-0222CDA18A43" class="- topic/note "><p class="- topic/p "> Depending on the application you may need to rotate or mirror the images for side 2. 
+</p></note></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Load the media roll for inside printing on position 2 in the media drawer, with the flap pointing towards you. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Load the media in the inside printing manner. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">On the operator panel change the trailing strip to 250 mm (9.84 inch) in the <uicontrol class="+ topic/ph ui-d/uicontrol "><text class="- topic/text ">Default settings</text></uicontrol>. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Submit the job to the printer and follow the instructions on the operator panel to print the second side. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Repeat the actions of step 11 to 15 you did for printing side 1. 
+</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Remove the take-up media roll from the winder. 
+</cmd></step></steps></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-5B8E84B8-092A-4B76-84E3-AA295749E97E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>User task</linktext></link></linkpool></related-links>
+</task>

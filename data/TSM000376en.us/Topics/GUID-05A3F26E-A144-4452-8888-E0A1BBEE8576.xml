@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-05A3F26E-A144-4452-8888-E0A1BBEE8576" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-05A3F26E-A144-4452-8888-E0A1BBEE8576" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Smudge of all colors on edge of the print</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-50B00AD6-0A38-41AB-B3CF-DCE2951AFA8A" class="- topic/section "><title class="- topic/title "/><table id="GUID-53E5F599-B620-44AD-919D-C7253ABD770C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Schematic overview 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Real example 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><fig id="GUID-EA4F42D3-7256-4353-A0AF-C24BFA702870" class="- topic/fig "><image href="GUID-516FD356-B0F3-407D-AAEE-A24C08E65E40-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-516FD356-B0F3-407D-AAEE-A24C08E65E40-low.png"/></fig></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-BAC1B9E4-B5CE-470E-981C-F5A13AD6C9F9" class="- topic/fig "><image href="GUID-613C5310-325B-4858-962A-C31AA10454D0-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-613C5310-325B-4858-962A-C31AA10454D0-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-EC1EAE23-40EC-4B10-A2C9-83873F76DC70" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Symptoms</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Smudge of all colors on one spot 
+</p></li><li class="- topic/li "><p class="- topic/p "> The media is not flat on the surface 
+</p></li><li class="- topic/li "><p class="- topic/p "> In some cases accompanied by ORE5709 
+</p></li><li class="- topic/li "><p class="- topic/p "> In almost all cases the smudge is on the edge of the media (leading edge or side of media) 
+</p></li></ul></section><section id="GUID-5F2114ED-D450-4262-8F28-0CEA4EC4D6BB" class="- topic/section "><title class="- topic/title ">Function Logging (if available)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Media touch</b> 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "> 
+<i class="+ topic/ph hi-d/i "> Printhead score</i> 
+</p><p class="- topic/p ">The performance of the printheads is monitored in “Printhead Score”. 
+</p><p class="- topic/p ">When score of different printheads start to fail in the same print this is an indication the media has touched the printhead. 
+</p><p class="- topic/p "> This can be seen if the X-scale is changed to “per engine_cycle_id” (See picture below). 
+</p><fig id="GUID-2CFD939B-E619-4CD9-BE4E-4A129E819253" class="- topic/fig "><image href="GUID-CAFB8DD6-9652-487F-85A0-CA9B66FC93BD-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-CAFB8DD6-9652-487F-85A0-CA9B66FC93BD-low.png"/></fig><p class="- topic/p "> 
+<i class="+ topic/ph hi-d/i "> Nozzle performance</i> 
+</p><fig id="GUID-7BE56B01-892B-4782-9210-8008671024A6" class="- topic/fig "><image href="GUID-2ED4AF8D-9707-4314-9D89-9F2305FC594C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-2ED4AF8D-9707-4314-9D89-9F2305FC594C-low.png"/></fig><p class="- topic/p "> A typical pattern of a media touch are multiple nozzle failures in the same swath over several printheads. 
+</p><p class="- topic/p ">In the example above this happened 4 times during this print (swath 23, 65, 110 and 154). 
+</p><p class="- topic/p ">As mentioned above these touches didn't result in a permanent damage of the printhead. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Media crash</b> 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">A media crash will result in MRE5709. 
+</p><p class="- topic/p ">This will abort the print and only the last swath of the print will show multiple failures. 
+</p><p class="- topic/p ">In case a printhead is permanently damaged due to a media touch/crash the “Printhead score” will permanently be decreased and also permanent failures are seen next prints in the “nozzle performance”. 
+</p></section><section id="GUID-5259DD47-5351-40D5-A4C8-25BBBCE55314" class="- topic/section "><title class="- topic/title ">ADAM-triggers</title><p class="- topic/p ">No available ADAM-triggers 
+</p></section><section id="GUID-DDCC1BB0-B402-4010-9156-67DB737F3DE5" class="- topic/section "><title class="- topic/title ">Analyze/Repair</title><fig id="GUID-B10CAA56-0747-4EA3-817B-6FB3614E8C16" class="- topic/fig "><image href="GUID-7E866B29-DF94-4E5A-B1E1-E0AD8ABCDF33-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7E866B29-DF94-4E5A-B1E1-E0AD8ABCDF33-svg.svg"/></fig></section><section id="GUID-BB9BDDD1-E29C-42C5-BF10-2854E3AE4223" class="- topic/section "><title class="- topic/title ">Steps explanation</title><table pgwide="1" id="GUID-D963269B-E108-446A-A212-4581FEAA8740" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">To do 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Is the used media flat or damaged? 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether to core of media is undamaged. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Is de media stored in a humid environment? 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Due to moisture, some media might bulge. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Use another roll of the same media 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Cut the first 2 meters of the roll so the outside of the roll of media is scrapped 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the platen is polluted 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Perform manual maintenance and clean platen 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the settings in the profile are correct 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Vacuum settings 
+</p></li><li class="- topic/li "><p class="- topic/p ">Media thickness 
+</p></li><li class="- topic/li "><p class="- topic/p ">Print gap height 
+</p></li><li class="- topic/li "><p class="- topic/p ">usage of Winder/ Tension bar 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">The profile can be downloaded from: 
+<xref href="https://graphiplaza.cpp.canon/media/" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>https://graphiplaza.cpp.canon/media/</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the media is Magnetic or static. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Install MOD39 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the engine is level 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Level platen 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="ENGADJU01" class="- topic/xref " href="GUID-2BFE3033-C726-47A1-9A09-044CAA7F04FE.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 00 How to level the printer?>00 How to level the printer</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check the carriage height 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="03adju001" class="- topic/xref " href="GUID-5C85D6FC-5E14-4490-AB29-1EEC54BC3FB5.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 03 How to adjust the print height (calibration)?>03 How to adjust the print height (calibration)</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust Carriage height 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="03adju001" class="- topic/xref " href="GUID-5C85D6FC-5E14-4490-AB29-1EEC54BC3FB5.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 03 How to adjust the print height (calibration)?>03 How to adjust the print height (calibration)</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the X-tran rollers are clean 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean X-tran rollers 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the X-tran rollers are damaged 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Repair broken X-tran rollers 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="15DISA001" class="- topic/xref " href="GUID-D2422B11-B63C-4FEC-AA37-86683DEF45CA.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 15 How to remove the rollers of the Xtran pinch?>15 How to remove the rollers of the Xtran pinch</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">20 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check winder 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><draft-comment translate="no" class="- topic/draft-comment ">Link naar Winding of the media on the winder is not correct</draft-comment>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-B389EE5D-1914-4E6C-B7F4-012907F4C808" class="- topic/section "><title class="- topic/title "/></section><section id="GUID-2513E5DF-C282-453D-9841-6E539DB0EB51" class="- topic/section "><title class="- topic/title ">Evaluate/Prevention</title><p class="- topic/p ">To minimize the change of media touches/crashes the following topic should be taken care of: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Clean the platen on a regular basis. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Uses the correct profile when loading new media. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Make sure the edge of the media is not damaged. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Make sure the right media thickness is entered in the profile. 
+</p></li></ul></section><section id="GUID-987F83F9-80F0-41BC-B82B-BB16DA268203" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">When the media is not flat on the platen the printhead carriage can touch the surface of the media. In those cases the media wipes ink from printheads which will lead to local smudge on the media. Beware the printhead can also be damaged by a major media crash. In those cases permanent nozzle failures will be present.
+</p><p class="- topic/p ">The most important factor to keep the media flat on the platen is platen itself. There are ventilation holes on the platen which suck the media towards the platen. If this under pressure is not enough to pull the media down a change of media touch arises. The needed under pressure is defined in the media profile but heavily influenced by the condition of the media and the condition of the platen. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-945E6C60-1212-47DF-9487-92374227D4B4.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Solutions</linktext></link></linkpool></related-links>
+</task>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-7C358A14-0DE9-4B7B-B235-65EF388AE940" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-7C358A14-0DE9-4B7B-B235-65EF388AE940" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">15 Escalation media step out of specification</title><abstract class="- topic/abstract " id="GUID-173AF84C-D126-4DD5-8ABA-ADD08113B9D4"><p class="- topic/p ">This topic describes the how to act when the media step is out of specification. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-BAC9DEC6-4543-4ADB-9A11-0303205A96E8" class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">Because the media step is out of specification, more detailed information is required that enables Customer Support LFG to analyze the situation. 
+</p><p class="- topic/p ">An escalation must contain the following 5 steps: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "> Be sure that task [C] is correctly executed. 
+</p><p class="- topic/p ">See : 
+<xref keyref="TaskC" class="- topic/xref " href="GUID-076F1180-B1D0-4149-B9E0-14B78F654639.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text Task [C] Media step verification [Tasks]?>Task [C] Media step verification [Tasks]</xref> 
+</p></li><li class="- topic/li "><p class="- topic/p ">Run SDS test 
+<xref keyref="SDS15-6-022" class="- topic/xref " href="GUID-80C23AAF-D6E6-4EF2-A654-FB8A26EE8808.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 15-6-022 S&S measure media steps in production print mode [Special Tests]?>15-6-022 S&amp;S measure media steps in production print mode [Special Tests]</xref> 
+</p></li><li class="- topic/li "><p class="- topic/p ">Create a new trace log via the On site procedure 2 with Settings Editor. See : 
+<xref keyref="GetTraceFiles2" class="- topic/xref " href="GUID-E5B8292A-7DC5-434F-A78B-2C9D13902D1E.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text How to get the trace files?>How to get the trace files</xref> 
+</p><note id="GUID-90485312-69F5-48D9-A2B0-8445F2BD6681" class="- topic/note "><p class="- topic/p "> Back office procedure 1 via ORS will not contain the data and can therefore not been used. 
+</p></note></li><li class="- topic/li "><p class="- topic/p "> Send a 
+<b class="+ topic/ph hi-d/b ">Media Step O</b>ut 
+<b class="+ topic/ph hi-d/b ">O</b>f 
+<b class="+ topic/ph hi-d/b ">S</b>pecification escalation email with subject: 
+</p><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">C1650#MediaStepOOS#&lt;SerialNumber&gt;</b> towards 
+<xref href="lfg.support@cpp.canon" scope="external" format="html" class="- topic/xref "><?ditaot gentext?>lfg.support@cpp.canon</xref> containing the trace data as attachment. (approximately 200MB) 
+</p><p class="- topic/p ">Email subject example: C1650#MediaStepOOS#99020000 
+</p><note id="GUID-28749EA8-0785-403D-B445-681CDF6242C6" class="- topic/note "><p class="- topic/p ">Do not use normal email since the trace data is too large. 
+</p></note><p class="- topic/p ">TIP: Use e.g. wetransfer containing the trace data. 
+</p><p class="- topic/p ">Advantage of this is that you will: 
+</p><p class="- topic/p ">- receive a notification that the package is sent 
+</p><p class="- topic/p ">- receive a notification when the package is being downloaded. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Escalate to your local NSO specialist with the request to escalate to headquarters using the regular escalation procedure. 
+</p><p class="- topic/p ">The escalation should mention "Media Step Out Of Specification escalation" containing at least the serial number and the email notification that the tracedata is being send to 
+<xref href="lfg.support@cpp.canon" scope="external" format="html" class="- topic/xref "><?ditaot gentext?>lfg.support@cpp.canon</xref>. 
+</p></li></ol></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-12A22F29-4989-4601-A883-7BC951F448D2.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

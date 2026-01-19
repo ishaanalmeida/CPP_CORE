@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-2AF27380-8720-4A81-9902-8D76EDEA3DB4" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-2AF27380-8720-4A81-9902-8D76EDEA3DB4" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">Overview used abbreviations </title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">Hereby the overview of the used abbreviations. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="SECTION_2476A4CDBF3F4AAC8E2257670108BA3D" class="- topic/section "><title class="- topic/title ">General abbreviations for each CAS group (01 Curing up to and included 25 Environment)</title><table id="TABLE_FF8964B876554C9A95E4E107674983F5" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Abbreviation 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">01 CUR</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Carriage 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CAR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Crash 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CRASH 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Pre 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PRE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Post 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">POST 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">02 INK</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Yellow 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Y 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Cyan 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">C 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Magenta 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">M 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Black 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">K 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">White
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">W
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Low 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LOW 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">High 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HIGH 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Cartridge 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CART 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Locked 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LOCKED 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Opened 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">OPENED 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Leak 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LEAK 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Pump 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PUMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Stir 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">STIR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Refill 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">REFILL 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Environment 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ENV 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Temperature 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TEMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Unlock 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">UNLOCK 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">03 ZMS</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Home 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HOME 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Left 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LEFT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Right 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">RIGHT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Height adjustment 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HA 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">04 PHD</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Nozzle Failure Compensation 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">NFC 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">05 YMS</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Home 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HOME 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Carriage 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CAR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Cool 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">COOL 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Ruler 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">RULER 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Measurement and Control 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MC or M&amp;C 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Matrix plate 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Edge 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">EDGE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Center 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CENT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">06 CND</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Pump 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PUMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">07 CLE</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">X (direction) 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">X 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Z (direction) 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Z 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Home 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HOME 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Maintenance 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MAINT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Tray 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TRAY 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Level 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LEVEL 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Present 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PRESENT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Tool ID 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TOOL_ID 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Air 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">AIR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Pump 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PUMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Drive 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">DRIVE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Manual 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MAN 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Pressure 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PRESS 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Switch 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SWITCH 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Release 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">RELEASE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Temperature 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TEMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">11 CON</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "/><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">12 MLO</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Drawer x 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">DRAx 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Roll x 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ROLx 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Pinch 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PINCH 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">15 XMS</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Drive 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">DRV 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Media output 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MOP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Reference 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">REF 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Roll 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ROL 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Lift 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LIFT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Buffer 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">BUF 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Left 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LEFT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Right 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">RIGHT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Media 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MEDIA 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Print surface 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PS 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Zone x 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ZONEx 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Temperature 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TEMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Heater 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">16 MOP</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Knife 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">KNIFE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Left 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LEFT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Right 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">RIGHT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">19 EXO</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Drive 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">DRV 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Blouse 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">BLOUSE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">High 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HIGH 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Winder 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">WND 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Flap 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">FLAP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Media 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MEDIA 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Low 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LOW 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Home 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HOME 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Clamp 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CLAMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Manual 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MAN 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Left 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LEFT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Right 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">RIGHT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Core 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Core 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">21 CNT</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "/><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">22 PWR</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">24 FRA</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Filter 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">FILTER 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Present 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PRESENT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Buffer 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">BUF 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Door 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">DOOR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Top 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TOP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Soft 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SOFT 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">On 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ON 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">25 ENV</b> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Temperature 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">TEMP 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-F5034822-753A-4C8B-A7CD-E44CE7EBD702" class="- topic/section "><title class="- topic/title ">Electrical components</title><table id="TABLE_CBE9ABFB7ED14E10A18FE22B513937A3" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Abbreviation 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Sensor 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Encoder 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ENC 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Motor 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MO 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Lamp 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LAMP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">PBA 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PBA 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RFID 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> RFID 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">LED 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LED 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Solenoid 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SO 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Fan 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">FAN 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Heater 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Valve 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">VA 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Supply 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">G 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Operator Panel / User Panel 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">LUI 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Hard disk 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">HD 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Switch 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SW or S 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Buzzer 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">BU 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Circuit Breaker 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Q 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Bleeder 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">R 
+</p></entry></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-999A1101-A86D-4115-B1B1-9B486EABF826.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

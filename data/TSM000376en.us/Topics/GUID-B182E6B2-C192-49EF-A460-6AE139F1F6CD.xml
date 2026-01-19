@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-B182E6B2-C192-49EF-A460-6AE139F1F6CD" version="3" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-B182E6B2-C192-49EF-A460-6AE139F1F6CD" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">02 The function of the ink level sensors</title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">Each Ink tank has two sensors to detect the ink level in the tank. 
+</p><ol class="- topic/ol " id="OL_41B75C0F1FAE4132998C9D8E575A45A9"><li class="- topic/li " id="LI_CB5D537230D841C8904B859A51EB5D1E"><p class="- topic/p ">Ink system low sensor (INK_X_LOW_SE) 
+</p></li><li class="- topic/li " id="LI_02A1852616E34F71810D71C037E0FA2F"><p class="- topic/p ">Ink system high sensor (INK_X_HIGH_SE) 
+</p></li></ol><p class="- topic/p ">These sensors are used to determine the content of the ink tank. 
+</p><p class="- topic/p ">We can detect : 
+</p><ul class="- topic/ul " id="UL_FAC5EEF1129A4D52828D26AF4BBFBB41"><li class="- topic/li " id="LI_E4DE8049A05B4A4C9DEC4FD4819ABCFB"><p class="- topic/p ">Ink tank full (low and high sensor detects ink). 
+</p></li><li class="- topic/li " id="LI_9BE0FB30F0AC4A64A9BBB678CE6F642E"><p class="- topic/p ">Ink tank half full (low sensor detects ink, high level detects no ink). 
+</p></li><li class="- topic/li " id="LI_6159D377AF804E358DFE7F731113CC26"><p class="- topic/p ">Ink tank almost empty (low and high sensor do not detect ink). 
+</p></li></ul><p class="- topic/p ">A more detailed ink level is estimated by the software based on the ink level sensor states and the jetted ink. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="GUID-3FAD64C7-E47F-42E3-B4A4-730F5137E0B7" class="- topic/section "><title class="- topic/title ">Drawing</title><fig id="GUID-5BAFE870-5F5B-4BA1-8737-A23F39057473" class="- topic/fig "><title class="- topic/title "/><image href="GUID-75DB71DC-D119-4853-923C-27CFF4A23142-low.png" placement="inline" class="- topic/image " otherprops="GUID-75DB71DC-D119-4853-923C-27CFF4A23142-low.png"/></fig><p class="- topic/p ">In the drawing above, the upper blue sensor is the 
+<b class="+ topic/ph hi-d/b ">High sensor 
+</b>and the lower blue sensor is the<b class="+ topic/ph hi-d/b "> Low sensor</b>. 
+</p></section><section id="GUID-F5034822-753A-4C8B-A7CD-E44CE7EBD702" class="- topic/section "><title class="- topic/title ">Sensor operation</title><p class="- topic/p ">The level sensor has two diagnostic LED's: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Green LED:</b> Power supply indicator, led is activated when sensor +24V power supply is present. In normal operation always ON. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yellow LED:</b> Function indicator, indicates the detection of ink/no-ink. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Remark: 
+</b> The picture shows the low and high sensor mounted on an ink tank. Also the position of the green and yellow LED is indicated. 
+</p><fig id="GUID-B77260FD-B735-424B-8DDE-E7C2CE0F96B8" class="- topic/fig "><title class="- topic/title "/><image href="GUID-7BA8BEB2-AD80-4A77-AD34-FB0FFE336F8B-low.png" placement="inline" class="- topic/image " otherprops="GUID-7BA8BEB2-AD80-4A77-AD34-FB0FFE336F8B-low.png"/></fig></li></ul><table id="GUID-E59B5223-01AB-467E-AC9F-68C9AB971191" class="- topic/table "><tgroup cols="5" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="1" align="center" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Sensor status</b> 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" align="center" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">LOW level sensor</b> 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" align="center" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">HIGH level sensor</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">Yellow LED 
+</p></entry><entry colname="col3" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">Sensor output level 
+</p></entry><entry colname="col4" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">Yellow LED 
+</p></entry><entry colname="col5" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">Sensor output level 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">No ink detected 
+</p></entry><entry colname="col2" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">ON 
+</p></entry><entry colname="col3" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">+24 V 
+</p></entry><entry colname="col4" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">OFF 
+</p></entry><entry colname="col5" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">0 V 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">Ink detected 
+</p></entry><entry colname="col2" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">OFF 
+</p></entry><entry colname="col3" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">0 V 
+</p></entry><entry colname="col4" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">ON 
+</p></entry><entry colname="col5" align="center" valign="top" class="- topic/entry "><p class="- topic/p ">+ 24 V 
+</p></entry></row></tbody></tgroup></table><table id="TABLE_27C95C7409FC4F7686953873870E84AB" pgwide="1" outputclass="hidelines" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="50.50*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Ink tank full. 
+</b> 
+</p><p class="- topic/p ">Both sensors detect ink. 
+</p><p class="- topic/p ">Refilling is NOT allowed 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">High level sensor: 
+</b>Yellow LED = ON 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Low level sensor: 
+</b>Yellow LED = OFF 
+</p></entry><entry colname="col2" morerows="2" valign="top" class="- topic/entry "><fig id="GUID-5535DAD6-E77A-4B6E-B585-E54A047F971B" class="- topic/fig "><title class="- topic/title "/><image href="GUID-68B33931-6BDC-40F8-8337-A72D9B097934-low.png" placement="inline" class="- topic/image " otherprops="GUID-68B33931-6BDC-40F8-8337-A72D9B097934-low.png"/></fig></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" morerows="2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Ink tank half full. 
+</b> 
+</p><p class="- topic/p ">Ink system low sensor detects ink. 
+</p><p class="- topic/p ">Ink system high sensor does not detect ink. 
+</p><p class="- topic/p ">Refilling is allowed. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">High level sensor: 
+</b>Yellow LED = OFF 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Low level sensor:</b> Yellow LED = OFF 
+</p></entry><entry colname="col2" morerows="2" valign="top" class="- topic/entry "><fig id="GUID-8168969E-3342-4441-B1A9-8E481F6073D6" class="- topic/fig "><title class="- topic/title "/><image href="GUID-7A916FAF-F4DA-4A7B-BCB8-2FE089B714DB-low.png" placement="inline" class="- topic/image " otherprops="GUID-7A916FAF-F4DA-4A7B-BCB8-2FE089B714DB-low.png"/></fig></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" morerows="2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Ink tank almost empty.</b> 
+</p><p class="- topic/p ">Both sensors do not detect ink. 
+</p><p class="- topic/p ">Refilling is required. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">High level sensor:</b> Yellow LED = OFF 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Low level sensor: 
+</b>Yellow LED = ON 
+</p></entry><entry colname="col2" morerows="2" valign="top" class="- topic/entry "><fig id="GUID-170E087C-E8FC-4A98-92F0-48CC5E925B8E" class="- topic/fig "><title class="- topic/title "/><image href="GUID-9135DBE0-E229-498B-B4D2-935CA36D756A-low.png" placement="inline" class="- topic/image " otherprops="GUID-9135DBE0-E229-498B-B4D2-935CA36D756A-low.png"/></fig></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col3" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="SECTION_3030FAD1FAD64C38B25CB574EA975635" class="- topic/section "><title class="- topic/title ">Ink system high sensor is not connected / open circuit</title><p class="- topic/p ">Error situation if the Ink system high sensor is not connected or has an open circuit 
+</p><p class="- topic/p ">In the drawing below green means “NO ink detected”, red means “INK detected”. 
+</p><table id="TABLE_0C5ACE606ADA4C2F9B7F6243D1922868" pgwide="1" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tank full. 
+</b> 
+</p><p class="- topic/p "> Both sensors detect ink. 
+</p><p class="- topic/p "> Refilling is NOT allowed. 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-40DA0173-6359-44D8-9D2A-A1B37E4194AA" class="- topic/fig "><title class="- topic/title "/><image href="GUID-7F5A977A-865F-4574-9AE1-8DA905E00D93-low.png" placement="inline" class="- topic/image " otherprops="GUID-7F5A977A-865F-4574-9AE1-8DA905E00D93-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tank half full. 
+</b> 
+</p><p class="- topic/p ">Ink system low sensor detects ink, 
+</p><p class="- topic/p ">Ink system high sensor detects ink. 
+</p><p class="- topic/p ">Refilling is NOT allowed. 
+</p><p class="- topic/p ">Ink level estimation will be wrong 
+</p><p class="- topic/p "> (ink has been used; however the upper sensor is still made). 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-CC05DEB7-8F5F-4AC5-BD17-DDE1786E570A" class="- topic/fig "><title class="- topic/title "/><image href="GUID-64C083D0-994D-4E67-96E2-864171B4645C-low.png" placement="inline" class="- topic/image " otherprops="GUID-64C083D0-994D-4E67-96E2-864171B4645C-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tank almost empty.</b> 
+</p><p class="- topic/p ">Ink system low sensor does not detect ink, 
+</p><p class="- topic/p ">Ink system high sensor detects ink. 
+</p><p class="- topic/p ">This illegal state of the sensors will lead to an MRE. 
+</p><p class="- topic/p ">Refilling is NOT allowed. 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-AB497911-095F-4018-B2DC-4BF0B8BFD11B" class="- topic/fig "><title class="- topic/title "/><image href="GUID-919F08A2-DA31-44FD-A169-B4C3CD9BD504-low.png" placement="inline" class="- topic/image " otherprops="GUID-919F08A2-DA31-44FD-A169-B4C3CD9BD504-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="SECTION_08DEA0767CDC41EFB3E46FB63D57C24C" class="- topic/section "><title class="- topic/title ">Ink system low sensor is not connected / open circuit</title><p class="- topic/p ">Error situation if the Ink system low sensor is not connected or has an open circuit 
+</p><p class="- topic/p ">In the drawing below green means “NO ink detected”, red means “ink detected”. 
+</p><table id="TABLE_AE5BA39FA55747CDAAA391EE86E932FD" pgwide="1" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tank full. 
+</b> 
+</p><p class="- topic/p ">Ink system low sensor does not detect ink, 
+</p><p class="- topic/p ">Ink system high sensor detects ink. 
+</p><p class="- topic/p ">This illegal state of the sensors will lead to an MRE. 
+</p><p class="- topic/p ">Refilling is NOT allowed. 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-8E18EE5D-1DBC-40D1-B191-D1159F3D1BAF" class="- topic/fig "><title class="- topic/title "/><image href="GUID-CC5AE51C-BAF0-4434-BC5D-EA76A4521B18-low.png" placement="inline" class="- topic/image " otherprops="GUID-CC5AE51C-BAF0-4434-BC5D-EA76A4521B18-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tank half full. 
+</b> 
+</p><p class="- topic/p ">Both sensors do not detect ink. 
+</p><p class="- topic/p ">Refilling is allowed. 
+</p><p class="- topic/p ">Printing is stopped. 
+</p><p class="- topic/p ">Refilling will lead to the MRE ‘illegal sensor states’. 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-04F96D1C-8201-419A-AF1A-9A8AE3B63D0D" class="- topic/fig "><title class="- topic/title "/><image href="GUID-DD8CC34A-0A5E-4D19-A3CE-809A861D2707-low.png" placement="inline" class="- topic/image " otherprops="GUID-DD8CC34A-0A5E-4D19-A3CE-809A861D2707-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tank almost empty.</b> 
+</p><p class="- topic/p ">Both sensors do not detect ink. 
+</p><p class="- topic/p ">Refilling is allowed. 
+</p><p class="- topic/p ">Printing is stopped. 
+</p><p class="- topic/p ">Refilling (maybe 2x) will lead to the MRE ‘illegal sensor states’. 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-EAC19677-0AD2-41D2-8C55-0ED675E4D521" class="- topic/fig "><title class="- topic/title "/><image href="GUID-DDD5F041-9592-428F-BF72-31869DC78630-low.png" placement="inline" class="- topic/image " otherprops="GUID-DDD5F041-9592-428F-BF72-31869DC78630-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-58CA1BC2-F866-476C-B9C7-C65282982E96" class="- topic/section "><title class="- topic/title ">Some additional information about the ink levels displayed</title><p class="- topic/p ">When the first ink bottles are locked correctly and emptied the ink level should be 15%. 
+</p><p class="- topic/p ">Why 15%. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The 0% of the ink level is at 0.5 liter. 
+</p></li><li class="- topic/li "><p class="- topic/p ">After adding 1 ink bottle only 0.2 liter is available for the customer. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The total capacity of the ink tank available for the customer is 1.3 liter. 
+</p></li><li class="- topic/li "><p class="- topic/p ">So (0.2 / 1.3) * 100% = 15%. 
+</p></li></ul><p class="- topic/p ">The Ink Low sensor in the ink tank is at 0.6 liter. 
+</p><p class="- topic/p ">The Ink High sensor at 1.1 liter. 
+</p><p class="- topic/p ">When these sensors change from active to inactive we known for sure how much ink is present in the ink tank. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The Ink Low sensor changes from active to inactive at 0.6 liter. 
+</p><p class="- topic/p ">Now 0.1 liter is available for the customer. (0.1 / 1.3) * 100% = 7%. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The Ink High sensor changes from active to inactive at 1.1 liter. 
+</p><p class="- topic/p "> Now 0.6 liter is available for the customer. (0.6 / 1.3) * 100% = 46%. 
+</p></li></ul><p class="- topic/p ">The Ink handling also administrates an ink level estimation for each ink tank dependent on the number of added ink bottles. 
+</p><p class="- topic/p ">These estimations are adjusted during printing. 
+</p><p class="- topic/p ">The reported ink level towards the operator is based on the estimation. 
+</p><p class="- topic/p ">But if the estimation is inconsistent with the state of the ink level sensors override the estimation. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">For example when the ink level estimation is 0.5 liter but the state is “mid” then 0.6 liter is reported to the operator. 
+</p></li></ul><note id="GUID-3DFCC149-6B1D-45CF-B48A-4E387ABA6ECD" class="- topic/note "><p class="- topic/p ">1.8 liter is the largest amount of ink in the tank. Maximum reported ink amount reported to operator is 1.8 – 0.5 = 1.3 liter. 
+</p></note><p class="- topic/p ">When the estimation is not correct often 7% or 46% is displayed in the ink level status. This level is corrected when a sensor changes from active to inactive. 
+</p></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-FE35F538-1785-4DC7-A246-E1EB5ED33BE7.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-611135E7-18E3-4468-8484-4FA6FE396EBE" version="4" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-611135E7-18E3-4468-8484-4FA6FE396EBE" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">What to do when you do not know the SOID</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Frequently Asked Question</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="M140658-B14" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">Question</ph></title><p class="- topic/p ">What to do when you do not know the SOID? 
+</p></section><section id="M140658-B15" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">Answer</ph></title><p class="- topic/p "> In the installation wizard it is mandatory to fill in the SOID. If you do not know the correct SOID, take it from the list below: 
+</p><table id="GUID-65E7DE84-2F70-43A7-9005-633CEA79316D" class="- topic/table "><title class="- topic/title "> Service Organization ID's</title><tgroup cols="5" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="20*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="35*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="15*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="15*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">ServiceOrganisationTypeCode 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Name 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ServiceOrganisationDescription 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">ServiceOrganisationCode 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">VerificationCode 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Oceania 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0008 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">703 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CCN 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon China 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0005 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">400 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CEL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Europe Middle East Africa 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0002 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">062 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CKBS 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Korea Business Solutions 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0006 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">928 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMJ 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Marketing Japan &amp; Canon Production Printing Systems (RSHQ 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0007 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">631 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CPPO 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CPP Oceania 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0009 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">423 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CSPL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Singapore Limited 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0004 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">615 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">RSHQ 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CUSA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon USA 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">0003 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">141 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CAE 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Emirates 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010649 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">561 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CAT 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Austria 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010009 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">268 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CAU 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Australia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010508 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">829 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBE 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Belgium 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010010 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">916 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBG 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Bulgaria 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010530 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">716 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-BD 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Bangladesh 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010054 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">563 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-BN 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Brunei 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010057 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">538 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-HK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Hong Kong 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010699 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">253 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-ID 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Indonesia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010052 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">014 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-IND 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">India 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010711 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">339 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-KH 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Cambodia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010058 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">117 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-LK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Sri Lanka 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010053 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">404 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-MM 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Myanmar 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010056 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">256 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-MY 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Malaysia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010688 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">659 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-NP 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Nepal 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010055 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">935 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-PH (Philippines) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">&lt;&lt; Unknown &gt;&gt; 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010824 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">241 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-PK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Pakistan 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010059 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">981 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-SG (Singapore) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">&lt;&lt; Unknown &gt;&gt; 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010719 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">930 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-TH 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Thailand 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010701 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">946 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBP-VN 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Vietnam 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010005 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">483 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CBR = E7B29 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Brazil 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010040 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">675 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CCH 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Schweiz 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010165 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">648 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CCI 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Canada, Inc. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010036 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">354 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CCL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Chile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010041 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">037 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CCN Direct Service 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon China Direct Service 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010074 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">502 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CCZ 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Czech Republic 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010164 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">899 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CDE 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Deutschland 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010011 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">531 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CDK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Denmark 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010012 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">574 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CES 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon España 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010013 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">141 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CFI 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Oy 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010014 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">339 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CFR 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon France 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010015 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">711 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CGR 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Greece 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010538 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">983 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CHK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Hong Kong 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010007 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">384 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CHR 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Croatia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010527 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">610 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CHU 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Hungaria 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010017 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">980 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CIE 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Ireland 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010018 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">735 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CIL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Israel 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010610 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">653 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CIPL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon India Pvt Ltd. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010002 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">843 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CIT 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Italia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010019 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">652 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CKBS Direct Service 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Korea Direct Service 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010168 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">778 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CKZ 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Kazakhstan 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010537 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">533 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CLU 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Luxembourg 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010021 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">191 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMJ &amp; CSS 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CMJ &amp; CSS Direct Service
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010043 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">366 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMM 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Marketing Malaysia Sdn Bhd 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010004 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">772 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMP 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Marketing Philippines Inc 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010006 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">054 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMS 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Singapore Pte Ltd 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010001 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">222 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMT 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Marketing Thailand Co.,Ltd 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010003 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">846 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMTW 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Marketing Taiwan Inc 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010008 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">519 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CMX 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Mexicana, S. de R.L. de C.V. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010037 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">036 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CNL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Nederland 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010020 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">573 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CNO 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Norge 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010022 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">925 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CNZ 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon New Zealand 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010167 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">601 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CPA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Panama 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010042 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">703 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CPL 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Polska 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010023 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">595 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CPPA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CPP Australia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010166 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">097 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CPT 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Portugal 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010024 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">002 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CQA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Qatar 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010650 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">404 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CRO 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Romania 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010025 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">843 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CRS 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Serbia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010539 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">347 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CSA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Solutions America 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010035 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">111 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CSAU 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Saudi Arabia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010584 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">647 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CSE 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Svenska 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010026 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">678 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CSI 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Slovenija 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010027 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">622 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CSK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Slovakia 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010028 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">251 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CUA 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon Україна 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010029 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">489 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CUK 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon UK 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010016 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">072 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Canon PPS-J
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Canon PPS-J Direct Service
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00011021
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">845
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">NSO 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">演示区 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">仅供演示使用，仅包含展厅机器 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">00010639 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">821 
+</p></entry></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-A0CF852B-8B0E-4383-A7DF-C2694332F401.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Frequently Asked Question</linktext></link></linkpool></related-links>
+</concept>

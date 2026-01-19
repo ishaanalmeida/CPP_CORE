@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-3B199462-86EE-4D06-9CA8-85280507B324" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-3B199462-86EE-4D06-9CA8-85280507B324" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">TSM - Description of the Symptom and Area Classification</title><abstract class="- topic/abstract " id="M148567-B29"><p class="- topic/p ">Symptom and Area classification is a four tier hierarchical structure that reflects both the functional areas and the symptom areas. 
+</p><p class="- topic/p ">Symptom area contains information about the "problem" of the system. 
+</p><p class="- topic/p ">Each symptom will guide you, by means of a script, to a functional area in where you can find the solution. 
+</p><p class="- topic/p ">In the Area Classification you will find the solutions of the "Symptoms" 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="M148567-B30" class="- topic/section "><title class="- topic/title ">Symptom classification</title><p class="- topic/p ">The symptom classification can contains of the following categories: 
+</p><table id="M148567-TB31" class="- topic/table "><tgroup cols="3" outputclass="comp" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="21*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="42*" align="left" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="36*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Symptom classification 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Example 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Image Quality 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Problems with the quality of the image on the print. 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><ul id="UL_534339E1BBD1483FA6C65719C89377E5" class="- topic/ul "><li id="LI_EC1AB59EF095445190904A0B64FC4152" class="- topic/li "><p class="- topic/p ">Spots 
+</p></li><li id="LI_116D803153564F2FB015A349EB3D04C5" class="- topic/li "><p class="- topic/p ">Patches 
+</p></li><li id="LI_0613BA052B5346DDB61370505CD3D711" class="- topic/li "><p class="- topic/p ">Stripes 
+</p></li><li id="LI_042C8721A4094E8CAC3D6B15090A6168" class="- topic/li "><p class="- topic/p ">Color 
+</p></li><li id="LI_DEFE75514F0B4EC2B7D12B0723E14867" class="- topic/li "><p class="- topic/p ">... 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Message 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">A display message (text or picture) with an instruction or warning message. 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Message 
+</p><ul id="UL_6A8BEABC0A644464B5E9440CA4C4F6E1" class="- topic/ul "><li id="LI_71FB303FB6F14D88B0438BE3C15A2CD0" class="- topic/li "><p class="- topic/p ">Remove the media jam 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Observation 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Any problems in the printer that you can see. 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><ul id="UL_9CD5B6683CA64E53AFD532DF872EB865" class="- topic/ul "><li id="LI_7E6DA7285E6B4CD9B9C7F6D74E9EFF43" class="- topic/li "><p class="- topic/p ">Media jam 
+</p></li><li id="LI_6BA0E51BEBED4D2789F545B7CCE252AD" class="- topic/li "><p class="- topic/p ">Media feed problems 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Other 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Anything that is not covered by the previous categories. 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Power problem 
+</p><ul id="UL_562CF05221844CC2A3070663898A7DA2" class="- topic/ul "><li id="LI_3CE26D44F3BA4249881AB70E9724DD5B" class="- topic/li "><p class="- topic/p ">Machine death 
+</p></li><li id="LI_1F9A24BA76704D74B81346E39841B59B" class="- topic/li "><p class="- topic/p ">No power 
+</p></li></ul></entry></row></tbody></tgroup></table></section><section id="M148567-B32" class="- topic/section "><title class="- topic/title ">Area classification</title><p class="- topic/p ">The Area classifications describes in a hierarchical structure the functional areas. 
+</p><p class="- topic/p ">The Area classification contains the following categories: 
+</p><table id="M148567-TB33" class="- topic/table "><tgroup cols="3" outputclass="comp" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="21*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="42*" align="left" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="36*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Area category 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Example 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">General 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Generic descriptions that belong to the system. 
+</p></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">System installation descriptions. 
+</p><p class="- topic/p ">System specifications and requirements. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">ONYX 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Information on the integration of the system in the ONYX environment. 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">How to set up the system in a ONYX environment. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Caldera 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Information on the integration of the system in the Caldera environment. 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">How to set up the system in a Caldera environment. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Administration 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Administration options for the system. 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Meter Manager. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Communication 
+</p></entry><entry colname="col2" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Information on the communication options of the system. 
+</p></entry><entry colname="col3" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Network protocols and speeds supported. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">Engine 
+</p></entry><entry colname="col2" valign="top" align="left" morerows="0" class="- topic/entry "><p class="- topic/p ">This area handles all engine-related information about the physical printer engine (also known as <ph translate="no" class="- topic/ph ">CAS</ph> codes). 
+</p><ul id="UL_FC9D3076ABC0493B99DDB197548E536B" class="- topic/ul "><li id="LI_312671B7775A4ECC9719C83A671A7828" class="- topic/li "><p class="- topic/p ">01 Curing 
+</p></li><li id="LI_614013BE865E473AAC9D105B4461B854" class="- topic/li "><p class="- topic/p ">02 Ink System 
+</p></li><li id="LI_8CC26655F4EC46AD96721FCAB25F6715" class="- topic/li "><p class="- topic/p ">03 Z Motion System 
+</p></li><li id="LI_264B38D96F6848B0824927ED561FE693" class="- topic/li "><p class="- topic/p ">04 Printhead 
+</p></li><li id="LI_7BE77778F2964D56BC39DC44E7978168" class="- topic/li "><p class="- topic/p ">05 Y Motion System 
+</p></li><li id="LI_EB4BE58F5C7F4F15A00D1876CA8B00A4" class="- topic/li "><p class="- topic/p ">06 Conditioning 
+</p></li><li id="LI_688628F018444C5EB503767836237F8D" class="- topic/li "><p class="- topic/p ">07 Cleaning and Maintenance 
+</p></li><li id="LI_1C1507CF829C483EAA2FB914B2ACF5A1" class="- topic/li "><p class="- topic/p ">11 Controller 
+</p></li><li id="LI_5B43B0974D794D36AE2E82B3F7FED84D" class="- topic/li "><p class="- topic/p ">12 Media Loading 
+</p></li><li id="LI_FA46986323AD460787D1934115B9ADCD" class="- topic/li "><p class="- topic/p ">15 X Motion System 
+</p></li><li id="LI_E84E4818F9DB4F9AB6014271E8376AAE" class="- topic/li "><p class="- topic/p ">16 Media Output 
+</p></li><li id="LI_D15BB5D7BFA64526BA6B595DA8EE33AB" class="- topic/li "><p class="- topic/p ">19 External Output 
+</p></li><li id="LI_2AF697EDCCD44E2C92D6429142491CD6" class="- topic/li "><p class="- topic/p ">21 Control 
+</p></li><li id="LI_A3A8D61FD044483AA7A4D6D1D348A287" class="- topic/li "><p class="- topic/p ">22 Power 
+</p></li><li id="LI_EAC7829F748A447F9CF33B205C1439B2" class="- topic/li "><p class="- topic/p ">24 Frame 
+</p></li><li id="LI_4CDBDC2589784C4C902603DFB628EF19" class="- topic/li "><p class="- topic/p ">25 Environment 
+</p></li></ul></entry><entry colname="col3" valign="top" align="left" morerows="0" class="- topic/entry "/></row></tbody></tgroup></table><p class="- topic/p ">Each area category can be split-up in the following entries: 
+</p><ul id="UL_38350DCE3B8F4DBAA0F7D6E8A3DBC9A1" class="- topic/ul "><li id="LI_1C1896690FF1406E8007124F9CE3B2DF" class="- topic/li "><p class="- topic/p ">Adjustment 
+</p></li><li id="LI_2CBC81CFE2964274BA221AF585A5FF9B" class="- topic/li "><p class="- topic/p ">Component locator 
+</p></li><li id="LI_277E691BBEAC4073899BB7683DDE2641" class="- topic/li "><p class="- topic/p ">Diagnostics 
+</p></li><li id="LI_95E0C73097C84C749EF9D66AA5737CF1" class="- topic/li "><p class="- topic/p ">Dis-assembly 
+</p></li><li id="LI_F6C015E2B39B47B493EA5E320493EC3F" class="- topic/li "><p class="- topic/p ">Electrical diagram 
+</p></li><li id="LI_8086DBB0597445A8AF4BD18378646D86" class="- topic/li "><p class="- topic/p ">Functional description 
+</p></li><li id="LI_5CFE3DF0D61A4654902953C2425ACB51" class="- topic/li "><p class="- topic/p ">Installation 
+</p></li><li id="LI_AB901CDAF42C4A9C9C820A67C41AFFF7" class="- topic/li "><p class="- topic/p ">Preventive maintenance 
+</p></li><li id="LI_F55BB31962EF4F0DBEE0E380BDD28D43" class="- topic/li "><p class="- topic/p ">SDS 
+</p></li><li id="LI_C0E3AF38115448A2BDB0F42CD8471B58" class="- topic/li "><p class="- topic/p ">User task 
+</p></li></ul></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-26A6FDA9-D4D7-445B-91AA-D9608E775DBB.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

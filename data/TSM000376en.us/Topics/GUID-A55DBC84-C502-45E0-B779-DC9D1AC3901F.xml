@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-A55DBC84-C502-45E0-B779-DC9D1AC3901F" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-A55DBC84-C502-45E0-B779-DC9D1AC3901F" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> Quick Start instruction</title><abstract class="- topic/abstract " id="M148552-B170"><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Goal: 
+</b> 
+</p><p class="- topic/p ">The goal of the quick start instruction is that the printer operators of the system can do the basic system tasks themselves; preventing service calls (costs). 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b "> How:</b> 
+</p><p class="- topic/p ">As the last step of the installation procedure the service engineer executes an operator basic training guided by this quick start instruction. The duration of the quick start is approximately 1 hour. The number of participants is preferable 1 to 4. 
+</p><note class="- topic/note " id="GUID-B9D0F632-370D-4D3D-B445-B8B09C2A2E94"><p class="- topic/p ">Extended training services can be offered towards the customer. Consult your organization how this is organized 
+</p></note><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Definitions:</b> 
+</p><ul class="- topic/ul " id="UL_151DE80208BB4051B21E4E6C4D4A4E2D"><li class="- topic/li " id="LI_089DBF1CC7C442E491A32151B979C961"><p class="- topic/p "> Trainer: The service engineer in the role of trainer 
+</p></li><li class="- topic/li " id="LI_B8DA2B868B1E4809AB5F6A1F681D34D1"><p class="- topic/p "> Students: The printer operators for the system. 
+</p></li></ul></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Installation</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="SECTION_D312084BBF5842119A116A0942F968EA" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Trainer preparations</b> </title><ul id="UL_AA5AC766C8DC4BB58AB22A56C3141B24" class="- topic/ul "><li id="LI_CA65552D9ACB4556B0AB3AE6711B8307" class="- topic/li "><p class="- topic/p ">Print this Quick Start instruction. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Download the "Colorado M-series Care and Use poster" (<ph varid="website downloads" translate="no" class="- topic/ph "><xref href="https://downloads.cpp.canon" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>https://downloads.cpp.canon</xref></ph>) and place it on a USB key for later use. 
+</p><p class="- topic/p ">It is available in the usual languages. 
+</p></li><li id="LI_7D590D87594D4EA48C772FBD08EC32A7" class="- topic/li "><p class="- topic/p ">What needs to be available: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Gloves (<b class="+ topic/ph hi-d/b ">Microflex</b> 93-260 gloves and cotton gloves) 
+</p></li><li class="- topic/li "><p class="- topic/p "> Full ink bottles 
+</p></li><li class="- topic/li "><p class="- topic/p "> USB key with Quick Start Print files 
+</p></li><li class="- topic/li "><p class="- topic/p "> Chemical waste bin for uncured media and gloves 
+</p></li><li class="- topic/li "><p class="- topic/p "> Safety and user documentation notices. 
+</p></li></ul></li><li id="LI_16304EEB94B546E382BBD5FDB9F91F1E" class="- topic/li "><p class="- topic/p ">The system and RIP are tested on correct functioning. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Verify if the Settings editor can be connected to the online extended operation guide. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Download and install the Operation Guide on the RIP PC of the customer. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Stick the Key Operator Maintenance (K.O.M.) sticker on the printer. 
+</p><fig id="GUID-25072DD7-657C-46D3-AA56-680367369BB5" class="- topic/fig "><title class="- topic/title ">Sticker</title><image href="GUID-159C04D1-FCA1-4A07-889E-93EF45B16D73-low.png" placement="inline" class="- topic/image " otherprops="GUID-159C04D1-FCA1-4A07-889E-93EF45B16D73-low.png"/></fig></li><li id="LI_FE0893A8179642C38F8B835487272FA1" class="- topic/li "><p class="- topic/p ">The printer is loaded with 1 roll of calibrated media (e.g. MPI2000), no winding 
+</p></li><li id="LI_4E84F874E65149109A5F4BAE00BAB5D0" class="- topic/li "><p class="- topic/p ">The printer is during the installation loaded with one ink bottle per color making it possible to install a second bottle during the Quick Start 
+</p></li><li id="LI_77638A634FE643CDA07AA79B218FC88E" class="- topic/li "><p class="- topic/p ">Invite the students up-front to be available at a certain time for the duration of 1 hour. Ask them to take along their smart phone. 
+</p></li></ul></section><section id="GUID-FA813103-7050-453F-A7BF-98207749EF1C" class="- topic/section "><title class="- topic/title ">1 Training introduction </title><table id="M148552-TB150" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: 
+<b class="+ topic/ph hi-d/b ">Give an overview of the training. (Timing approximately 5 minutes)</b> 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Goal</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Explain: 
+</p><p class="- topic/p ">Thank the operators to be on time available and that they take the time to be available the next hour. 
+</p><p class="- topic/p ">The goal of the Quick Start is that the printer operators of the system are ready to use the system on a basic level. If additional training is required please contact our organization. 
+</p><p class="- topic/p ">The following topics will be covered: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Training introduction 
+</p></li><li class="- topic/li "><p class="- topic/p ">System introduction 
+</p></li><li class="- topic/li "><p class="- topic/p "> Printing 
+</p></li><li class="- topic/li "><p class="- topic/p ">Safety 
+</p></li><li class="- topic/li "><p class="- topic/p ">Install new ink bottles 
+</p></li><li class="- topic/li "><p class="- topic/p ">Media handling 
+</p></li><li class="- topic/li "><p class="- topic/p ">Error solving 
+</p></li><li class="- topic/li "><p class="- topic/p ">Maintenance 
+</p></li><li class="- topic/li "><p class="- topic/p "> Power on/off 
+</p></li><li class="- topic/li "><p class="- topic/p ">Questions? 
+</p></li></ol><p class="- topic/p "> Invite the operators to take an active part during the training. 
+</p></entry></row></tbody></tgroup></table></section><section id="SECTION_30642C749FE549C0AB5A8920B4F6FE41" class="- topic/section "><title class="- topic/title "> 2 System Introduction </title><table id="TABLE_C5ABA554B29C4692BD2FBE303EFCA1E6" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: 
+<b class="+ topic/ph hi-d/b ">Get to know the components of the system. (Timing approximately 5 minutes)</b> 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">System introduction</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Explain: 
+</b> 
+</p><p class="- topic/p ">In the next minutes I will introduce the main sections of the Colorado printer system to you. I will mention a function and you are invited to point this part out. Next I will explain the main function. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (Assignment):</b> 
+</p><p class="- topic/p ">Name the part as listed below and explain the functionality 
+</p><ul id="UL_2E11B9556BB048DEBB920F4317706D73" class="- topic/ul "><li id="LI_C5A08CD8C7584B46B1D906F099D0259D" class="- topic/li "><p class="- topic/p "> Operator panel 
+</p><p class="- topic/p ">Place to read the system status and make the necessary settings. 
+</p></li><li id="LI_F5B2BC5EF843460198809C451C81E447" class="- topic/li "><p class="- topic/p ">Media drawer 
+</p><p class="- topic/p ">Holds 2 rolls of media from 11” up to 64” (We will open them later) 
+</p></li><li id="LI_1423A04993A1445DA79A502294FF5C96" class="- topic/li "><p class="- topic/p "> Top cover 
+</p><p class="- topic/p "> Gives a visible look into the main part of the system. It only needs to be opened in case of a media jam or maintenance. It is never opened while printing because it protects you as an operator from UV LED light and contaminated air. 
+</p></li><li id="LI_840DA923CC6E4518BB01957F8EF8E8AA" class="- topic/li "><p class="- topic/p ">Printheads in the printhead carriage 
+</p><p class="- topic/p ">The printer has an optional white ink functionality. In case the option is available 5 printheads (CMYKW) will create the image. If not, the white printhead will not be placed. 
+</p></li><li id="LI_81827538508D43A2BAF7CAF0277C132B" class="- topic/li "><p class="- topic/p ">Curing carriage 
+</p><p class="- topic/p ">The printer has FLXfinish functionality. This means that you can choose for Gloss and Matte curing. In Gloss mode the UVgell is cured by the curing LED's a few seconds after the UVgell is printed on the media. This delay creates the gloss look. In Matte mode the UVgell is cured by the UV light, immediately after printing using a mirror system. This creates the matte effect. 
+</p><p class="- topic/p ">The printer has an optional FLXfinish+ functionality. This means that you can choose that certain areas of the print will be printed in Matte or Gloss. 
+</p></li><li id="LI_5F6E8537C34740389178D735BD6F1124" class="- topic/li "><p class="- topic/p ">Roll winder 
+</p><p class="- topic/p ">The printed media is winded on a shaft in this unit. 
+</p></li><li id="LI_6321424528724A21AD8E9D99F76456CB" class="- topic/li "><p class="- topic/p ">Ink bottle 
+</p><p class="- topic/p ">The bottle that contains UVgell that instantly gels on contact with the media. Results in precise dot placement and area control for perfectly repeatable images at high speed if the white option is available, 5 bottles are placed, else 4. 
+</p></li><li id="LI_037E3B78466648A6B0C1D633C3213BA1" class="- topic/li "><p class="- topic/p ">RIP (ONYX or Caldera) 
+</p><p class="- topic/p "> This PC converts the print file into (raster) data that the system can then print. 
+</p><p class="- topic/p ">It contains the Operation Guide (show how to open the chapter "components of the printer". 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Student</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (assignment): 
+</b> 
+</p><ul id="UL_21D26FF9E5814DE1B6F4D453D306FF16" class="- topic/ul "><li id="LI_30CD435D7D2A4C7A8CA357603FEF6B00" class="- topic/li "><p class="- topic/p ">Point out the part 
+</p></li><li id="LI_55759D7584894573B50DD0DF5A2FE810" class="- topic/li "><p class="- topic/p ">Listen to the provided information 
+</p></li></ul></entry></row></tbody></tgroup></table></section><section id="SECTION_C193BDD5BB434A109E464E56ACBB2A3D" class="- topic/section "><title class="- topic/title ">3 Printing</title><table id="TABLE_21C86CD29BC8402DB5CC4E1B6CA0B3E2" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: 
+<b class="+ topic/ph hi-d/b ">Learn how to make prints (Timing approximately 15 minutes)</b> 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Printing</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Explain: 
+</b> 
+</p><p class="- topic/p "> From the RIP (often ONYX) your files will be printed on the system. In the next minutes you will learn how to send files with the correct settings. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">ONYX / Caldera / Other RIP Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (assignment): 
+</b> 
+</p><p class="- topic/p ">Invite the students to send a file. 
+</p><p class="- topic/p ">For example use the file 'Care and Use poster' (as downloaded before). 
+</p><fig id="GUID-C65AFB62-881A-436B-B029-2AE4B8918EAC" class="- topic/fig "><title class="- topic/title ">Care and use poster</title></fig><p class="- topic/p ">While printing explain the function of the printhead and the curing unit. 
+</p><p class="- topic/p ">Next, explain the print modes and the fact that for each application there will be an optimum mode between speed and quality and gloss or matte printing mode. 
+</p><ul id="UL_39D2011454234FF8A98408349F3A0E52" class="- topic/ul "><li id="LI_51AEF255C47449469A432F63D9E9B2B0" class="- topic/li "><p class="- topic/p "> Print the file in Matte Speciality mode 
+</p></li><li class="- topic/li "><p class="- topic/p ">Print the file in Matte Speed mode 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (assignment):</b> 
+</p><p class="- topic/p "> Invite the students to observe the print process and the printed output. 
+</p><p class="- topic/p ">In inkjet printing the optimum print quality is a trade-off between quality and speed. 
+</p><p class="- topic/p ">Depending on the application requirements you can choose the correct one. 
+</p><p class="- topic/p ">Invite the students to open the ‘Select the print mode’ chapter in the Extended Operation Guide. 
+</p><p class="- topic/p ">Explain that besides Matte printing the printer support Gloss printing and optionally FLXfinish+ and white ink printing. 
+</p><p class="- topic/p ">In all options the production modes are seen as a default mode for the majority of applications. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Students</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (assignment):</b> 
+</p><ul id="UL_8EA0DD03747941AB9DF194FE6CED7B7E" class="- topic/ul "><li id="LI_8BE34B2B4F3442E79E07B1CAF4581A73" class="- topic/li "><p class="- topic/p "> Print the files 
+</p></li><li id="LI_A5229D119E214B3A962597F09523B650" class="- topic/li "><p class="- topic/p ">Observe the print process 
+</p></li><li id="LI_E6D94996E5DB41BD84F224BD31345FE4" class="- topic/li "><p class="- topic/p ">Look at the print quality 
+</p></li><li class="- topic/li "><p class="- topic/p ">Open the ‘’Select the print mode”chapter in the Extended Operation Guide 
+</p></li><li id="LI_13F8BED435634F67B50BF5A7C885022D" class="- topic/li "><p class="- topic/p "> Listen to the provided information 
+</p></li></ul></entry></row></tbody></tgroup></table></section><section id="SECTION_E038331AA577440098BC6B947B26A130" class="- topic/section "><title class="- topic/title ">4 Safety </title><table id="TABLE_C8D3F8AA5B074E84978F58DD3B22D47F" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: How to work in a save manner. (Timing approximately 5 minutes) 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Safety 
+</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Explain: 
+</b> 
+</p><ul id="UL_1A744E5C2FD94441A1F74DC240243CDC" class="- topic/ul "><li id="LI_39E2E3F1A74744FC9F7D7787377C5627" class="- topic/li "><p class="- topic/p ">Handling uncured prints: Uncured prints can happen in case of an error. Use 
+<b class="+ topic/ph hi-d/b ">Microflex</b> 93-260 gloves when removing media with uncured ink on it. Threat the media with uncured ink as chemical disposal. 
+</p></li></ul><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (Assignment):</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Hand over the safety and user documentation notices to the customer. 
+</p></li><li id="LI_D1FDF5D6E8824A518A8C559A178A4ABA" class="- topic/li "><p class="- topic/p "> Open the Operation Guide and read the appropriate safety chapter. 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Student</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (Assignment):</b> 
+</p><ul id="UL_81D457EF4836431EAF34F889CA60B64D" class="- topic/ul "><li id="LI_B233EFB4F14E4BF2A5F8F3A69FDB635D" class="- topic/li "><p class="- topic/p "> Open the extended Operating Guide and point out the "Safe use" chapter. 
+</p></li></ul></entry></row></tbody></tgroup></table></section><section id="SECTION_4AEC0DC7AD5D4557843702DC45B3BCFE" class="- topic/section "><title class="- topic/title ">5 Install new ink bottles</title><table id="TABLE_1665B57804F041C9AAAC65D5DA9EE7A4" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: Learn to install UV gel ink bottles. (Timing approximately 5 minutes) 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Ink bottles</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Explain:</b> 
+</p><p class="- topic/p "> The printer will inform you when you can insert a new bottle of UVgel ink. Since the printer has an ink buffer you can insert a new bottle during printing. This is what you are going to do next. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Students</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (assignment):</b> 
+</p><p class="- topic/p "> Place the UVgel 460 ink bottles. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Explain:</b> 
+</p><p class="- topic/p "> After insertion the bottle is locked until it is empty. 
+</p><p class="- topic/p "> A fast blinking green light indicates the bottle is checked 
+</p><p class="- topic/p "> A constant green light indicates a new bottle can be placed. 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-57EE5FCF-2F89-453A-8E47-C3231E08CF82" class="- topic/section "><title class="- topic/title ">6 Media handling</title><table id="M148552-TB151" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">How to use the Printer Operator Panel (Timing approximately 10 minutes) 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Media drawer and winder</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Explain:</b> 
+</p><p class="- topic/p "> Up to now all prints directly outputted and the winder was not used. 
+</p><p class="- topic/p ">Of course the roll to roll option will used the most. 
+</p><p class="- topic/p ">Now you are going to unload the current roll and reload it using the winder function. 
+</p><p class="- topic/p "> Use cotton gloves to prevent fingerprints on the media. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Explain 
+</b> 
+</p><p class="- topic/p ">There are 2 possibilities to use the winder: 
+</p><ul id="UL_32F3C38B051243048CD6C17DE4415CD5" class="- topic/ul "><li id="LI_9660B70EF31B48488BE61A1A3FFEA8CF" class="- topic/li "><p class="- topic/p "> Loose winding Typical for media that is not stretchable, e.g. blue back 
+</p></li><li id="LI_DC82C238C17D43F7B432920DBC05D8A5" class="- topic/li "><p class="- topic/p "> Tight winding Typical for media that is stretchable, e.g. banners, cloths. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (Assignment):</b> 
+</p><p class="- topic/p ">Invite the trainees to: 
+</p><ul id="UL_A42F7895D8054798ACEF88FDEA31FEEF" class="- topic/ul "><li id="LI_7FF65C36B68E40D0AAD42629A105D53B" class="- topic/li "><p class="- topic/p ">Unload the current loaded roll 
+</p></li><li id="LI_2874357BCE724AE0A647DED99FB350FA" class="- topic/li "><p class="- topic/p ">Take out the core. Use the grip lock 
+</p></li><li id="LI_E323D367A1FA4D32BC3D099DFA26CAAD" class="- topic/li "><p class="- topic/p "> Reload the core. Use the grip lock (including verify the media settings) 
+</p></li><li id="LI_8A929452D00F4E548E4EBF13B689617A" class="- topic/li "><p class="- topic/p "> Feed the media and place the media on the winder using the appropriate winder mode 
+</p></li><li id="LI_95BF2A15FF8C45A89B84547F73A810E8" class="- topic/li "><p class="- topic/p "> Make a print. 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Students</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (assignment): 
+</b> 
+</p><ul id="UL_EC775AE4B5174985B453FE947258EDD1" class="- topic/ul "><li id="LI_80786B03CEE14E2CA168A91DCF607544" class="- topic/li "><p class="- topic/p ">Do the media loading with the grip lock. 
+</p></li><li id="LI_38546646CB19441C8CBC1280CBD5891F" class="- topic/li "><p class="- topic/p "> Do the winder loading. 
+</p></li></ul></entry></row></tbody></tgroup></table></section><section id="SECTION_0BEA6CC373F74C319D96100C504A1FFD" class="- topic/section "><title class="- topic/title ">7 Error solving</title><table id="TABLE_EA0132A6DC7F418EB73BAB0A37FE736B" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: How to solve errors and remove uncured media. (Timing approximately 5 minutes) 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Error solving</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Explain:</b> 
+</p><p class="- topic/p "> In case of an error all operator actions will be explained on the operator panel. Let's examine how it looks like in a worse case example involving uncured prints. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do (assignment):</b> 
+</p><p class="- topic/p "> Invite the trainees to send a file. While the image leading edge has passed the knife open the top cover which will lead to a stop and an uncured print situation. Next, ask one of the students to respond to the actions listed on the operator panel while observing that he takes all the safety precautions like glasses, gloves, etc.. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Student</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (assignment):</b> 
+</p><p class="- topic/p "> Resolve the error. Use the Operation Guide. 
+</p></entry></row></tbody></tgroup></table></section><section id="SECTION_6D8821F691104A4E9170468999B130A7" class="- topic/section "><title class="- topic/title ">8 Maintenance </title><table id="TABLE_EEC4FA869B8340D4AD03088AA96615C6" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: How to execute maintenance actions. (Timing approximately 5 minutes) 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Maintenance</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Explain:</b> 
+</p><p class="- topic/p "> On the operator panel maintenance actions will be indicated when maintenance is needed. 
+</p><p class="- topic/p "> All maintenance actions are described in the Operation guide and available as a video. 
+</p><p class="- topic/p "> The Maintenance Videos QR code on the label makes it possible to view the videos on a tablet or smart phone. 
+</p><p class="- topic/p ">The 2 other QR codes provides access to the Operation guide and graphiPlaza. 
+</p><fig id="GUID-ECC396BB-C928-4A59-8A5F-933172AB5616" class="- topic/fig "><title class="- topic/title ">Sticker</title><image href="GUID-159C04D1-FCA1-4A07-889E-93EF45B16D73-low.png" placement="inline" class="- topic/image " otherprops="GUID-159C04D1-FCA1-4A07-889E-93EF45B16D73-low.png"/></fig><p class="- topic/p ">As an example we will have a look at the maintenance video 5: Clean the platen. 
+</p><note id="GUID-E0892FC7-B1E4-45CE-BD6C-D40694889362" class="- topic/note "><p class="- topic/p "> Instruct the key operator: Refill the chiller with demineralized water. 
+</p></note></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Student</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (assignment):</b> 
+</p><p class="- topic/p ">Watch the video on the smart phone or tablet. 
+</p></entry></row></tbody></tgroup></table></section><section id="SECTION_BFE1A2A1E69E494299F3283F7015EF52" class="- topic/section "><title class="- topic/title ">9 Power off and on </title><table id="TABLE_10453BB8202641A8A0865C1E48623A8B" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: 
+<b class="+ topic/ph hi-d/b ">How to power off and on the printer. (Timing approximately 5 minutes)</b> 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Power off and on</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Explain:</b> 
+</p><ul id="UL_C9675B8F6A15456A8F5949E0A6BAB428" class="- topic/ul "><li id="LI_B682B7344BAA4D3AAA4925A3B63C3492" class="- topic/li "><p class="- topic/p ">The printer has 2 power related switches: The green button underneath the operator panel switches the printer in standby mode. 
+</p><p class="- topic/p "> It verifies that the printer will power down 
+<b class="+ topic/ph hi-d/b ">except</b> for the parts that need to take care that the print process is maintained on regular intervals. In this powered down mode the printer still makes noises because of the maintenance actions taking place in the background. 
+</p><p class="- topic/p "> This is the button you use to switch on in the morning and switch off in the evening. 
+</p></li><li id="LI_6C2FEDD1BDBC4A229456EA153645974E" class="- topic/li "><p class="- topic/p ">The mains switch is only to be used in the rare occasion that you need to switch off the complete system. It is mainly for service purposes. Customers should not use this switch unless there is an emergency. 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Students</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Do (assignment):</b> 
+</p><p class="- topic/p ">Identify the switches. 
+</p></entry></row></tbody></tgroup></table></section><section id="SECTION_097B549B16ED4607B9A60F6C68D99FCA" class="- topic/section "><title class="- topic/title ">10 Questions</title><table id="TABLE_0B80BE64130A4550ADAA4BFD458D2149" class="- topic/table "><tgroup align="left" outputclass="comp" cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="15*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="15*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="70*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" namest="col1" nameend="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Objectives: Receive additional questions. 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Questions</b> 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Trainer</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Explain:</b> 
+</p><p class="- topic/p "> This finalizes the Quick Start training. 
+</p><p class="- topic/p ">Are there any additional questions? 
+</p><p class="- topic/p ">Inform the trainees that additional training can be obtained via your organization like 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Extended operator training 
+</p></li><li class="- topic/li "><p class="- topic/p "> Application training 
+</p></li></ul><p class="- topic/p ">Thank the students for attending. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "/><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Students</b> 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">Do (assignment):</b> 
+</p><p class="- topic/p "> Ask additional questions 
+</p></entry></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7D3F358C-1AB9-4A5D-9B0E-C75D689F152E.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Installation</linktext></link></linkpool></related-links>
+</task>

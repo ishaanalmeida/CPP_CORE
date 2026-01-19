@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-3075BC26-B4D5-4372-9FBE-90F7A0D915BC" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-3075BC26-B4D5-4372-9FBE-90F7A0D915BC" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">Overview CAS groups </title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">Hereby the overview of the printer engine CAS-C groups and the locations. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="SECTION_2476A4CDBF3F4AAC8E2257670108BA3D" class="- topic/section "><title class="- topic/title ">CAS groups </title><table id="TABLE_FF8964B876554C9A95E4E107674983F5" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="20*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CAS group 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Abbreviation 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Curing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CUR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Ink System 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">INK 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">03 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Z Motion System 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ZMS 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">04 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Printhead 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">PHD 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">05 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Y Motion System 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">YMS 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">06 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Conditioning 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CND 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">07 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Cleaning and Maintenance 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CLE 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">(Windows) Controller 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CTR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Media Loading 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">MLO 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">External Input 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">EXI 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">X Motion System 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">XMS 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Media Output 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">MOP 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">External Output 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">EXO 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">21 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Control 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">CTL 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Power 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">PWR 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">24 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Frame 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">FRA 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Environment 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ENV 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-F5034822-753A-4C8B-A7CD-E44CE7EBD702" class="- topic/section "><title class="- topic/title ">View from the media input side</title><fig id="FIG_FE9D117EF452464093BE81D343229EBE" class="- topic/fig "><image href="GUID-0AE23BAA-C9CF-48E1-BF05-C208E783DD58-low.png" id="IMAGE_A9D8588A026345D2B457900D1A56FFFC" placement="inline" class="- topic/image " otherprops="GUID-0AE23BAA-C9CF-48E1-BF05-C208E783DD58-low.png"/></fig></section><section id="SECTION_D1CD0B7F6ACB46D6811BCB4CC84E6A62" class="- topic/section "><title class="- topic/title ">Side view</title><fig id="FIG_301862A2F9E94A7EA090551893FD6620" class="- topic/fig "><image href="GUID-6D199267-439C-408A-8A40-CA50C7EA885D-low.png" id="IMAGE_524DB1F0F0D14A0C8C1B4C1518A90C1C" placement="inline" class="- topic/image " otherprops="GUID-6D199267-439C-408A-8A40-CA50C7EA885D-low.png"/></fig></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-999A1101-A86D-4115-B1B1-9B486EABF826.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

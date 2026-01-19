@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-76B8FB91-C993-4EA9-BD5C-3B69580BA48A" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-76B8FB91-C993-4EA9-BD5C-3B69580BA48A" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Visibility of media step issues</b></title><abstract class="- topic/abstract " id="GUID-0D647D80-7D23-463F-8824-0CD27DC4DE56"><p class="- topic/p ">This document explains the way media step errors can be seen on a print. 
+</p><p class="- topic/p ">Misalignment of media steps will result in 2 different visual defects in a print. The visibility of both defects depends on the size of the media step error. 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Sharp light or darker lines in carriage direction 
+</p></li><li class="- topic/li "><p class="- topic/p ">Lighter banding in carriage direction 
+</p></li></ol></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-C9C7302C-835A-40D6-9E4C-C38B15E84632" class="- topic/section "><title class="- topic/title "> Ad 1) : Sharp darker or lighter lines</title><p class="- topic/p "> 
+</p><p class="- topic/p ">The best way to show the mechanism of the sharp lines is by showing a simplified example.
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">A print is build up by several passes of a printhead over a specific area on the media. 
+</p><p class="- topic/p ">For example in a 4 pass mode the functional area of a printhead (e.g.: nozzleplate) is divided in 4 segments.
+</p><p class="- topic/p ">Each media step is equal to the length of each segment (See example below).
+</p><p class="- topic/p ">In case of an 8 pass mode the length of the functional area is split in 8 segments. 
+</p><p class="- topic/p ">The quality of a print increases by an increase in the amount of passes. 
+</p><p class="- topic/p ">The productivity however decreases by the amount of passes. 
+</p><p class="- topic/p ">In the figure below a 4 pass printmode is simulated. 
+</p><fig id="GUID-A98C76E3-54CB-487D-970E-5600296AE735" class="- topic/fig "><image href="GUID-ABD12104-CD31-4472-9C83-091645983AFA-low.png" placement="inline" class="- topic/image " otherprops="GUID-ABD12104-CD31-4472-9C83-091645983AFA-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Figure 1: Schematic overview equal step 4-pass mode</b> 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">As can be seen above the maximum ink layer is achieved after the 4th step. 
+</p><p class="- topic/p ">After the 4th step all 4 layers are placed and the media step is past the printhead. 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> In the first step only 1/4th of the printhead is used to print the first layer. The remaining 3/4th of the printhead is not used yet. 
+</p></li></ul><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> In the next step the media is moved an additional 1/4th of a printhead. In this step 2/4th of the printhead is used to print a layer. The first half of this layer will be a new layer on top of the layer of step1. The other 1/2 will be a new layer on the media. 
+</p></li></ul><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Step 3 and 4 are equal to step2. 
+</p></li></ul><p class="- topic/p ">After 4 steps the maximum layer thickness is achieved and the printhead is building up the next part of the image (see step5). 
+</p><p class="- topic/p ">In figure2 an example of a too large media step is given. 
+</p><fig id="GUID-C9E763B6-3F52-4485-8D57-4AFFF7C2F1FA" class="- topic/fig "><image href="GUID-A15555ED-5D5C-4656-9A4B-A9165E724236-low.png" placement="inline" class="- topic/image " otherprops="GUID-A15555ED-5D5C-4656-9A4B-A9165E724236-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Figure2 : Schematic overview equal step 4-pass mode (too long media step).</b> 
+</p><p class="- topic/p "> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> In the 1st step 1/4th of the printhead is used to print the first layer. After this layer the media is transported equal to 1/4th of the printhead. In this case the step is too big and the first layer is moved too far. 
+</p></li></ul><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">- In the second step 1/4th of the printhead will print a new layer on the media. However due to the large step there will be a small gap between this new layer and the previous layer from step1. This gap is covered by the other block of 1/4th of the printhead, but there is a small area where the nett result is not 2 layers, but only 1. 
+</p></li></ul><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">- In step3 the media is moved again and a new gap will arise. In this case not directly on the media. 
+</p></li></ul><p class="- topic/p ">After 4 steps there are small areas where the total sum of layer thickness is not 4, but 3. As the total layer a bit less then it’s environment this can be seen as a small lighter line on the print. 
+</p><p class="- topic/p ">In case the media step is too short, the printed layers don’t show a gap, but are printed over each other. 
+</p><p class="- topic/p ">This will lead to an small area where the total layer thickness will be above 4. This will lead to a darker line on the print. 
+</p><p class="- topic/p ">This kind of error is also called a 
+<b class="+ topic/ph hi-d/b ">sum-step error</b>. 
+</p><p class="- topic/p ">The width of these lines are of course depended on the size of the media step error.
+</p><p class="- topic/p ">The distance between the lines is of course depending of the printmode. 
+</p><p class="- topic/p "> In case of a 8 pass printmode the distance will be shorter as the media steps are shorter (printhead is divided in more segments). 
+</p><p class="- topic/p "> 
+</p></section><section id="GUID-D2E74DDE-F58D-4ECB-BEFF-1671A229D45C" class="- topic/section "><title class="- topic/title ">Ad 2) : Lighter banding in carriage direction</title><p class="- topic/p "> 
+</p><p class="- topic/p ">In the previous example a simplified model of printing is shown. 
+</p><p class="- topic/p ">In real life there is only 1 layer of ink instead of 4 or 8 layers. A special pattern is used to fill a solid area on the media. 
+</p><p class="- topic/p ">During each step a part of this pattern is filled. In the example below the buildup of a 2-pass mode is schematically shown. 
+</p><fig id="GUID-0380733C-9DD2-4B99-A542-394EEDC933C0" class="- topic/fig "><image href="GUID-E452C286-2A26-4715-8C0F-7736DAEAC86E-low.png" placement="inline" class="- topic/image " otherprops="GUID-E452C286-2A26-4715-8C0F-7736DAEAC86E-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Figure3 : Filling pattern 2-pass mode</b> 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">As can be seen in Figure3. A binary pattern of droplets is jetted on the media (Cyan). In the second step the media is transported so the gaps in the pattern can be filled by the same pattern (Magenta). The result is a single layer which covers all media and is a mix of Cyan and Magenta. 
+</p><p class="- topic/p ">In case the media step is too short, the second pattern is not jetted between the droplet of the first pattern, but on top of it (see figure 4). 
+</p><fig id="GUID-2BF40315-FBCE-4B6A-AF05-8FFE89CF3ED3" class="- topic/fig "><image href="GUID-03C5E4AD-A930-4054-9171-F4EE8555D27E-low.png" placement="inline" class="- topic/image " otherprops="GUID-03C5E4AD-A930-4054-9171-F4EE8555D27E-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Figure 4 : Filling pattern 2-pass mode shifted 1 step to the right 
+</b> 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">As a result some parts of the media will still be visible, but the printed area will be darker as this is a 2-layer thickness instead of a 1 layer. 
+</p><p class="- topic/p ">As two layers are not as twice as dark as one layer the result will be a lighter area on the print. 
+</p><p class="- topic/p ">In case the media is not shifted to the right, but to the left the same result will be seen (see figure 5). 
+</p><fig id="GUID-EB6E7B33-F6B7-490A-8A74-0E7297E7C142" class="- topic/fig "><image href="GUID-0252198F-A18B-419C-9D34-11CA70190570-low.png" placement="inline" class="- topic/image " otherprops="GUID-0252198F-A18B-419C-9D34-11CA70190570-low.png"/></fig><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Figure 5 : Filling pattern 2-pass mode shifted 1 step to the left. 
+</b> 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">As can be seen in Figure 5 a shift to the other side will also lead to droplets on top of each other. This means still a lighter area on the print will be seen. 
+</p><p class="- topic/p ">In contrast to the sum-step error in the previous chapter the width of this lighter area is not dependent of the media step error. 
+</p><p class="- topic/p ">When the step error is not 1, but 2, the gaps will be filled nicely again (see figure 6). 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-61BDF02C-DCDC-4704-A599-355FCF59DF43.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Analysis Tools</linktext></link></linkpool></related-links>
+</task>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 149.95 212.6">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 8px;
+      }
+
+      .st0, .st1 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st2, .st3 {
+        fill: #fff;
+      }
+
+      .st2, .st4, .st5, .st6 {
+        stroke: #000;
+      }
+
+      .st2, .st5, .st6, .st7 {
+        stroke-width: .5px;
+      }
+
+      .st8 {
+        fill: #ffe0b2;
+      }
+
+      .st4 {
+        stroke-width: .25px;
+      }
+
+      .st4, .st5, .st6, .st7 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st4, .st5, .st7 {
+        fill: none;
+      }
+
+      .st9, .st10 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 6px;
+        font-weight: 700;
+      }
+
+      .st10 {
+        display: none;
+      }
+
+      .st6 {
+        fill: #bbdefb;
+      }
+
+      .st1 {
+        font-size: 4px;
+      }
+
+      .st7 {
+        stroke: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <g id="Bckground">
+    <rect class="st3" width="149.95" height="212.6"/>
+  </g>
+  <g id="Frame">
+    <rect class="st7" x="4.9" y="5.67" width="140.15" height="201.26"/>
+    <rect class="st7" x="4.9" y="90.71" width="140.15" height="116.22"/>
+    <text class="st9" transform="translate(9.24 13.65)"><tspan x="0" y="0">Customer / Helpdesk</tspan></text>
+    <text class="st9" transform="translate(9.24 99.21)"><tspan x="0" y="0">Engineer</tspan></text>
+    <text class="st10" transform="translate(5.53 212.08)"><tspan x="0" y="0">Service engineer</tspan></text>
+  </g>
+  <g id="Blocks">
+    <g>
+      <g>
+        <rect class="st8" x="45.21" y="28.35" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+        <rect class="st5" x="45.21" y="28.35" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+      </g>
+      <text class="st1" transform="translate(69.34 36.78)"><tspan x="0" y="0">Start</tspan></text>
+    </g>
+    <g>
+      <g>
+        <rect class="st8" x="45.21" y="184.25" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+        <rect class="st5" x="45.21" y="184.25" width="56.69" height="14.17" rx="5.67" ry="5.67"/>
+      </g>
+      <text class="st1" transform="translate(70 192.69)"><tspan x="0" y="0">End</tspan></text>
+    </g>
+    <g>
+      <rect class="st6" x="45.21" y="56.69" width="56.69" height="28.35"/>
+      <text class="st1" transform="translate(59.11 72.3)"><tspan x="0" y="0">Redo calibration</tspan></text>
+    </g>
+    <g>
+      <rect class="st6" x="45.21" y="99.21" width="56.69" height="28.35"/>
+      <text class="st1" transform="translate(53.1 114.82)"><tspan x="0" y="0">Execute SDS 07-6-002</tspan></text>
+    </g>
+    <g>
+      <rect class="st6" x="45.21" y="141.73" width="56.69" height="28.35"/>
+      <text class="st1" transform="translate(57.99 157.34)"><tspan x="0" y="0">Escalate to Venlo</tspan></text>
+    </g>
+    <g>
+      <path class="st2" d="M45.21,70.58c0,3.29-2.67,5.95-5.95,5.95s-5.95-2.67-5.95-5.95,2.67-5.95,5.95-5.95,5.95,2.67,5.95,5.95Z"/>
+      <text class="st0" transform="translate(37.03 73.29)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g>
+      <circle class="st2" cx="39.26" cy="113.67" r="5.95"/>
+      <text class="st0" transform="translate(37.03 116.37)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g>
+      <circle class="st2" cx="39.26" cy="156.19" r="5.95"/>
+      <text class="st0" transform="translate(37.03 158.89)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+  </g>
+  <g id="Lines">
+    <g>
+      <line class="st8" x1="73.56" y1="42.52" x2="73.56" y2="56.69"/>
+      <g>
+        <line class="st4" x1="73.56" y1="42.52" x2="73.56" y2="54.43"/>
+        <path d="M73.56,56.69c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="st8" x1="73.56" y1="85.04" x2="73.56" y2="99.21"/>
+      <g>
+        <line class="st4" x1="73.56" y1="85.04" x2="73.56" y2="96.95"/>
+        <path d="M73.56,99.21c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="st8" x1="73.56" y1="127.56" x2="73.56" y2="141.73"/>
+      <g>
+        <line class="st4" x1="73.56" y1="127.56" x2="73.56" y2="139.47"/>
+        <path d="M73.56,141.73c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+    <g>
+      <line class="st8" x1="73.56" y1="170.08" x2="73.56" y2="184.25"/>
+      <g>
+        <line class="st4" x1="73.56" y1="170.08" x2="73.56" y2="181.99"/>
+        <path d="M73.56,184.25c-.4-1.06-1.07-2.39-1.78-3.21l1.78.65,1.78-.65c-.71.82-1.39,2.14-1.78,3.21Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

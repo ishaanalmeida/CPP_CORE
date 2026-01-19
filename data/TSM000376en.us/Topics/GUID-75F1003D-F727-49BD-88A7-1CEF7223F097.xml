@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">04 How to replace a (failing) printhead: Overview document</title><abstract class="- topic/abstract " id="GUID-0E3E2CA2-5349-4FAF-80F5-347AA9765351"><p class="- topic/p ">This document describes how to replace a (failing) printhead. 
+</p><note class="- topic/note " id="GUID-610BC863-F7A5-476F-BDAB-783E9B196A7B" type="important"><p class="- topic/p "> NEVER combine multiple of the actions below at once: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">(Clean) installation of the system software 
+</p></li><li class="- topic/li "><p class="- topic/p ">Replace the Windows controller 
+</p></li><li class="- topic/li "><p class="- topic/p ">Replace DRC PBA (21PBA04) 
+</p></li><li class="- topic/li "><p class="- topic/p ">Install used Printheads 
+</p></li></ul><p class="- topic/p "> After each change of a topic listed above a system start-up/reboot must be executed to safeguard settings persistence. 
+</p><p class="- topic/p "> Ignoring this, will result in the need for a restore action and involvement of Service and Support CPP is required. 
+</p></note><note class="- topic/note " id="GUID-83AED692-FC26-4383-9B05-34C88A9FCB96" type="important"><p class="- topic/p "> Before multiple printheads are replaced, please contact your local National Service Specialist to confirm the need of multiple replacements. 
+</p><p class="- topic/p "> In some cases a printhead error is the result of other failing functions in the printer. This is likely the case if an error is occurring on multiple printheads at the same time. In that case the printhead does not need to be replaced, but the focus on the root cause needs to be changed to other functions. 
+</p><p class="- topic/p ">Examples: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Multiple 450026 PBA temperature too high: Y-motion system carriage cool fan might be blocked. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Multiple 450001 PHD communication error: Follow up error of other cause. 
+</p></li></ul></note><p class="- topic/p "><b class="+ topic/ph hi-d/b ">The procedure contains the following 5 steps in separate documents: 
+</b> 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Preparation: 
+</b> 
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="ReplacePreparation" href="GUID-F3514800-A710-4D6F-931B-1B0C130A809E.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: Preparation?>04 How to replace a (failing) printhead: Preparation</xref> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> If possible make a Printhead quality check. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Cool down the printheads 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Remove the damaged printhead 
+</b> 
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="ReplaceRemovePHD" href="GUID-ACAD0B0F-C121-43F8-87A4-AEFB386E249B.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: How to remove (Example printhead 3)?>04 How to replace a (failing) printhead: How to remove (Example printhead 3)</xref> 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Install the new printhead 
+</b> 
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="ReplaceInstallPHD" href="GUID-98A2ABFB-934C-43B1-82AB-6A35CBCCFD63.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: How to install (Example printhead 3)?>04 How to replace a (failing) printhead: How to install (Example printhead 3)</xref> 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Finalize: 
+</b> 
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="ReplaceFinalize" href="GUID-23DBCEA8-DB07-41C1-AB8D-FDD6D03E7153.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: Finalize?>04 How to replace a (failing) printhead: Finalize</xref> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Do the required calibrations 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Send the printhead back 
+</b> 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">See 
+<xref class="- topic/xref " keyref="Sendback" href="GUID-376D0A1C-9879-4E95-B0A8-FF888B737E51.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: Send the replaced printhead back?>04 How to replace a (failing) printhead: Send the replaced printhead back</xref></b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Place the damaged printhead in the blister. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Make a second Printhead quality check. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Add the 2 test prints to the packaging 
+</p></li><li class="- topic/li "><p class="- topic/p "> Fill in the return sticker 
+</p></li><li class="- topic/li "><p class="- topic/p ">Send the package back to Venlo. 
+</p></li></ul></li></ol><p class="- topic/p ">It can be used for the following printheads : 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Printhead 1</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 04PH01 </compcodenr><compsignal class="+ topic/keyword oce-d/compsignal " translate="no">PBA</compsignal></comp>
+</p></li><li class="- topic/li " id="LI_F929F14E319F40F694D7003AB2AD32CB"><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Printhead 3</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 04PH03 </compcodenr><compsignal class="+ topic/keyword oce-d/compsignal " translate="no">PBA</compsignal></comp> 
+</p></li><li class="- topic/li " id="LI_6E3F61EF57D54997889E5AEF1AD04145"><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Printhead 4</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 04PH04 </compcodenr><compsignal class="+ topic/keyword oce-d/compsignal " translate="no">PBA</compsignal></comp> 
+</p></li><li class="- topic/li " id="LI_AB177A5D0B2A4B31B724BE06BE3DBE22"><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Printhead 5</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 04PH05 </compcodenr><compsignal class="+ topic/keyword oce-d/compsignal " translate="no">PBA</compsignal></comp> 
+</p></li><li class="- topic/li " id="LI_FDA4EEE8FB3A47A1898ED2602F2E8811"><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">Printhead 6</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 04PH06 </compcodenr><compsignal class="+ topic/keyword oce-d/compsignal " translate="no">PBA</compsignal></comp> 
+</p></li></ul><p class="- topic/p ">See : 
+<xref class="- topic/xref " keyref="05COMP01" href="GUID-C84EECD3-BAF1-407D-AFF1-341C785F8FB5.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text 05 The components of the Y Motion System?>05 The components of the Y Motion System</xref> for the position of the different printheads. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Dis-assembly</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-E4895B67-7FC1-4974-A5C8-D34725505879" class="- topic/section "><title class="- topic/title ">Required tools</title><ul id="UL_8898C0CE4BB54EB081FF0E363C72CA05" class="- topic/ul "><li id="LI_CF6C03643E05418E8091BC6FE2792C2F" class="- topic/li "><p class="- topic/p ">A new printhead 
+</p></li><li class="- topic/li "><p class="- topic/p ">Screwdriver Torx T10. 
+</p></li><li id="LI_E2B5F0051CA942CDB48FA2E98D4FDE75" class="- topic/li "><p class="- topic/p ">Printhead Blister = storage unit. 
+</p></li><li id="LI_EE50474FF75447ECB828FA16EDF27242" class="- topic/li "><p class="- topic/p ">Lint free cloth. 
+</p></li><li id="LI_CBAF893769D54C53B794DF9FE9B65E06" class="- topic/li "><p class="- topic/p ">1 air tube cap (from the new printhead). 
+</p></li><li id="LI_54C5C6F68B4C4B708AD8513AA3689E46" class="- topic/li "><p class="- topic/p ">1 ink tube cap (from the new printhead). 
+</p></li><li class="- topic/li "><p class="- topic/p ">Antistatic wristband 
+</p></li><li id="LI_929C0F12811B4096BB70DA320BD9C6C8" class="- topic/li "><p class="- topic/p ">Protective gloves: 
+<b class="+ topic/ph hi-d/b ">Microflex</b> 93-260 gloves. 
+</p></li></ul></section><section id="GUID-C02D66D1-E3CC-4BC2-95F8-775D93D93431" class="- topic/section "><title class="- topic/title ">Warning / Caution</title><note type="caution" id="GUID-A97040BC-F110-4E4B-9CFF-E8082B9DA00E" class="- topic/note "><fig id="GUID-9848D934-FF3E-4AC9-BA07-69028FA44036" class="- topic/fig "><image href="GUID-FCF86E23-0DD4-40BC-ACDF-FF8ABA1E6502-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-FCF86E23-0DD4-40BC-ACDF-FF8ABA1E6502-low.png"/></fig><p class="- topic/p ">Avoid skin contact with ink: wear protective gloves. 
+</p><fig id="GUID-7C716739-2AD7-42F8-8EF6-B28A8E7B1F76" class="- topic/fig "><image href="GUID-D8099BBE-C3A2-4392-8B56-C532EDDD6073-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-D8099BBE-C3A2-4392-8B56-C532EDDD6073-low.png"/></fig><p class="- topic/p "> Protect your eyes from splashing ink: wear safety glasses. 
+</p></note><note type="important" id="GUID-985FFBF4-CACE-47F4-AF21-7A7BEBBB34EA" class="- topic/note "><p class="- topic/p ">Use an antistatic wrist strap. 
+</p></note></section><section id="GUID-EC9C24D5-D455-4022-B616-D7FEF4DE0A1A" class="- topic/section "><title class="- topic/title ">Illustration</title><fig id="FIG_A42758F402ED48CDB7BB318D3F61EDBD" class="- topic/fig "><image href="GUID-404F2CFE-115B-4513-A4F9-FAFB830EFA0B-low.png" id="IMAGE_85311D0AF2094BB6B2473FEFB41CE65C" keyref="" placement="inline" class="- topic/image " otherprops="GUID-404F2CFE-115B-4513-A4F9-FAFB830EFA0B-low.png"/></fig></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-ECEDEBD8-6D40-49D8-874E-708F1E8B0062.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Dis-assembly</linktext></link></linkpool></related-links>
+</task>

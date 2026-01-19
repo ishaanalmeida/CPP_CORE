@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-646DBB7D-57B3-4C7C-943C-8CBAD07D5A12" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-646DBB7D-57B3-4C7C-943C-8CBAD07D5A12" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">CARE (Collect Analyze Repair Evaluate) for service technician</title><abstract class="- topic/abstract " id="M148538-B12"><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">The perfect Colorado service visit, resulting in great customer satisfaction, is one with a first time fix that is completed in a timely and cost effective manner with appropriate / required maintenance tasks completed to maximise the time and prints before the next service visit.</b> 
+</p><p class="- topic/p "> 
+<i class="+ topic/ph hi-d/i ">Following these guidelines modelled around 'CARE', as detailed below, will help you achieve the perfect service visit and increase levels of customer satisfaction</i> 
+</p><note class="- topic/note " id="GUID-551F080E-98BF-40A7-B8B1-542562BC7C6F" type="caution"><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Work SAFE</b> for yourself and the customer 
+</p><ul class="- topic/ul " id="UL_C35F2A72B54344B8A9F122F0CB6BC6D8"><li class="- topic/li " id="LI_6AF5116C3ACD4F65A7FDCC68FA8980CA"><p class="- topic/p ">UV light &amp; contaminated air: 
+<b class="+ topic/ph hi-d/b ">Only print when top covers are closed / mounted 
+</b> 
+</p></li><li class="- topic/li " id="LI_AA9E4F400B9E4B0B829A6658A9106A19"><p class="- topic/p ">Uncured ink: 
+<b class="+ topic/ph hi-d/b ">Wear protective clothing, nitrile gloves &amp; glasses</b> 
+</p></li><li class="- topic/li " id="LI_5211D61455F843A2898502AAB16CBCB9"><p class="- topic/p ">Power down: 
+<b class="+ topic/ph hi-d/b ">Dis-connect the service jumper during dis-assemblies</b> 
+</p><fig class="- topic/fig " id="FIG_807784338B2E41F9A834913CC06F286E"><image class="- topic/image " href="GUID-8DC62BCD-C522-4D57-9546-F89F95FEB348-low.png" id="IMAGE_BC14546C3E8F4BC2AFDC658925464919" placement="inline" otherprops="GUID-8DC62BCD-C522-4D57-9546-F89F95FEB348-low.png"/></fig></li><li class="- topic/li " id="LI_A8D05531DF4E4EC7B3D93034C1C470DB"><p class="- topic/p ">Work space: 
+<b class="+ topic/ph hi-d/b ">Do not use the top cover and print surface as workspace.</b> 
+</p></li><li class="- topic/li " id="LI_9CB1BDCD1CFE4770B3AC832CE76993F2"><p class="- topic/p ">Media handling: 
+<b class="+ topic/ph hi-d/b ">Use cotton gloves if needed</b> 
+</p></li></ul></note></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Preventive maintenance</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="SECTION_B5B1B1E2C09D4CF8A3083DDDF591EC0A" class="- topic/section "><title class="- topic/title "><b class="+ topic/ph hi-d/b ">Collect</b> (Analyze Repair Evaluate)</title><table id="M148538-TB13" class="- topic/table "><tgroup cols="2" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="45*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Note 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><ul id="UL_CAD5A53872FD4580BE8A39FB90B251A6" class="- topic/ul "><li id="LI_88D85E73F47B4B4382E0C1D19E982199" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Collect (upfront) info from customer/operator</b> 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Connect (upfront) to PRISMAservice</b> to see the 
+<b class="+ topic/ph hi-d/b ">ADAM, proCARE and Warranty info.</b> 
+</p></li><li id="LI_4D20E629ED9E44C28EE6A062A751B104" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Start ADAM on-site</b> (and leave it open during the visit). 
+</p><p class="- topic/p ">- Write down the exact problem(s), each problem one line 
+</p><p class="- topic/p ">- Take notice of the information from the previous visit. 
+</p></li></ul></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Questioning Techniques</b> 
+</p><p class="- topic/p "> Use open questions such as: 
+</p><ul id="UL_7A3A64D1DBC3459C8A086B5CCFBFA76C" class="- topic/ul "><li id="LI_B0BCDD46E6614AE398E5618EC5C90A8A" class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">What</b> is the problem exactly? 
+</p></li><li id="LI_D7E4277CBD914ED5A5067B939D2599C1" class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">When</b> does the problem occur? 
+</p></li><li id="LI_4539A3763CCE41E3AD8AFFEB8EE656A2" class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">How</b> does this affect you? 
+</p></li></ul><p class="- topic/p "> Ask clarifying questions: 
+</p><ul id="UL_45D5FC0C89BD4A5280D3A31C7FF4A060" class="- topic/ul "><li id="LI_FB60C871D6B14B76977729E8F9DBFFF3" class="- topic/li "><p class="- topic/p "> Can you show me some examples? 
+</p></li><li id="LI_AB3BF388B4E944909B410885C96C6F58" class="- topic/li "><p class="- topic/p "> If I understood you correctly the problem is.... 
+</p></li></ul></entry></row></tbody></tgroup></table></section><section id="SECTION_CD84B7EB9DC449FDAA4CF92DEF8D1F74" class="- topic/section "><title class="- topic/title ">(Collect) 
+<b class="+ topic/ph hi-d/b ">Analyze</b> (Repair Evaluate)</title><table id="TABLE_2B727F4D1064489A951028A634812659" class="- topic/table "><tgroup cols="2" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="45*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Note 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><ul id="UL_45EF37C7AD82468F8C87818391A5FC69" class="- topic/ul "><li id="LI_AE64305762D040BF8327398EEF5314FA" class="- topic/li "><p class="- topic/p ">Use [Analyze - Errors - Error list] to 
+<b class="+ topic/ph hi-d/b ">align the reported problem(s) with error codes 
+</b> 
+</p></li><li id="LI_4C7F83F9030049859FE8849B2D4A353E" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Print quality</b> issue 
+</p><p class="- topic/p ">- Try to reproduce the problem yourself 
+</p><p class="- topic/p ">- Go back to reference 
+</p><p class="- topic/p "> ---- Media type is 100% verified (take media out of new labeled package) 
+</p><p class="- topic/p ">---- Periodic Maintenance actions are all done 
+</p><p class="- topic/p ">---- Use the PQT print on Service media 
+</p><p class="- topic/p "> ----<b class="+ topic/ph hi-d/b ">Use the TSM chapter Symptom Image Quality</b> 
+</p></li><li id="LI_0480E0393B4A45EDA01F2F795C6DC129" class="- topic/li "><p class="- topic/p ">Verify the customer story with 
+<b class="+ topic/ph hi-d/b ">facts</b> 
+</p></li><li id="LI_7D0042D25F4D48888AEC0E26DC5187E8" class="- topic/li "><p class="- topic/p ">Take the time to 
+<b class="+ topic/ph hi-d/b ">read the history information</b> 
+</p></li><li id="LI_B4501613B57B414CB2B4756B1C8705D7" class="- topic/li "><p class="- topic/p ">Do 
+<b class="+ topic/ph hi-d/b ">a cross-check</b> (if possible) before ordering parts 
+</p></li><li id="LI_83D94CB744644ADFA26F07C208E3318F" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do not hesitate to escalate</b> after ½ hour to 2<sup class="+ topic/ph hi-d/sup ">nd</sup> line support 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Prepare your call</b> by: 
+</p><p class="- topic/p ">- know the facts (What, Where, When, Scope) 
+</p><p class="- topic/p ">- what you did and why 
+</p><p class="- topic/p ">- using the 
+<b class="+ topic/ph hi-d/b ">SPA methodology 
+</b> 
+</p></li><li id="LI_566B5EE481054193985BD16A622E69BB" class="- topic/li "><p class="- topic/p ">If the machine has a 
+<b class="+ topic/ph hi-d/b ">poor service history</b> or is 
+<b class="+ topic/ph hi-d/b ">used outside specifications</b>, escalate to your manager 
+</p></li><li id="LI_9813FCC110B64AC0B52E9C3453E08189" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Agree using the proCARE information with the customer</b> about what you will do for what problem(s) 
+</p></li></ul></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b "> Look around…</b> 
+</p><p class="- topic/p "> Observe the customer's working practices and environment. 
+</p><fig id="FIG_9F130207FF2A42ADBAC693A66FA576DA" class="- topic/fig "><image href="GUID-BD5385B4-4FD9-44DA-95C5-470EA090F95F-low.png" id="IMAGE_EA2830AF6539400381C3FD771A2E167C" placement="inline" class="- topic/image " otherprops="GUID-BD5385B4-4FD9-44DA-95C5-470EA090F95F-low.png"/></fig><p class="- topic/p "> For example: 
+</p><ul id="UL_767F8220B51A4F91A904E1D965A6932E" class="- topic/ul "><li id="LI_FE712653F0A34D868678D61520DDA6D0" class="- topic/li "><p class="- topic/p "> Temperature / Humidity / Smell 
+</p></li><li id="LI_327B85E2DB004674A2CB3E4686EB5877" class="- topic/li "><p class="- topic/p "> Media 
+</p></li><li id="LI_1303C135426C49CE9BCE1A4B75CA90A0" class="- topic/li "><p class="- topic/p "> Cleanliness 
+</p></li><li id="LI_8A16FEF852E34847B068D5139A102DD1" class="- topic/li "><p class="- topic/p "> Contaminants 
+</p></li><li id="LI_CDBE88231AA04639BDC3003800E14A94" class="- topic/li "><p class="- topic/p "> Operator Skills 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">What info is required when writing software related Problem Report (PR)?</b>
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Trace Files
+</p></li><li class="- topic/li "><p class="- topic/p "> Report Data
+</p></li></ul><p class="- topic/p "> Via Settings Editor - Trouble Shooting - Log file with report / trace files
+</p></entry></row></tbody></tgroup></table></section><section id="SECTION_0F9A55881FCB4F24BD005B256F5CB17E" class="- topic/section "><title class="- topic/title ">(Collect Analyze) 
+<b class="+ topic/ph hi-d/b ">Repair</b> (Evaluate)</title><table id="TABLE_57A74B68F8824757B09EF11ED6BBC67F" class="- topic/table "><tgroup cols="2" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="45*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Note 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><ul id="UL_EEEA2CF41ED64638928E925F93889783" class="- topic/ul "><li id="LI_AB678503E8DE441286389BCFC0A7BB65" class="- topic/li "><p class="- topic/p "> Use and 
+<b class="+ topic/ph hi-d/b ">apply the TSM dis-assembly instructions</b> 
+</p></li><li id="LI_6136706C24504DB9914A3CA343FFECC6" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do not hesitate to escalate</b> after ½ hour to 2<sup class="+ topic/ph hi-d/sup ">nd</sup> line support 
+</p></li><li id="LI_BF69D20B1460479FAF1FFA3F36E8290F" class="- topic/li "><p class="- topic/p "> Invest time in other problems and preventive maintenance actions (not reported by customer) 
+</p></li><li id="LI_B67F6BB4A57B45A2908064F95A0350AD" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Do a test run</b> with test file you know to check the print quality 
+</p></li><li id="LI_2A9E082568E041C2BFD0070C174DFED3" class="- topic/li "><p class="- topic/p ">Verify if the 
+<b class="+ topic/ph hi-d/b ">actual problem is solved</b> now 
+</p></li></ul></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="SECTION_E01AD37C7200472799B8777EA1A24D2A" class="- topic/section "><title class="- topic/title ">(Collect Analyze Repair) 
+<b class="+ topic/ph hi-d/b ">Evaluate</b></title><table id="TABLE_F9F367C1BBFC45708AEA74FE1BA9605E" class="- topic/table "><tgroup cols="2" outputclass="free" align="left" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="45*" align="left" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="45*" align="left" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "><p class="- topic/p ">Note 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" morerows="0" valign="top" align="left" class="- topic/entry "><ul id="UL_51F43C4EA2D64A0C85E7544E04E1036E" class="- topic/ul "><li id="LI_4F21F2ADA88A45079DA93B54EB69ED1A" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Fill ADAM</b> 
+</p><p class="- topic/p ">- Repair and Evaluate: Fill all ADAM fields 
+</p><p class="- topic/p ">- Close ADAM using 
+<b class="+ topic/ph hi-d/b ">Exit with Save</b> 
+</p></li><li id="LI_9327CB9BCF6747E6B4530D33132838A8" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Show the customer</b> what has been done about the problem. 
+</p></li><li id="LI_1E0632B254BF4CD4A219F27F27750DD9" class="- topic/li "><p class="- topic/p "> Ask the 
+<b class="+ topic/ph hi-d/b ">customer to test the machine</b> with the same/similar job that was being done when the problem occurred 
+</p></li><li id="LI_53F429A31B8D45E7A042C4E230C2C8AA" class="- topic/li "><p class="- topic/p ">Fill in the necessary 
+<b class="+ topic/ph hi-d/b ">service reporting</b> 
+</p></li><li id="LI_3AC61338C5DC45DD8DFBAAAE464F3172" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Make valuable new information available</b> for your colleagues 
+</p><p class="- topic/p ">- TSM: 
+<b class="+ topic/ph hi-d/b ">Create annotations</b> if applicable 
+</p><p class="- topic/p ">- Fill the “Remarks for next visit” field, if you want to leave a message 
+</p></li><li id="LI_76D28808B7D146B29E4115BA43DF83B7" class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Tidy up</b> the area where you were working, discarding test prints etc. in accordance with the customer’s recycling policy. 
+</p></li><li class="- topic/li "><p class="- topic/p "> However the 
+<b class="+ topic/ph hi-d/b ">PQT test print should never be left 
+</b>at the customer site
+</p></li><li id="LI_7669CF48B18244E9AAC123DD8640CE55" class="- topic/li "><p class="- topic/p ">Ask the customer<b class="+ topic/ph hi-d/b "> if there is anything else</b> you can help them with. If so, forward this to the appropriate person or department 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b "> If you cannot fix on first visit…</b> 
+</p><p class="- topic/p "> Always leave the customer aware about the next steps and apply them
+</p></entry><entry colname="col2" morerows="0" valign="top" align="left" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-F73E2F7A-C617-40B1-AF53-692AB6B27CA4" class="- topic/section "><title class="- topic/title "/></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-AE482382-4925-4EFB-985E-8DF8BE795C1D.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Preventive maintenance</linktext></link></linkpool></related-links>
+</concept>

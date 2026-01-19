@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-BC02304B-49F0-42B5-9ADB-0F9891FE5E3F" version="1" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-BC02304B-49F0-42B5-9ADB-0F9891FE5E3F" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">15 The function of the Xtran pinch lifter</title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">The Xtran pinch lifter performs the following function: 
+</p><ul class="- topic/ul " id="UL_AC7C8D55A13042CA9B89A2E5B946BC9B"><li class="- topic/li " id="LI_847EE947654944A8B7E274C1F6087FA0"><p class="- topic/p ">Open and close the Xtran pinch. 
+</p><p class="- topic/p ">When closed the media can be transported on to the platen. 
+</p></li></ul></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="SECTION_D2E643F57A164045A789311A15694B04" class="- topic/section "><title class="- topic/title ">General operation</title><p class="- topic/p ">With the help of a motor, gear rack, a set of levers the pinch wheels are lowered onto or lifted from the rubber Xtran roller. 
+</p><p class="- topic/p ">A spring mechanism supplies the correct tension on the pinch rollers when the Xtran pinch is closed 
+</p><p class="- topic/p ">The pinch rollers are lifted from the Xtran roller in the following situation: 
+</p><ul id="UL_84E7361D263643CF9F9850C8CB9FFF77" class="- topic/ul "><li id="LI_5ACF30AF91814744BC930C3684E5119E" class="- topic/li "><p class="- topic/p ">when the system is switched off 
+</p></li><li id="LI_99220A4F6A124000861EB7661B0FAD32" class="- topic/li "><p class="- topic/p ">during error recovery. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Components</b> 
+</p><fig id="FIG_675770A631DB4D7B97B5B03B9D563A61" class="- topic/fig "><image href="GUID-799F2B32-FEFC-487A-94F6-F94A149DD79A-low.png" id="IMAGE_9B84CC9E446D45AEB715881F90206FAA" placement="inline" class="- topic/image " otherprops="GUID-799F2B32-FEFC-487A-94F6-F94A149DD79A-low.png"/></fig><table id="TABLE_3C017E3A1A1D4AC5967B781D52EDB943" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="40*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">X motion system drive lift motor</compname><compcodenr translate="no" class="+ topic/keyword oce-d/compcodenr "> 15M5 </compcodenr><compsignal translate="no" class="+ topic/keyword oce-d/compsignal ">XMS_DRV_LIFT_MO</compsignal></comp> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">X motion system drive lift home sensor</compname><compcodenr translate="no" class="+ topic/keyword oce-d/compcodenr "> 15B6 </compcodenr><compsignal translate="no" class="+ topic/keyword oce-d/compsignal ">XMS_DRV_LIFT_HOME_SE</compsignal></comp> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Gear rack 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lever 1 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Pivot point with 2 ball bearings 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Movement of the lever 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lever 2 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Beam with levers 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="SECTION_A845364ADD4D4E99A356122B0DB22522" class="- topic/section "><title class="- topic/title ">Xtran pinch closed </title><fig id="FIG_A96DC852D0BA4E4399027B4395CE17C3" class="- topic/fig "><image href="GUID-8A340107-CD39-49F5-981A-8756015F4B55-low.png" id="IMAGE_5591420F31C24C1A8E86130807912C48" placement="inline" class="- topic/image " otherprops="GUID-8A340107-CD39-49F5-981A-8756015F4B55-low.png"/></fig><table id="GUID-7A92EEDC-14BB-4DE2-B290-F0D9E3CDB75C" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="40*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">X-tran roller 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Pinch rollers 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lever arm 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Pivot point 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Triangular tube with one lever arm 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Spring force on lever arm 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Clearance between plate and lever arm 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lever arm rigid connected with triangular tube 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">For lifting of the lever arm this point moves 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row></tbody></tgroup></table></section><section id="SECTION_0F0B2B281F0F4392BD89FC29EE4A9A6E" class="- topic/section "><title class="- topic/title ">Xtran pinch open </title><fig id="FIG_DF745E757139467982ECD85B73FA1B4E" class="- topic/fig "><image href="GUID-38E390BB-E48F-4497-94C9-52506BC1B4EC-low.png" id="IMAGE_D6FA4F5B47734E31A4095F2AD2D2D6D6" placement="inline" class="- topic/image " otherprops="GUID-38E390BB-E48F-4497-94C9-52506BC1B4EC-low.png"/></fig><table id="GUID-64A22B64-85F9-4989-B8FB-9CFAA01873F0" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="40*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Pinch rollers are lifted from the rubber roller 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Clearance = 0 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Lever is moved in this direction 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-56142F1B-D3A1-46E9-910C-EEE3067DB3E1.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

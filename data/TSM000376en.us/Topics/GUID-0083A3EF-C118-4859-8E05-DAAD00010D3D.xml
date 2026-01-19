@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-0083A3EF-C118-4859-8E05-DAAD00010D3D" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-0083A3EF-C118-4859-8E05-DAAD00010D3D" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Overview of the printmodes and use</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-15654A71-0C87-464A-A0E5-25A8D6FE4E04" class="- topic/section "><title class="- topic/title ">Introduction</title><p class="- topic/p ">This document gives an overview of the print modes, passes, speed, properties and use (if available yet). 
+</p><p class="- topic/p ">Four different print modes are available: 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">a gloss print mode 
+</p></li><li class="- topic/li "><p class="- topic/p ">a matte print mode 
+</p></li><li class="- topic/li "><p class="- topic/p ">a mixed matte gloss print mode 
+</p></li><li class="- topic/li "><p class="- topic/p ">a white print mode 
+</p></li></ol><note id="GUID-D8CF69F9-5710-4385-B68C-A0E3DECBACAE" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The available print modes can differ, depending on the media type configuration in the RIP. 
+</p></li><li class="- topic/li "><p class="- topic/p "> A monodirectional option is available for all print modes at half productivity 
+</p></li></ul></note></section><section id="GUID-FFE645C5-1E98-4783-B7FB-17FE48CEC034" class="- topic/section "><title class="- topic/title ">Overview print modes in gloss print mode</title><table id="GUID-8B2CB849-CF3E-4575-9732-D8FD56E323A3" pgwide="1" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="40*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="20*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="20*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Print mode 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Passes 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M3 &amp; M3W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M5 &amp; M5W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss High Key</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss High Key</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">111 (1195) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">159 (1709) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss Express</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss Express</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">78 (840) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">114 (1229) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss Speed</uicontrol></ph> <ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss Speed</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">55 (592) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">80 (861) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss Production</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss Production</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">39 (420) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">57 (610) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss High Quality</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss High Quality</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">29 (312) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">40 (427) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss Premium</uicontrol></ph> <ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss Premium</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">22 (237) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">27 (290) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Gloss Specialty</uicontrol></ph> <ph class="- topic/ph "><indexterm class="- topic/indexterm ">Gloss Speciality</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">19 (215) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">20 (222) 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-2B06DEFD-D8F9-4315-8619-DBCF86852811" class="- topic/section "><title class="- topic/title ">Overview print modes in matte print mode</title><table id="GUID-18395829-52B4-47A6-8350-7176C6A1D54B" pgwide="1" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="40*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="20*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="20*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Print mode 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Passes 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M3 &amp; M3W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M5 &amp; M5W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Matte Express</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Matte Express</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">36 (388) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">46 (495) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Matte Speed</uicontrol></ph><indexterm class="- topic/indexterm ">Matte Speed</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">27 (291) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">38 (409) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Matte Production</uicontrol></ph><indexterm class="- topic/indexterm ">Matte Production</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">22 (237) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">31 (333) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Matte High Quality</uicontrol></ph><ph class="- topic/ph "/> 
+<indexterm class="- topic/indexterm ">Matte High Quality</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">18 (194) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">27 (290) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Matte Specialty</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Matte Speciality</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">13 (140) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">20 (215) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Backlit</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Backlit</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">18 (194) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">20 (215) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Backlit Density</uicontrol></ph><ph class="- topic/ph "><indexterm class="- topic/indexterm ">Backlit Density</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">10 (108) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">10 (108) 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-F752B32C-AE69-4CA4-9E80-A6DB3913ACCA" class="- topic/section "><title class="- topic/title "> Overview print modes in mixed matte gloss print mode </title><table id="GUID-115B9111-E382-46FD-9E23-DC4A7B58DCAF" pgwide="1" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="40*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="30*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Print mode 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Passes 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M3/M3W &amp; M5/M5W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">[FLXfinish<sup class="+ topic/ph hi-d/sup ">+</sup>]</ph>*<ph class="- topic/ph "><indexterm class="- topic/indexterm ">FLXfinish+</indexterm></ph> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">7 (75) 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p ">* <ph translate="no" class="- topic/ph ">FLXfinish<sup class="+ topic/ph hi-d/sup ">+</sup></ph> has 6 passes for gloss and 8 for matte. 
+</p></section><section id="GUID-56B5273A-0853-42FA-B2B1-7FCF8672A53F" class="- topic/section "><title class="- topic/title ">Overview print modes in white print mode</title><table id="GUID-969CF96F-CF11-479F-88AB-0A3BFC16E87D" pgwide="1" class="- topic/table "><tgroup cols="5" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="40*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="25*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="15*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="10*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="10*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Print mode 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Layer structure 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Passes 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M3W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph ">M5W</ph> 
+</p><p class="- topic/p "> m<sup class="+ topic/ph hi-d/sup ">2</sup>/h (ft<sup class="+ topic/ph hi-d/sup ">2</sup>/h) 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph translate="no" class="- topic/ph "><uicontrol class="+ topic/ph ui-d/uicontrol ">Spot White Express</uicontrol></ph><indexterm class="- topic/indexterm ">Spot White Express</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1: <ph translate="no" class="- topic/ph ">CMYKW</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">27 (291) 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">36 (388) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Spot White Speed</uicontrol></ph><indexterm class="- topic/indexterm ">Spot White Speed</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1: <ph translate="no" class="- topic/ph ">CMYKW</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">22 (237) 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">30 (323) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Spot White Production</uicontrol></ph><indexterm class="- topic/indexterm ">Spot White Production</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1: <ph translate="no" class="- topic/ph ">CMYKW</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">18 (194) 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">24 (258) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Spot White High Quality</uicontrol></ph><indexterm class="- topic/indexterm ">Spot White High Quality</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1: <ph translate="no" class="- topic/ph ">CMYKW</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">13 (140) 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">18 (194) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">Spot White Specialty</uicontrol></ph><indexterm class="- topic/indexterm ">Spot White Specialty</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">1: <ph translate="no" class="- topic/ph ">CMYKW</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">9 (129) 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">12 (129) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Overflood Speed</uicontrol></ph><indexterm class="- topic/indexterm ">White Overflood Speed</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">CMYK-W</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">3+4 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">20 (215) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Overflood Production</uicontrol></ph><indexterm class="- topic/indexterm ">White Overflood Production</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">CMYK-W</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">4+6 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">14 (151) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Overflood High Quality</uicontrol></ph><indexterm class="- topic/indexterm ">White Overflood High Quality</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">CMYK-W</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">6+8 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">10 (108) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Overflood Specialty</uicontrol></ph><indexterm class="- topic/indexterm ">White Overflood Specialty</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">CMYK-W</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">8+12 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7 (75) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Underflood Speed</uicontrol></ph><indexterm class="- topic/indexterm ">White Underflood Speed</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">4+3 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">20 (215) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Underflood Production</uicontrol></ph><indexterm class="- topic/indexterm ">White Underflood Production</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">6+4 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">14 (151) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Underflood High Quality</uicontrol></ph><indexterm class="- topic/indexterm ">White Underflood High Quality</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">8+6 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">10 (108) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">White Underflood Specialty</uicontrol></ph><indexterm class="- topic/indexterm ">White Underflood Specialty</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">2: <ph translate="no" class="- topic/ph ">W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">12+8 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7 (75) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">3 Layers High Quality</uicontrol></ph><indexterm class="- topic/indexterm ">3 Layers High Quality</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">3: <ph translate="no" class="- topic/ph ">CMYK-W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">6+8+6 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">7 (75) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">3 Layers Specialty</uicontrol></ph><indexterm class="- topic/indexterm ">3 Layers Specialty</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">3:<ph translate="no" class="- topic/ph "> CMYK-W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">8+12+8 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">5 (54) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">5 Layers High Quality</uicontrol></ph><indexterm class="- topic/indexterm ">5 Layers High Quality</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">5:<ph translate="no" class="- topic/ph "> CMYK-W-B-W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">6+8+8+8+6 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">4 (43) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p "><ph class="- topic/ph "><uicontrol translate="no" class="+ topic/ph ui-d/uicontrol ">5 Layers Specialty</uicontrol></ph><indexterm class="- topic/indexterm ">5 Layers Specialty</indexterm> 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">5: <ph translate="no" class="- topic/ph ">CMYK-W-B-W-CMYK</ph> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">8+12+8+12+8 
+</p></entry><entry colname="col4" namest="col4" nameend="col5" valign="top" class="- topic/entry "><p class="- topic/p ">3 (32) 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p ">Some print modes contain multiple print strategies that offer optimized performance for specific media conditions. 
+</p><p class="- topic/p ">Refer to the Media Verification Protocol (MVP) to choose the best available strategy. 
+</p><p class="- topic/p "> Profiles provided via the Media Guide have a predefined setting. 
+</p><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><note id="GUID-55A6B759-4A67-4E52-BC0A-F00F39E47B20" class="- topic/note "><p class="- topic/p ">The differences in productivity between M3 and M5 series are based on a different print carriage speed. 
+</p><p class="- topic/p ">The M5 print carriage runs on +/- 1.4 m/s, M3 on +/- 1 m/s. 
+</p><p class="- topic/p ">Exceptions are made for the above rule within the M3 during: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">gloss specialty, they are kept the same 
+</p></li><li class="- topic/li "><p class="- topic/p ">Backlit &amp; backlit density and all multilayers also runs on 1.4 m/s 
+</p></li><li class="- topic/li "><p class="- topic/p ">Single layer white run on 1 m/s 
+</p></li></ul></note></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-EF42FFF3-C6AF-4939-AE5C-9EB2061E0E1B.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Image Quality</linktext></link></linkpool></related-links>
+</task>
