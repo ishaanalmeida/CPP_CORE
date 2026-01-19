@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-F425BBAB-AC54-4965-8C10-BE1CDE2C815A" version="3" lang="en-US"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-F425BBAB-AC54-4965-8C10-BE1CDE2C815A" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c concept oceConcept-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic concept/concept "><title class="- topic/title ">21 Overview of the printhead and engine calibrations</title><abstract class="- topic/abstract " id="GUID-34C6A3E5-E809-4139-80CC-275A8CCF9EDC"><p class="- topic/p ">This document gives an overview of the steps, printed information and duration of the printhead and engine calibrations. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category><category class="- topic/category ">Functional description</category></metadata></prolog><conbody class="- topic/body  concept/conbody "><section id="GUID-E359F683-3510-4F9F-B6EA-370CA5F482A4" class="- topic/section "><title class="- topic/title ">Printhead calibration</title><p class="- topic/p "> The Printhead calibration is used to tune the PAINt system to the ink properties and assure a consistent droplet size of each nozzle. The Printhead calibration must be executed in the printer to have the optimum result of Printhead / used ink combination. One or more un-calibrated Printheads will result in a red system tile on the user interface preventing any customer prints. If an un-calibrated Printhead cannot pass the Printhead calibration (for example too many air nozzles), the calibration will fail with an error. 
+</p><p class="- topic/p "> One of the following errors can occur: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 470010 The paint pulse for NFD could not be calibrated 
+</p></li><li class="- topic/li "><p class="- topic/p "> 470015 Too many failing nozzles during WF calibration 
+</p></li><li class="- topic/li "><p class="- topic/p "> 470016 Energy measurement out of range during WF calibration 
+</p></li><li class="- topic/li "><p class="- topic/p "> 470017 Frequency measurement out of range during WF calibration 
+</p></li><li class="- topic/li "><p class="- topic/p "> 470024 Too many failing nozzles during PAINt calibration 
+</p></li></ul><p class="- topic/p "> If earlier calibrated Printhead is re-calibrated and the Printhead cannot pass the calibration anymore, the calibration won't fail. Instead, the previous calibration values will still be used. 
+</p><p class="- topic/p ">This is indicated with a warning in the error history. 
+</p><p class="- topic/p "> One fo the following warnings can occur: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 490010 The paint pulse for NFD could not be recalibrated 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490015 Too many failing nozzles during WF recalibration 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490016 Energy measurement out of range during WF recalibration 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490017 Frequency measurement out of range during WF recalibration 
+</p></li><li class="- topic/li "><p class="- topic/p "> 490024 Too many failing nozzles during PAINt recalibration 
+</p></li></ul><p class="- topic/p ">It is not mandatory to act on these warning immediately. 
+</p><p class="- topic/p ">If the engine calibration can still be done successfully and the customer doesn't face any Print Quality issue, it is not required to act upon the above warnings. 
+</p><p class="- topic/p ">The other way around, if parts of the engine calibration error out or the customer faces Print Quality issues, please check the error logs for Printhead calibration warnings. 
+</p><p class="- topic/p ">They might be the cause. 
+</p></section><section id="GUID-0E7A753B-F110-48B6-8AEB-CAD9246FE29D" class="- topic/section "><title class="- topic/title "/></section><section id="GUID-437A83A0-64F4-4B25-83EE-A246E4696EAA" class="- topic/section "><title class="- topic/title ">Overview of the Printhead calibration steps </title><table id="GUID-2AA7D2E7-776F-48D2-B025-7034C6D0D341" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="30*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="10*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Name and description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Required time in minutes 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Printed information 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">0 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">The printheads are purged and wiped to make sure that the nozzles are in optimum condition. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">NozzlePlateDewetting: 
+</p><p class="- topic/p ">All nozzles are fired to get rid of any nozzle start-up effect 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-5EB4E10D-BF94-46ED-80A0-1151AF1F96B2" class="- topic/fig "><image href="GUID-2F61244B-1D0F-4E06-A141-DE591C24A79C-low.png" placement="inline" class="- topic/image " otherprops="GUID-2F61244B-1D0F-4E06-A141-DE591C24A79C-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ScannerBrightness: 
+</p><p class="- topic/p "> The M&amp;C scanner is optimally adjusted. The used media must have a white and smooth surface. 
+</p><p class="- topic/p ">Belongs to engine calibrations, but needs to be done prior to everything else. 
+</p><note id="GUID-FA019D36-65E3-4842-8414-FB4766FF15EE" class="- topic/note "><p class="- topic/p ">This adjustment puts blank media on the platen. 
+</p><p class="- topic/p "> It does not print. 
+</p></note></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ScannerXYAlign: 
+</p><p class="- topic/p ">Measures and defines the X-offset between the M&amp;C scanner and the reference printhead (PH4). 
+</p><p class="- topic/p ">Belongs to engine calibrations, but needs to be done prior to any scanning. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-DF998252-2EE0-4576-9A57-81E0BEF55C7D" class="- topic/fig "><image href="GUID-EC25D3FA-A867-46F4-8CDB-BECAB9883579-low.png" placement="inline" class="- topic/image " otherprops="GUID-EC25D3FA-A867-46F4-8CDB-BECAB9883579-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">MediumSmoothWhiteOpaqueCheck: 
+</p><p class="- topic/p ">The media (used for the calibrations) is checked if it is suitable for the calibrations. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">NozzleCheck: 
+</p><p class="- topic/p ">This complex pattern determines the position of the printheads relative to each other as well as the position of the chips on the printhead itself. 
+</p><note id="GUID-4A9157A4-0DC1-428F-B741-985C1C112669" class="- topic/note "><p class="- topic/p ">The pattern is depended on the configuration of the printer. In case of enabled White additional patterns will be printed. 
+</p></note></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-6C3D4E91-E265-4EF8-BC56-8C0B2E047191" class="- topic/fig "><image href="GUID-898A1EE3-E5EE-4874-8A04-3A6E7DEE31E1-low.png" placement="inline" class="- topic/image " otherprops="GUID-898A1EE3-E5EE-4874-8A04-3A6E7DEE31E1-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PrintheadPAINtReference: 
+</p><p class="- topic/p ">The PAINt pulse to determine failing nozzles is per nozzle determined. 
+</p><note id="GUID-29BBEA5C-C614-48C2-8C81-A62B9687A57D" class="- topic/note "><p class="- topic/p ">This steps is executed twice in most cases as the optimal operating temperature of the printheads needs to determined. 
+</p><p class="- topic/p "> In most cases it needs one additional attempt. 
+</p></note></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-F263ADF7-9F41-46F1-84E4-FBD29E5E4BCB" class="- topic/fig "><image href="GUID-B4871191-BDCD-4AA2-8672-8B483C1BD992-low.png" placement="inline" class="- topic/image " otherprops="GUID-B4871191-BDCD-4AA2-8672-8B483C1BD992-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">PrintheadWaveforms: 
+</p><p class="- topic/p ">The wave form needed to print the correct droplet volume is determined per array 
+</p><note id="GUID-27ACF0DC-37EE-4591-82E9-0F648D3E4B5C" class="- topic/note "><p class="- topic/p ">This steps is executed twice in most cases as the optimal operating temperature of the printheads needs to determined. 
+</p><p class="- topic/p "> In most cases it needs one additional attempt. 
+</p></note></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-1FCA6F16-ADAA-4F1E-A8D6-DDF6539E611D" class="- topic/fig "><image href="GUID-A20DF296-369D-4ACC-AAFD-E300F96D6294-low.png" placement="inline" class="- topic/image " otherprops="GUID-A20DF296-369D-4ACC-AAFD-E300F96D6294-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SpitPrintWithPurgeWipe: 
+</p><p class="- topic/p ">After the calibration the unused nozzles are regenerated by spitting. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "/><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Printhead calibration</b> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Total time: 
+<b class="+ topic/ph hi-d/b ">20 minutes 
+</b> 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section><section id="GUID-E6ED64F4-0303-474E-80D1-F9962D672CC5" class="- topic/section "><title class="- topic/title ">Engine calibration</title><p class="- topic/p "> To enable good print quality the critical parts of engine needs to be calibrated. 
+</p><p class="- topic/p ">The calibration is not mandatory, as factory settings will be used if calibration is not executed. 
+</p><p class="- topic/p "> However it's highly recommended to execute this calibration during the initial installation of the engine. 
+</p><p class="- topic/p "> Also when one of the critical parts is replaced this calibration ensures a good print quality. 
+</p></section><section id="GUID-7D9BB60D-DE73-4F13-9141-3C010F7E8492" class="- topic/section "><title class="- topic/title ">Overview of the engine calibration steps</title><table id="GUID-A2D6F868-B4DD-4D29-A9D0-02755AF234E6" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="30*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="10*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Name and description 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Required time in minutes 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Printed information 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">0 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">0 The printheads are purged and wiped to make sure that the nozzles are in optimum condition. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">NozzlePlateDewetting: 
+</p><p class="- topic/p ">All nozzles are fired to get rid of any nozzle start-up effect. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-2EFD159D-5C21-40EF-967A-5B771C5AC77B" class="- topic/fig "><image href="GUID-2F61244B-1D0F-4E06-A141-DE591C24A79C-low.png" placement="inline" class="- topic/image " otherprops="GUID-2F61244B-1D0F-4E06-A141-DE591C24A79C-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> ScannerXYAlign: 
+</p><p class="- topic/p ">Measures and defines the X-offset between the M&amp;C scanner and the reference printhead (PH4). 
+</p><p class="- topic/p ">Belongs to engine calibrations, but needs to be done prior to any scanning. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-2FA58349-8CCD-41BA-BDCD-13048ECB3DCD" class="- topic/fig "><image href="GUID-EC25D3FA-A867-46F4-8CDB-BECAB9883579-low.png" placement="inline" class="- topic/image " otherprops="GUID-EC25D3FA-A867-46F4-8CDB-BECAB9883579-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">BiDirWide: 
+</p><p class="- topic/p ">Determine the printhead carriage tolerances in bidirectional printing by using the reference printhead (PH4). 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-4688EB31-7E3C-4740-A88E-05D914CAFD38" class="- topic/fig "><image href="GUID-1D071B2D-3893-4CD6-B815-076FF19811AE-low.png" placement="inline" class="- topic/image " otherprops="GUID-1D071B2D-3893-4CD6-B815-076FF19811AE-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">ScannerXresolution: 
+</p><p class="- topic/p ">Measures the X-resolution of the M&amp;C-scanner. 
+</p><p class="- topic/p ">The results are used for the NozzleJetVar step to correct overlapping scans. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-526ED21E-88DC-4EBE-90FE-0DAD108884EB" class="- topic/fig "><image href="GUID-3F85A50E-36E6-4213-B03F-B1AD39DDAD66-low.png" placement="inline" class="- topic/image " otherprops="GUID-3F85A50E-36E6-4213-B03F-B1AD39DDAD66-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">NozzleJetVar: 
+</p><p class="- topic/p ">This complex pattern determines the position of the printheads relative to each other as well as the position of the chips on the printhead itself. 
+</p><note id="GUID-5472DC95-7E45-400F-8D4A-F08745DD08D5" class="- topic/note "><p class="- topic/p ">The pattern is depended on the configuration of the printer. In case of enabled White additional patterns will be printed. 
+</p></note></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-91D1B529-AE05-465D-82A8-7A5F657A2E2E" class="- topic/fig "><image href="GUID-898A1EE3-E5EE-4874-8A04-3A6E7DEE31E1-low.png" placement="inline" class="- topic/image " otherprops="GUID-898A1EE3-E5EE-4874-8A04-3A6E7DEE31E1-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">CyclicPaperStep: 
+</p><p class="- topic/p ">Determine the exact roundness of the Xtran drive roller as input for the media step size. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-B5CE24CC-9D7D-43C0-B31D-FFDB243CE969" class="- topic/fig "><image href="GUID-5B33EC4E-C0C3-4E33-8DC3-DF3A436107E6-low.png" placement="inline" class="- topic/image " otherprops="GUID-5B33EC4E-C0C3-4E33-8DC3-DF3A436107E6-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">SpitPrintWithPurgeWipe: 
+</p><p class="- topic/p ">After the calibration the unused nozzles are regenerated by spitting. 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "/><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "/><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Engine calibration</b> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Total time:<b class="+ topic/ph hi-d/b "> 20 minutes 
+</b> 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></section></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-DED869E2-6BF4-4A33-A12A-F3C8CD878DCF.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-0AFDBAB0-4E30-4BC0-AA0D-6AC80B191C49.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Functional description</linktext></link></linkpool></related-links>
+</concept>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-DB8EE4CA-AE8F-4FC7-956C-203DC228EA2D" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-DB8EE4CA-AE8F-4FC7-956C-203DC228EA2D" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">490005 PHD Y-alignment failed (BiDirWide)</title><abstract class="- topic/abstract " id="GUID-05A567E9-74FF-4DC8-B679-D8341E50DF92"><p class="- topic/p ">The bidirectional Y-wide alignment of the printhead does not meet the target. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-F0AE7E3A-9E6D-400C-BC13-F37E9E0A42C4" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Collect</b> </title><p class="- topic/p "> 
+<u class="+ topic/ph hi-d/u ">Patterns in calibration print</u> 
+</p><table id="GUID-33C22E09-C77E-496D-B993-304ED6D4ECA9" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="8.00*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1640/C1650 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-700D8371-6A16-4797-B1ED-A1674343555B" class="- topic/fig "><image href="GUID-3D926ADB-AC03-4604-86C5-222943FA7BE0-low.png" placement="inline" class="- topic/image " otherprops="GUID-3D926ADB-AC03-4604-86C5-222943FA7BE0-low.png"/></fig><fig id="GUID-48B34907-9EE2-4847-9C58-2F7646F37193" class="- topic/fig "><image href="GUID-AB0F88DE-62F2-497A-8B7C-D20E1B3BB5A6-low.png" placement="inline" class="- topic/image " otherprops="GUID-AB0F88DE-62F2-497A-8B7C-D20E1B3BB5A6-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1630/CMxx 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-F044B686-9836-4317-AE89-C3267D546BD0" class="- topic/fig "><image href="GUID-C376119B-C2EB-499A-BA9A-2654F4B68D3D-low.png" placement="inline" class="- topic/image " otherprops="GUID-C376119B-C2EB-499A-BA9A-2654F4B68D3D-low.png"/></fig><fig id="GUID-0DA8627A-6BAF-4E5C-989D-69FD2FC6088D" class="- topic/fig "><image href="GUID-60548185-4B2F-416B-8B15-EF0E26C9F64B-low.png" placement="inline" class="- topic/image " otherprops="GUID-60548185-4B2F-416B-8B15-EF0E26C9F64B-low.png"/></fig></entry></row></tbody></tgroup></table><p class="- topic/p "><u class="+ topic/ph hi-d/u ">Calibration step 
+</u> 
+</p><p class="- topic/p ">This warning is generated during the calibration step: “BiDirWide” which is part of one the following calibration sequences 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">-</b> Printhead calibration via the UI 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">-</b> Carriage calibration via the UI 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">-</b> Calibrations during installation 
+</p></section><section id="GUID-BB550326-35D0-4C1C-8A08-AFC59D34F5C9" class="- topic/section "><title class="- topic/title ">Analyse/Repair</title><fig id="GUID-68CD2E98-1A09-41C7-9B4E-3346DA795CE1" class="- topic/fig "><image href="GUID-21A3CDCF-B69E-416D-8AC7-ED968947BB97-low.png" placement="inline" class="- topic/image " otherprops="GUID-21A3CDCF-B69E-416D-8AC7-ED968947BB97-svg.svg"/></fig></section><section id="GUID-0D08AFCE-89E1-485F-9C3D-6B5071F9B76E" class="- topic/section "><title class="- topic/title "/><table id="GUID-49BB579D-CDF1-4527-AD40-3F3FF9913CFF" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether clean media is used 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the media using IPA or cut the polluted part of the media 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check whether the used media is white. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">This calibration can only be executed on white and smooth media. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the M&amp;C-scanner needs to be cleaned 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the glass-window of the M&amp;C-scanner using IPA. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the printed pattern look complete (no deviation droplets) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> See example top of this page 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform manual maintenance on the printheads. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-915F84BE-7881-400A-A351-FF4DB79FE9B0" scope="local" format="dita" class="- topic/xref "/> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the ruler is mounted correctly 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-B3C54CD4-CAB1-4766-8605-5CD982C5C2F9" class="- topic/fig "><image href="GUID-7A0A3A70-A7A3-4708-9209-4C93CEC1E4BF-low.png" placement="inline" class="- topic/image " otherprops="GUID-7A0A3A70-A7A3-4708-9209-4C93CEC1E4BF-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> The spring should be over the plate and NOT touching the edge 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the encoder is placed correctly 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-F5A25D73-6F3A-45E5-9BB4-4C0330AA91BD" class="- topic/fig "><image href="GUID-3D926ADB-AC03-4604-86C5-222943FA7BE0-low.png" placement="inline" class="- topic/image " otherprops="GUID-3D926ADB-AC03-4604-86C5-222943FA7BE0-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Reposition the encoder 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-4BA51102-8E44-43F4-AB43-A6348585FDE6.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove Y motion system carriage ruler encoder 05PBA03 YMS_CAR_RUL_ENC</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the M&amp;C-scanner is working well. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-17F448B7-8A72-45B1-B56D-FC5C0BE28701.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05-6-017 M&amp;C scanner test [Special Tests]</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the M&amp;C-scanner 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the Z-motion system is working. 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-18276791-F608-4B99-BBEF-C347C2C6250D.xml" scope="local" format="dita" class="- topic/xref " type="task"><?ditaot gentext?>03-6-021 Check carriage height positions [Special Tests]</xref> 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-E1DE606D-EA52-4E27-A39E-BA6382F25C12" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">-</b> 
+</p></section><section id="GUID-E65ABF18-F576-4346-ACA2-866899A38158" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Background info</b> </title><p class="- topic/p ">This calibration step is used to calibrate the fire-moments of the nozzles, so the droplets end up on the same location when printed from left to right and visa versa. 
+</p><p class="- topic/p ">This calibration corrects aspects like Y-movement deviations of the printhead carriage as well as the height of the printhead carriage compared to the platen. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-F2864082-F34C-4657-B37E-EA7C5343FE90.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

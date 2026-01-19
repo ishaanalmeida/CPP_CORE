@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-D5FD89F6-4557-4068-AD27-4768904F8BD6" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-D5FD89F6-4557-4068-AD27-4768904F8BD6" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">01-6-004 Measure uniformity of curing carriage speed [Special Tests]</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">SDS</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-2BD8C3DB-27B0-44E5-B999-CF486EF1CE0D" class="- topic/section "><title class="- topic/title "><ph class="- topic/ph ">SDS</ph></title><p class="- topic/p "> 
+<object id="GUID-C1789D4C-C3E9-4B7C-B92F-AB5588B2DE45" class="- topic/object "><desc class="- topic/desc "><p class="- topic/p ">Measure uniformity of curing carriage speed </p></desc><param name="testid" value="016004" class="- topic/param "/><param name="target" value="NIL" class="- topic/param "/><param name="axmodule" value="None" class="- topic/param "/></object> 
+</p></section><section id="GUID-1156E15C-FA11-42F7-80CE-F9823F371FA9" class="- topic/section "><title class="- topic/title ">Function</title><p class="- topic/p ">Use this test to measure the uniformity of the curing carriage speed. 
+</p><p class="- topic/p ">After a number of swaths, the maximum deviation of several measured parameters is shown. 
+</p><p class="- topic/p "> These measured values should be in the following range: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">qms: range from 0 up to and including +300 
+</p></li><li class="- topic/li "><p class="- topic/p ">qmin: range from -300 up to and including +300 
+</p></li><li class="- topic/li "><p class="- topic/p ">qmax: range from -300 up to and including +300 
+</p></li><li class="- topic/li "><p class="- topic/p ">qdelms: range from 0 up to and including +300 
+</p></li><li class="- topic/li "><p class="- topic/p ">qdelmin: range from -300 up to and including +300 
+</p></li><li class="- topic/li "><p class="- topic/p ">qdelmax: range from -300 up to and including +300 
+</p></li></ul><p class="- topic/p ">When all parameters are in range the carriage speed is correct. 
+</p></section><section id="GUID-92369981-F020-4E62-9707-58F93D054214" class="- topic/section "><title class="- topic/title ">Speed uniformity</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">qms: 
+</p></li><li class="- topic/li "><p class="- topic/p ">qmin: 
+</p></li><li class="- topic/li "><p class="- topic/p ">qmax: 
+</p></li><li class="- topic/li "><p class="- topic/p ">qdelms: 
+</p></li><li class="- topic/li "><p class="- topic/p ">qdelmin: 
+</p></li><li class="- topic/li "><p class="- topic/p ">qdelmax: 
+</p></li><li class="- topic/li "><p class="- topic/p ">FF meas v: ignore this information. 
+</p></li><li class="- topic/li "><p class="- topic/p ">FF meas c: ignore this information. 
+</p></li><li class="- topic/li "><p class="- topic/p ">FF meas KL: ignore this information. 
+</p></li><li class="- topic/li "><p class="- topic/p ">FF meas KR: ignore this information. 
+</p><p class="- topic/p ">Test has ended successfully. 
+</p></li></ul></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-9A7CD27D-F8E6-4A27-83BA-69325FE7D736.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>SDS</linktext></link></linkpool></related-links>
+</task>

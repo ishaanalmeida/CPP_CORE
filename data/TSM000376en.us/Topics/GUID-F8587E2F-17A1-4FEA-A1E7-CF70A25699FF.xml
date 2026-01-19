@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-F8587E2F-17A1-4FEA-A1E7-CF70A25699FF" version="1" lang="en-US"?><tsTroubleshooting xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-F8587E2F-17A1-4FEA-A1E7-CF70A25699FF" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic tsTroubleshooting)                            (topic hi-d)    (topic sdlVariables-c)                             (topic ut-d)                             (topic indexing-d)                            (topic sw-d)                            (topic ui-d)                            (topic oce-d)                            (topic oceCommonElements-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c tsTroubleshooting oceTroubleshooting-c)   " class="- topic/topic tsTroubleshooting/tsTroubleshooting "><title translate="no" class="- topic/title "> 11 How to restore the serial number of the system </title><abstract class="- topic/abstract " id="GUID-9CA464D2-0133-4689-89AE-CBA900480EB8"><p class="- topic/p "> This document contains the procedure to restore the serial number of the system. 
+</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Required tools</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">USB installation stick (with 
+<b class="+ topic/ph hi-d/b ">keepsettings=NO</b>) 
+</p></li><li class="- topic/li "><p class="- topic/p ">SAM key including SDS license and M&amp;L license 
+</p></li><li class="- topic/li "><p class="- topic/p ">Backup of the engine 
+</p></li><li class="- topic/li "><p class="- topic/p ">If a new Windows controller is used also a new Cm stick is needed. 
+</p><note class="- topic/note " id="GUID-4F05356C-0C58-453F-83C4-DC848B377C25"><p class="- topic/p "> M&amp;L License must be requested at Service and Support CPP. 
+</p><p class="- topic/p ">Technician SAM key information and visit date needs to be aligned with Service and Support CPP because the license is time limited. 
+</p></note></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Procedure</b> 
+</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Power off the printer. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remove license key from controller. This is crucial! 
+</p><note class="- topic/note " id="GUID-F2DE3FB8-663D-44C3-853C-452E1E126510"><p class="- topic/p ">This is crucial! 
+</p></note></li><li class="- topic/li "><p class="- topic/p ">Insert USB install stick in Windows controller. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Power on the printer. 
+</p><p class="- topic/p ">Installation of Windows controller will now start. During installation the engine will reboot several times, at the first start the wizard is showing. Follow the wizards and if possible set the NTP server. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Power off the engine with the (black) power switch. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Remove the USB install stick. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Disconnect the flat-cables of the 8 printheads. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Insert the service SAM key including SDS and M&amp;L license. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Switch on the printer with the black power switch. 
+</p></li><li class="- topic/li "><p class="- topic/p ">When the installation wizards appear, make sure the correct date and time are set. 
+</p><p class="- topic/p ">Fill out the rest with defaults. ( An restore later will overwrite the current data). 
+</p></li><li class="- topic/li "><p class="- topic/p ">Check the correctness of date time. Wrong settings will cause the SAM key being detected as expired. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Switch off the printer with the black power switch. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Insert the SAM key with the SDS and M&amp;L license. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Switch on the engine with the black power switch. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Start up the printer in<b class="+ topic/ph hi-d/b "> zero SDS</b>. 
+</p><fig class="- topic/fig " id="GUID-797445D2-489F-45D5-9E79-49887F398324"><title class="- topic/title "/><image class="- topic/image " href="GUID-6FF8E33F-1ABC-4808-ACB7-9425434B94FA-low.png" placement="inline" otherprops="GUID-6FF8E33F-1ABC-4808-ACB7-9425434B94FA-low.png"/></fig><p class="- topic/p ">While the splash screen is displayed, press service key icon to enter zero SDS. Grey icon indicates that the activation of the button is accepted. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS test 46012 and disable all printheads. Wait for the test to finish. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Start Cold SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Execute SDS test 216006 to reset all counters and current engine settings. The engine will enter cold when starting this test. This test removes all incorrect data. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Leave SDS and enter SDS. 
+</p><note class="- topic/note " id="GUID-F7E906A9-EECF-40AE-A3B1-B938440DC2E7"><p class="- topic/p ">This is to ensure that the required test becomes visible. 
+</p></note></li><li class="- topic/li "><p class="- topic/p ">Execute SDS test 226008 to set the serial number. 
+</p><note class="- topic/note " id="GUID-C562BE2C-5A3C-4EE5-8F8C-39159B55A243"><p class="- topic/p ">In cold SDS the test 226008 is not visible!!) 
+</p></note></li><li class="- topic/li "><p class="- topic/p ">Leave SDS and restart the machine via the engine UI and enter zero SDS. 
+</p><p class="- topic/p ">When the splash screen is displayed, press service key icon to enter zero SDS. 
+</p><p class="- topic/p ">Grey Icon indicates that button press is accepted. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Do SDS test 46012 to disable all printheads. Wait for the test to finish. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Start warm SDS. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Use the “Service user mode” to verify via the LocalEngine UI, “System”-&gt; “About” if the correct serial number is visible. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Go to Cold SDS 
+</p></li><li class="- topic/li "><p class="- topic/p ">When in cold SDS, remove the service jumper. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Connect the flat-cables to the Printheads. 
+</p></li><li class="- topic/li "><p class="- topic/p ">If the Windows controller is the same as before the loss of the serial number the original license dongle can be inserted back again. 
+</p><p class="- topic/p ">In case a different windows controller is placed, a new license dongle must be used and the license must be reactivated. Reactivation can be done after the printer is ready. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Insert the service jumper. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Restore the latest or received backup ( restore complete configuration) to load counters and M&amp;L calibrations. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Engine will reboot to restore the settings (twice expected). This depends on which settings need to recovered. The first reboot will be a reboot of the complete engine. The second one only of the embedded part. 
+</p></li><li class="- topic/li "><p class="- topic/p ">The printer is ready. 
+</p></li><li class="- topic/li "><p class="- topic/p ">(Optional) 
+</p><p class="- topic/p ">Re-activation of the license(s). 
+</p><p class="- topic/p ">Request the license via the ORS procedure: 
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="AutoLicenseViaORS" href="GUID-66521B0A-9EE4-432D-8C42-473926C9FB43.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to request a license via ORS</xref>
+</p><p class="- topic/p ">Request the license via email: 
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="GENINSTALLLICENSE001" href="GUID-83541379-2C72-4191-948E-292B66F16EE2.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>How to request a license</xref>
+</p><p class="- topic/p ">Install the license:
+</p><p class="- topic/p ">See 
+<xref class="- topic/xref " keyref="GENINSTLICENCE002" href="GUID-A5731826-4ADE-4A39-807A-9F6B14629783.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>Install a license received via e-mail</xref>
+</p></li></ol></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Adjustment</category></metadata></prolog><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-7AE4A0D8-DE08-48E4-BF30-48A7044EB405.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Adjustment</linktext></link></linkpool></related-links>
+</tsTroubleshooting>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-EEF1FFBC-E488-466B-89FF-C621A3AEDD72" version="2" lang="en-US"?><tsTroubleshooting xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-EEF1FFBC-E488-466B-89FF-C621A3AEDD72" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic tsTroubleshooting)                            (topic hi-d)    (topic sdlVariables-c)                             (topic ut-d)                             (topic indexing-d)                            (topic sw-d)                            (topic ui-d)                            (topic oce-d)                            (topic oceCommonElements-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c tsTroubleshooting oceTroubleshooting-c)   " class="- topic/topic tsTroubleshooting/tsTroubleshooting "><title translate="no" class="- topic/title "> 2150003 DrawerNodeNotDiscovered</title><abstract class="- topic/abstract " id="GUID-B87BF88B-91B2-4C27-A55C-91B9B6986C8A"><p class="- topic/p ">The connection (remote bus) between <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">µMORPF PBA</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no"> 21PBA02</compcodenr></comp> and <comp class="+ topic/ph oce-d/comp "><compname class="+ topic/keyword oce-d/compname ">IOBOARD_DRAWER PBA 1</compname><compcodenr class="+ topic/keyword oce-d/compcodenr " translate="no">12PBA10 </compcodenr></comp> is not detected. 
+</p><note class="- topic/note " id="GUID-EE945EDA-2FD3-4435-A2E2-D776D5D964BC"><p class="- topic/p ">If this errors occurs after replacement of a new board, then update to the latest software release.
+</p></note></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><tsBody class="- topic/body tsTroubleshooting/tsBody "><tsSymptoms id="GUID-33E1B64A-E818-4500-A780-C8BC692D14B2" class="- topic/section tsTroubleshooting/tsSymptoms "/><tsCauses id="GUID-06054851-8BAF-49CE-8C37-67B9B15CE76D" class="- topic/section tsTroubleshooting/tsCauses "><fig id="GUID-42130475-64DC-482D-80D9-6213FFDD4F90" class="- topic/fig "><image href="GUID-12439F9A-CDD1-482B-93D3-0E317E785C06-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-12439F9A-CDD1-482B-93D3-0E317E785C06-svg.svg"/></fig></tsCauses><tsResolve id="GUID-218063C7-4F51-4F23-8851-C1414639275B" class="- topic/section tsTroubleshooting/tsResolve "><table pgwide="1" id="GUID-1D9DB483-2F98-4297-A044-81EEDBD52597" class="- topic/table "><tgroup align="left" outputclass="suspect" cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="1.57*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="2.62*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="1.00*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="2.67*" class="- topic/colspec "/><thead valign="top" class="- topic/thead "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">To do 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody valign="top" class="- topic/tbody "><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 1 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Enable the 24V powersupply in zero SDS with 
+<xref keyref="SDS22-6-102" class="- topic/xref " href="GUID-CD4F85F0-ED37-49A3-8A35-C2837AE40251.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text xref?>22-6-102 Check PSU 22G02 (24V) [Special Tests]</xref> 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> 2 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Check if green led V3 is on 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The internal generated power supplies on IOBOARD_DRAWER are within specification when the led is on. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check the +24VL connection (X67-p2,p1) to IOBOARD_DRAWER and power supply 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="21ELEC01" class="- topic/xref " href="GUID-F5A56C10-5F14-434F-BE74-69E7D5DBC19C.xml" format="dita" locktitle="yes" type="concept"><?ditaot usertext?><?xm-replace_text xref?>21 Control</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check if green led V3 is on 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The internal generated power supplies on IOBOARD_DRAWER are within specification when the led is on. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Disconnect all harnesses except X67 and X84 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check if problem caused by external fault (harness/pba) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Check if green led V3 is on 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> The internal generated power supplies on IOBOARD_DRAWER are within specification when the led is on. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> IOBOARD_DRAWER defect, replace 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Determine external fault 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Sequentially place connectors and check led to determine which part causes the fault. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Check if red led V1 is off 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Red led V1 is continuous on when there is an internal programming problem (FPGA not configured). 
+</p><note id="GUID-D6F8CACF-4F7F-4B3D-9002-1BCF71A53B43" class="- topic/note "><p class="- topic/p ">led will blink shortly during startup (&lt;1 sec). 
+</p></note></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">IOBOARD_DRAWER defect, replace 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Check if yellow led V112 is on 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">The physical remote bus link between uMORPF and IOBOARD_DRAWER is active when the led is on. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Check CIS connector X2 
+</p></li><li class="- topic/li "><p class="- topic/p "> Check RJ45 connector positions 
+</p></li></ol></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Check connections and connector 
+</p></li><li class="- topic/li "><p class="- topic/p ">RJ45 cable must be connected between IOBOARD_DRAWER (X84) and uMorpf (X6) 
+</p></li></ol></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect RJ45 cable from X83 to X84 on 12PBA10 (LoopBack RBS) 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Connect RJ45 cable from X83 to X84 on 12PBA10 (LoopBack RBS) Create a loopback from RBS master to RBS slave to test the IOBOARD_DRAWER separately (together with RJ45 cable) 
+</p><p class="- topic/p ">The remote bus communication works independently, which means that any master port connected to any slave port can establish a working connection (indicated by active yellow leds). 
+</p><p class="- topic/p ">This can be used to determine which side (master/slave) has the hardware failure. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p "> Check if both leds V112,V111 are on 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">RJ45 cable and/or IOBOARD_DRAWER defect 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" align="left" valign="top" class="- topic/entry "><p class="- topic/p ">uMORPF defect, replace 
+</p></entry><entry colname="col4" align="left" valign="top" class="- topic/entry "/></row></tbody></tgroup></table></tsResolve></tsBody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-1942788A-69CA-40A5-AECE-E8FDB08F0604.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</tsTroubleshooting>

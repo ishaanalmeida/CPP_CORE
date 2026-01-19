@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-F1E95236-EB59-46A7-B8AF-3456AFCFD86A" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-F1E95236-EB59-46A7-B8AF-3456AFCFD86A" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="yes" class="- topic/title "> White ink is discharged from the overpressure valve onto the bottom tray</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="M140852-B298" class="- topic/section "><title class="- topic/title ">Symptom</title><p class="- topic/p ">white ink is discharged via the overpressure valve (near the jar) onto the bottom tray below the ink cabinet. 
+</p><fig id="GUID-5B4E57D1-A592-4139-B5C5-33FC55C604DF" class="- topic/fig "><title class="- topic/title "/><image href="GUID-D5400853-B709-4ABF-98B0-789C7FB1B6BF-low.png" placement="inline" class="- topic/image " otherprops="GUID-D5400853-B709-4ABF-98B0-789C7FB1B6BF-low.png"/></fig><note id="GUID-046C44DE-5825-42C2-B6EC-2CCC8FC04DE5" class="- topic/note "><p class="- topic/p ">Introduction 
+</p></note><p class="- topic/p "> When White ink is discharged from the ink system onto the leakage tray, the pressure in the white ink delivery lines rises above 3 bar, activating the over-pressure valve (Pressure relief valve) 
+</p></section><section id="GUID-E05D2879-5AC7-40B3-B202-7754CEC8C462" class="- topic/section "><title class="- topic/title ">Possible causes</title></section><section id="GUID-AB80742A-A3DC-4765-B4BA-FC8A59D3147B" class="- topic/section "><title class="- topic/title ">1) Blockage in the Print Head Boiler Tube</title><p class="- topic/p ">Inspect the short tube from the Printhead ink valve to the boiler for any ink clogs.
+</p><p class="- topic/p ">If clogged, clear the tube or consider replacing the entire Boiler unit of the printhead.
+</p></section><section id="GUID-3B8895B9-6BB9-45A4-B224-251952987CAD" class="- topic/section "><title class="- topic/title "> 2) Blockade in white ink recirculation</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Check the white ink recirculation --&gt; 02-6-010 White Ink Recirculation (Special Test). 
+</p></li></ul><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">If white ink is flowing out of overpressure valve, check: 
+</b> 
+</p></li><li class="- topic/li "><p class="- topic/p "> Check for clogged tube from Overpressure valve to 3-way recirculation valve (on carriage) 
+</p></li><li class="- topic/li "><p class="- topic/p "> Check for clogged return tube from 3-way recirculation valve (on carriage to jar 
+</p></li><li class="- topic/li "><p class="- topic/p "> Check for clogged 3-way recirculation valve. 
+</p></li><li class="- topic/li "><p class="- topic/p "> 
+<b class="+ topic/ph hi-d/b ">When test 02-6-010 Fails, Check:</b> 
+</p></li><li class="- topic/li "><p class="- topic/p "> Result: "print head overfilled" or "dosing to print head detected"? Check, 3-way recirculation valve. 
+</p></li></ul></section><section id="GUID-CE10E9EB-C65E-4711-B204-7EBE60A2FAE0" class="- topic/section "><title class="- topic/title "> 3)Blockage in ink tube from 3-way valve to Printhead</title><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p ">Check if the ink valve on the printhead is open 
+</p><p class="- topic/p ">Follow the ink refill procedure fort he white ink tube. Is ink flowing out? 
+</p><p class="- topic/p ">If no ink is flowing out, check for a blockage of the tube tot he printhead coming from the 3-way recirculation valve. 
+</p><p class="- topic/p ">Check the 3-way recirculation valve. Can ink flow through the valve tot the Printhead? 
+</p></section><section id="GUID-E42F0560-15DD-4402-8A45-455429DB2FFA" class="- topic/section "><title class="- topic/title "> 4) Over pressure valve damaged.</title><p class="- topic/p "> Check for a crack or leakages on the outside of the valve. 
+</p><note id="GUID-EB6C3F5C-E9E5-4290-BD59-98B5610075E7" class="- topic/note "><p class="- topic/p "> if valve discharges white ink via the tube, it is functioning correctly but the overall pressure in the system is too high! 
+</p></note></section><section id="GUID-17A410F6-C43B-4EBA-BF6F-E7A42E617433" class="- topic/section "><title class="- topic/title "> 5) Pump tube recently replaced without resetting the maintenance counter</title><p class="- topic/p "> Check if the maintenance counter was reset to 0 for PH1 
+</p><p class="- topic/p ">02-8-006 Operating time ink pump tube [0.1s] (02M1, 02M3, 02M5, 02M7, 02M50, Mxx) [Maintenance Counters] 
+</p><p class="- topic/p "> If this solves the issue, you likely have some retainment in the white ink system as well, resulting in a too high pressure when the pump is running on a higher speed. 
+</p><p class="- topic/p ">Please check the white ink transport system. 
+</p><p class="- topic/p ">In case the issue returns, report to HQ via TRUST. 
+</p></section><section id="GUID-7E82C882-7D9E-4BC4-9487-2870EA159200" class="- topic/section "><title class="- topic/title ">Schematic white ink recirculation</title><p class="- topic/p "> 
+</p><fig id="GUID-EC071FCB-C291-4B27-9F36-4F83381DAC6F" class="- topic/fig "><title class="- topic/title "/><image href="GUID-F02C6082-71AA-4682-8EEC-2A65692CF123-low.png" placement="inline" class="- topic/image " otherprops="GUID-F02C6082-71AA-4682-8EEC-2A65692CF123-low.png"/></fig><p class="- topic/p ">1. Printhead 
+</p><p class="- topic/p ">2. 3-way recirculation valve 
+</p><p class="- topic/p ">3. Ink pump 
+</p><p class="- topic/p ">4. Over pressure valve 
+</p><p class="- topic/p ">5. Ink jar 
+</p><p class="- topic/p ">6. Leakage tray 
+</p></section><section id="GUID-640DF673-CD76-476F-B714-00F8E4DF89DF" class="- topic/section "><title class="- topic/title "/><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p "> Check overpressure valve for damage (cracks, leaks etc). 
+</p><p class="- topic/p ">Clogged tube --&gt; Check tubes connected to Recirculation valve. 
+</p><p class="- topic/p ">Check the white ink recirculation --&gt; 
+<xref keyref="SDS2-6-010" class="- topic/xref " href="GUID-E303C6AD-478F-4ED5-A1EC-2A3DEFB936C7.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02-6-010 White Ink Recirculation (Special Test)?>02-6-010 White Ink Recirculation (Special Test)</xref>. 
+</p><p class="- topic/p ">If white ink is not flowing out of overpressure valve, check for white PH errors and analyze these. 
+</p><p class="- topic/p "> White ink recirculation valve --&gt; Check 
+<xref keyref="SDS02-6-009" class="- topic/xref " href="GUID-12FB0294-2728-4200-A27F-896171C5DA63.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02-6-009 Recirculation valve (W) [Special test]?>02-6-009 Recirculation valve (W) [Special test]</xref>. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-E6576A00-297D-4384-A53F-5DDD5C6F199D.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Observation</linktext></link></linkpool></related-links>
+</task>

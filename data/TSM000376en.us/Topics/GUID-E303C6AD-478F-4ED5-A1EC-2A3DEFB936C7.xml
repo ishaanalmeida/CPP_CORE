@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-E303C6AD-478F-4ED5-A1EC-2A3DEFB936C7" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-E303C6AD-478F-4ED5-A1EC-2A3DEFB936C7" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title translate="no" class="- topic/title ">02-6-010 White Ink Recirculation (Special Test)</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">SDS</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-1156E15C-FA11-42F7-80CE-F9823F371FA9" class="- topic/section "><title class="- topic/title ">Function</title><p class="- topic/p "> Recirculation can be started and stopped. 
+</p><p class="- topic/p ">With this special test ink recirculation can be started and stopped manually. 
+</p><p class="- topic/p ">Service technician can detach the return tube at the bulk supply and position the tube in a kind of waste tray to check if the recirculation pump is running . 
+</p><fig id="GUID-842C6D3F-9CA7-4F26-A1BE-F44F63442EA5" class="- topic/fig "><image href="GUID-A53E624A-51A3-46DD-817E-648C781CFCD4-low.jpg" placement="inline" class="- topic/image " otherprops="GUID-A53E624A-51A3-46DD-817E-648C781CFCD4-low.jpg"/></fig><p class="- topic/p "><?xm-replace_text Paragraph?>
+</p><p class="- topic/p ">When the test is started the test first checks if the "print head level sensor" is not set to the max. 
+</p><p class="- topic/p ">Initial stirring is performed (120 sec.) to ensure that the ink is mixed homogeneously. 
+</p><p class="- topic/p ">The technician can toggle between "start and stop circulation". 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p ">Status 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> initial stirring | print head overfilled | 
+</p></li><li class="- topic/li "><p class="- topic/p "> not recirculating | recirculating | 
+</p></li><li class="- topic/li "><p class="- topic/p "> stopped due to timeout | dosing to print head detected 
+</p></li></ul><p class="- topic/p "> 
+</p><p class="- topic/p ">Remaining time (s): # 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "> When a print head is already overfilled the test will end with status "Failed" and result "print head overfilled". 
+</p><p class="- topic/p "> The Service Technician can use 07-6-002 "Clean the printheads (one pulse + wipe action)" to lower the ink level in the print head. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "> When during ink recirculation a rise of the ink level in the print head is detected recirculation will stop immediately and the test will end with status "Failed" and result "dosing to print head detected". 
+</p><p class="- topic/p "> In that case the 3 way valve may not function correctly. 
+</p><p class="- topic/p "> 
+</p><p class="- topic/p "> Each time ink recirculation is started recirculation will be performed for 10 minutes (parameter duration) to prevent excessive ink spillage. 
+</p><p class="- topic/p "> The test will show the remaining recirculation time and stop with status "stopped due to timeout" when the recirculation time has passed. 
+</p><p class="- topic/p "> The Service Technician can always interrupt recirculation with the toggle button or by stopping the test. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-E4C54F6E-7FBD-467E-A9DF-8C20AA8FEAEE.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>SDS</linktext></link></linkpool></related-links>
+</task>

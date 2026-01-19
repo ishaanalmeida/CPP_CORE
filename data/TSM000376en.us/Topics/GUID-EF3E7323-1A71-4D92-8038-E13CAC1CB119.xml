@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-EF3E7323-1A71-4D92-8038-E13CAC1CB119" version="4" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-EF3E7323-1A71-4D92-8038-E13CAC1CB119" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b ">Overview of connected <ph varid="Adam" translate="no" class="- topic/ph ">ADAM</ph> triggers</b></title><abstract class="- topic/abstract " id="GUID-E7A31B8A-01EF-4341-871A-08EF409DC7ED"><p class="- topic/p "> This document gives an overview of the defined PM triggers. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Functional description</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-C09E0FB5-EDA4-4971-B320-51B5316FB5AA" class="- topic/section "><title class="- topic/title "> 
+<u class="+ topic/ph hi-d/u "> 
+</u>Overview of currently defined PM triggers </title><table id="GUID-DA1C4D83-B504-458F-9237-AB25C4B84B38" class="- topic/table "><tgroup cols="5" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="5*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="25*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="15*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="15*" class="- topic/colspec "/><colspec colname="col5" colnum="5" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CAS group 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Name 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Trigger type 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Based on 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">Remark 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 1935 Firmware update of curing components disabled 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">Firmware update curing components disabled. Temporary. Must be solved by technician. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 1544 Lamp segment 1 is failing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> To ensure curing quality. No trigger means, no reason to expect uncured ink on print. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 1545 Lamp segment 2 is failing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> To ensure curing quality. No trigger means, no reason to expect uncured ink on print. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 1546 Lamp segment 3 is failing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> To ensure curing quality. No trigger means, no reason to expect uncured ink on print. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 1547 Lamp segment 4 is failing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> To ensure curing quality. No trigger means, no reason to expect uncured ink on print. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">01 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 1548 Lamp segment 5 is failing 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> To ensure curing quality. No trigger means, no reason to expect uncured ink on print. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Ink will expire in &lt; 3 months! 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Condition-based 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Ink expiry date 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Early trigger to get in contact with the customer to prevent ink will expire. For more info, consult info bulletin 1043 . 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Ink is about to expire in &lt; 1 month! 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Condition-based 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Ink expiry date 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Early trigger to get in contact with the customer to prevent ink will expire. For more info, consult info bulletin 1043 . 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Ink has been expired! 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Condition-based 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Ink expiry date 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> For more information, consult info bulletin 1043. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 250009 INK_LEAK_SE (02B18) active 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Ink leakage detected in the leakage bin. Immediate action required. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 250010 Ink level sensor too late active after ink refill 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Might be an indication of breaking seals of ink bottles, leaking ink. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 290020 Ink in printer expired 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Ink in printer is expired and may cause print quality and printhead issues. Must be solved prior to any other action. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 290022 Ink in printer almost expired 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Ink in printer is almost expired and may cause print quality and printhead issues. Must be solved prior to any other action. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 290023 Ink safe mode started 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Non genuine ink loaded. Must be solved prior to any other action. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">02 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Inform customer about ink handle workarounds 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Single occurrence 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1 day 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Explain work around to customer to prevent calls . 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">05 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 58010 Replace the FLEX-CABLE-ASSY in the Strip support 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Resettable counter 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "> Lifetime counter 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p ">Replace the Long FFC cables beneath the Strip support proactively. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">07 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 7923 CLE_MAINT_TRAY_LEVEL_SE (07B2) defect 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> "Permanent error". Maintenance tray won't be replaceable anymore. Reset in SDS. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11/21 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Clean fans of controllers 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Time based 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">every 2 years 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the controllers from dust to prevent performance issues. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">22 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 22902 Fan speed PWR_BOX_FAN (22M1) out of range 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Set 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Error code 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Clean power box. Dust may lead to PSU failures. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">25 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Welcome trigger 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Single occurrence 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">1 day 
+</p></entry><entry colname="col5" valign="top" class="- topic/entry "><p class="- topic/p "> Promote ADAM PM triggers. 
+</p></entry></row></tbody></tgroup></table><p class="- topic/p "> All errors that are not mentioned in above table will be monitored using the SEA algorithm. 
+</p></section><section id="GUID-EAE8C78A-AB16-4242-867C-00A4E1A9FBE9" class="- topic/section "><title class="- topic/title "> 
+<u class="+ topic/ph hi-d/u "> 
+</u> Overview of currently defined serialized notifications</title><table id="GUID-8210A8A2-77B1-4A3D-9AC3-515B85D8DB07" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="5*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="25*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="15*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">CAS group 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Name 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Trigger type 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">00 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b "><xref keyref="E00-T-001" class="- topic/xref " href="GUID-A87115C1-C6A0-4727-B57C-7E8C0786A249.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 00-T-001 Missing SDS Modification Record (xx)?>00-T-001 Missing SDS Modification Record (xx)</xref></b> .
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Serialized notification 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">06 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b "><xref keyref="06PREVMAIN002" class="- topic/xref " href="GUID-74A90A71-F963-4F81-8ABD-01CE29C437B9.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 06-T-001 Chiller serial number verification required?>06-T-001 Chiller serial number verification required</xref></b>.
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Serialized notification 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">07 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">07-T-001 Manual Maintenance required (by the key operator/customer) 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Serialized notification 
+</p></entry></row></tbody></tgroup></table><note id="GUID-1D655592-117D-4D54-82E3-52FA636C9190" class="- topic/note "><p class="- topic/p "> If you are missing a trigger or have an idea how to improve an existing trigger, you can use the TSM annotation mechanism to share your idea. 
+</p></note></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-3823F84D-ACBC-47D2-BC36-31C46B5849A8.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>ADAM</linktext></link></linkpool></related-links>
+</task>

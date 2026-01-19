@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-D9DDC5AC-499E-46C1-AB85-D4291D763318" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-D9DDC5AC-499E-46C1-AB85-D4291D763318" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Explanation and use of the PQT V2.1 test chart (Extended description)</title><abstract class="- topic/abstract " id="GUID-60408402-60FB-4280-8E98-976257B6A8B8"><p class="- topic/p ">This document provides an explanation on how this chart should be used. 
+</p><p class="- topic/p ">This chart is meant to check if the print quality of the printer is correct 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><prereq id="GUID-6843B3C7-9BD7-4FF8-A8ED-EFDAF991F01C" class="- topic/section task/prereq "><p class="- topic/p ">To use the PQT V2.1 test chart properly, the following requirements should be met: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> All engine installation calibrations should be done. 
+</p></li><li class="- topic/li "><p class="- topic/p "> PHD-, media- and printer calibration. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Custom media calibration must be completed for the media in use, with MPI3000 as the reference. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Drop-down mode should be used (no winder). 
+</p></li></ul><note id="GUID-0DEDEEAE-E8DB-4241-81B9-8D5894216216" class="- topic/note "><p class="- topic/p "> When printing the PQT test chart, it is necessary to select a media. Depending on the choice made, different settings will be applied to the test prints. 
+</p><p class="- topic/p ">If you select: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Service tests media Vinyl/Film/Paper</b>: 
+</p><p class="- topic/p "> The default media settings are used for each of the test prints. They cannot be changed. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">All customer media</b>: 
+</p></li><li class="- topic/li "><p class="- topic/p "> The media related settings are applied as defined in the RIP. 
+</p><p class="- topic/p "> Incorrect settings can result in PQ artifacts. 
+</p><p class="- topic/p ">The color profile settings for this print are fixed and will not be taken from the media profile. 
+</p></li></ul></note><note id="GUID-AFE1D9B3-13C3-450D-947E-E46B4D8104D7" class="- topic/note "><p class="- topic/p ">When judging the print quality of the PQT chart use this document for reference : 
+</p><p class="- topic/p "><xref keyref="viewdistest" class="- topic/xref " href="GUID-99F116F5-299C-4299-A8F4-46559B4D87BD.xml" format="dita" locktitle="yes" type="tsTroubleshooting"><?ditaot usertext?><?xm-replace_text Viewing distances of (test) prints?>Viewing distances of (test) prints</xref> 
+</p></note></prereq><section id="GUID-FCCCBBA1-3996-4617-83C0-E78C1A39AB95" class="- topic/section "><title class="- topic/title "> This is how the PQT V2.1 test chart looks like</title><fig id="GUID-F2D7FCE7-FE5A-440C-8018-574AC2F905E7" class="- topic/fig "><image href="GUID-99E53061-BFF7-4AE8-8552-B7E973A848EE-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-99E53061-BFF7-4AE8-8552-B7E973A848EE-low.png"/></fig><table id="GUID-0E8E425D-E2FB-417D-BE55-B2DEFD126324" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="90*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Area 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Description / Use 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">A 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Information area containing serial number, ECID, printmode, printhead information 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">B 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Green bars to detect media step defects 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Single color field cyan, to analyze the quality of the colors or printhead 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">D 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Double color field cyan/magenta, to analyze the quality of the colors or printheads 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">E 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Single color field magenta, to analyze the quality of the colors or printhead 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">F 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Double color field magenta/yellow, to analyze the quality of the colors or printheads 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">G 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Single color field yellow, to analyze the quality of the colors or printhead 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">H 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Double color field cyan/yellow, to analyze the quality of the colors or printheads 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">I 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Black only field, to analyze the color quality, printheads and curing (gloss-banding and wrinkle) 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">K 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Color wedge, can be used to determine the color gamut in combination with the used media. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">L 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">These bars can be used to determine the level of smudge (how well is the upper ink layer cured). 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">M 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Targets to judge the readability, the sharpness. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">N 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Color to color alignment targets (color registration). This area also contains the 1K area. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">O 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> Smooth density bars, to judge visually the graininess. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">P 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Single color targets to judge printhead quality. 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-4B5EFC06-3B2C-487A-AC64-98373B2CE4DE" class="- topic/section "><title class="- topic/title ">Print quality defects an descriptions</title></section><section id="GUID-7C95ACCF-D88D-41CE-BDA8-B15370467EED" class="- topic/section "><title class="- topic/title ">For all colors light lines (~1mm) or OD differences per swath (area B / I )</title><p class="- topic/p "><b class="+ topic/ph hi-d/b "> Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Per print swath a repeating light or dark lines are seen at the swath boundary. 
+</p></li><li class="- topic/li "><p class="- topic/p ">Sometimes changes in OD per swath, light or dark area stripes around the swath boundary. 
+</p><p class="- topic/p ">Too large random media step errors. 
+</p></li><li class="- topic/li "><p class="- topic/p ">All swath interweaving areas lighter or darker. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">In the 4-pass mode (and higher) these defects should not be seen. 
+</p></li></ul></section><section id="GUID-D8DC3E29-6B98-4E1E-AF3A-E4791B9B392D" class="- topic/section "><title class="- topic/title "> Density variations per swath (OD-banding) the same pattern (P)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">OD banding, is that per print swath repeating variations in density can be seen. 
+</p><p class="- topic/p ">The more passes per print mode, the smaller the swaths become and the less visible the defect. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> In the 4-pass mode (and higher) these defects should not be seen. In practice acceptable light OD variations around the swath boundary can be visible. 
+</p></li></ul></section><section id="GUID-CEF5D46E-8A46-4F5E-9729-37BBD6CB6B33" class="- topic/section "><title class="- topic/title "> Gloss variations per swath (banding) (area I)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Gloss-banding, swath boundary and zebra-effects are different types of disturbances in the gloss of the print. 
+</p><p class="- topic/p ">But for all the gloss is in the direction of the carriage and repeats every swath. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Gloss banding may not be seen in the 4-pass mode. In practice for acceptable swath banding can be seen using the prints in the 4-pass mode. 
+</p></li></ul></section><section id="GUID-E4E0D84D-AA6C-4195-A2F7-35BFB9FF7AFE" class="- topic/section "><title class="- topic/title "> Rough structure in black (wrinkles) (area I)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">They can be seen as rough repeating gloss patterns within the swath, especially in black and mixtures of black and yellow. 
+</p><p class="- topic/p ">During the pre-curing the surface of the ink layer deforms in wrinkles. 
+</p><p class="- topic/p ">In most cases the wrinkle patterns are related to the swath width of the print mode. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Print should be free of wrinkles as for the all print modes. 
+</p></li></ul></section><section id="GUID-C997E6F7-FB20-42F1-A89F-40B1E028F18B" class="- topic/section "><title class="- topic/title ">Dots not ordered uniform (graininess) (area N / O / P)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Graininess is the visibility of the ink drops on the printed media. 
+</p><p class="- topic/p ">This visibility becomes better (worse) at low coverage, when the contrast is high (e.g. black ink), drop size increases or the dot position becomes less accurate. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Area with 15% coverage should look very regular, not grainy (clustering of dots). 
+</p></li></ul></section><section id="GUID-92323076-3165-4DC5-BC80-0F2E9EE30985" class="- topic/section "><title class="- topic/title "> Light horizontal lines (streaks) (C / D / E / F / G / H)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Streaks are thin lines in the carriage direction, mostly repeating every swath. 
+</p><p class="- topic/p "> Mostly on one color only. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Streaks should not be visible. Check also the printheads by using the printhead quality chart. 
+</p></li></ul></section><section id="GUID-A14B88D1-B0BD-4541-901B-D554F96A9626" class="- topic/section "><title class="- topic/title "> Light spots (retracting points) (C / I)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> In an inked area (seen in blue and sometimes black) at random places white needle shaped holes can be seen, due to retraction/wetting issues. 
+</p><p class="- topic/p "> In some cases locally the surface of the media is not coated, fibers can be seen. 
+</p><p class="- topic/p "> Brittle is when the amount of white spots is that high that this leads to a drop in density. 
+</p><p class="- topic/p "> Fish-eyes are due to local wetting issues due to dust during printing. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Retracting points may not be visible in the 8-pass mode. In practice retraction prints can be seen for some media. 
+</p></li></ul></section><section id="GUID-5FF0174F-9011-42A3-A68F-7FF91D00DDBC" class="- topic/section "><title class="- topic/title ">Sharpness of lines/text (1K-area of N / M)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The printed text and lines should have sharp edged. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 4pt positive letter type should be readable with ‘open’ characters in the 1K field. In the square colored targets the white lines should stay visible. 
+</p></li></ul></section><section id="GUID-EB55F565-3C3F-4C5D-A008-0195B3BB988D" class="- topic/section "><title class="- topic/title "> Color accuracy and volume (K)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The colorspace of the inks is that large that it should at least cover the colorspace of FOGRA39, an important color profile for the pre-press industry. 
+</p><p class="- topic/p "> The target is also added to measure the gamut for media at the custom side. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">For the 8-pass mode the volume of the printer should be larger than FOGRA39. 
+</p></li></ul></section><section id="GUID-D9F4A0AD-AD46-4D02-9420-7F471968A2E9" class="- topic/section "><title class="- topic/title ">Height-position carriage (1K-area in N)</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">During the customer media calibration procedure, the height of the carriage is tuned to the thickness of the used media. 
+</p><p class="- topic/p ">The distance printhead nozzle plate to the media should be 1.80 mm. 
+</p></li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Criteria</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> 4pt positive letter type should be readable with ‘open’ characters in the 1K-area of the N field, inverse text. 
+</p><p class="- topic/p "> In the square colored targets the white lines should stay visible. 
+</p></li></ul></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-EF42FFF3-C6AF-4939-AE5C-9EB2061E0E1B.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Image Quality</linktext></link></linkpool></related-links>
+</task>

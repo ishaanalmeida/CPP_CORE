@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-D0CB7C85-B319-4668-8785-1BEBAF94BE2A" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-D0CB7C85-B319-4668-8785-1BEBAF94BE2A" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> 550001 : Scanner brightness calibration failed</b> </title><abstract class="- topic/abstract " id="GUID-E93FAC31-40E4-4A29-8E4D-2B6B8D178D11"><p class="- topic/p ">The calibration of the blue and/or amber LEDs of the M&amp;C-scanner have failed. 
+</p></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-94F3BC7D-77F7-4566-B85C-A4C89C7B9698" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Collect</b> </title><p class="- topic/p "><u class="+ topic/ph hi-d/u ">Calibration step 
+</u>
+</p><p class="- topic/p ">This MRE is generated during the calibration step: “ScannerBrightness” which is part of one the following calibration sequences 
+</p><p class="- topic/p ">- Printhead calibration via SDS 4-6-026 
+</p><p class="- topic/p ">- Installation procedure via SDS 21-6-003 
+</p><p class="- topic/p "><u class="+ topic/ph hi-d/u ">Patterns in calibration print 
+</u>
+</p><table id="GUID-7A5AAD0C-BA10-49FD-83E8-43EBFF33655C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1640/C1650
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">No patterns are printed
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">C1630/MCxx
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">No patterns are printed
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-FC412324-BDB0-48F4-A741-66EECE969C37" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Analyse/Repair</b> </title><fig id="GUID-5E7AA0F4-D469-4FDF-99A6-C633174F8069" class="- topic/fig "><title class="- topic/title "/><image href="GUID-8DED5AE7-02EB-40FE-890A-4CBE50D90D79-low.png" placement="inline" class="- topic/image " otherprops="GUID-8DED5AE7-02EB-40FE-890A-4CBE50D90D79-svg.svg"/></fig><table id="GUID-A738E481-2BDE-47C1-BD93-645995C41778" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">ToDo
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the used media is white and smooth.
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Use other media to perform the calibrations
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check whether the glass-protection of the M&amp;C-scanner is clean
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Clean the glass-protection using IPA
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check if flex-cable is correctly connected to the M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><fig id="GUID-A31C1DCF-FDE0-4F29-9136-DFBA79043465" class="- topic/fig "><image href="GUID-17EE4807-FC8B-45EB-9070-C663298CFEC3-low.png" placement="inline" class="- topic/image " otherprops="GUID-17EE4807-FC8B-45EB-9070-C663298CFEC3-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Re-seat the flex-cable
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the M&amp;C-scanner
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-563F9EBE-CC03-4CAA-93C8-8AA3AB9B162B.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the Measurement &amp; Control (M&amp;C) unit</xref>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the carriage PBA
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-4E3BA64B-BBB8-4736-85FE-ABCBA2866E2E.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove Carriage PBA 05PBA07 or Carriage PBA assembly</xref>
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Replace the flex-cable
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="GUID-37FEF389-6630-425C-AE4E-EDF83422D3B9.xml" class="- topic/xref " type="task"><?ditaot gentext?>05 How to remove the long flex cables</xref>
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-359691FE-C023-40D4-B5C3-DD092DF9B7CB" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Evaluate/Prevention</b> </title><p class="- topic/p ">Due to ink mist the glass-protection of the M&amp;C-scanner can easily be polluted. 
+</p><p class="- topic/p ">Therefor during maintenance this glass-protection needs to be cleaned regularly.
+</p></section><section id="GUID-365F7C52-4D9B-428E-8E29-5087CDEA3A56" class="- topic/section "><title class="- topic/title "> 
+<b class="+ topic/ph hi-d/b "> Background info</b> </title><p class="- topic/p ">The brightness calibration is used to verify if the LEDs inside the M&amp;C-scanner have the correct intensity. 
+</p><p class="- topic/p ">In almost all cases where this calibration failed the M&amp;C-scanner is not connected well or broken. 
+</p><p class="- topic/p ">Under normal conditions the intensity of the LED's does not fluctuate much. 
+</p></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-480B4E14-7AB9-4230-BBE2-97A999EC3E19.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

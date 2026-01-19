@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-F8ABE54A-77E0-4681-BD51-6C70451CA8D3" version="1" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-F8ABE54A-77E0-4681-BD51-6C70451CA8D3" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">How to view .print files and check settings</title><abstract class="- topic/abstract " id="GUID-9C631935-A322-4774-A553-6D0B52308454"><p class="- topic/p ">In case of issue with customer jobs, .print files can be collected on site and then analyzed for troubleshooting with the Colorado x DotPrint Job Viewer software. 
+</p><p class="- topic/p ">Main application features and displayed information are: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Export the image as TIFF (CMYK, RGB, 4 planes) or Raw data file. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Export Drop counts to a .csv file. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Image preview (if available). 
+</p></li><li class="- topic/li "><p class="- topic/p "> Job header settings. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Job details (roll width, image size,…). 
+</p></li><li class="- topic/li "><p class="- topic/p "> Drop sizes counts by line and by channel. 
+</p></li></ul><note class="- topic/note " id="GUID-D852202B-9DA2-46FF-A5D7-BDEFD50199B6"><p class="- topic/p ">You need version 2.0.1 or newer. 
+</p></note></abstract><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><prereq id="GUID-6FFF84E6-9384-41AC-A15B-AB7F5D468979" class="- topic/section task/prereq "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Retrieve and unzip the Colorado x DotPrint Job Viewer 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The Colorado x DotPrint Job Viewer application can be downloaded from this web page. 
+</p><p class="- topic/p "><ph varid="graphiPLAZA_Support" translate="no" class="- topic/ph "><xref href="https://graphiplaza.cpp.canon/support/service-support/" format="html" scope="external" class="- topic/xref "><?ditaot gentext?>https://graphiplaza.cpp.canon/support/service-support/</xref></ph> 
+</p></li><li class="- topic/li "><p class="- topic/p ">Unzip it on a convenient workstation and location. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Check this requirement for the submitter tool installation: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The .NET 4.6.1 framework must be installed. 
+</p><p class="- topic/p ">See 
+<xref keyref="Check.Net" class="- topic/xref " href="GUID-C09C1F38-A74C-40FD-A1B9-0BBBD00A3370.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 11 How to check which .NET version is installed?>11 How to check which .NET version is installed</xref>. 
+</p></li></ul></li><li class="- topic/li "><p class="- topic/p ">Get a .print test job for troubleshooting: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Get a .print file from the customer 
+</p><p class="- topic/p ">See 
+<xref keyref="GetJobData" class="- topic/xref " href="GUID-279766E4-2950-4DFB-8398-989A2744FA99.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text How to save received job data?>How to save received job data</xref>. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Media type used by customer 
+</p></li></ul></li></ol></prereq><section id="GUID-CC2486E9-E593-4DE9-907E-7BF8FE167E9F" class="- topic/section "><title class="- topic/title ">Procedure</title><table pgwide="1" id="GUID-E8683A97-CFAA-42AC-B15B-8375DE8C5137" class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="20*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="40*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Browse to the workstation location where the downloaded Colorado1650_PrintJobViewer_Rx.y.zip file was unzipped 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Double-click Colorado.DotPrintJobViewer.exe to start the application. 
+</p><p class="- topic/p ">The following window displays: 
+</p><fig id="GUID-AE5F0D0A-4D76-446C-9624-10D92BDA0297" class="- topic/fig "><image href="GUID-909C7BA6-49AB-4079-A649-A06427A3DB0E-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-909C7BA6-49AB-4079-A649-A06427A3DB0E-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Click Open File in the menu bar to locate and select the .print file to view. 
+</p><note id="GUID-6A5C00E2-C8B2-405E-BC80-955FBEC9F4AF" class="- topic/note "><p class="- topic/p ">Do not attempt to open a Colorado 1640/1650 file. You will get an error about the supported print job version. 
+</p></note></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><p class="- topic/p ">The following window displays: 
+</p><fig id="GUID-B8AB287E-049D-4B42-BAC3-F17810C29BE3" class="- topic/fig "><image href="GUID-E66F177A-59ED-4B1B-9942-D35B2DED9375-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-E66F177A-59ED-4B1B-9942-D35B2DED9375-low.png"/></fig><fig id="GUID-A418658F-08C3-4731-B522-DC595977F9F5" class="- topic/fig "><desc class="- topic/desc "><p class="- topic/p ">Second part of the main screen. 
+</p></desc><image href="GUID-7F0C4FDC-8B6F-46D0-ACFE-859CBF685A2C-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-7F0C4FDC-8B6F-46D0-ACFE-859CBF685A2C-low.png"/></fig></entry></row><row class="- topic/row "><entry colname="col1" morerows="16" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Available information and features are: 
+</p><p class="- topic/p ">In the main window: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Job header field names and values (see explanation for each field on the right side) 
+</p><p class="- topic/p "> For PrintModeID, see the table below for the Colorado 1635 print mode: 
+</p></li></ul></entry></row><row class="- topic/row "><entry colname="col2" align="left" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Print Mode ID (.print file) 
+</b> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Print mode 
+</b> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">??? 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> 
+</p></entry></row><row class="- topic/row "><entry colname="col2" namest="col2" nameend="col3" valign="top" class="- topic/entry "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Image preview thumbnail (if available in the file) 
+</p></li><li class="- topic/li "><p class="- topic/p "> Export file in TIFF RGB, TIFF CMYK, TIFF 4 planes or Raw format 
+</p><note id="GUID-9EB2236D-0578-4D4F-ABF4-44BE3CA0856C" class="- topic/note "><p class="- topic/p "> When exporting file, a “Save as” window displays, except for “Export to TIFF 4 planes”, 
+</p><p class="- topic/p "> where the 4 files are automatically exported in the .print file folder. 
+</p></note></li></ul><p class="- topic/p ">In the Details tab: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Roll Width (in mm and inches); 0 means that the printer determines which roll width is needed. 
+</p></li><li class="- topic/li "><p class="- topic/p "> Image Size (Width x Height in mm, Width x Height in inches), 
+</p></li><li class="- topic/li "><p class="- topic/p "> Image Preview offset 
+</p></li><li class="- topic/li "><p class="- topic/p "> Image Data offset 
+</p></li><li class="- topic/li "><p class="- topic/p "> Job Footer Offset 
+</p></li></ul></entry></row></tbody></tgroup></table></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-5C937DF0-2BDD-497B-B1AC-3013A8804D24.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Diagnostics</linktext></link></linkpool></related-links>
+</task>

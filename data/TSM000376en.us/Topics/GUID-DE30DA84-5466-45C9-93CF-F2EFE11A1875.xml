@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?ish ishref="GUID-DE30DA84-5466-45C9-93CF-F2EFE11A1875" version="2" lang="en-US"?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GUID-DE30DA84-5466-45C9-93CF-F2EFE11A1875" xml:lang="en-US" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic hi-d)                            (topic ui-d)                            (topic sw-d)                            (topic indexing-d)                            (topic ut-d)                            a(base ishcondition)                            a(base varid)                            a(base varref)                            a(base cid)                            a(base partslist)                            (topic oce-d)                            (topic sdlVariables-c)                            (topic oceCommonElements-c)                            (topic oceMetaDecl-c)                            (topic oceTopic-c)                            (topic oceTopic-c task oceTask-c)                            (topic oceTopic-c hi-d oceHighlight-c)                            (topic oceTopic-c ui-d oceUi-c)                            (topic oceTopic-c sw-d oceSoftware-c)   " class="- topic/topic task/task "><title class="- topic/title ">Graininess in the whole image</title><prolog class="- topic/prolog "><metadata class="- topic/metadata "><category class="- topic/category ">Diagnostics</category><category class="- topic/category ">Diagnostics</category></metadata></prolog><taskbody class="- topic/body task/taskbody "><section id="GUID-50B00AD6-0A38-41AB-B3CF-DCE2951AFA8A" class="- topic/section "><title class="- topic/title "/><table id="GUID-53E5F599-B620-44AD-919D-C7253ABD770C" class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="50*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Schematic overview 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Real example 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><fig id="GUID-1119A50E-99B6-4813-B223-86B4FA387AC3" class="- topic/fig "><image href="GUID-75D8641E-EEDB-4276-95B5-44EF9A21D7A5-low.png" placement="inline" class="- topic/image " otherprops="GUID-75D8641E-EEDB-4276-95B5-44EF9A21D7A5-low.png"/></fig></entry><entry colname="col2" valign="top" class="- topic/entry "><fig id="GUID-7DE10A82-05F4-435C-8672-929388F43FAC" class="- topic/fig "/><fig id="GUID-DE314ED5-48AC-4AF9-99F5-FC1F87ED4A54" class="- topic/fig "><image href="GUID-6388A413-8161-4852-B280-356DC4806D47-low.png" placement="inline" class="- topic/image " otherprops="GUID-6388A413-8161-4852-B280-356DC4806D47-low.png"/></fig></entry></row></tbody></tgroup></table></section><section id="GUID-EC1EAE23-40EC-4B10-A2C9-83873F76DC70" class="- topic/section "><title class="- topic/title ">Collect</title><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Symptoms</b> 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Image is not smooth, appears speckly 
+</p></li><li class="- topic/li "><p class="- topic/p "> Lots of small spots 
+</p></li><li class="- topic/li "><p class="- topic/p "> Mostly visible is skin tones 
+</p></li><li class="- topic/li "><p class="- topic/p "> Visibility increases at low coverage 
+</p></li><li class="- topic/li "><p class="- topic/p ">Visibility increases where contrast is high 
+</p></li><li class="- topic/li "><p class="- topic/p ">Mostly visible in Matt-modes 
+</p></li></ul></section><section id="GUID-D45DFF63-63F8-46CC-88C7-2186E0666A34" class="- topic/section "><title class="- topic/title ">Functional logging (if available)</title><p class="- topic/p "> No logging available which can pinpoint to this case. 
+</p></section><section id="GUID-7A1923C8-DFF3-4B02-A106-8642CE6C84E4" class="- topic/section "><title class="- topic/title ">ADAM-triggers</title><p class="- topic/p ">No available ADAM-triggers 
+</p></section><section id="GUID-DDCC1BB0-B402-4010-9156-67DB737F3DE5" class="- topic/section "><title class="- topic/title ">Analyze/Repair</title><fig id="GUID-FF8160B1-3861-4803-8C66-17CEE2BB990B" class="- topic/fig "><image href="GUID-3DAF96E7-8428-4AE6-A056-56221BD9B77F-low.png" keyref="" placement="inline" class="- topic/image " otherprops="GUID-3DAF96E7-8428-4AE6-A056-56221BD9B77F-svg.svg"/></fig></section><section id="GUID-BB9BDDD1-E29C-42C5-BF10-2854E3AE4223" class="- topic/section "><title class="- topic/title ">Steps explanation</title><table pgwide="1" id="GUID-D963269B-E108-446A-A212-4581FEAA8740" class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec "/><colspec colname="col2" colnum="2" colwidth="20*" class="- topic/colspec "/><colspec colname="col3" colnum="3" colwidth="40*" class="- topic/colspec "/><colspec colname="col4" colnum="4" colwidth="30*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">Step 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Type 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">To do 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Remarks 
+</p></entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">1 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if manual maintenance (including dabbing) has been performed lately 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">2 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Perform manual maintenance 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video05/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Clean matrix plate 
+</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">3 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if the ink has been expired 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">4 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Clean the ink system 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="02ADJU004" class="- topic/xref " href="GUID-0A9015C3-DC1C-417D-8B80-D6AE9F8C4B83.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 02 The ink replacement procedure?>02 The ink replacement procedure</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">5 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Does graininess also happen on other category of media ? 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p ">Print the same image with the same print mode on another type of media. 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">6 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check if media thickness has been entered correctly 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">7 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust media thickness in profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">8 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check if the print gap is correctly set in the profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">9 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust print gap in profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">10 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check if the print is made using the "robust"-strategy or "Strategy2". 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">11 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Change the strategy to "Default" or "Strategy1" (C1640/C1650 only) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">12 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Change to mono-directional printing (C1630 only) 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">13 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Adjust the UCR/PCR color settings in the profile 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">14 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Check carriage height 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">15 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Adjust carriage height 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="03adju001" class="- topic/xref " href="GUID-5C85D6FC-5E14-4490-AB29-1EEC54BC3FB5.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 03 How to adjust the print height (calibration)?>03 How to adjust the print height (calibration)</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">16 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Decision 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Check if engine is kept in keep-healthy when it’s not used by the customer 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">17 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p "> Inform customer the engine may not be shut down for longer period of times 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "/></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">18 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Perform manual maintenance including dabbing. 
+</p><p class="- topic/p ">(As last resort Cleaner D might be used but, 
+<b class="+ topic/ph hi-d/b ">Cleaner D is only useful in the C1640 and shouldn't be used in de M-series)</b>
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref href="http://localhost:20346/VIDEO10004EN.US/video05/index.html" format="html" scope="external" class="- topic/xref "><?ditaot usertext?>Clean matrix plate 
+</xref> 
+</p></entry></row><row class="- topic/row "><entry colname="col1" valign="top" class="- topic/entry "><p class="- topic/p ">19 
+</p></entry><entry colname="col2" valign="top" class="- topic/entry "><p class="- topic/p ">Action 
+</p></entry><entry colname="col3" valign="top" class="- topic/entry "><p class="- topic/p ">Replace printhead 
+</p></entry><entry colname="col4" valign="top" class="- topic/entry "><p class="- topic/p "><xref keyref="04DISA002" class="- topic/xref " href="GUID-75F1003D-F727-49BD-88A7-1CEF7223F097.xml" format="dita" locktitle="yes" type="task"><?ditaot usertext?><?xm-replace_text 04 How to replace a (failing) printhead: Overview document?>04 How to replace a (failing) printhead: Overview document</xref> 
+</p></entry></row></tbody></tgroup></table></section><section id="GUID-2513E5DF-C282-453D-9841-6E539DB0EB51" class="- topic/section "><title class="- topic/title ">Evaluate/Prevention</title><p class="- topic/p "> Make sure the correct media thickness is entered in the profile and use the correct profile. 
+</p><p class="- topic/p "> Maintain printer according to the care/use poster. 
+</p></section><section id="GUID-987F83F9-80F0-41BC-B82B-BB16DA268203" class="- topic/section "><title class="- topic/title ">Background info</title><p class="- topic/p ">Ink needs to spread evenly over the top layer of the media to give a smooth appearance. 
+</p><p class="- topic/p ">The most important parameter which influences the visibility of graininess is the distance between the printheads and the surface of the media. 
+</p><p class="- topic/p "> Due to a mismatch of the distance the droplets might end on different locations on the media than expected. 
+</p><p class="- topic/p ">Parameters that determine spreading are: 
+</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Amount of ink : 
+</b> 
+</p><p class="- topic/p ">When the droplets are too small the ink volume to cover the top layer of the media is too less and therefor graininess is more sensitive at lower coverage. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Distance to spread : 
+</b> 
+</p><p class="- topic/p ">When the droplets are positioned on top of each other instead of next to each other, the distance to cover by spreading increases. 
+</p><p class="- topic/p ">The distance of the printheads to the surface of the media is the parameter which can influence this aspect. 
+</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Time to spread : 
+</b> 
+</p><p class="- topic/p ">The print mode determines the time between landing of droplet and curing of the ink. 
+</p><p class="- topic/p ">At gloss mode the ink has more time to spread compared to Matt-modes. 
+</p><p class="- topic/p ">Therefor graininess is more sensitive at Matt-modes. 
+</p></li></ul></section></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="GUID-8A41CFEA-5928-4042-A2CB-507A5D034160"><link class="- topic/link " mapclass="- map/topicref " format="dita" type="concept" href="generated-topic-GUID-945E6C60-1212-47DF-9487-92374227D4B4.xml" role="parent"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot usertext?>Solutions</linktext></link></linkpool></related-links>
+</task>
