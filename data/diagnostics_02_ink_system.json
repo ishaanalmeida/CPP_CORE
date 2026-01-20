@@ -1,0 +1,812 @@
+[
+  {
+    "Error_code": "02",
+    "Error_description": "Green handle of the ink bottle blocks before reaching the upper position.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "250001",
+    "Error_description": "Ink delivery to printhead failed (PH1, PH3, PH4, PH5, PH6). After starting the ink supply, it is expected to be stopped within a given time. When this doesn't occur this error is reported. This error can have to 2 different root causes. The ink was not transported to the printhead in time The level sensor in the printhead didn’t detect the received ink. The flowchart below can be used to minimize the MTTR and reduce the change of a second visit. Decision 1) : New installation Did the error occur during the installation of a new printhead ( Z-0402 ) or new ink tube ( Z-0502 )? In some rare cases it's known the ink valve of a printhead might be blocked (even if the valve is opened). In those cases please replace the valve by a new one (1070078229) or by removing the blockade by pushing a Torx-screwdriver through the valve. Don't replace the printhead. Action 1) : Mark as empty Mark printheads as empty and restart filling. See 04-6-020 Mark printhead(s) as empty [Special Tests] Decision 2) : Closed valves Check if the ink valves or air clamps on the printheads are closed. Action 2) : Open valves Open valves on carriage. Open clamps on air hose, rub the air hose to make sure the hose is open. Decision 3) : Warning 290020 Has warning 290020 appeared sometime before error 250001? Filter polluted with ink: mark the head as empty, replace the ink tube. Action 3): Clean ink system The ink in the printer is expired, this might result is clogged or viscous ink. Clean ink system Decision 4) : Warning 290005 Has warning 290005 appeared sometime before error 250001? Action 4): Replace pump tubes Check replace pump tubes Index Description Test Action Info Diagram Z-0203 -0064 Pump tube Check / replace 02 How to remove the pump tube of the ink pump Mapping pumps to printheads 02 Electrical diagram ink delivery Decision 5) : Bad pump tube Check the pump tube on wear out. Action 5): Replace pump tubes Check replace pump tubes Index Description Test Action Info Diagram Z-0203 -0064 Pump tube Check / replace 02 How to remove the pump tube of the ink pump Mapping pumps to printheads 02 Electrical diagram ink delivery Decision 6) : Heartbeat Disconnect the ink tube from printheads (See02 The ink replacement procedure , Chapter 3. Refill the system with new ink : Step 7 - 27 (end)) Is there a heartbeat after this procedure ? Decision 7) : Electrical issue Check/ re-seat the electrical wiring and connectors of the ink pump(s). Action 7): Solve electrical issue Index Description Test Action Info Diagram Z-0202 -0075 Ink supply PBA 02PBA01 Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;) Mapping pumps to printheads 02 Electrical diagram ink delivery Decision 8) : Leakage Are there any traces of leaked ink inside the machine? (example: Valves, not connected tubes, ruptured tubes) Action 8): Repair leakage Replace leaking valves Reconnect tube Replace ruptured tubes Decision 9) : Clogged ink tube Disconnect the ink tube from printheads (See02 The ink replacement procedure , Chapter 3. Refill the system with new ink : Step 7 - 14) Disconnect the pump tube from the ink tube. Use a syringe to pull ink through the ink tubes. If ink is flowing freely through the ink tube, reconnect tubes and fill ink tubes (See02 The ink replacement procedure , Chapter 3. Refill the system with new ink : Step 15 - 27) Action 9A): Replace ink tube Index Description Test Action Info Diagram Z-0402 -002 Boiler unit of the printhead Check / replace 04 How to remove the boiler unit 04 The components of the printhead 04 Electrical diagram printheads Action 9B): Contact LFG-CS Check if heartbeat is present (See decision 6). If still no heartbeat, escalate to LFG-CS Decision 10) : O-ring type Not applicable for this system. Action 10): Replace printhead Index Description Test Action Info Diagram Z-0402 - 001 Printhead (PHD) 1 ... 6. Check / replace 04 How to replace a (failing) printhead: Overview document 04 The components of the printhead 04 Electrical diagram printheads Decision 11) : Air filter clogged Check if air filter of printhead contains ink. If the tube is completely filled with ink the air filter will be colored (see example below) In some cases the tube is not completely filled with ink and the air tube needs to be inspected at the bottom of the printhead (near the ink reservoir). This can be done by gently sliding the sleeve a few centimeters upward (see below). This way the transparent air tube will be visible. If this is colored there is ink inside the air tube. Check the condition of the tubes at the backside of the polluted airfilter If Ink passed the inkfilter into the manifold, no pressure can be given because the manifolds are blocked with ink. There will be no air leakage. also the observation is that the closed ink just flows through the printheads instead of being kept into the heads. Action 11A) : Replace air hose See 04 How to remove the air hose Action 11B) : Replace Boiler unit See 04 How to remove the boiler unit. Decision 12) : Out of other options Check if ink is coming out of recirculation circuit, if yes replace VALVE-TUBE-ASSY 02 How to remove the white ink 3-way valve If all previous actions did not solve the error and the error occurs on the white printhead, please check the 02Y5 (YMS_CAR_RECIRC_VA). You can do this by performing SDS 02-6-010 White Ink Recirculation (Special Test). If this did not solve the error, replace printhead. Action 12): Remove printhead Index Description Test Action Info Diagram Z-0402 - 001 Printhead (PHD) 1 ... 6. Check / replace 04 How to replace a (failing) printhead: Overview document 04 The components of the printhead 04 Electrical diagram printheads",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "250002",
+    "Error_description": "Ink delivery to the printhead failed during initial filling (PH1, PH3, PH4, PH5, PH6). After starting the ink supply it is expected to be stopped within a given time. When this doesn't occur this error is reported. This error only occurs during the initial ink filling of the system. The APSU tries to keep the printheads on vacuum in case of errors. Due to empty printheads, the APSU might not be able to create the vacuum resulting in a follow-up error 7504 'large pressure leakage'. This is caused by the empty printheads and is not a 'real' leakage problem In some rare cases it's known the ink valve of a printhead might be blocked (even if the valve is opened). In those cases please replace the valve by a new one (1070078229) or by removing the blockade by pushing a Torx-screwdriver through the valve. Don't replace the printhead.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "250006",
+    "Error_description": "Inconsistent ink level (Y, C, M, K, W). HIGH_SE active while LOW_SE inactive. Either 1 or both sensors are defect.",
+    "Symptom": [],
+    "Part_index": [
+      "Z-0202 -0075",
+      "Z-0202 -0112"
+    ],
+    "Test": [
+      "",
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Decision": [
+      "",
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Action": [
+      "Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;)",
+      "Check / replace 02 How to remove the ink low sensor (02B1/3/5/7) 02 How to remove the ink high sensor (02B2/4/6/8)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250007",
+    "Error_description": "Inconsistent ink refill handle state (Y, C, M, K). Both CART_OPENED_SE and CART_LOCKED_SE are active. Either 1 or both sensors are defect. Components: Ink system Cyan cartridge locked sensor 02B9 INK_3_CART_LOCKED_SE Ink system Magenta cartridge locked sensor 02B10 INK_4_CART_LOCKED_SE Ink system Yellow cartridge locked sensor 02B11 INK_2_CART_LOCKED_SE Ink system Black cartridge locked sensor 02B12 INK_5_CART_LOCKED_SE Ink system Cyan cartridge opened sensor 02B14 INK_3_CART_OPENED_SE Ink system Magenta cartridge opened sensor 02B15 INK_4_CART_OPENED_SE Ink system Yellow cartridge opened sensor 02B16 INK_2_CART_OPENED_SE Ink system Black cartridge opened sensor 02B17 INK_5_CART_OPENED_SE",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "Z-0204 -0002"
+    ],
+    "Test": [
+      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]",
+      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Decision": [
+      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]",
+      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Action": [
+      "Check / re-seat connectors",
+      "Check / replace 02 How to remove the ink refill unit"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250009",
+    "Error_description": "Ink Leak Sensor02B18 INK_LEAK_SE is active. Ink leakage has been detected in the ink leakage bin of the ink cabinet. If white ink is in the leakage bin see: White ink is discharged from the overpressure valve onto the bottom tray",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "",
+      "Z-0202 -0078"
+    ],
+    "Test": [
+      "",
+      "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]",
+      "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]"
+    ],
+    "Decision": [
+      "",
+      "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]",
+      "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]"
+    ],
+    "Action": [
+      "Check / adjust See 02 How to remove the ink refill unit",
+      "Check / re-seat connectors",
+      "Check / replace 02 How to remove the Ink Leak Sensor (02B18; INK_LEAK_SE)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250010",
+    "Error_description": "Ink level sensor too late active after ink refill (C, Y, M, K, W). None of the level sensors changed after ink refill.",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "Z-0202 -0112"
+    ],
+    "Test": [
+      "",
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Decision": [
+      "",
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Action": [
+      "Check / re-seat",
+      "Check / replace 02 How to remove the ink low sensor (02B1/3/5/7) 02 How to remove the ink high sensor (02B2/4/6/8)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250011",
+    "Error_description": "No response from ink RFID reader (Y, C, M, K, W). No response from RFID reader. Ink system Cyan cartridge RFID 02PBA02 INK_3_CART_RFID Ink system Magenta cartridge lRFID 02PBA03 INK_4_CART_RFID Ink system Yellow cartridge RFID 02PBA04 INK_2_CART_RFID Ink system Black cartridge RFID 02PBA05 INK_5_CART_RFID Ink system White cartridge RFID 02PBA51 INK_6_CART_RFID",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "Z-0204 -0100"
+    ],
+    "Test": [
+      "",
+      ""
+    ],
+    "Decision": [
+      "",
+      ""
+    ],
+    "Action": [
+      "Check / re-seat",
+      "Check / replace 02 How to remove the ink cartridge RFID PBA (02PBA02/3/4/5/51)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250012",
+    "Error_description": "Unexpected ink drop in printhead (PH1..PH8). The level-sensor in the printhead suddenly measures an empty printhead while not jetting or receiving pressure-pulses. This error happens when ink is leaking out of the printhead. In most cases this related to a pressure failure inside the printhead due to a blocked air-tube. Often this error is proceeded by MRE250001.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "250014",
+    "Error_description": "Inconsistent ink level (C, Y, M, K, W). The internal software estimator is at the hardstop level and the ink level high sensor is active. The ink level estimator in software is deviating too much.",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "Z-0202 -0112"
+    ],
+    "Test": [
+      "",
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Decision": [
+      "",
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+    ],
+    "Action": [
+      "Check / re-fill",
+      "Check / replace 02 How to remove the ink low sensor (02B1/3/5/7) 02 How to remove the ink high sensor (02B2/4/6/8)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250015",
+    "Error_description": "INK_PUMP_MO version not supported. Cause: Depending on the part number of the Ink supply PBA 02PBA01 . This is reported when the PBA (02PBA01partnumber 1070066986) detects via the X52 pin5 and 6 loopback, that new ink pump motors are configured.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "250016",
+    "Error_description": "02PBA01 version not supported. Cause: The PBA version of Ink supply PBA 02PBA01 is not supported by the current system software.",
+    "Symptom": [],
+    "Part_index": [
+      "Z-0202 -0075"
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250027",
+    "Error_description": "Unexpected lever arm to locked movement detected. Lever is moved unexpectedly to upper position without detection of an approved RFID. The lever of the ink refill unit is moved up unexpectedly. It should have been blocked by the ink refill unit.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace 02 How to remove the ink refill unit"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "250028",
+    "Error_description": "Unexpected lever arm to opened movement detected. Lever is moved unexpectedly to the lower position. The lever of the ink loading unit is moved down unexpectedly. The draining period has not yet expired or the upper ink level sensor is still detecting ink. Within the draining period and also if high sensor is still active after draining the lever movement should be blocked.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace 02 How to remove the ink refill unit"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "270001",
+    "Error_description": "This ORE is reported to prevent burst of ink tubes due to closed ink valves at the printhead carriage after installation or replacement of a printhead. This ORE is a reminder to check whether all ink valves are open. If all ink valves are checked, this ORE can be resolved. After printhead installation or replacement this ORE will be reported as soon as the printheads became warm. After reporting this ORE, the printheads will start cooling down again. Waiting a long time before resolving the ORE (checking the valves), will result in a long warm up time to get the engine in standby again.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "270008",
+    "Error_description": "Typically, this error occurs during printer installation when no ink is in the system yet. It also occurs if the customer is not refilling ink and the ink level of the tank drops to 0.5 L. Then maintenance cannot be done anymore. New ink is required to keep the printer in a healthy state.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator"
+    ],
+    "Decision": [
+      "If needed: Instruct the operator"
+    ],
+    "Action": [
+      "Check / replace the ink bottles"
+    ],
+    "Info": [
+      ""
+    ]
+  },
+  {
+    "Error_code": "290001",
+    "Error_description": "Ink level sensor (C, M, Y, K or W) active while level estimation below zero.",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "Z-0203 -0064",
+      "Z-0502 -0001 .. 0008",
+      "Z-0202 -0075"
+    ],
+    "Test": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Decision": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Action": [
+      "Check / re-seat",
+      "Check / replace 02 How to remove the pump tube of the ink pump",
+      "Check / replace 05 How to replace an ink tube",
+      "Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "05 The components of the Y Motion System",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290005",
+    "Error_description": "Ink flow correction factor out of range. The ink flow correction factor calculated by the dosing pump calibration is out of range. This warning indicates a wear-out of the ink pump tubes. The ink pump tubes should be replaced. This warning might result in 250001 (ink delivery to PH failed) because the ink flow is too low.",
+    "Symptom": [],
+    "Part_index": [
+      "",
+      "Z-0203 -0064",
+      "",
+      "Z-0203 -0096",
+      "Z-0203 -0062",
+      "Z-0202 -0075"
+    ],
+    "Test": [
+      "02-6-005 Correction factors for all ink supply pumps [Special Tests]",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Decision": [
+      "02-6-005 Correction factors for all ink supply pumps [Special Tests]",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Action": [
+      "Check / reset the value",
+      "Check / replace 02 How to remove the pump tube of the ink pump",
+      "Check / re-seat",
+      "Check / re-seat / replace",
+      "Check / replace 02 How to remove the ink system pump motor (02M1/3/5/7/50)",
+      "Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;)"
+    ],
+    "Info": [
+      "",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290011",
+    "Error_description": "290011 RFID tag: Invalid format. RFID tag not accepted: Invalid format",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace the ink bottle"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290012",
+    "Error_description": "290012 RFID tag: Invalid color. RFID tag not accepted: Invalid color",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace ink bottle."
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290013",
+    "Error_description": "290013 RFID tag: Ink already consumed. RFID tag not accepted: Ink already consumed.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace ink bottle"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290014",
+    "Error_description": "290014 RFID tag: Invalid product type. RFID tag not accepted: Invalid product type",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace ink bottle."
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290015",
+    "Error_description": "290015 RFID tag: Ink expired. RFID tag not accepted: Ink expired.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check the date and time settings / check - replace ink bottle"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290016",
+    "Error_description": "290016 RFID tag: Ink almost expired.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "290017",
+    "Error_description": "290017 RFID tag: Invalid ink region.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace Ink bottle"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290018",
+    "Error_description": "290018 RFID tag: Invalid signature.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace Ink bottle"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290019",
+    "Error_description": "290019 Cannot write to RFID tag (Y, C, M, K, W). Liquid consumed is not correctly written to the rfid before draining. Possible causes: rfid tag (with bottle) was removed or replaced while moving the handle, rfid tag is write protected or rfid writer is not functioning.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator."
+    ],
+    "Decision": [
+      "If needed: Instruct the operator."
+    ],
+    "Action": [
+      "Check / re-seat / replace"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290020",
+    "Error_description": "290020 Ink in printer expired. Ink expired in printer. All ink has to be removed.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace the ink"
+    ],
+    "Info": [
+      ""
+    ]
+  },
+  {
+    "Error_code": "290021",
+    "Error_description": "290021 RFID tag: Ink Black Listed. RFID tag not accepted: Ink BlackListed. Black listing means that ORS connected printers get notifications about ink that must be rejected. If the operator tries to load a blacklisted cartridge, he will see a message on the screen that the cartridge is not accepted and the handle remains blocked. The ink cartridge needs to be replaced by a cartridge from another batch. Blocked cartridges can be sent back to Venlo via the regular LQF procedure. Hint : If you want to know more about black listed ink, consult PPP Venlo.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator"
+    ],
+    "Decision": [
+      "If needed: Instruct the operator"
+    ],
+    "Action": [
+      "Check / replace the ink bottles"
+    ],
+    "Info": [
+      ""
+    ]
+  },
+  {
+    "Error_code": "290022",
+    "Error_description": "290022 Ink in printer almost expired. This warning occurs 28 days prior to the expiry date.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      ""
+    ],
+    "Info": [
+      ""
+    ]
+  },
+  {
+    "Error_code": "290023",
+    "Error_description": "290023 Ink safe mode started. Safe mode activated due to a non-genuine ink loaded into the system. The NFC and PAINt functionality is disabled, resulting in print artefacts like color shifts. Maintenance will be done every 10 minutes resulting in an additional 25% more waste ink",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "290024",
+    "Error_description": "290024 Ink safe mode ended. Safe mode ended due to a service action.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "290025",
+    "Error_description": "290025 RFID tag: Uid already present. The ID of the ink bottle has been loaded already previously.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      ""
+    ],
+    "Decision": [
+      ""
+    ],
+    "Action": [
+      "Check / replace"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290026",
+    "Error_description": "290026 RFID tag: not supported ink type.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "290029",
+    "Error_description": "Ink with a non approved RFID tag in the jar. Jar contains not approved ink When an RFID is detected but not approved, the ink loading is not allowed. When ink is loaded, in this not allowed state, error 290029 is reported. RFID rejections can be based on: Unique IDentifier (UID), recipe, color, expiry date, blacklisted.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator."
+    ],
+    "Decision": [
+      "If needed: Instruct the operator."
+    ],
+    "Action": [
+      "Check / replace Refill ink"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290031",
+    "Error_description": "Start-up handle locked. No RFID detected. Lever is in upper position without any RFID detected. When at startup the lever is in the upper position and no RIFD is detected, no ink bottle is placed and the knife in the ink refill unit is freely accessible. If an ink bottle without a (detectable) RFID is placed on the ink refill unit, the knifes are not accessible.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator."
+    ],
+    "Decision": [
+      "If needed: Instruct the operator."
+    ],
+    "Action": [
+      "Check / replace See: Refill ink"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290032",
+    "Error_description": "Cannot write RFID tag. RFID could not be read while writing liquid consumed. Liquid consumed is not correctly written to the RFID before draining. RFID validation read error The RFID could not be read while writing the consumed liquid.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator."
+    ],
+    "Decision": [
+      "If needed: Instruct the operator."
+    ],
+    "Action": [
+      "Check / re-seat / replace See: Refill ink"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290033",
+    "Error_description": "Cannot write the RFID tag. RFID tag was changed while writing liquid consumed. This warning is reported because the Unique IDentifier (UID) on the RFID tag of this bottle is changed in between the read and write moment.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator."
+    ],
+    "Decision": [
+      "If needed: Instruct the operator."
+    ],
+    "Action": [
+      "Check / re-seat / replace See: Refill ink"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290034",
+    "Error_description": "Liquid consumed is not correctly written to the RFID before draining. The RFID is not present at the moment of writing the liquid consumed. This warning is reported because at the moment of read, just after write, no RFID is detected. This warning is also reported when the lever is moved illegally to the upper position without a read of the RFID tag.",
+    "Symptom": [],
+    "Part_index": [
+      ""
+    ],
+    "Test": [
+      "If needed: Instruct the operator."
+    ],
+    "Decision": [
+      "If needed: Instruct the operator."
+    ],
+    "Action": [
+      "Check / re-seat / replace See: Refill ink"
+    ],
+    "Info": [
+      "Mapping pumps to printheads"
+    ]
+  },
+  {
+    "Error_code": "290035",
+    "Error_description": "The level sensor of a printhead has three levels: empty, full and overfilled. When the ink level of the white printhead is overfilled recirculation may not start because ink dosing to the printhead (and thus a malfunctioning 3-way valve, 02Y5) cannot be detected anymore. Recirculation will be postponed. This warning is reported when ink recirculation has been postponed too long. Actions Check the 3-way valve as per SDS 02-6-010 White Ink Recirculation (Special Test). Replace the 3-way valve if needed. Replace the printhead if this warning keeps occurring (after checking/replacing the 3-way valve). No action required on a single occurrence.",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "290036",
+    "Error_description": "This warning will be reported if the level sensor of the printhead reaches the upper limit during recirculation. The pump must be stopped immediately to prevent overfilling of the printhead. Symptom Check the correct working of the white ink recirculation function. See SDS tests: 02-6-010 White Ink Recirculation (Special Test) 02-6-009 Recirculation valve (W) [Special test] 02-4-103 Activate RECIRC_VALVE_HIT_1 (W) [Actuator tests] 02-4-104 Activate RECIRC_VALVE_HOLD_1 (W) [Actuator Tests]",
+    "Symptom": [],
+    "Part_index": [],
+    "Test": [],
+    "Decision": [],
+    "Action": [],
+    "Info": []
+  },
+  {
+    "Error_code": "02",
+    "Error_description": "When an ink bottle is placed in the ink refill unit the RFID reader should detect an RFID (of the ink bottle) and the ink refill led should start blinking. Components: Ink system Yellow refill LED 02PBA06 INK_2_REFILL_LED Ink system Cyan refill LED 02PBA07 INK_3_REFILL_LED Ink system Magenta refill LED 02PBA08 INK_4_REFILL_LED Ink system Black refill LED 02PBA09 INK_5_REFILL_LED Ink system White refill LED 02PBA50 INK_6_REFILL_LED",
+    "Symptom": [],
+    "Part_index": [
+      "Z-0204 -0012",
+      "",
+      "Z-0204 -0100",
+      "Z-0202 -0075"
+    ],
+    "Test": [
+      "02-4-101 Activate INK_x_REFILL_LED (C, M, Y, K or W) [Actuator Tests]",
+      "",
+      "",
+      ""
+    ],
+    "Decision": [
+      "02-4-101 Activate INK_x_REFILL_LED (C, M, Y, K or W) [Actuator Tests]",
+      "",
+      "",
+      ""
+    ],
+    "Action": [
+      "Check / replace Do 02 How to remove an ink tank (container)",
+      "Check / re-seat",
+      "Check / replace 02 How to remove the ink cartridge RFID PBA (02PBA02/3/4/5/51)",
+      "Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;)"
+    ],
+    "Info": [
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads",
+      "Mapping pumps to printheads"
+    ]
+  }
+]
