@@ -3,5 +3,5 @@ Index,PartNumber,Qty,Description,Note,ElectricalComponent,Part_Family_Number,Par
 0003,1070077219,4,"TUBE,AIR (PACKED)",null,null,1070128164,Printhead M10,Printhead,Z-0402
 0552,1070113779,1,PLUG-AIRDUCT,null,null,1070128164,Printhead M10,Printhead,Z-0402
 0010,1070114025,4,DUMMY-PRINTHEAD-ASSY,null,null,1070128164,Printhead M10,Printhead,Z-0402
-0001,1070115508,4,UVGEL 425 PRINTHEAD (1 PCS),"PHD3 - 6 , PHD1 (white) optional; elect corresponding PH in ADAM when replaced","PH3- M3, PH4 -Y4, PH5 - K5, PH6 -C6, PH1 - W1",1070128164,Printhead M10,Printhead,Z-0402
 0002,1070076686,1,BOILER-FILTER-UNIT (PACKED),"Boiler temp sensor, boiler heater;Also order small blister, see Z-2550 index 4",null,1070128164,Printhead M10,Printhead,Z-0402
+
