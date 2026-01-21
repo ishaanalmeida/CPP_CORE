@@ -6,8 +6,8 @@
     "Part_index": [],
     "Test": [],
     "Decision": [],
-    "Action": [],
-    "Info": []
+    "Action": ["Remove the seal."],
+    "Info": ["The seal of the bottle is completely cut, and blocks the mechanical movement of the knife and so also the green handle."]
   },
   {
     "Error_code": "250001",
@@ -21,68 +21,72 @@
   },
   {
     "Error_code": "250002",
-    "Error_description": "Ink delivery to the printhead failed during initial filling (PH1, PH3, PH4, PH5, PH6). After starting the ink supply it is expected to be stopped within a given time. When this doesn't occur this error is reported. This error only occurs during the initial ink filling of the system. The APSU tries to keep the printheads on vacuum in case of errors. Due to empty printheads, the APSU might not be able to create the vacuum resulting in a follow-up error 7504 'large pressure leakage'. This is caused by the empty printheads and is not a 'real' leakage problem In some rare cases it's known the ink valve of a printhead might be blocked (even if the valve is opened). In those cases please replace the valve by a new one (1070078229) or by removing the blockade by pushing a Torx-screwdriver through the valve. Don't replace the printhead.",
-    "Symptom": [],
+    "Error_description": "Ink delivery to the printhead failed during initial filling.",
+    "Symptom": ["Wrong position of pump tube.","Empty printhead","No closed clamp on the air hose / Unopened air hose."],
     "Part_index": [],
     "Test": [],
-    "Decision": [],
-    "Action": [],
+    "Decision": ["Check the position of the pump tube in the ink pump.","Check the ink valves at the printheads.","Check air hoses of the printheads"],
+    "Action": ["Adjust position of pump tube.","Adjust/Open ink valve(s)","Add closed clamp on air hose / Rube the air hose to make sure the hose is open."],
     "Info": []
   },
   {
     "Error_code": "250006",
-    "Error_description": "Inconsistent ink level (Y, C, M, K, W). HIGH_SE active while LOW_SE inactive. Either 1 or both sensors are defect.",
-    "Symptom": [],
+    "Error_description": "Inconsistent ink level (Y, C, M, K, W). / HIGH_SE active while LOW_SE inactive. Either 1 or both sensors are defect.",
+    "Symptom": ["Inconsistent ink level","HIGH_SE defect","LOW_SE defect"],
     "Part_index": [
       "Z-0202 -0075",
+      "Z-0202 -0112",
       "Z-0202 -0112"
     ],
     "Test": [
       "",
-      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests]", 
+      "02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
     ],
     "Decision": [
-      "",
-      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+      "Check electrical wiring",
+      "",""
     ],
     "Action": [
-      "Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;)",
-      "Check / replace 02 How to remove the ink low sensor (02B1/3/5/7) 02 How to remove the ink high sensor (02B2/4/6/8)"
+      "Adjut / Replace Ink supply PBA ( 02PBA01 ;)",
+      "Check / replace the ink low sensor",
+      "Check / replace the ink high sensor"
     ],
     "Info": [
-      "Mapping pumps to printheads",
-      "Mapping pumps to printheads"
+      "02 How to remove the Ink supply PBA 02PBA01",
+      "02 How to remove ink low sensor (02B1/3/5/7)",
+      "02 How to remove the ink high sensor (02B2/4/6/8)"
     ]
   },
   {
     "Error_code": "250007",
-    "Error_description": "Inconsistent ink refill handle state (Y, C, M, K). Both CART_OPENED_SE and CART_LOCKED_SE are active. Either 1 or both sensors are defect. Components: Ink system Cyan cartridge locked sensor 02B9 INK_3_CART_LOCKED_SE Ink system Magenta cartridge locked sensor 02B10 INK_4_CART_LOCKED_SE Ink system Yellow cartridge locked sensor 02B11 INK_2_CART_LOCKED_SE Ink system Black cartridge locked sensor 02B12 INK_5_CART_LOCKED_SE Ink system Cyan cartridge opened sensor 02B14 INK_3_CART_OPENED_SE Ink system Magenta cartridge opened sensor 02B15 INK_4_CART_OPENED_SE Ink system Yellow cartridge opened sensor 02B16 INK_2_CART_OPENED_SE Ink system Black cartridge opened sensor 02B17 INK_5_CART_OPENED_SE",
-    "Symptom": [],
+    "Error_description": "Inconsistent ink refill handle state (Y, C, M, K). Both CART_OPENED_SE and CART_LOCKED_SE are active. Either 1 or both sensors are defect.",
+    "Symptom": ["Inconsistent ink refill handle state","CART_OPENED_SE defect","CART_LOCKED_SE defect"],
     "Part_index": [
       "",
       "Z-0204 -0002"
     ],
     "Test": [
-      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]",
-      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]"
+      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests]",
+      "02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]"
     ],
     "Decision": [
-      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]",
-      "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests] 02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]"
+      "",
+      ""
     ],
     "Action": [
       "Check / re-seat connectors",
-      "Check / replace 02 How to remove the ink refill unit"
+      "Check / replace the Ink system (Y, C, M, K, W) locked or opened sensor = Ink refill unit"
     ],
     "Info": [
-      "Mapping pumps to printheads",
-      "Mapping pumps to printheads"
+      "02 The components of Ink system",
+      "02 How to remove the ink refill unit"
     ]
   },
   {
     "Error_code": "250009",
-    "Error_description": "Ink Leak Sensor02B18 INK_LEAK_SE is active. Ink leakage has been detected in the ink leakage bin of the ink cabinet. If white ink is in the leakage bin see: White ink is discharged from the overpressure valve onto the bottom tray",
-    "Symptom": [],
+    "Error_description": "Ink Leak Sensor02B18 INK_LEAK_SE is active. OR ,white ink is discharged via the overpressure valve",
+    "Symptom": ["Ink Leakage","Faulty electrical connection of Ink Leak sensor","Fault Ink Leak sensor","white ink is discharged via the overpressure valve"],
     "Part_index": [
       "",
       "",
@@ -94,50 +98,49 @@
       "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]"
     ],
     "Decision": [
-      "",
-      "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]",
-      "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]"
+      ""
     ],
     "Action": [
-      "Check / adjust See 02 How to remove the ink refill unit",
-      "Check / re-seat connectors",
-      "Check / replace 02 How to remove the Ink Leak Sensor (02B18; INK_LEAK_SE)"
+      "Check / Adjust the position of the funnel of the ink refill unit and ink tank.",
+      "Check the cables, bundles and re-seat the connectors of Ink Leak Sensor (02B18; INK_LEAK_SE).",
+      "Check / replace Ink Leak sensor"
     ],
     "Info": [
-      "Mapping pumps to printheads",
-      "Mapping pumps to printheads",
-      "Mapping pumps to printheads"
+      "02 How to remove the ink refill unit",
+      "",
+      "02 How to remove the Ink Leak Sensor (02B18; INK_LEAK_SE)"
     ]
   },
   {
     "Error_code": "250010",
     "Error_description": "Ink level sensor too late active after ink refill (C, Y, M, K, W). None of the level sensors changed after ink refill.",
-    "Symptom": [],
+    "Symptom": ["Faulty electrical wiring or connectors","Faullty Ink level sensor."],
     "Part_index": [
       "",
       "Z-0202 -0112"
     ],
     "Test": [
       "",
-      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests]",
+      "02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
     ],
     "Decision": [
       "",
-      "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests] 02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]"
+      ""
     ],
     "Action": [
-      "Check / re-seat",
-      "Check / replace 02 How to remove the ink low sensor (02B1/3/5/7) 02 How to remove the ink high sensor (02B2/4/6/8)"
+      "Check / re-seat the electrical wiring",
+      "Check / replace Ink Low or High sensor"
     ],
     "Info": [
-      "Mapping pumps to printheads",
-      "Mapping pumps to printheads"
+      "02 How to remove the ink low sensor (02B1/3/5/7)",
+      "02 How to remove the ink high sensor (02B2/4/6/8)"
     ]
   },
   {
     "Error_code": "250011",
-    "Error_description": "No response from ink RFID reader (Y, C, M, K, W). No response from RFID reader. Ink system Cyan cartridge RFID 02PBA02 INK_3_CART_RFID Ink system Magenta cartridge lRFID 02PBA03 INK_4_CART_RFID Ink system Yellow cartridge RFID 02PBA04 INK_2_CART_RFID Ink system Black cartridge RFID 02PBA05 INK_5_CART_RFID Ink system White cartridge RFID 02PBA51 INK_6_CART_RFID",
-    "Symptom": [],
+    "Error_description": "No response from ink RFID reader (Y, C, M, K, W).",
+    "Symptom": ["Faulty RFID electrical connection","Fault RFID reader 02PBA02/3/4/5"],
     "Part_index": [
       "",
       "Z-0204 -0100"
@@ -151,18 +154,18 @@
       ""
     ],
     "Action": [
-      "Check / re-seat",
-      "Check / replace 02 How to remove the ink cartridge RFID PBA (02PBA02/3/4/5/51)"
+      "Check / re-seat the bundles and connectors of the RFID reader.",
+      "Check / replace the RFID reader 02PBA02/3/4/5. "
     ],
     "Info": [
-      "Mapping pumps to printheads",
-      "Mapping pumps to printheads"
+      "",
+      "02 How to remove the ink cartridge RFID PBA (02PBA02/3/4/5/51)"
     ]
   },
   {
     "Error_code": "250012",
-    "Error_description": "Unexpected ink drop in printhead (PH1..PH8). The level-sensor in the printhead suddenly measures an empty printhead while not jetting or receiving pressure-pulses. This error happens when ink is leaking out of the printhead. In most cases this related to a pressure failure inside the printhead due to a blocked air-tube. Often this error is proceeded by MRE250001.",
-    "Symptom": [],
+    "Error_description": "Unexpected ink drop in printhead (PH1..PH8). ",
+    "Symptom": ["Pressure failure inside the printhead due to a blocked air-tube",""],
     "Part_index": [],
     "Test": [],
     "Decision": [],
@@ -171,8 +174,8 @@
   },
   {
     "Error_code": "250014",
-    "Error_description": "Inconsistent ink level (C, Y, M, K, W). The internal software estimator is at the hardstop level and the ink level high sensor is active. The ink level estimator in software is deviating too much.",
-    "Symptom": [],
+    "Error_description": "Inconsistent ink level (C, Y, M, K, W). ",
+    "Symptom": ["Tube is not in the pump","Ink Levers are not","Ink level low"],
     "Part_index": [
       "",
       "Z-0202 -0112"
