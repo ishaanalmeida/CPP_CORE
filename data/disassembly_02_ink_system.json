@@ -1,0 +1,465 @@
+[
+  {
+    "Disassembly_Name": "02 How to remove the ink low sensor (02B1/3/5/7)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the 3 x T20 screws of the cover with the PBA."
+      },
+      {
+        "sequence": "2",
+        "action": "Open the cover carefully. Lift the cover a littlebit, so you do not damage the ink leakage sensor."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the 4 x T10 screws of the sensor assembly of the required color. Example: black color."
+      },
+      {
+        "sequence": "4",
+        "action": "Take the assembly."
+      },
+      {
+        "sequence": "5",
+        "action": "Remove the 2 screws of the low sensor. The top sensor is the high level sensor and the lower is the low level sensor. 2 small nuts are positioned on the rear side of the sensor. Do not loosen them. Disconnect the connector. Remove the sensor. Never turn the adjustment screw on the sensor. The sensors are calibrated."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink high sensor (02B2/4/6/8)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the 3 x T20 screws of the cover with the PBA."
+      },
+      {
+        "sequence": "2",
+        "action": "Open the cover carefully. Lift the cover a little bit, so you do not damage the ink leakage sensor."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the 4 x T10 screws of the sensor assembly."
+      },
+      {
+        "sequence": "4",
+        "action": "Take the assembly."
+      },
+      {
+        "sequence": "5",
+        "action": "Remove the 2 screws of the high sensor. The top sensor is the high level sensor and the lower is the low level sensor. 2 small nuts are positioned on the rear side of the sensor. Do not loosen them. Disconnect the connector. Remove the sensor. Never turn the adjustment screw on the sensor. The sensors are calibrated."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Place some towels under the ink leakage bin."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the screw of the sensor bracket."
+      },
+      {
+        "sequence": "3",
+        "action": "Disconnect the connector of the sensor."
+      },
+      {
+        "sequence": "4",
+        "action": "Remove the sensor from the bracket."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T20 Protective gloves : Microflex 93-260 gloves. A new Ink Leak Sensor02B18 INK_LEAK_SE."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink system pump motor (02M1/3/5/7/50)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Disconnect the connector of the ink pump (in between the metal covers)."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the screw (T20) of the ink pump assembly."
+      },
+      {
+        "sequence": "5",
+        "action": "Lift and remove the ink pump assembly."
+      },
+      {
+        "sequence": "6",
+        "action": "Use a screwdriver to unhook the motor from the bracket. Remove the bracket from the motor."
+      }
+    ],
+    "Required_Tools": "Cloth Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink system stir motor (02M2/4/6/8/51)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Disconnect the connector of the stirring motor."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the screw."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the motor with the ink tank to the top."
+      },
+      {
+        "sequence": "4",
+        "action": "Lift the Ink Refill Unit to free the ink tank."
+      },
+      {
+        "sequence": "5",
+        "action": "Remove the stirring motor."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Disconnect the 16 connectors of the PBA."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove 12 screws (T10) of the PBA."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the PBA."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink cartridge RFID PBA (02PBA02/3/4/5/51)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the ink bottle (cartridge). You can only remove an empty bottle."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the 6 (T10) screws from the PBA."
+      },
+      {
+        "sequence": "3",
+        "action": "Disconnect the connector and remove the PBA."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the refill LED PBA (02PBA06/7/8/9)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the 2 (T10) screws from the PBA."
+      },
+      {
+        "sequence": "2",
+        "action": "Disconnect the connector of the PBA."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the screw. Disconnect the connector. Remove the sensor."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves : Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink refill unit",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Place a towel on the floor."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the 4 screws (2 at the front, 1 at each side of the locking mechanism)."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the cables from the cable guide. Disconnect the 2 connectors."
+      },
+      {
+        "sequence": "4",
+        "action": "Lift and remove the locking assembly."
+      }
+    ],
+    "Required_Tools": "Towel Small screwdriver Screwdriver Torx T20 Protective gloves : Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to install the ink refill unit",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [],
+    "Required_Tools": "Small screwdriver Screwdriver Torx T20 Flash light (No LED) Protective gloves : Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 Open the ink system",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [],
+    "Required_Tools": "Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the rear top cover of the ink system",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the 2 screws."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the cover."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T20 Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink leakage bin",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove 1 screw and loosen the other screw of the locking bracket."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the screw of the sensor bracket."
+      },
+      {
+        "sequence": "3",
+        "action": "Place the sensor bracket to the side."
+      },
+      {
+        "sequence": "4",
+        "action": "Carefully pull out the ink leakage bin."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the pump tube of the ink pump",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Remove the plastic cap of the ink pump: Pull with some pressure at the bottom of the cap. The cap can be removed. Keep the rollers and rotor assembly in place."
+      },
+      {
+        "sequence": "2",
+        "action": "Remove the pump tube from the pump: hold the rotor in place and remove the pump tube between the rotor and the curved inner surface of the pump base."
+      },
+      {
+        "sequence": "3",
+        "action": "Place a towel under the working place to catch spilling ink."
+      },
+      {
+        "sequence": "4",
+        "action": "Disconnect the pump tube at both sides. Mount the red caps on the 2 ink tubes."
+      }
+    ],
+    "Required_Tools": "A cloth 2 caps to lock the ink tube Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove an ink tank (container)",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Do 02 How to remove the ink refill unit for this color."
+      },
+      {
+        "sequence": "2",
+        "action": "Disconnect the connector of stirring motor."
+      },
+      {
+        "sequence": "3",
+        "action": "Remove the cover of the ink pump. Remove the ink pump tube."
+      },
+      {
+        "sequence": "4",
+        "action": "Remove the screw of the bracket of the ink tank."
+      },
+      {
+        "sequence": "5",
+        "action": "Lift and remove the ink tank."
+      },
+      {
+        "sequence": "6",
+        "action": "Lift and remove the ink tank."
+      },
+      {
+        "sequence": "6",
+        "action": "Remove the ink tank and motor to the top."
+      },
+      {
+        "sequence": "7",
+        "action": "Place a new maintenance tray in front of the ink tank."
+      },
+      {
+        "sequence": "8",
+        "action": "Remove the top cover of the ink tank."
+      },
+      {
+        "sequence": "9",
+        "action": "Hold the ink tank and slide out carefully the mixer blade."
+      },
+      {
+        "sequence": "10",
+        "action": "Place the mixer blade in the maintenance tray."
+      },
+      {
+        "sequence": "11",
+        "action": "Fill the new ink tank with the ink of the old ink tank."
+      },
+      {
+        "sequence": "12",
+        "action": "Slide the mixer in the ink tank and lock the top cover."
+      },
+      {
+        "sequence": "13",
+        "action": "Place the ink tank (flat surface of the ink tank at the sensors side) in the unit."
+      },
+      {
+        "sequence": "14",
+        "action": "Install the refill unit. Make sure the funnel is in the top cover of the ink tank. See 02 How to remove the ink refill unit"
+      },
+      {
+        "sequence": "15",
+        "action": "Lock the bracket of the ink tank."
+      },
+      {
+        "sequence": "16",
+        "action": "Check: Use a flashlight to make sure the funnel is in the top cover of the ink tank."
+      },
+      {
+        "sequence": "17",
+        "action": "Connect the connector of the stirring motor."
+      },
+      {
+        "sequence": "18",
+        "action": "Place the ink pump tube in the ink pump. Close the ink pump."
+      },
+      {
+        "sequence": "19",
+        "action": "Reconnect the Service jumper, exit SDS and press 'Restart' on the operator panel."
+      },
+      {
+        "sequence": "20",
+        "action": "Refill the ink tubes for the tank has been replaced. Use : 02 How to refill the ink system."
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T20 A set of maintenance trays and lids Lint free cloth Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 Check the ink tubes routing and connections",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [],
+    "Required_Tools": "Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 Check the ink funnel position",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [],
+    "Required_Tools": "Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the ink from the ink tank",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [],
+    "Required_Tools": "Screwdriver Torx T20 Maintenance tray 4 new ink tanks or use cleaned ink tanks Towel Protective gloves: Microflex 93-260 gloves."
+  },
+  {
+    "Disassembly_Name": "02 How to remove the white ink 3-way valve",
+    "Warnings": "Avoid skin contact with ink: wear protective gloves. Protect your eyes from splashing ink: wear safety glasses.",
+    "How_to_Remove": [
+      {
+        "sequence": "1",
+        "action": "Go to COLD SDS and disconnect the Service jumper."
+      },
+      {
+        "sequence": "2",
+        "action": "Open the cover"
+      },
+      {
+        "sequence": "3",
+        "action": "Move the carriage to the right above the maintenance tray."
+      },
+      {
+        "sequence": "",
+        "action": "Remove the black cover of the carriage unit. See: 05 How to open the cover of the carriage unit"
+      },
+      {
+        "sequence": "4",
+        "action": "Disconnect the connector."
+      },
+      {
+        "sequence": "5",
+        "action": "Disconnect the 3-way valve connector (Yellow cable) from the PBA."
+      },
+      {
+        "sequence": "6",
+        "action": "Cut the tie-wraps to release the yellow cable. Cut the tie-wraps to release the 3-way valve with ink tubes Open the clamps of the 3-way valve ink tubes ."
+      },
+      {
+        "sequence": "7",
+        "action": "After removing the 3 screws remove the 3-way-valve assy. To avoid any ink leakage be sure the Vane of the White ink tube is closed."
+      },
+      {
+        "sequence": "8",
+        "action": "The new 3-way-valve assy comes without the bracket as shown in the picture. Remove the bracket and mount it on the new 3-way valve."
+      },
+      {
+        "sequence": "9",
+        "action": "Before loosening the ink tubes arrange lint free cloths to avoid ink leakage. Loosen the ink tubes and use the red caps to seal the tubes."
+      },
+      {
+        "sequence": "10",
+        "action": "Flush white ink from recirculation tube (Optional for (expired) white ink option). Cut the tie-wrap"
+      },
+      {
+        "sequence": "",
+        "action": "Disconnect the green luer."
+      },
+      {
+        "sequence": "",
+        "action": "Guide the recirculation tube into a waste tray."
+      },
+      {
+        "sequence": "",
+        "action": "Start SDS 2-6-010 for 400 seconds."
+      },
+      {
+        "sequence": "",
+        "action": "After flushing completed, guide the tube behind the metal (no tie-wrap needed)"
+      }
+    ],
+    "Required_Tools": "Screwdriver Torx T10 Screwdriver Torx T20 Protective gloves: Microflex 93-260. Cleaning cloths lint free Tie-wraps 3.6 x 143 mm"
+  }
+]

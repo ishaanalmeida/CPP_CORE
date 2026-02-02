@@ -1,0 +1,264 @@
+[
+  {
+    "SDS_Test_Name": "02-1-001 Mark ink tube as empty (W1, M3, Y4, K5, C6 ) [Parameters]",
+    "Component": "Mark ink tube as empty (W1, M3, Y4, K5, C6)",
+    "Function": "Use this test to set the ink tube status to empty. For instance if you replace an ink tube. This is the initial situation for a brand new system. This setting will increase the ink dosing timeout so that the tube and the printhead fill with ink. Status is automatically updated after successful ink filling.",
+    "Possible_Outcomes": [
+      "To mark an ink tube empty enter 1. Do not change this setting in combination with filled printheads. Minimum value: 0 Maximum value: 2147483647"
+    ],
+    "Description": [
+      "Mark ink tube as empty (PH1, PH3, PH4, PH5, PH6)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-1-003 Expire date of the intermediate ink reservoir (C, M, Y, K or W) [Parameters]",
+    "Component": "Ink tank (C, M, Y, K or W).",
+    "Function": "Expire date of the ink in the ink tanks (C, M, Y, K or W). This value is updated every time new ink is added into the ink tank. Example: 119;6;30 = July 30 2019 (Month start at 0!). The SDS parameter shows the date when the expiry state will be set to 'Almost expired'. A warning is displayed on the operator panel. In case no further action is done, the expiry state will change to 'Expired' in 28 days from this day.",
+    "Possible_Outcomes": [
+      "Default: 0 Minimum: 0 Maximum: 21 47483647"
+    ],
+    "Description": [
+      "Expire date of the intermediate ink reservoir (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-1-004 Expire state of the ink in the intermediate ink reservoir (C, M, Y, K or W) [Parameters]",
+    "Component": "",
+    "Function": "Expire state of the ink in the intermediate ink reservoir (ink tank): 0 = Not expired 1 = Almost expired 2 = Expired",
+    "Possible_Outcomes": [
+      "Default: 0 Minimum: 0 Maximum: 2"
+    ],
+    "Description": [
+      "Expire state of the intermediate ink reservoir (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-1-005 Ink safe mode state (C, M, Y, K or W) [Parameters]",
+    "Component": "",
+    "Function": "Ink safe mode state of the ink in the ink bulk reservoir (ink tank): 1 = Active 0 = Not active",
+    "Possible_Outcomes": [
+      "Default: 0 Minimum: 0 Maximum: 1"
+    ],
+    "Description": [
+      "Ink safe mode state (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-1-006 The supported ink type [Parameters]",
+    "Component": "",
+    "Function": "The supported ink type: 0 = UVgel355 (C1640 only) 1 = UVgel356 (C1640 only) 2 = UVgel460 (C1650, C1630 and M-series)",
+    "Possible_Outcomes": [],
+    "Description": [
+      "The supported ink type"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-1-007 White Ink Hardware Installed",
+    "Component": "",
+    "Function": "Parameter used to register that the white ink hardware is installed. Enabling the parameter requires a reboot. After the reboot, the UI will show the white ink jar on the UI.",
+    "Possible_Outcomes": [
+      "Default: 0 0 = Not installed 1 = Installed"
+    ],
+    "Description": [
+      "White Ink Hardware Installed"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-2-102 Check INK_LEAK_SE (02B18) [Sensor Tests]",
+    "Component": "Ink Leak Sensor02B18 INK_LEAK_SE",
+    "Function": "Check the function of the sensor. Start the test and operate the sensor manually.",
+    "Possible_Outcomes": [
+      "0 = The sensor does not detect ink. 1 = The sensor detects ink."
+    ],
+    "Description": [
+      "Check INK_LEAK_SE (02B18)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-2-103 Check INK_x_HIGH_SE (C, M, Y, K or W) [Sensor Tests]",
+    "Component": "Ink system Yellow high sensor 02B2 INK_2_HIGH_SE Ink system Cyan high sensor 02B4 INK_3_HIGH_SE Ink system Magenta high sensor 02B6 INK_4_HIGH_SE Ink system Black high sensor 02B8 INK_5_HIGH_SE Ink system White high sensor 02B51 INK_6_HIGH_SE",
+    "Function": "Check the function of the ink level high sensor of the ink tank. Start the test. Remove the sensor assembly from the ink tank to test the correct working of the sensor (see: 02 How to remove the ink high sensor (02B2/4/6/8)) up to step 4, do not disconnect he harness). Start the test. The sensor can be activated by touching the sensor area with your hand. Please note that the SDS beep has a reaction time of approximate 1 second (software filtering). The level sensor has two diagnostic LED's: Green LED: power supply indicator, led is activated when +24V power is present. Should be ON. Yellow LED: function indicator, indicates the detection of ink/no-ink. Sensor status High level sensor Yellow LED Sensor output level no ink detected OFF 0 V Ink detected ON +24 V The orange led of the LOW level sensor has a different behavior (inverted)",
+    "Possible_Outcomes": [
+      "Active (1) = Ink is detected. (Yellow LED is on). Refill not allowed. Inactive (0) = No ink is detected. (Yellow LED is off). Refill allowed"
+    ],
+    "Description": [
+      "Check INK_x_HIGH_SE (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-2-104 Check INK_x_LOW_SE (C, M, Y, K or W) [Sensor Tests]",
+    "Component": "Ink system Yellow low 02B1 INK_2_LOW_SE Ink system Cyan low sensor 02B3 INK_3_LOW_SE Ink system Magenta low sensor 02B5 INK_4_LOW_SE Ink system Black low sensor 02B7 INK_5_LOW_SE Ink system White low sensor 02B50 INK_6_LOW_SE",
+    "Function": "Check the function of the ink level low sensor of the ink tank. Remove the sensor assembly from the ink tank to test the correct working of the sensor ( see 02 How to remove the ink low sensor (02B1/3/5/7) up to step 4, do not disconnect the harness). Start the test. The sensor can be activated by touching the sensor area with your hand. The level sensor has two diagnostic LED’s: Green LED: power supply indicator, led is activated when +24V power is present. Should be ON. Yellow LED: function indicator, indicates the detection of ink/no-ink. Sensor status Low level sensor Yellow LED Sensor output level no ink detected ON +24 V Ink detected OFF 0 V The orange led of the HIGH level sensor has a different behavior (inverted)",
+    "Possible_Outcomes": [
+      "Active (1) = Ink is detected (Yellow LED is off). Refill not allowed. In Inactive (0) = No ink is detected (Yellow LED is on). Refill allowed."
+    ],
+    "Description": [
+      "Check INK_x_LOW_SE (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-2-105 Check INK_x_CART_LOCKED_SE (C, M, Y, K or W) [Sensor Tests]",
+    "Component": "Ink system Cyan cartridge locked sensor 02B9 INK_3_CART_LOCKED_SE Ink system Magenta cartridge locked sensor 02B10 INK_4_CART_LOCKED_SE Ink system Yellow cartridge locked sensor 02B11 INK_2_CART_LOCKED_SE Ink system Black cartridge locked sensor 02B12 INK_5_CART_LOCKED_SE Ink system White cartridge locked sensor 02B52 INK_6_CART_LOCKED_SE",
+    "Function": "Check the function of the cartridge locked sensor. Start the test.",
+    "Possible_Outcomes": [
+      "Active (1) = The handle is in the locked position. Inactive (0) = The handle is not in the locked position."
+    ],
+    "Description": [
+      "Check INK_x_CART_LOCKED_SE (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-2-106 Check INK_x_CART_OPENED_SE (C, M, Y, K or W) [Sensor Tests]",
+    "Component": "Ink system Cyan cartridge opened sensor 02B14 INK_3_CART_OPENED_SE Ink system Magenta cartridge opened sensor 02B15 INK_4_CART_OPENED_SE Ink system Yellow cartridge opened sensor 02B16 INK_2_CART_OPENED_SE Ink system Black cartridge opened sensor 02B17 INK_5_CART_OPENED_SE Ink system White cartridge opened sensor 02B53 INK_6_CART_OPENED_SE",
+    "Function": "Check the function of the cartridge opened sensor. Start the test.",
+    "Possible_Outcomes": [
+      "Active (1) = The handle is in the open position. Inactive (0) = The handle is not in the open position."
+    ],
+    "Description": [
+      "Check INK_x_CART_OPENED_SE (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-4-101 Activate INK_x_REFILL_LED (C, M, Y, K or W) [Actuator Tests]",
+    "Component": "Ink system Cyan refill LED 02PBA07 INK_3_REFILL_LED. Ink system Magenta refill LED 02PBA08 INK_4_REFILL_LED . Ink system Yellow refill LED 02PBA06 INK_2_REFILL_LED . Ink system Black refill LED 02PBA09 INK_5_REFILL_LED. Ink system White refill LED 02PBA50 INK_6_REFILL_LED",
+    "Function": "Check the function of the refill LED. Start the test.",
+    "Possible_Outcomes": [
+      "Use Continue to switch between OFF and ON. 1 = The LED is ON. 0 = The LED is OFF."
+    ],
+    "Description": [
+      "024102 Activate INK_x_CART_UNLOCK_SO Activate INK_x_REFILL_LED"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-4-102 Activate INK_x_CART_UNLOCK_SO (C, M, Y, K or W) [Actuator Tests]",
+    "Component": "Ink system Yellow cartridge unlock solenoid 02Y1 INK_2_CART_UNLOCK_SO Ink system Cyan cartridge unlock solenoid 02Y2 INK_3_CART_UNLOCK_SO Ink system Magenta cartridge unlock solenoid 02Y3 INK_4_CART_UNLOCK_SO Ink system Black cartridge unlock solenoid 02Y4 INK_5_CART_UNLOCK_SO Ink system White cartridge unlock solenoid 02Y50 INK_6_CART_UNLOCK_SO",
+    "Function": "Check the function of the cartridge unlock solenoid. Only possible if the Ink refill LED is ON. Never really move the handle after activating this solenoid! Use the test only to check the working of the solenoid. Start the test.",
+    "Possible_Outcomes": [
+      "Use Continue to switch between OFF and ON. 1 = The solenoid is activated. 0 = The solenoid is not activated."
+    ],
+    "Description": [
+      "Activate INK_x_CART_UNLOCK_SO"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-4-103 Activate RECIRC_VALVE_HIT_1 (W) [Actuator tests]",
+    "Component": "3 way electrical valve 02Y5 YMS_CAR_RECIRC_VA",
+    "Function": "Check the function of the three-way valve/control electronics on the high voltage level (appr. 24V). The test will stop automatically after 60 seconds to prevent overheating.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Activate RECIRC_VALVE_HIT_1 (W) [Actuator tests]"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-4-104 Activate RECIRC_VALVE_HOLD_1 (W) [Actuator Tests]",
+    "Component": "3 way electrical valve 02Y5 YMS_CAR_RECIRC_VA",
+    "Function": "Check the function of the three-way valve/control electronics on the hold voltage level (appr. 12V).",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Activate RECIRC_VALVE_HOLD_1 (W) [Actuator Tests]"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-001 Fill ink tube(s) [Special Tests]",
+    "Component": "Ink system pump 2 motor 02M1 INK_PUMP_2_MO Ink system pump 3 motor 02M3 INK_PUMP_3_MO Ink system pump 4 motor 02M5 INK_PUMP_4_MO Ink system pump 5 motor 02M7 INK_PUMP_5_MO Ink system pump 6 motor 02M50 INK_PUMP_6_MO",
+    "Function": "This test will run the selected ink pump(s) for the specified time. The test can be used to fill ink tubes after servicing or to check the ink pumps. See 02 How to refill the ink system for the correct procedure.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Fill ink tube(s)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-002 Disable / Enable ink dosing to the printheads [Special Tests]",
+    "Component": "",
+    "Function": "This test will temporary disable and enable ink dosing to the printheads. Ink dosing state: enable / disable. When the SDS test is stopped, ink dosing will always be enabled.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Enable ink dosing to the printheads"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-004 Estimated ink level / Mark ink jar as empty (C, M, Y, K or W) [Special Tests]",
+    "Component": "",
+    "Function": "The ink level estimation is displayed on the operator panel. The ink level estimation can be set to zero when there is no ink in the ink tank (intermediate ink supply). The use of this test will influence on the billing counters. The remainder of the ink will be accounted to the corresponding billing counter.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Estimated ink level / Mark ink jar as empty"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-005 Correction factors for all ink supply pumps [Special Tests]",
+    "Component": "Ink system pump 2 motor 02M1 INK_PUMP_2_MO Ink system pump 3 motor 02M3 INK_PUMP_3_MO Ink system pump 4 motor 02M5 INK_PUMP_4_MO Ink system pump 5 motor 02M7 INK_PUMP_5_MO Ink system pump 6 motor 02M50 INK_PUMP_6_MO",
+    "Function": "Display the current correction factors for all ink supply pumps.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Correction factors for all ink supply pumps"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-006 Reset SafeMode [Special Tests]",
+    "Component": "",
+    "Function": "Reset the ink safe mode for all colors.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Reset SafeMode"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-009 Recirculation valve (W) [Special test]",
+    "Component": "3 way electrical valve 02Y5 YMS_CAR_RECIRC_VA",
+    "Function": "Check the function of the three-way valve/control electronics. The valve is activated with 24V and after two seconds it will be switched to 12V to prevent heating up.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Recirculation valve (W) [Actuator test]"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-6-010 White Ink Recirculation (Special Test)",
+    "Component": "",
+    "Function": "Recirculation can be started and stopped. With this special test ink recirculation can be started and stopped manually. Service technician can detach the return tube at the bulk supply and position the tube in a kind of waste tray to check if the recirculation pump is running . When the test is started the test first checks if the \"print head level sensor\" is not set to the max. Initial stirring is performed (120 sec.) to ensure that the ink is mixed homogeneously. The technician can toggle between \"start and stop circulation\". Status initial stirring | print head overfilled | not recirculating | recirculating | stopped due to timeout | dosing to print head detected Remaining time (s): # When a print head is already overfilled the test will end with status \"Failed\" and result \"print head overfilled\". The Service Technician can use 07-6-002 \"Clean the printheads (one pulse + wipe action)\" to lower the ink level in the print head. When during ink recirculation a rise of the ink level in the print head is detected recirculation will stop immediately and the test will end with status \"Failed\" and result \"dosing to print head detected\". In that case the 3 way valve may not function correctly. Each time ink recirculation is started recirculation will be performed for 10 minutes (parameter duration) to prevent excessive ink spillage. The test will show the remaining recirculation time and stop with status \"stopped due to timeout\" when the recirculation time has passed. The Service Technician can always interrupt recirculation with the toggle button or by stopping the test.",
+    "Possible_Outcomes": [],
+    "Description": []
+  },
+  {
+    "SDS_Test_Name": "02-8-002 Number of inserted cartridges current ink refill unit (C,M,Y,K or W) [Maintenance Counters]",
+    "Component": "",
+    "Function": "Number of inserted ink bottles (cartridges) in the current ink refill unit (C,M,Y,K or W). Manually reset after replacement of the ink refill unit: Set the counter to 0.",
+    "Possible_Outcomes": [],
+    "Description": [
+      "Number of inserted cartridges current ink refill unit (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-8-003 Total time that the stirring motor has been running (C, M, Y, K or W) [Maintenance Counters]",
+    "Component": "",
+    "Function": "Total time in seconds that the stirring motor has been running (C, M, Y, K or W). Manually reset this counter after replacement of the stirring motor.",
+    "Possible_Outcomes": [
+      "Default value: 0 Minimum value: 0 Maximum value: 2147483647"
+    ],
+    "Description": [
+      "Total time that the stirring motor has been running (C, M, Y, K or W)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-8-005 Operating time ink pump [0.1s] (02M1, 02M3, 02M5, 02M7, 02M50",
+    "Component": "Ink system pump 2 motor 02M1 INK_PUMP_2_MO Ink system pump 3 motor 02M3 INK_PUMP_3_MO Ink system pump 4 motor 02M5 INK_PUMP_4_MO Ink system pump 5 motor 02M7 INK_PUMP_5_MO Ink system pump 6 motor 02M50 INK_PUMP_6_MO",
+    "Function": "Total time the ink pump was turned on (02M1, 02M3, 02M5, 02M7, 02M50, Mxx). Manually reset this counter after replacement of the ink pump.",
+    "Possible_Outcomes": [
+      "Unit : 0.1 seconds. Default value: 0 Minimum value: 0 Maximum value: 2147483647"
+    ],
+    "Description": [
+      "Total time the ink pump was turned on [0.1s] (PH1, PH3, PH4, PH5, PH6)"
+    ]
+  },
+  {
+    "SDS_Test_Name": "02-8-006 Operating time ink pump tube [0.1s] (02M1, 02M3, 02M5, 02M7, 02M50,",
+    "Component": "",
+    "Function": "Total time the ink pump (02M1, 02M3, 02M5, 02M7, 02M50, Mxx) was turned on with the current pump tube [0.1s] (PH1, PH3, PH4, PH5, PH6). Manually reset the counter after replacement of the pump tube. This setting will also influence the ink flow correction factor for the tube",
+    "Possible_Outcomes": [
+      "Unit : 0.1 seconds. Default value: 0 Minimum value: 0 Maximum value: 2147483647"
+    ],
+    "Description": [
+      "Total time the ink pump was turned on with current tube [0.1s] (PH1, PH3, PH4, PH5, PH6)"
+    ]
+  }
+]
