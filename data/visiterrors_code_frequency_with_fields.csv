@@ -1,0 +1,89 @@
+Code,CodeFrequency,RepresentativeDescription,RepresentativeType,RepresentativeMri
+290005,28929,Ink flow correction factor out of range,Warning,//system/printer/02_INK/M6
+250001,12061,Ink delivery to printhead failed,MRE,//system/printer/02_INK/INK_PUMP_6_MO
+290022,11932,Ink in printer almost expired,Warning,//system/printer/02_INK/C
+290019,8527,Cannot write to RFID tag,Warning,//system/printer/02_INK/M
+270008,8056,Out of ink,ORE,//system/printer/02_INK/Y
+251003,5562,Filling Back Pressure Reservoir too slow,MRE,//system/printer/02 INK/BackpressureReservoir/5
+250010,5551,Ink level sensor too late active after ink refill,MRE,//system/printer/02_INK/K
+290020,4511,Ink in printer expired,Warning,//system/printer/02_INK/C
+290025,3890,RFID tag: Uid already present,Warning,//system/printer/02_INK/M
+290013,3644,RFID tag: Ink already consumed,Warning,//system/printer/02_INK/M
+290211,1704,Unknown supply container in use,Warning,//system/printer/02 INK/Buffer reservoir/5
+251002,1554,Ink level in Back Pressure Reservoir too high,MRE,//system/printer/02 INK/BackpressureReservoir/5
+290016,1489,RFID tag: Ink almost expired,Warning,//system/printer/02_INK/C
+250027,1428,unexpectedLeverArmToLockedMovementDetected,MRE,//system/printer/02_INK/Y
+270616,1123,Overpressure timeout at 02B10,ORE,//system/printer/02 INK/Air pressure/Inkmodule
+250028,1054,unexpectedLeverArmToOpenedMovementDetected,MRE,//system/printer/02_INK/Y
+250009,992,INK_LEAK_SE (02B18) active,MRE,//system/printer/02_INK
+250803,919,Insufficient or no waste liquid decrease in buffer reservoir,MRE,//system/printer/02 INK/Waste/2-5
+250802,860,Insufficient or no waste liquid increase in waste can,MRE,//system/printer/02 INK/Waste/2-5
+270001,839,Empty ink tube detected and printhead valves not checked,ORE,//system/printer/02_INK/INK_PUMP_6_MO
+251106,834,Air pressure on Back Pressure Reservoirs too high,MRE,//system/printer/02 INK/Air pressure/BPR/345
+251001,785,Ink level in Back Pressure Reservoir too low,MRE,//system/printer/02 INK/BackpressureReservoir/5
+290015,682,RFID tag: Ink expired,Warning,//system/printer/02_INK/C
+250805,638,Waste liquid level too high,MRE,//system/printer/02 INK/Waste/2-5
+250012,633,Unexpected ink drop in Printhead,MRE,//system/printer/02_INK/M3
+250002,617,Ink delivery to printhead failed during initial filling,MRE,//system/printer/02_INK/Y1
+290012,535,RFID tag: Invalid color,Warning,//system/printer/02_INK/M
+251005,516,Back Pressure Reservoirs ink level ADC out of range detected at 04B0x,MRE,//system/printer/02 INK/BackpressureReservoir/0
+290023,498,Ink safe mode started,Warning,//system/printer/02_INK/Y
+290029,491,inkWithANonApprovedRfidInTheJar,Warning,//system/printer/02_INK/Y
+290021,424,RFID tag: Ink BlackListed,Warning,//system/printer/02_INK/K
+251004,365,Filling Back Pressure Reservoir no flow detected,MRE,//system/printer/02 INK/BackpressureReservoir/5
+250602,332,Vacuum pressure at 02PBA04 too high,MRE,//system/printer/02 INK/Air pressure/Inkmodule
+251304,324,Back Pressure Reservoirs level guard 09PBA100 protection activated,MRE,//system/printer/02 INK/Ink guard
+290001,318,Ink level sensor active while level estimation below zero,Warning,//system/printer/02_INK/M
+251303,310,Degas leak guard 02B55 protection activated,MRE,//system/printer/02 INK/Ink guard
+290615,301,Ambient pressure at 02B10 too high,Warning,//system/printer/02 INK/Air pressure/Inkmodule
+270619,294,External air pressure not present at 02B10,ORE,//system/printer/02 INK/Air pressure/Inkmodule
+250804,213,Waste liquid level too low,MRE,//system/printer/02 INK/Waste/2-5
+290026,212,RFID tag: not supported Ink type,Warning,//system/printer/02_INK/Y
+290024,209,Ink safe mode ended,Warning,//system/printer/02_INK/M
+250210,205,No response from ink RFID reader,MRE,//system/printer/02 INK/PML/rfid
+271107,201,Pressurizing BPRs timeout,ORE,//system/printer/02 INK/Air pressure/BPR/345
+270617,165,Underpressure timeout at 02PBA03,ORE,//system/printer/02 INK/Air pressure/Inkmodule
+251105,149,Air pressure on Back Pressure Reservoirs too low,MRE,//system/printer/02 INK/Air pressure/BPR/345
+290202,136,Ink supply can not empty,Warning,//system/printer/02 INK/Buffer reservoir/5
+2250119,116,Failed to read the pressure sensor,MRE,//system/printer/02 INK/Air pressure/BPR/345
+250205,89,Ink buffer reservoir level too low,MRE,//system/printer/02 INK/Buffer reservoir/5
+290031,78,startupHandleLockedNoRfidDetected,Warning,//system/printer/02_INK/M
+251302,68,Back Pressure Reservoirs level guard 04PBA07 protection activated,MRE,//system/printer/02 INK/Level guard
+250212,60,Inconsistent buffer sensor status,MRE,//system/printer/02 INK/Buffer reservoir/0
+290018,54,RFID tag: Invalid Signature,Warning,//system/printer/02_INK/Y
+290014,52,RFID tag: Invalid product type,Warning,//system/printer/02_INK/Y
+250214,51,Mismatch between CIS-ID inkHandling node and SDS parameter to indicate that double feed inkhandling is enabled.,MRE,//system/printer/02 INK
+250006,50,Inconsistent ink level,MRE,//system/printer/02_INK/K
+250007,45,Inconsistent ink refill handle state,MRE,//system/printer/02_INK/K
+210213,42,Incorrect supply container placement,PE,//system/printer/02 INK/Buffer reservoir/0
+250601,39,Vacuum aerated pressure at 02PBA04 not OK,MRE,//system/printer/02 INK/Air pressure/Inkmodule
+250502,36,Flush liquid reservoir level too low,MRE,//system/printer/02 INK/PML
+270618,34,Overpressure to ambient timeout at 02B10,ORE,//system/printer/02 INK/Air pressure/Inkmodule
+290017,30,RFID tag: Invalid ink region,Warning,//system/printer/02_INK/C
+2290120,29,Failed to read the pressure sensor,Warning,//system/printer/02 INK/Air pressure/BPR/012
+290034,27,Cannot write to RFID tag; RFID removed while writing liquid consumed,Warning,//system/printer/02_INK/Y
+251305,26,Ink buffer trap sensor 02B13 protection activated,MRE,//system/printer/02 INK/Buffer guard
+270215,26,Degassing duration is higher than expected.,ORE,//system/printer/02 INK
+250011,25,No response from ink RFID reader,MRE,//system/printer/02_INK/K/RFID
+250204,24,Ink buffer reservoir level decreased unexpectedly,MRE,//system/printer/02 INK/Buffer reservoir/5
+250216,22,Timeout occurred when flushing the heads.,MRE,//system/printer/02 INK
+250217,20,Mismatch of degas unit type SDS configuration with project specific CIS ID.,MRE,//system/printer/02 INK
+250203,19,Ink buffer reservoir level increased unexpectedly,MRE,//system/printer/02 INK/Buffer reservoir/0
+250604,19,Ink trap vacuum sensor 02B09 activation,MRE,//system/printer/02 INK/Air pressure/Inkmodule
+250806,19,Waste Buffer Reservoir liquid level ADC out of range detected at 02B53,MRE,//system/printer/02 INK/Waste/0-1
+250014,18,Inconsistent ink level,MRE,//system/printer/02_INK/M
+250607,14,Underpressure at 02PBA03 too low,MRE,//system/printer/02 INK/Air pressure/Inkmodule
+290614,14,Ambient pressure at 02B10 too low,Warning,//system/printer/02 INK/Air pressure/Inkmodule
+251301,12,Buffer reservoirs level guard 02PBA06 protection activated,MRE,//system/printer/02 INK/Level guard
+290035,12,Ink recirculation too long not possible,Warning,//system/printer/02_INK/W
+250503,7,Flush liquid reservoir level too high,MRE,//system/printer/02 INK/AML
+290033,5,Cannot write to RFID tag; RFID was changed while writing liquid consumed,Warning,//system/printer/02_INK/C
+250504,4,Flush liquid reservoir level ADC out of range detected at 02B07 / 02B08,MRE,//system/printer/02 INK/AML
+250808,4,Bag in Box present but not configured,MRE,//system/printer/02 INK
+250015,2,INK_PUMP_MO version not supported,MRE,//system/printer/02_INK/K
+250019,2,Cannot write to RFID tag,MRE,//system/printer/02_INK/K
+250206,2,Ink buffer reservoir level too high,MRE,//system/printer/02 INK/Buffer reservoir/2
+250609,2,Overpressure flush liquid reservoirs at 02PBA05 out of range,MRE,//system/printer/02 INK/Air pressure/Inkmodule
+290204,2,Buffer pump flow too high,Warning,//system/printer/02 INK/Buffer reservoir/0
+250605,1,Overpressure at 02B10 too low,MRE,//system/printer/02 INK/Air pressure/Inkmodule
+271108,1,Depressurizing BPRs timeout,ORE,//system/printer/02 INK/Air pressure/BPR/012

@@ -1,0 +1,10 @@
+CounterName,CounterDescription,CounterType
+28005,Operating time ink pump [0.1s],lifetime
+28007,Recirculation valve 1 cycles,lifetime
+28001,Number of inserted cartridges,counter
+28006,Operating time pump tube [0.1s],lifetime
+28008,Total loaded Ink [mL],counter
+28002,Number of inserted cartridges current ink refill unit,lifetime
+28003,Total time that the motor has been running,lifetime
+218502
+218501
