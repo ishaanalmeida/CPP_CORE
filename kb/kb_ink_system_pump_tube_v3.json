@@ -1,0 +1,2568 @@
+{
+  "meta": {
+    "name": "Ink system pump/tube KB (v3, tags + upstream generation + expensive repair policy)",
+    "created_utc": "2026-02-18T14:14:20.104434Z",
+    "source": "diagnostics_02_ink_system.json + manual additions",
+    "scope_error_codes": [
+      "250001",
+      "250002",
+      "250009",
+      "250012",
+      "250014",
+      "250016",
+      "270001",
+      "290001",
+      "290005"
+    ],
+    "notes": [
+      "Bayesian update baseline (Naive Bayes): checks/tests assumed conditionally independent given the true root cause.",
+      "Initial priors are uniform per error code (per user request), except 250001 includes an added condition-level cause 'Expired / viscous ink' to support warning 290020 reasoning.",
+      "Likelihood tables included only for key discriminative observations; missing pairs fall back to uniform at inference time.",
+      "Repair actions can fail; their outcomes are modeled via OBS_RESOLVED and action_success tables.",
+      "Updated session stop policy: hypothesis exhaustion based on probability threshold only (repair failure does not automatically exhaust a cause).",
+      "Updated repair recommendation threshold: recommend repair when top cause probability >= 0.80 (optionally 'consider repair' at >=0.75).",
+      "Added automatic tags to root causes (keyword-based).",
+      "Added expensive repair policy + confirm-test mapping placeholders.",
+      "Added upstream cause generation config (dynamic expansion)."
+    ],
+    "updated_utc": "2026-02-25T00:40:02.334525Z"
+  },
+  "inference_config": {
+    "update_rule": "bayes",
+    "assume_conditional_independence_given_cause": true,
+    "default_missing_likelihood": "uniform",
+    "stop_condition": {
+      "type": "hypotheses_budget",
+      "exhaustion_rule_default": "hypothesis exhausted if its probability < epsilon (repair failure is treated as evidence, not automatic exhaustion).",
+      "epsilon_default": 0.02
+    },
+    "action_selection": {
+      "objective": "maximize expected_information_gain - lambda_time*time_min - lambda_parts*parts_eur",
+      "lambda_time_default": 0.02,
+      "lambda_parts_default": 0.005
+    },
+    "repair_recommendation": {
+      "recommend_threshold": 0.8,
+      "consider_threshold": 0.75,
+      "notes": "If recommended repair is performed and OBS_RESOLVED=no, treat this as a new observation and re-run Bayes update."
+    },
+    "expensive_repair_policy": {
+      "parts_eur_threshold": 500,
+      "rule": "Expensive repairs require at least one confirming check/test before recommendation is allowed.",
+      "confirming_procedures_by_repair": {
+        "PRC_ACT_REPLACE_PRINTHEAD": [
+          "PRC_CHECK_HEARTBEAT",
+          "PRC_CHECK_INK_POLLUTION_OUTSIDE_PH",
+          "PRC_CHECK_INK_VALVES"
+        ]
+      },
+      "fallback_if_no_mapping": "any_check_or_test"
+    },
+    "upstream_generation": {
+      "enabled": true,
+      "method": "keyword_and_tag_overlap",
+      "alpha_error_code_mass": 0.9,
+      "max_upstream_causes": 15,
+      "keywords": [
+        "pump",
+        "tube",
+        "ink",
+        "air",
+        "filter",
+        "pressure",
+        "leak",
+        "sensor",
+        "boiler",
+        "printhead",
+        "expired"
+      ],
+      "notes": "Upstream candidates selected dynamically using overlap between context (error description + symptoms + warnings) and root-cause labels/tags."
+    }
+  },
+  "catalogs": {
+    "root_causes": [
+      {
+        "root_cause_id": "RC_BLOCKED_PRINTHEAD_VALVE",
+        "label": "Blocked printhead valve",
+        "tags": [
+          "printhead"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_INK_LEAKAGE",
+        "label": "Ink Leakage",
+        "tags": [
+          "leakage"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_WORN_OUT_PUMP_TUBE",
+        "label": "Worn out pump tube",
+        "tags": [
+          "pump_tube"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_PRINTHEAD",
+        "label": "Faulty printhead",
+        "tags": [
+          "printhead"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_CLOGGED_INK_TUBE",
+        "label": "Clogged ink tube",
+        "tags": [
+          "ink_tube"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_CLOGGED_AIR_FILTER",
+        "label": "Clogged air filter",
+        "tags": [
+          "air_filter"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_BOILER_UNIT",
+        "label": "Faulty boiler unit",
+        "tags": [
+          "boiler"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_WRONG_POSITION_OF_PUMP_TUBE",
+        "label": "Wrong position of pump tube.",
+        "tags": [
+          "pump_tube"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_NO_CLOSED_CLAMP_ON_THE_AIR_HOSE_UNOPENED",
+        "label": "No closed clamp on the air hose / Unopened air hose.",
+        "tags": [
+          "air_hose"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_ELECTRICAL_CONNECTION_OF_INK_LEAK",
+        "label": "Faulty electrical connection of Ink Leak sensor",
+        "tags": [
+          "leakage",
+          "sensor"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULT_INK_LEAK_SENSOR",
+        "label": "Fault Ink Leak sensor",
+        "tags": [
+          "leakage",
+          "sensor"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_BLOCKAGE_IN_THE_PRINT_HEAD_BOILER_TUBE",
+        "label": "Blockage in the Print Head Boiler Tube",
+        "tags": [
+          "boiler",
+          "printhead"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_BLOCKADE_IN_WHITE_INK_RECIRCULATION",
+        "label": "Blockade in white ink recirculation",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_BLOCKAGE_IN_INK_TUBE_FROM_3_WAY_VALVE_TO",
+        "label": "Blockage in ink tube from 3-way valve to Printhead",
+        "tags": [
+          "ink_tube",
+          "printhead"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_OVER_PRESSURE_VALVE_DAMAGED",
+        "label": "Over pressure valve damaged",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_PUMP_TUBE_RECENTLY_REPLACED_WITHOUT_RESE",
+        "label": "Pump tube recently replaced without resetting the maintenance counter",
+        "tags": [
+          "pump_tube"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU",
+        "label": "Pressure failure inside the printhead due to a blocked air-tube",
+        "tags": [
+          "printhead"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_TUBE_IS_NOT_IN_THE_PUMP",
+        "label": "Tube is not in the pump",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_INK_LEVERS_ARE_NOT_BLOCKED",
+        "label": "Ink Levers are not blocked",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_INK_LEVEL_LOW_IN_INK_TANK",
+        "label": "Ink level low in ink tank",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_INK_LOW_SENSOR_DEFECT",
+        "label": "Ink Low Sensor defect",
+        "tags": [
+          "sensor"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_INK_HIGH_SENSOR_DEFECT",
+        "label": "Ink High Sensor defect",
+        "tags": [
+          "sensor"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_INK_SUPPLY_PBA",
+        "label": "Faulty Ink supply PBA",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_CLOSED_INK_VALVES_AT_PRINTHEAD",
+        "label": "Closed ink valves at printhead",
+        "tags": [
+          "printhead"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_PUMP_TUBE",
+        "label": "Faulty pump tube",
+        "tags": [
+          "pump_tube"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_INK_TUBE",
+        "label": "Faulty Ink tube",
+        "tags": [
+          "ink_tube"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_INK_TUBE_OUT_OF_PARAMETER",
+        "label": "Ink tube out of parameter",
+        "tags": [
+          "ink_tube",
+          "parameter"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS",
+        "label": "Faulty electrical wiring or connectors",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_BUNDLE_02W03",
+        "label": "Faulty bundle 02W03",
+        "tags": [],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_FAULTY_INK_PUMP",
+        "label": "Faulty ink pump",
+        "tags": [
+          "ink_pump"
+        ],
+        "notes": ""
+      },
+      {
+        "root_cause_id": "RC_EXPIRED_VISCOUS_INK",
+        "label": "Expired / viscous ink",
+        "tags": [
+          "ink_expired"
+        ],
+        "notes": ""
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "OBS_WARNING_290005_SEEN",
+        "label": "Warning 290005 appeared before current error",
+        "type": "binary",
+        "values": [
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "observation_id": "OBS_WARNING_290020_SEEN",
+        "label": "Warning 290020 (ink expired) appeared before current error",
+        "type": "binary",
+        "values": [
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "observation_id": "OBS_LIFE_INK_PUMP",
+        "label": "Ink pump lifetime counter",
+        "type": "ordinal",
+        "values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "raw_mapping": {
+          "method": "bin",
+          "thresholds_placeholder": true
+        }
+      },
+      {
+        "observation_id": "OBS_LIFE_PUMP_TUBE",
+        "label": "Pump tube lifetime counter",
+        "type": "ordinal",
+        "values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "raw_mapping": {
+          "method": "bin",
+          "thresholds_placeholder": true
+        }
+      },
+      {
+        "observation_id": "OBS_RECENT_SERVICE",
+        "label": "Recent service/maintenance performed",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_MAINT_COUNTER_RESET",
+        "label": "Maintenance counter reset after pump tube replacement",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_VALVES_OPEN",
+        "label": "Ink valves at printheads are open",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_AIR_HOSE_OPEN",
+        "label": "Air hose is open and clamp is correct",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_PUMP_TUBE_POSITION",
+        "label": "Pump tube position in ink pump",
+        "type": "categorical",
+        "values": [
+          "correct",
+          "wrong",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_PUMP_TUBE_WEAR",
+        "label": "Pump tube wear condition",
+        "type": "categorical",
+        "values": [
+          "ok",
+          "worn",
+          "severe",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_HEARTBEAT_PRESENT",
+        "label": "Heartbeat present after disconnecting ink tube from printheads",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_LEAKAGE_TRACES",
+        "label": "Traces of ink leakage inside machine",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_TUBE_FLOW",
+        "label": "Ink tube flow when pulling ink with syringe",
+        "type": "categorical",
+        "values": [
+          "free",
+          "restricted",
+          "blocked",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_AIR_FILTER_INK_COLORED",
+        "label": "Air filter at printhead/manifold colored by ink",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_AIR_TUBE_INK_COLORED",
+        "label": "Air tube near printhead connection colored by ink",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_POLLUTION_OUTSIDE_PH",
+        "label": "Ink pollution outside printhead",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_TUBE_IN_PUMP",
+        "label": "Tube is in pump",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_LEVERS_BLOCKED",
+        "label": "Ink levers are blocked correctly",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_LEVEL_IN_TANK",
+        "label": "Ink level in ink tank is sufficient",
+        "type": "categorical",
+        "values": [
+          "ok",
+          "low",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_LOW_SENSOR_OK",
+        "label": "Ink low level sensor behaves correctly",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_HIGH_SENSOR_OK",
+        "label": "Ink high level sensor behaves correctly",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_TUBE_PARAM_IN_RANGE",
+        "label": "Ink tube parameter value in range",
+        "type": "categorical",
+        "values": [
+          "in_range",
+          "out_of_range",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_ELECTRICAL_WIRING_OK",
+        "label": "Electrical wiring/connectors are OK",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_BUNDLE_02W03_OK",
+        "label": "Bundle 02W03 is OK",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_PUMP_OK",
+        "label": "Ink pump is OK",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_INK_SUPPLY_PBA_OK",
+        "label": "Ink supply PBA (02PBA01) is OK",
+        "type": "categorical",
+        "values": [
+          "yes",
+          "no",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_SDS_02_6_010_RESULT",
+        "label": "SDS 02-6-010 White Ink Recirculation result",
+        "type": "categorical",
+        "values": [
+          "printhead_overfilled",
+          "dosing_to_printhead_detected",
+          "ok",
+          "fail",
+          "unknown"
+        ]
+      },
+      {
+        "observation_id": "OBS_RESOLVED",
+        "label": "Error cleared after procedure (verified by user)",
+        "type": "binary",
+        "values": [
+          "yes",
+          "no"
+        ]
+      }
+    ],
+    "procedures": [
+      {
+        "procedure_id": "PRC_CHECK_NEW_INSTALL",
+        "label": "Check if new printhead or ink tube was installed recently",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RECENT_SERVICE",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_VALVES",
+        "label": "Check if ink valves at printheads are open",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_VALVES_OPEN",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_WARN_290020",
+        "label": "Check for Warning 290020 (ink expired)",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_WARNING_290020_SEEN",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_WARN_290005",
+        "label": "Check for Warning 290005",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_WARNING_290005_SEEN",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_PUMP_TUBE_WEAR",
+        "label": "Check pump tube wear",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_PUMP_TUBE_WEAR",
+        "outcomes": [
+          "ok",
+          "worn",
+          "severe",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_PUMP_TUBE_POSITION",
+        "label": "Check pump tube position in ink pump",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_PUMP_TUBE_POSITION",
+        "outcomes": [
+          "correct",
+          "wrong",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_AIR_HOSE",
+        "label": "Check air hoses/clamps are open",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_AIR_HOSE_OPEN",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_LEAKAGE",
+        "label": "Check for traces of ink leakage inside machine",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_LEAKAGE_TRACES",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_AIR_FILTER",
+        "label": "Check if air filter at manifold is colored by ink",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_AIR_FILTER_INK_COLORED",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_AIR_TUBE",
+        "label": "Check if air tube at printhead connection is colored by ink",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_AIR_TUBE_INK_COLORED",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_POLLUTION_OUTSIDE_PH",
+        "label": "Check for ink pollution outside printhead",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_POLLUTION_OUTSIDE_PH",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_HEARTBEAT",
+        "label": "Disconnect ink tube from printheads and check heartbeat",
+        "kind": "check",
+        "cost": {
+          "time_min": 10,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_HEARTBEAT_PRESENT",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "Low risk per user; requires disconnect procedure.",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_TUBE_FLOW",
+        "label": "Disconnect tubes and pull ink with syringe to assess ink tube flow",
+        "kind": "check",
+        "cost": {
+          "time_min": 10,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_TUBE_FLOW",
+        "outcomes": [
+          "free",
+          "restricted",
+          "blocked",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_TUBE_PARAM",
+        "label": "Check ink tube parameter value",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_TUBE_PARAM_IN_RANGE",
+        "outcomes": [
+          "in_range",
+          "out_of_range",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_ELECTRICAL_WIRING",
+        "label": "Check / re-seat electrical wiring and connectors",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_ELECTRICAL_WIRING_OK",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_BUNDLE_02W03",
+        "label": "Check bundle 02W03",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_BUNDLE_02W03_OK",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_PUMP",
+        "label": "Check ink pump",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_PUMP_OK",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_SUPPLY_PBA",
+        "label": "Check Ink supply PBA (02PBA01)",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_SUPPLY_PBA_OK",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_TUBE_IN_PUMP",
+        "label": "Check for tube in pump",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_TUBE_IN_PUMP",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_LEVERS",
+        "label": "Check ink levers blockage",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_LEVERS_BLOCKED",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_INK_LEVEL_TANK",
+        "label": "Check ink level in ink tank",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_INK_LEVEL_IN_TANK",
+        "outcomes": [
+          "ok",
+          "low",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_LOW_SENSOR",
+        "label": "Check ink low sensor",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_LOW_SENSOR_OK",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_HIGH_SENSOR",
+        "label": "Check ink high sensor",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_HIGH_SENSOR_OK",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_TEST_SDS_02_6_010",
+        "label": "Run SDS 02-6-010 White Ink Recirculation",
+        "kind": "test",
+        "cost": {
+          "time_min": 10,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_SDS_02_6_010_RESULT",
+        "outcomes": [
+          "printhead_overfilled",
+          "dosing_to_printhead_detected",
+          "ok",
+          "fail",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_CHECK_MAINT_COUNTER_RESET",
+        "label": "Check if maintenance counter reset to 0 after pump tube replacement",
+        "kind": "check",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_MAINT_COUNTER_RESET",
+        "outcomes": [
+          "yes",
+          "no",
+          "unknown"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_OPEN_INK_VALVES",
+        "label": "Open ink valves / adjust clamps",
+        "kind": "repair",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_VALVES"
+        ],
+        "notes": "Follow-up verification check is recommended.",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_ADJUST_PUMP_TUBE_POSITION",
+        "label": "Adjust position of pump tube",
+        "kind": "repair",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_PUMP_TUBE_POSITION"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_PUMP_TUBE",
+        "label": "Replace pump tube",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_PUMP_TUBE_WEAR",
+          "PRC_CHECK_WARN_290005"
+        ],
+        "notes": "User-verified error cleared = resolved.",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_INK_TUBE",
+        "label": "Replace ink tube",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_TUBE_FLOW"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_AIR_HOSE",
+        "label": "Replace air hose",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_AIR_FILTER",
+          "PRC_CHECK_AIR_TUBE"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_CLEAN_INK_SYSTEM",
+        "label": "Clean ink system",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_WARN_290020",
+          "PRC_CHECK_INK_TUBE_FLOW"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPAIR_LEAKAGE",
+        "label": "Repair leakage (valves/tubes)",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_LEAKAGE"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_PRINTHEAD",
+        "label": "Replace printhead",
+        "kind": "repair",
+        "cost": {
+          "time_min": 30,
+          "parts_eur": 3000
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_VALVES"
+        ],
+        "notes": "Very high parts cost.",
+        "is_expensive": true
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_INK_SUPPLY_PBA",
+        "label": "Replace Ink supply PBA (02PBA01)",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_SUPPLY_PBA"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_INK_PUMP",
+        "label": "Replace ink pump",
+        "kind": "repair",
+        "cost": {
+          "time_min": 30,
+          "parts_eur": 200
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_PUMP"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_RESET_TUBE_PARAM",
+        "label": "Reset parameter value of ink tube",
+        "kind": "repair",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_TUBE_PARAM"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_RESEAT_WIRING",
+        "label": "Re-seat electrical wiring",
+        "kind": "repair",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_ELECTRICAL_WIRING"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_RESEAT_OR_REPLACE_BUNDLE",
+        "label": "Re-seat / Replace bundle 02W03",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_BUNDLE_02W03"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_PUT_TUBE_IN_PUMP",
+        "label": "Put tube in the pump",
+        "kind": "repair",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_TUBE_IN_PUMP"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_ADJUST_INK_LEVERS",
+        "label": "Adjust ink levers for blockage",
+        "kind": "repair",
+        "cost": {
+          "time_min": 3,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_LEVERS"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REFILL_INK_TANK",
+        "label": "Refill ink in ink tank",
+        "kind": "repair",
+        "cost": {
+          "time_min": 10,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_INK_LEVEL_TANK"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_LOW_SENSOR",
+        "label": "Replace ink low sensor",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_LOW_SENSOR"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_REPLACE_HIGH_SENSOR",
+        "label": "Replace ink high sensor",
+        "kind": "repair",
+        "cost": {
+          "time_min": 20,
+          "parts_eur": 20
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [
+          "PRC_CHECK_HIGH_SENSOR"
+        ],
+        "notes": "",
+        "is_expensive": false
+      },
+      {
+        "procedure_id": "PRC_ACT_ESCALATE",
+        "label": "Escalate (log and handover)",
+        "kind": "escalate",
+        "cost": {
+          "time_min": 5,
+          "parts_eur": 0
+        },
+        "produces_observation": "OBS_RESOLVED",
+        "outcomes": [
+          "yes",
+          "no"
+        ],
+        "follow_up_procedure_ids": [],
+        "notes": "Used when hypotheses exhausted.",
+        "is_expensive": false
+      }
+    ],
+    "error_code_models": [
+      {
+        "error_code": "250001",
+        "description": "Ink delivery to printhead failed (PH1, PH3, PH4, PH5, PH6). After starting the ink supply, it is expected to be stopped within a given time. When this doesn't occur this error is reported. This error can have to 2 different root causes. The ink was not transported to the printhead in time The level sensor in the printhead didn’t detect the received ink. The flowchart below can be used to minimize the MTTR and reduce the change of a second visit. Decision 1) : New installation Did the error occur during the installation of a new printhead ( Z-0402 ) or new ink tube ( Z-0502 )? In some rare cases it's known the ink valve of a printhead might be blocked (even if the valve is opened). In those cases please replace the valve by a new one (1070078229) or by removing the blockade by pushing a Torx-screwdriver through the valve. Don't replace the printhead. Action 1) : Mark as empty Mark printheads as empty and restart filling. See 04-6-020 Mark printhead(s) as empty [Special Tests] Decision 2) : Closed valves Check if the ink valves or air clamps on the printheads are closed. Action 2) : Open valves Open valves on carriage. Open clamps on air hose, rub the air hose to make sure the hose is open. Decision 3) : Warning 290020 Has warning 290020 appeared sometime before error 250001? Filter polluted with ink: mark the head as empty, replace the ink tube. Action 3): Clean ink system The ink in the printer is expired, this might result is clogged or viscous ink. Clean ink system Decision 4) : Warning 290005 Has warning 290005 appeared sometime before error 250001? Action 4): Replace pump tubes Check replace pump tubes Index Description Test Action Info Diagram Z-0203 -0064 Pump tube Check / replace 02 How to remove the pump tube of the ink pump Mapping pumps to printheads 02 Electrical diagram ink delivery Decision 5) : Bad pump tube Check the pump tube on wear out. Action 5): Replace pump tubes Check replace pump tubes Index Description Test Action Info Diagram Z-0203 -0064 Pump tube Check / replace 02 How to remove the pump tube of the ink pump Mapping pumps to printheads 02 Electrical diagram ink delivery Decision 6) : Heartbeat Disconnect the ink tube from printheads (See02 The ink replacement procedure , Chapter 3. Refill the system with new ink : Step 7 - 27 (end)) Is there a heartbeat after this procedure ? Decision 7) : Electrical issue Check/ re-seat the electrical wiring and connectors of the ink pump(s). Action 7): Solve electrical issue Index Description Test Action Info Diagram Z-0202 -0075 Ink supply PBA 02PBA01 Check / replace 02 How to remove the Ink supply PBA ( 02PBA01 ;) Mapping pumps to printheads 02 Electrical diagram ink delivery Decision 8) : Leakage Are there any traces of leaked ink inside the machine? (example: Valves, not connected tubes, ruptured tubes) Action 8): Repair leakage Replace leaking valves Reconnect tube Replace ruptured tubes Decision 9) : Clogged ink tube Disconnect the ink tube from printheads (See02 The ink replacement procedure , Chapter 3. Refill the system with new ink : Step 7 - 14) Disconnect the pump tube from the ink tube. Use a syringe to pull ink through the ink tubes. If ink is flowing freely through the ink tube, reconnect tubes and fill ink tubes (See02 The ink replacement procedure , Chapter 3. Refill the system with new ink : Step 15 - 27) Action 9A): Replace ink tube Index Description Test Action Info Diagram Z-0402 -002 Boiler unit of the printhead Check / replace 04 How to remove the boiler unit 04 The components of the printhead 04 Electrical diagram printheads Action 9B): Contact LFG-CS Check if heartbeat is present (See decision 6). If still no heartbeat, escalate to LFG-CS Decision 10) : O-ring type Not applicable for this system. Action 10): Replace printhead Index Description Test Action Info Diagram Z-0402 - 001 Printhead (PHD) 1 ... 6. Check / replace 04 How to replace a (failing) printhead: Overview document 04 The components of the printhead 04 Electrical diagram printheads Decision 11) : Air filter clogged Check if air filter of printhead contains ink. If the tube is completely filled with ink the air filter will be colored (see example below) In some cases the tube is not completely filled with ink and the air tube needs to be inspected at the bottom of the printhead (near the ink reservoir). This can be done by gently sliding the sleeve a few centimeters upward (see below). This way the transparent air tube will be visible. If this is colored there is ink inside the air tube. Check the condition of the tubes at the backside of the polluted airfilter If Ink passed the inkfilter into the manifold, no pressure can be given because the manifolds are blocked with ink. There will be no air leakage. also the observation is that the closed ink just flows through the printheads instead of being kept into the heads. Action 11A) : Replace air hose See 04 How to remove the air hose Action 11B) : Replace Boiler unit See 04 How to remove the boiler unit. Decision 12) : Out of other options Check if ink is coming out of recirculation circuit, if yes replace VALVE-TUBE-ASSY 02 How to remove the white ink 3-way valve If all previous actions did not solve the error and the error occurs on the white printhead, please check the 02Y5 (YMS_CAR_RECIRC_VA). You can do this by performing SDS 02-6-010 White Ink Recirculation (Special Test). If this did not solve the error, replace printhead. Action 12): Remove printhead Index Description Test Action Info Diagram Z-0402 - 001 Printhead (PHD) 1 ... 6. Check / replace 04 How to replace a (failing) printhead: Overview document 04 The components of the printhead 04 Electrical diagram printheads",
+        "symptoms": [
+          "Ink delivery to printhead failed"
+        ],
+        "candidate_root_causes": [
+          "RC_BLOCKED_PRINTHEAD_VALVE",
+          "RC_INK_LEAKAGE",
+          "RC_WORN_OUT_PUMP_TUBE",
+          "RC_FAULTY_PRINTHEAD",
+          "RC_CLOGGED_INK_TUBE",
+          "RC_CLOGGED_AIR_FILTER",
+          "RC_FAULTY_BOILER_UNIT",
+          "RC_EXPIRED_VISCOUS_INK"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_BLOCKED_PRINTHEAD_VALVE": 0.125,
+          "RC_INK_LEAKAGE": 0.125,
+          "RC_WORN_OUT_PUMP_TUBE": 0.125,
+          "RC_FAULTY_PRINTHEAD": 0.125,
+          "RC_CLOGGED_INK_TUBE": 0.125,
+          "RC_CLOGGED_AIR_FILTER": 0.125,
+          "RC_FAULTY_BOILER_UNIT": 0.125,
+          "RC_EXPIRED_VISCOUS_INK": 0.125
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_CLEAN_INK_SYSTEM",
+          "PRC_ACT_ESCALATE",
+          "PRC_ACT_OPEN_INK_VALVES",
+          "PRC_ACT_REPAIR_LEAKAGE",
+          "PRC_ACT_REPLACE_INK_TUBE",
+          "PRC_ACT_REPLACE_PRINTHEAD",
+          "PRC_ACT_REPLACE_PUMP_TUBE",
+          "PRC_CHECK_AIR_FILTER",
+          "PRC_CHECK_HEARTBEAT",
+          "PRC_CHECK_INK_TUBE_FLOW",
+          "PRC_CHECK_INK_VALVES",
+          "PRC_CHECK_LEAKAGE",
+          "PRC_CHECK_NEW_INSTALL",
+          "PRC_CHECK_PUMP_TUBE_WEAR",
+          "PRC_CHECK_WARN_290005",
+          "PRC_CHECK_WARN_290020"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "250002",
+        "description": "Ink delivery to the printhead failed during initial filling.",
+        "symptoms": [
+          "Ink delivery to the printhead failed during initial filling."
+        ],
+        "candidate_root_causes": [
+          "RC_WRONG_POSITION_OF_PUMP_TUBE",
+          "RC_BLOCKED_PRINTHEAD_VALVE",
+          "RC_NO_CLOSED_CLAMP_ON_THE_AIR_HOSE_UNOPENED"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_WRONG_POSITION_OF_PUMP_TUBE": 0.333334,
+          "RC_BLOCKED_PRINTHEAD_VALVE": 0.333333,
+          "RC_NO_CLOSED_CLAMP_ON_THE_AIR_HOSE_UNOPENED": 0.333333
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_ADJUST_PUMP_TUBE_POSITION",
+          "PRC_ACT_OPEN_INK_VALVES",
+          "PRC_CHECK_AIR_HOSE",
+          "PRC_CHECK_INK_VALVES",
+          "PRC_CHECK_PUMP_TUBE_POSITION"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "250009",
+        "description": "Ink Leak Sensor02B18 INK_LEAK_SE is active. OR ,white ink is discharged via the overpressure valve",
+        "symptoms": [
+          "Ink Leakage",
+          "Faulty electrical connection of Ink Leak sensor",
+          "Fault Ink Leak sensor",
+          "white ink is discharged via the overpressure valve",
+          "Clogged 3-way recirculation valve"
+        ],
+        "candidate_root_causes": [
+          "RC_INK_LEAKAGE",
+          "RC_FAULTY_ELECTRICAL_CONNECTION_OF_INK_LEAK",
+          "RC_FAULT_INK_LEAK_SENSOR",
+          "RC_BLOCKAGE_IN_THE_PRINT_HEAD_BOILER_TUBE",
+          "RC_BLOCKADE_IN_WHITE_INK_RECIRCULATION",
+          "RC_BLOCKAGE_IN_INK_TUBE_FROM_3_WAY_VALVE_TO",
+          "RC_OVER_PRESSURE_VALVE_DAMAGED",
+          "RC_PUMP_TUBE_RECENTLY_REPLACED_WITHOUT_RESE"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_INK_LEAKAGE": 0.125,
+          "RC_FAULTY_ELECTRICAL_CONNECTION_OF_INK_LEAK": 0.125,
+          "RC_FAULT_INK_LEAK_SENSOR": 0.125,
+          "RC_BLOCKAGE_IN_THE_PRINT_HEAD_BOILER_TUBE": 0.125,
+          "RC_BLOCKADE_IN_WHITE_INK_RECIRCULATION": 0.125,
+          "RC_BLOCKAGE_IN_INK_TUBE_FROM_3_WAY_VALVE_TO": 0.125,
+          "RC_OVER_PRESSURE_VALVE_DAMAGED": 0.125,
+          "RC_PUMP_TUBE_RECENTLY_REPLACED_WITHOUT_RESE": 0.125
+        },
+        "candidate_procedure_ids": [
+          "PRC_CHECK_MAINT_COUNTER_RESET",
+          "PRC_TEST_SDS_02_6_010"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "250012",
+        "description": "Unexpected ink drop in printhead (PH1..PH8). ",
+        "symptoms": [
+          "Unexpected ink drop in printhead"
+        ],
+        "candidate_root_causes": [
+          "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU": 1.0
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_REPLACE_PRINTHEAD",
+          "PRC_CHECK_AIR_FILTER",
+          "PRC_CHECK_AIR_TUBE",
+          "PRC_CHECK_INK_POLLUTION_OUTSIDE_PH"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "250014",
+        "description": "Inconsistent ink level (C, Y, M, K, W). ",
+        "symptoms": [
+          "Pumps are not pumping ink.",
+          "Blocking mechanism in the ink loading interface is malfunctioning.",
+          "The ink level estimator in software is deviating too much."
+        ],
+        "candidate_root_causes": [
+          "RC_TUBE_IS_NOT_IN_THE_PUMP",
+          "RC_INK_LEVERS_ARE_NOT_BLOCKED",
+          "RC_INK_LEVEL_LOW_IN_INK_TANK",
+          "RC_INK_LOW_SENSOR_DEFECT",
+          "RC_INK_HIGH_SENSOR_DEFECT"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_TUBE_IS_NOT_IN_THE_PUMP": 0.2,
+          "RC_INK_LEVERS_ARE_NOT_BLOCKED": 0.2,
+          "RC_INK_LEVEL_LOW_IN_INK_TANK": 0.2,
+          "RC_INK_LOW_SENSOR_DEFECT": 0.2,
+          "RC_INK_HIGH_SENSOR_DEFECT": 0.2
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_ADJUST_INK_LEVERS",
+          "PRC_ACT_PUT_TUBE_IN_PUMP",
+          "PRC_ACT_REFILL_INK_TANK",
+          "PRC_ACT_REPLACE_HIGH_SENSOR",
+          "PRC_ACT_REPLACE_LOW_SENSOR",
+          "PRC_CHECK_HIGH_SENSOR",
+          "PRC_CHECK_INK_LEVEL_TANK",
+          "PRC_CHECK_INK_LEVERS",
+          "PRC_CHECK_LOW_SENSOR",
+          "PRC_CHECK_TUBE_IN_PUMP"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "250016",
+        "description": "02PBA01 version not supported.",
+        "symptoms": [
+          "02PBA01 version not supported."
+        ],
+        "candidate_root_causes": [
+          "RC_FAULTY_INK_SUPPLY_PBA"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_FAULTY_INK_SUPPLY_PBA": 1.0
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_REPLACE_INK_SUPPLY_PBA",
+          "PRC_CHECK_INK_SUPPLY_PBA"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "270001",
+        "description": "This ORE is reported to prevent burst of ink tubes due to closed ink valves at the printhead carriage after installation or replacement of a printhead. This ORE is a reminder to check whether all ink valves are open. If all ink valves are checked, this ORE can be resolved. After printhead installation or replacement this ORE will be reported as soon as the printheads became warm. After reporting this ORE, the printheads will start cooling down again. Waiting a long time before resolving the ORE (checking the valves), will result in a long warm up time to get the engine in standby again.",
+        "symptoms": [
+          "Reported ORE"
+        ],
+        "candidate_root_causes": [
+          "RC_CLOSED_INK_VALVES_AT_PRINTHEAD"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_CLOSED_INK_VALVES_AT_PRINTHEAD": 1.0
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_OPEN_INK_VALVES",
+          "PRC_CHECK_INK_VALVES"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "290001",
+        "description": "Ink level sensor (C, M, Y, K or W) active while level estimation below zero.",
+        "symptoms": [
+          "Ink level sensor active while level estimation below zero",
+          "Warning"
+        ],
+        "candidate_root_causes": [
+          "RC_FAULTY_ELECTRICAL_CONNECTION_OF_INK_LEAK",
+          "RC_FAULTY_PUMP_TUBE",
+          "RC_FAULTY_INK_TUBE",
+          "RC_FAULTY_INK_SUPPLY_PBA"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_FAULTY_ELECTRICAL_CONNECTION_OF_INK_LEAK": 0.25,
+          "RC_FAULTY_PUMP_TUBE": 0.25,
+          "RC_FAULTY_INK_TUBE": 0.25,
+          "RC_FAULTY_INK_SUPPLY_PBA": 0.25
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_REPLACE_INK_SUPPLY_PBA",
+          "PRC_ACT_REPLACE_INK_TUBE",
+          "PRC_ACT_REPLACE_PUMP_TUBE",
+          "PRC_ACT_RESEAT_WIRING",
+          "PRC_CHECK_ELECTRICAL_WIRING",
+          "PRC_CHECK_INK_SUPPLY_PBA",
+          "PRC_CHECK_INK_TUBE_FLOW",
+          "PRC_CHECK_PUMP_TUBE_WEAR"
+        ],
+        "initial_observations_expected": []
+      },
+      {
+        "error_code": "290005",
+        "description": "Ink flow correction factor out of range. The ink flow correction factor calculated by the dosing pump calibration is out of range. This warning indicates a wear-out of the ink pump tubes. The ink pump tubes should be replaced. This warning might result in 250001 (ink delivery to PH failed) because the ink flow is too low.",
+        "symptoms": [
+          "Ink flow correction factor out of range.",
+          "Warning"
+        ],
+        "candidate_root_causes": [
+          "RC_INK_TUBE_OUT_OF_PARAMETER",
+          "RC_FAULTY_PUMP_TUBE",
+          "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS",
+          "RC_FAULTY_BUNDLE_02W03",
+          "RC_FAULTY_INK_PUMP",
+          "RC_FAULTY_INK_SUPPLY_PBA"
+        ],
+        "priors_root_cause_given_error": {
+          "RC_INK_TUBE_OUT_OF_PARAMETER": 0.166665,
+          "RC_FAULTY_PUMP_TUBE": 0.166667,
+          "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": 0.166667,
+          "RC_FAULTY_BUNDLE_02W03": 0.166667,
+          "RC_FAULTY_INK_PUMP": 0.166667,
+          "RC_FAULTY_INK_SUPPLY_PBA": 0.166667
+        },
+        "candidate_procedure_ids": [
+          "PRC_ACT_REPLACE_INK_PUMP",
+          "PRC_ACT_REPLACE_INK_SUPPLY_PBA",
+          "PRC_ACT_REPLACE_PUMP_TUBE",
+          "PRC_ACT_RESEAT_OR_REPLACE_BUNDLE",
+          "PRC_ACT_RESEAT_WIRING",
+          "PRC_ACT_RESET_TUBE_PARAM",
+          "PRC_CHECK_BUNDLE_02W03",
+          "PRC_CHECK_ELECTRICAL_WIRING",
+          "PRC_CHECK_INK_PUMP",
+          "PRC_CHECK_INK_SUPPLY_PBA",
+          "PRC_CHECK_PUMP_TUBE_WEAR",
+          "PRC_CHECK_TUBE_PARAM",
+          "PRC_CHECK_WARN_290005"
+        ],
+        "initial_observations_expected": []
+      }
+    ]
+  },
+  "parameters": {
+    "likelihoods": {
+      "OBS_WARNING_290005_SEEN": {
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "yes": 0.85,
+          "no": 0.15
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_INK_LEAKAGE": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_FAULTY_PRINTHEAD": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "no": 0.65,
+          "yes": 0.35
+        }
+      },
+      "OBS_WARNING_290020_SEEN": {
+        "RC_EXPIRED_VISCOUS_INK": {
+          "yes": 0.85,
+          "no": 0.15
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "yes": 0.65,
+          "no": 0.35
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "yes": 0.65,
+          "no": 0.35
+        },
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_INK_LEAKAGE": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "no": 0.65,
+          "yes": 0.35
+        },
+        "RC_FAULTY_PRINTHEAD": {
+          "no": 0.65,
+          "yes": 0.35
+        }
+      },
+      "OBS_PUMP_TUBE_WEAR": {
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "worn": 0.85,
+          "ok": 0.05,
+          "severe": 0.05,
+          "unknown": 0.05
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_INK_LEAKAGE": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_PRINTHEAD": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "worn": 0.65,
+          "ok": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_BUNDLE_02W03": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_INK_PUMP": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "ok": 0.65,
+          "worn": 0.116667,
+          "severe": 0.116667,
+          "unknown": 0.116667
+        }
+      },
+      "OBS_INK_TUBE_FLOW": {
+        "RC_CLOGGED_INK_TUBE": {
+          "blocked": 0.85,
+          "free": 0.05,
+          "restricted": 0.05,
+          "unknown": 0.05
+        },
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_INK_LEAKAGE": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_PRINTHEAD": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "free": 0.65,
+          "restricted": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_FAULTY_INK_TUBE": {
+          "restricted": 0.65,
+          "free": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_BLOCKAGE_IN_INK_TUBE_FROM_3_WAY_VALVE_TO": {
+          "blocked": 0.65,
+          "free": 0.116667,
+          "restricted": 0.116667,
+          "unknown": 0.116667
+        },
+        "RC_BLOCKAGE_IN_THE_PRINT_HEAD_BOILER_TUBE": {
+          "restricted": 0.65,
+          "free": 0.116667,
+          "blocked": 0.116667,
+          "unknown": 0.116667
+        }
+      },
+      "OBS_LEAKAGE_TRACES": {
+        "RC_INK_LEAKAGE": {
+          "yes": 0.85,
+          "no": 0.075,
+          "unknown": 0.075
+        },
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_PRINTHEAD": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_AIR_FILTER_INK_COLORED": {
+        "RC_CLOGGED_AIR_FILTER": {
+          "yes": 0.85,
+          "no": 0.075,
+          "unknown": 0.075
+        },
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEAKAGE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_PRINTHEAD": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU": {
+          "yes": 0.85,
+          "no": 0.075,
+          "unknown": 0.075
+        }
+      },
+      "OBS_HEARTBEAT_PRESENT": {
+        "RC_FAULTY_PRINTHEAD": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_INK_LEAKAGE": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_FAULTY_BOILER_UNIT": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        }
+      },
+      "OBS_PUMP_TUBE_POSITION": {
+        "RC_WRONG_POSITION_OF_PUMP_TUBE": {
+          "wrong": 0.85,
+          "correct": 0.075,
+          "unknown": 0.075
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "correct": 0.65,
+          "wrong": 0.175,
+          "unknown": 0.175
+        },
+        "RC_NO_CLOSED_CLAMP_ON_THE_AIR_HOSE_UNOPENED": {
+          "correct": 0.65,
+          "wrong": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_AIR_HOSE_OPEN": {
+        "RC_NO_CLOSED_CLAMP_ON_THE_AIR_HOSE_UNOPENED": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_WRONG_POSITION_OF_PUMP_TUBE": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_INK_VALVES_OPEN": {
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_WRONG_POSITION_OF_PUMP_TUBE": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        },
+        "RC_NO_CLOSED_CLAMP_ON_THE_AIR_HOSE_UNOPENED": {
+          "yes": 0.55,
+          "no": 0.225,
+          "unknown": 0.225
+        }
+      },
+      "OBS_INK_TUBE_PARAM_IN_RANGE": {
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "out_of_range": 0.85,
+          "in_range": 0.075,
+          "unknown": 0.075
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "in_range": 0.65,
+          "out_of_range": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": {
+          "in_range": 0.65,
+          "out_of_range": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_BUNDLE_02W03": {
+          "in_range": 0.65,
+          "out_of_range": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_PUMP": {
+          "in_range": 0.65,
+          "out_of_range": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "in_range": 0.65,
+          "out_of_range": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_ELECTRICAL_WIRING_OK": {
+        "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_BUNDLE_02W03": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_PUMP": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_ELECTRICAL_CONNECTION_OF_INK_LEAK": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_BUNDLE_02W03_OK": {
+        "RC_FAULTY_BUNDLE_02W03": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_PUMP": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_INK_PUMP_OK": {
+        "RC_FAULTY_INK_PUMP": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_BUNDLE_02W03": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_INK_SUPPLY_PBA_OK": {
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "no": 0.65,
+          "yes": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_ELECTRICAL_WIRING_OR_CONNECTORS": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_BUNDLE_02W03": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_FAULTY_INK_PUMP": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_TUBE_IN_PUMP": {
+        "RC_TUBE_IS_NOT_IN_THE_PUMP": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_INK_LEVERS_ARE_NOT_BLOCKED": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVEL_LOW_IN_INK_TANK": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LOW_SENSOR_DEFECT": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_HIGH_SENSOR_DEFECT": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_INK_LEVERS_BLOCKED": {
+        "RC_INK_LEVERS_ARE_NOT_BLOCKED": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_TUBE_IS_NOT_IN_THE_PUMP": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVEL_LOW_IN_INK_TANK": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LOW_SENSOR_DEFECT": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_HIGH_SENSOR_DEFECT": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_INK_LEVEL_IN_TANK": {
+        "RC_INK_LEVEL_LOW_IN_INK_TANK": {
+          "low": 0.85,
+          "ok": 0.075,
+          "unknown": 0.075
+        },
+        "RC_TUBE_IS_NOT_IN_THE_PUMP": {
+          "ok": 0.65,
+          "low": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVERS_ARE_NOT_BLOCKED": {
+          "ok": 0.65,
+          "low": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LOW_SENSOR_DEFECT": {
+          "ok": 0.65,
+          "low": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_HIGH_SENSOR_DEFECT": {
+          "ok": 0.65,
+          "low": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_LOW_SENSOR_OK": {
+        "RC_INK_LOW_SENSOR_DEFECT": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_TUBE_IS_NOT_IN_THE_PUMP": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVERS_ARE_NOT_BLOCKED": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVEL_LOW_IN_INK_TANK": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_HIGH_SENSOR_DEFECT": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_HIGH_SENSOR_OK": {
+        "RC_INK_HIGH_SENSOR_DEFECT": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        },
+        "RC_TUBE_IS_NOT_IN_THE_PUMP": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVERS_ARE_NOT_BLOCKED": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LEVEL_LOW_IN_INK_TANK": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        },
+        "RC_INK_LOW_SENSOR_DEFECT": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_AIR_TUBE_INK_COLORED": {
+        "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU": {
+          "yes": 0.85,
+          "no": 0.075,
+          "unknown": 0.075
+        }
+      },
+      "OBS_INK_POLLUTION_OUTSIDE_PH": {
+        "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU": {
+          "yes": 0.65,
+          "no": 0.175,
+          "unknown": 0.175
+        }
+      },
+      "OBS_MAINT_COUNTER_RESET": {
+        "RC_PUMP_TUBE_RECENTLY_REPLACED_WITHOUT_RESE": {
+          "no": 0.85,
+          "yes": 0.075,
+          "unknown": 0.075
+        }
+      },
+      "OBS_SDS_02_6_010_RESULT": {
+        "RC_BLOCKADE_IN_WHITE_INK_RECIRCULATION": {
+          "fail": 0.65,
+          "printhead_overfilled": 0.0875,
+          "dosing_to_printhead_detected": 0.0875,
+          "ok": 0.0875,
+          "unknown": 0.0875
+        }
+      }
+    },
+    "action_success": {
+      "PRC_ACT_REPLACE_PUMP_TUBE": {
+        "RC_WORN_OUT_PUMP_TUBE": {
+          "yes": 0.9,
+          "no": 0.1
+        },
+        "RC_FAULTY_PUMP_TUBE": {
+          "yes": 0.9,
+          "no": 0.1
+        },
+        "RC_PUMP_TUBE_RECENTLY_REPLACED_WITHOUT_RESE": {
+          "yes": 0.2,
+          "no": 0.8
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "yes": 0.2,
+          "no": 0.8
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "yes": 0.3,
+          "no": 0.7
+        }
+      },
+      "PRC_ACT_REPLACE_INK_TUBE": {
+        "RC_CLOGGED_INK_TUBE": {
+          "yes": 0.85,
+          "no": 0.15
+        },
+        "RC_FAULTY_INK_TUBE": {
+          "yes": 0.85,
+          "no": 0.15
+        },
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "yes": 0.4,
+          "no": 0.6
+        },
+        "RC_EXPIRED_VISCOUS_INK": {
+          "yes": 0.4,
+          "no": 0.6
+        }
+      },
+      "PRC_ACT_CLEAN_INK_SYSTEM": {
+        "RC_EXPIRED_VISCOUS_INK": {
+          "yes": 0.85,
+          "no": 0.15
+        },
+        "RC_CLOGGED_INK_TUBE": {
+          "yes": 0.5,
+          "no": 0.5
+        },
+        "RC_CLOGGED_AIR_FILTER": {
+          "yes": 0.4,
+          "no": 0.6
+        }
+      },
+      "PRC_ACT_REPAIR_LEAKAGE": {
+        "RC_INK_LEAKAGE": {
+          "yes": 0.85,
+          "no": 0.15
+        }
+      },
+      "PRC_ACT_REPLACE_AIR_HOSE": {
+        "RC_CLOGGED_AIR_FILTER": {
+          "yes": 0.7,
+          "no": 0.3
+        },
+        "RC_PRESSURE_FAILURE_INSIDE_THE_PRINTHEAD_DU": {
+          "yes": 0.6,
+          "no": 0.4
+        }
+      },
+      "PRC_ACT_OPEN_INK_VALVES": {
+        "RC_CLOSED_INK_VALVES_AT_PRINTHEAD": {
+          "yes": 0.9,
+          "no": 0.1
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "yes": 0.3,
+          "no": 0.7
+        }
+      },
+      "PRC_ACT_ADJUST_PUMP_TUBE_POSITION": {
+        "RC_WRONG_POSITION_OF_PUMP_TUBE": {
+          "yes": 0.9,
+          "no": 0.1
+        }
+      },
+      "PRC_ACT_REPLACE_INK_SUPPLY_PBA": {
+        "RC_FAULTY_INK_SUPPLY_PBA": {
+          "yes": 0.85,
+          "no": 0.15
+        }
+      },
+      "PRC_ACT_REPLACE_INK_PUMP": {
+        "RC_FAULTY_INK_PUMP": {
+          "yes": 0.85,
+          "no": 0.15
+        }
+      },
+      "PRC_ACT_RESET_TUBE_PARAM": {
+        "RC_INK_TUBE_OUT_OF_PARAMETER": {
+          "yes": 0.85,
+          "no": 0.15
+        }
+      },
+      "PRC_ACT_REPLACE_LOW_SENSOR": {
+        "RC_INK_LOW_SENSOR_DEFECT": {
+          "yes": 0.85,
+          "no": 0.15
+        }
+      },
+      "PRC_ACT_REPLACE_HIGH_SENSOR": {
+        "RC_INK_HIGH_SENSOR_DEFECT": {
+          "yes": 0.85,
+          "no": 0.15
+        }
+      },
+      "PRC_ACT_REPLACE_PRINTHEAD": {
+        "RC_FAULTY_PRINTHEAD": {
+          "yes": 0.7,
+          "no": 0.3
+        },
+        "RC_BLOCKED_PRINTHEAD_VALVE": {
+          "yes": 0.2,
+          "no": 0.8
+        }
+      }
+    }
+  }
+}
