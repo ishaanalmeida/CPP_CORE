@@ -1,0 +1,272 @@
+============================================================================
+ENRICHMENT AUDIT — diagnostics_02_ink_system
+Subsystem: 02 Ink System
+Date: 2026-03-27
+Source: DITA TSM000376en.us
+============================================================================
+
+============================================================================
+SECTION A: ENTRIES ENRICHED (previously empty fields populated)
+============================================================================
+
+--- 290017 — RFID tag: Invalid ink region ---
+  Field: Root_Causes (was empty)
+  Added: ["Ink bottle from wrong ink region", "System ink region misconfigured"]
+  Source: GUID-5E210DB1-7295-41F1-95F4-DAEF9AC0A970.xml
+  Evidence: tsCauses = "Ink bottle (Y, C, M, K, W)"
+            tsDiagnose = "The value must correspond with the region of the cartridge.
+            If the Ink region of the system is wrongly configured (e.g. EMEA instead
+            of USA), contact S&S PPP Venlo."
+
+--- 290024 — Ink safe mode ended ---
+  Field: Root_Causes (was empty)
+  Added: ["Informational: safe mode ended due to service action (02-6-006 Reset SafeMode)"]
+  Source: GUID-627D4110-3FC9-4738-9442-8E8718453E4F.xml
+  Evidence: abstract = "Safe mode ended due to a service action."
+  Note: This is an informational warning, not a fault. No tsBody exists in DITA.
+        Consider whether this entry belongs in the diagnostics KB at all, or should
+        be flagged as "informational_only" type.
+
+--- 290031 — StartupHandleLockedNoRFIDdetected ---
+  Field: Symptom (was empty)
+  Added: ["Lever in upper position without RFID detected at startup", "Warning"]
+  Field: Root_Causes (was empty)
+  Added: ["Ink bottle missing or not placed", "Ink bottle RFID tag not detectable"]
+  Source: GUID-50D18A01-9D61-48A9-A877-F5821F196AE9.xml
+  Evidence: abstract = "Lever is in upper position without any RFID detected."
+            tsCauses = "Ink bottle or RFID"
+
+--- 290032 — Cannot write RFID tag (read failure during write) ---
+  Field: Symptom (was empty)
+  Added: ["RFID write failure: could not be read while writing liquid consumed", "Warning"]
+  Field: Root_Causes (was empty)
+  Added: ["Ink bottle skewed", "RFID sticker skewed"]
+  Source: GUID-8DA51BA1-C1C5-4CF5-BD62-248081ACB9AD.xml
+  Evidence: abstract = "RFID could not be read while writing liquid consumed.
+            RFID validation read error"
+            tsCauses = "Ink bottle skewed or RFID sticker skewed"
+
+--- 290033 — Cannot write RFID tag (UID changed during write) ---
+  Field: Symptom (was empty)
+  Added: ["RFID tag UID changed between read and write operations", "Warning"]
+  Field: Root_Causes (was empty)
+  Added: ["Ink bottle skewed or swapped during operation", "RFID sticker skewed"]
+  Source: GUID-FDC5F41A-B125-4D43-909B-DAB5C902AA63.xml
+  Evidence: abstract = "UID on the RFID tag of this bottle is changed in between
+            the read and write moment."
+            tsCauses = "Ink bottle skewed or RFID sticker skewed"
+
+--- 290034 — LiquidConsumed not written (RFID not present) ---
+  Field: Symptom (was empty)
+  Added: ["RFID not present at moment of writing liquid consumed",
+          "Lever moved to upper position without RFID read", "Warning"]
+  Field: Root_Causes (was empty)
+  Added: ["Ink bottle removed during write operation", "Ink bottle skewed",
+          "RFID sticker skewed"]
+  Source: GUID-6AEB6367-6F53-4A8A-A83A-2904FEDE22F9.xml
+  Evidence: abstract = "RFID is not present at the moment of writing the liquid
+            consumed. Also reported when lever is moved illegally to the upper
+            position without a read of the RFID tag."
+            tsCauses = "Ink bottle skewed or RFID sticker skewed"
+
+--- 290035 — Ink recirculation too long not possible ---
+  Field: Symptom (was empty)
+  Added: ["White ink recirculation postponed too long",
+          "Printhead level sensor reads overfilled", "Warning"]
+  Field: Root_Causes (was empty)
+  Added: ["Malfunctioning 3-way recirculation valve (02Y5)", "Faulty printhead"]
+  Also enriched: Checks, Test, Action (were all empty)
+  Source: GUID-B095B14E-BA05-40FD-99E6-73F9BB5D8C8F.xml
+  Evidence: abstract = "When the ink level of the white printhead is overfilled
+            recirculation may not start because ink dosing to the printhead (and
+            thus a malfunctioning 3-way valve, 02Y5) cannot be detected anymore."
+  Note: DITA has NO tsBody for this entry — only abstract. All data extracted
+        from abstract paragraphs. This is thin source material.
+
+--- 290036 — Ink dosing to printhead detected during recirculation ---
+  Field: Symptom (was empty)
+  Added: ["Printhead level sensor reaches upper limit during recirculation",
+          "Ink dosing to printhead detected during recirculation", "Warning"]
+  Field: Root_Causes (was empty)
+  Added: ["Malfunctioning 3-way recirculation valve (02Y5)",
+          "Faulty recirculation valve"]
+  Also enriched: Checks, Test, Action (were all empty)
+  Source: GUID-B2F5FAFC-5686-45F2-B1BA-DB1F082A9C21.xml
+  Evidence: abstract = "level sensor of the printhead reaches the upper limit
+            during recirculation."
+            References 4 SDS tests for recirculation diagnostics.
+  Note: DITA has NO tsBody — only abstract. Thin source material.
+
+--- 02 (last entry) — Ink refill LED does not respond ---
+  Field: Symptom (was empty)
+  Added: ["Ink refill LED does not blink after placing ink bottle",
+          "Ink loading not possible"]
+  Field: Root_Causes (was empty)
+  Added: ["Active MRE (Machine Recoverable Error) preventing ink loading",
+          "Defective ink refill LED (02PBA06/07/08/09/50)",
+          "Ink bottle does not contain an RFID",
+          "Faulty electrical connection of RFID reader 02PBA02/3/4/5",
+          "Faulty RFID reader 02PBA02/3/4/5",
+          "Faulty Ink supply PBA (02PBA01)"]
+  Also enriched: Checks (was only "Check ink tank")
+  Source: GUID-CCB7E4A9-8FE9-4D4B-AEFB-55A0D483D3F0.xml
+  Evidence: DITA has 4 distinct tsCauses sections:
+    1. "An MRE (Machine Recoverable Error) detected"
+    2. "The ink refill led is defect" (with component codes)
+    3. "The ink bottle does not contain an RFID"
+    4. "Electrical connection RFID reader 02PBA02/3/4/5"
+    5. "RFID reader 02PBA02/3/4/5" (the reader itself)
+    6. "Ink supply PBA 02PBA01"
+
+============================================================================
+SECTION B: MISCLASSIFIED SYMPTOMS (items in Symptom[] that are root causes)
+============================================================================
+
+--- 250009 — INK_LEAK_SE (02B18) active ---
+  Current Symptom[] contains 3 items that are root causes, not symptoms:
+
+  1. "Faulty electrical connection of Ink Leak sensor"
+     Why it's a root cause: Describes a faulty component, not an observation.
+     DITA confirms: This appears in tsCauses, not tsSymptoms.
+     Suggested placement: Move to Root_Causes[]
+     (Already present in Root_Causes as "Faulty electrical connection of Ink Leak sensor")
+
+  2. "Faulty Ink Leak sensor"
+     Why it's a root cause: Names a faulty component.
+     DITA confirms: Appears as tsCauses = "Ink Leak Sensor 02B18 INK_LEAK_SE"
+     Suggested placement: Move to Root_Causes[]
+     (Already present in Root_Causes as "Fault Ink Leak sensor")
+
+  3. "Clogged 3-way recirculation valve"
+     Why it's a root cause: Names a blocked component causing the symptom.
+     Suggested placement: Move to Root_Causes[]
+     Note: NOT in the DITA topic for 250009 directly — was added from extended
+     error description. Check if it belongs to the 250009 white-ink-discharge
+     sub-case.
+
+  Correct Symptom[] after cleanup should be:
+     ["Ink Leakage",
+      "INK_LEAK_SE (02B18) active",
+      "white ink is discharged via the overpressure valve"]
+
+--- 250006 — Inconsistent ink level ---
+  Borderline case:
+  "HIGH_SE AND/OR LOW_SE defective" — this names a defective sensor rather than
+  the observed state. The observable symptom is "HIGH_SE active while LOW_SE
+  inactive" (from the error description). Currently marked as sensor_state type
+  but the word "defective" makes it a diagnosis conclusion.
+  Recommendation: Rephrase to "HIGH_SE active while LOW_SE inactive" and move
+  "HIGH_SE AND/OR LOW_SE defective" to Root_Causes.
+
+============================================================================
+SECTION C: ERROR CODES WITH NO MATCHING DITA TOPIC (coverage gaps)
+============================================================================
+
+  None. All 39 error codes have a matching DITA topic file in the 02 Ink System
+  diagnostics subtree.
+
+  Complete mapping:
+    02 (handle)     -> GUID-3F15B5A9-7982-4494-858D-040BE54FCD63.xml
+    250001          -> GUID-6DCC5972-289B-417E-8F90-C60081E01EA0.xml
+    250002          -> GUID-769C86A9-D036-4D0B-BB86-E2BFE13B4F48.xml
+    250006          -> GUID-BD6C431E-C86A-41D0-A7B5-4664ADFEAF94.xml
+    250007          -> GUID-E43C54E9-AD34-47E4-A0BA-881E3C097357.xml
+    250009          -> GUID-F4A9264D-18BA-4355-8A18-9F3442E995F8.xml
+    250010          -> GUID-6D410F64-A375-4048-A3F4-437A81605D73.xml
+    250011          -> GUID-0C3F5105-8D84-4CF2-811A-9AE739FAEB70.xml
+    250012          -> GUID-8A632CA5-27AE-4213-A58A-017DC9A033AC.xml
+    250014          -> GUID-45354455-89F5-4040-AFFA-73916F8D1EA5.xml
+    250015          -> GUID-A9A04109-D82B-4333-9986-3AC03743C54E.xml
+    250016          -> GUID-E7C72DBC-8BA4-4A3E-91F5-6A599CC83001.xml
+    250027          -> GUID-B590E20B-9322-40DC-8498-A97C6E780579.xml
+    250028          -> GUID-FCB16C29-114F-4185-9EBA-D94380A10467.xml
+    270001          -> GUID-AA54CA0C-2E2A-4413-B5CF-B2D62E718F07.xml
+    270008          -> GUID-3D48DCB1-DA34-4D02-99AF-97A2DDEA49EB.xml
+    290001          -> GUID-8F4D0EFA-69F4-4679-B43C-E5E44081F663.xml
+    290005          -> GUID-5711D66D-87A1-49FA-94E3-781EA38ABD88.xml
+    290011          -> GUID-8701C564-B3CA-4B3D-A2A8-3C10287164A9.xml
+    290012          -> GUID-316C443F-C0D4-445B-999D-09218300FE8A.xml
+    290013          -> GUID-45FA8833-3C38-4186-9E61-75B5A5167A1D.xml
+    290014          -> GUID-FA6AD201-8475-450F-877B-4DD5D9102600.xml
+    290015          -> GUID-8A7C8051-AFBE-4281-A33F-D453A3D7A06E.xml
+    290016          -> GUID-33967AFA-5608-4CE0-9847-79DB33D48395.xml
+    290017          -> GUID-5E210DB1-7295-41F1-95F4-DAEF9AC0A970.xml
+    290018          -> GUID-A4E4C53F-0C02-43EF-8EE0-692FF096833C.xml
+    290019          -> GUID-7425576F-35CE-4B36-859B-DEECEB4A55DE.xml
+    290020          -> GUID-1B7B4BAE-7D33-481F-98EE-4303A7C2F890.xml
+    290021          -> GUID-25183AF3-BA57-43AD-8F6C-95AB7DE17C44.xml
+    290022          -> GUID-A21BC8D6-46F0-4A9A-B3AF-5405E1721A2F.xml
+    290023          -> GUID-343B9AC4-4CFD-4A66-8EC7-3F5E0336127E.xml
+    290024          -> GUID-627D4110-3FC9-4738-9442-8E8718453E4F.xml
+    290025          -> GUID-7AB24059-28B2-4EFA-9DD8-A32BC98498C4.xml
+    290026          -> GUID-46A8BC0B-C3BB-4F87-937C-B7CBA06E1ED2.xml
+    290029          -> GUID-F34E707C-EAAC-4A92-B984-2FC7A2AE1236.xml
+    290031          -> GUID-50D18A01-9D61-48A9-A877-F5821F196AE9.xml
+    290032          -> GUID-8DA51BA1-C1C5-4CF5-BD62-248081ACB9AD.xml
+    290033          -> GUID-FDC5F41A-B125-4D43-909B-DAB5C902AA63.xml
+    290034          -> GUID-6AEB6367-6F53-4A8A-A83A-2904FEDE22F9.xml
+    290035          -> GUID-B095B14E-BA05-40FD-99E6-73F9BB5D8C8F.xml
+    290036          -> GUID-B2F5FAFC-5686-45F2-B1BA-DB1F082A9C21.xml
+    02 (LED)        -> GUID-CCB7E4A9-8FE9-4D4B-AEFB-55A0D483D3F0.xml
+
+============================================================================
+SECTION D: ENTRIES WITH THIN/AMBIGUOUS DITA CONTENT (flag for manual review)
+============================================================================
+
+1. 290035 — Ink recirculation too long not possible
+   Issue: No tsBody in DITA. All content is in the abstract only.
+   No tsSymptoms, tsCauses, or tsDiagnose sections exist.
+   Enrichment was derived entirely from abstract text.
+   Confidence: MEDIUM — root cause (3-way valve) is explicitly named in abstract.
+   Action: Verify with field engineers that 02Y5 is the only root cause.
+
+2. 290036 — Ink dosing to printhead detected during recirculation
+   Issue: No tsBody in DITA. All content is in the abstract only.
+   The abstract names SDS tests but does not explicitly state root causes.
+   Root causes were inferred from the recirculation valve context.
+   Confidence: MEDIUM — valve is the logical cause but not explicitly stated.
+   Action: Verify with field engineers. Consider linking to 290035 as related.
+
+3. 290024 — Ink safe mode ended
+   Issue: No tsBody in DITA. This is an informational message, not a fault.
+   The DITA topic has only the abstract: "Safe mode ended due to a service action."
+   Confidence: HIGH for what's there, but question whether it needs diagnostics.
+   Action: Consider marking as informational_only rather than a diagnosable fault.
+
+4. 290031 — StartupHandleLockedNoRFIDdetected
+   Issue: tsSymptoms section exists but is empty (whitespace only).
+   tsCauses says only "Ink bottle or RFID" — very terse.
+   Symptom was derived from the abstract description.
+   Confidence: HIGH — the abstract is clear about what happens.
+
+5. 290032, 290033, 290034 — RFID write errors
+   Issue: All three have empty tsSymptoms sections.
+   All three have identical tsCauses: "Ink bottle skewed or RFID sticker skewed"
+   Differentiation comes from the abstract (different failure modes).
+   Confidence: HIGH — clear from context, but symptom text was synthesized.
+
+6. 250009 — INK_LEAK_SE active
+   Issue: Not thin content, but QUALITY issue. The existing JSON has root causes
+   mixed into Symptom[]. The DITA topic has empty tsSymptoms (whitespace only).
+   The correct observable symptom "INK_LEAK_SE (02B18) active" comes from the
+   title, not from tsSymptoms.
+   Action: Requires manual cleanup — see Section B.
+
+7. 250012 — Unexpected ink drop in printhead
+   Issue: Root_Causes has an empty string "" as second element.
+   This appears to be a data entry error in the original JSON.
+   Action: Remove empty string from Root_Causes[].
+
+============================================================================
+SYMPTOM TYPE DISTRIBUTION SUMMARY
+============================================================================
+
+  system_report:  24 symptoms across 22 entries
+  system_state:   20 symptoms across 17 entries (mostly "Warning" markers)
+  observable:      8 symptoms across 7 entries
+  sensor_state:    4 symptoms across 4 entries
+  MISCLASSIFIED:   3 symptoms across 1 entry (250009)
+
+============================================================================
+END OF AUDIT
+============================================================================
