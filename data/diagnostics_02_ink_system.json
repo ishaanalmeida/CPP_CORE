@@ -98,7 +98,7 @@
   {
     "Error_code": "250009",
     "Error_description": "Ink Leak Sensor02B18 INK_LEAK_SE is active. OR ,white ink is discharged via the overpressure valve",
-    "Symptom": ["Ink Leakage","Faulty electrical connection of Ink Leak sensor","Fault Ink Leak sensor","white ink is discharged via the overpressure valve","Clogged 3-way recirculation valve"],
+    "Symptom": ["Ink Leakage","Faulty electrical connection of Ink Leak sensor","Faulty Ink Leak sensor","white ink is discharged via the overpressure valve","Clogged 3-way recirculation valve"],
     "Root_Causes": [
       "Ink Leakage","Faulty electrical connection of Ink Leak sensor","Fault Ink Leak sensor",
       "Blockage in the Print Head Boiler Tube","Blockade in white ink recirculation","Blockage in ink tube from 3-way valve to Printhead","Over pressure valve damaged","Pump tube recently replaced without resetting the maintenance counter"
