@@ -1,0 +1,1025 @@
+[
+  {
+    "obs_id": "OBS_EC_250001",
+    "obs_type": "error_code",
+    "obs_label": "Error 250001 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink delivery to printhead failed (PH1, PH3, PH4, PH5, PH6). After starting the ink supply, it is expected to be stopped . Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250002",
+    "obs_type": "error_code",
+    "obs_label": "Error 250002 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink delivery to the printhead failed during initial filling.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250006",
+    "obs_type": "error_code",
+    "obs_label": "Error 250006 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Inconsistent ink level (Y, C, M, K, W). / HIGH_SE active while LOW_SE inactive. Either 1 or both sensors are defect.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250007",
+    "obs_type": "error_code",
+    "obs_label": "Error 250007 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Inconsistent ink refill handle state (Y, C, M, K). Both CART_OPENED_SE and CART_LOCKED_SE are active. Either 1 or both s. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250009",
+    "obs_type": "error_code",
+    "obs_label": "Error 250009 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink Leak Sensor02B18 INK_LEAK_SE is active. OR ,white ink is discharged via the overpressure valve. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250010",
+    "obs_type": "error_code",
+    "obs_label": "Error 250010 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink level sensor too late active after ink refill (C, Y, M, K, W). None of the level sensors changed after ink refill.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250011",
+    "obs_type": "error_code",
+    "obs_label": "Error 250011 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "No response from ink RFID reader (Y, C, M, K, W).. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250012",
+    "obs_type": "error_code",
+    "obs_label": "Error 250012 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Unexpected ink drop in printhead (PH1..PH8). . Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250014",
+    "obs_type": "error_code",
+    "obs_label": "Error 250014 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Inconsistent ink level (C, Y, M, K, W). . Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250015",
+    "obs_type": "error_code",
+    "obs_label": "Error 250015 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "INK_PUMP_MO version not supported.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250016",
+    "obs_type": "error_code",
+    "obs_label": "Error 250016 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "02PBA01 version not supported.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250027",
+    "obs_type": "error_code",
+    "obs_label": "Error 250027 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Unexpected lever arm to locked movement detected.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_250028",
+    "obs_type": "error_code",
+    "obs_label": "Error 250028 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Unexpected lever arm to opened movement detected.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_270001",
+    "obs_type": "error_code",
+    "obs_label": "Error 270001 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "This ORE is reported to prevent burst of ink tubes due to closed ink valves at the printhead carriage after installation. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_270008",
+    "obs_type": "error_code",
+    "obs_label": "Error 270008 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Typically, this error occurs during printer installation when no ink is in the system yet. It also occurs if the custome. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290001",
+    "obs_type": "error_code",
+    "obs_label": "Error 290001 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink level sensor (C, M, Y, K or W) active while level estimation below zero.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290005",
+    "obs_type": "error_code",
+    "obs_label": "Error 290005 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink flow correction factor out of range. The ink flow correction factor calculated by the dosing pump calibration is out. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290011",
+    "obs_type": "error_code",
+    "obs_label": "Error 290011 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290011 RFID tag: Invalid format. RFID tag not accepted: Invalid format. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290012",
+    "obs_type": "error_code",
+    "obs_label": "Error 290012 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290012 RFID tag: Invalid color. RFID tag not accepted: Invalid color. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290013",
+    "obs_type": "error_code",
+    "obs_label": "Error 290013 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290013 RFID tag: Ink already consumed. RFID tag not accepted: Ink already consumed.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290014",
+    "obs_type": "error_code",
+    "obs_label": "Error 290014 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290014 RFID tag: Invalid product type. RFID tag not accepted: Invalid product type. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290015",
+    "obs_type": "error_code",
+    "obs_label": "Error 290015 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290015 RFID tag: Ink expired. RFID tag not accepted: Ink expired.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290016",
+    "obs_type": "error_code",
+    "obs_label": "Error 290016 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290016 RFID tag: Ink almost expired.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290017",
+    "obs_type": "error_code",
+    "obs_label": "Error 290017 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290017 RFID tag: Invalid ink region.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290018",
+    "obs_type": "error_code",
+    "obs_label": "Error 290018 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290018 RFID tag: Invalid signature.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290019",
+    "obs_type": "error_code",
+    "obs_label": "Error 290019 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290019 Cannot write to RFID tag (Y, C, M, K, W). Liquid consumed is not correctly written to the rfid before draining. P. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290020",
+    "obs_type": "error_code",
+    "obs_label": "Error 290020 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290020 Ink in printer expired. Ink expired in printer. All ink has to be removed.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290021",
+    "obs_type": "error_code",
+    "obs_label": "Error 290021 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290021 RFID tag: Ink Black Listed. RFID tag not accepted: Ink BlackListed. Black listing means that ORS connected printe. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290022",
+    "obs_type": "error_code",
+    "obs_label": "Error 290022 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290022 Ink in printer almost expired. This warning occurs 28 days prior to the expiry date.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290023",
+    "obs_type": "error_code",
+    "obs_label": "Error 290023 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290023 Ink safe mode started. Safe mode activated due to a non-genuine ink loaded into the system. The NFC and PAINt fun. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290024",
+    "obs_type": "error_code",
+    "obs_label": "Error 290024 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290024 Ink safe mode ended. Safe mode ended due to a service action.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290025",
+    "obs_type": "error_code",
+    "obs_label": "Error 290025 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290025 RFID tag: Uid already present. The ID of the ink bottle has been loaded already previously.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290026",
+    "obs_type": "error_code",
+    "obs_label": "Error 290026 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "290026 RFID tag: not supported ink type.. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290029",
+    "obs_type": "error_code",
+    "obs_label": "Error 290029 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Ink with a non approved RFID tag in the jar. Jar contains not approved ink When an RFID is detected but not approved, th. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290031",
+    "obs_type": "error_code",
+    "obs_label": "Error 290031 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Start-up handle locked. No RFID detected. Lever is in upper position without any RFID detected. When at startup the leve. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290032",
+    "obs_type": "error_code",
+    "obs_label": "Error 290032 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Cannot write RFID tag. RFID could not be read while writing liquid consumed. Liquid consumed is not correctly written to. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290033",
+    "obs_type": "error_code",
+    "obs_label": "Error 290033 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Cannot write the RFID tag. RFID tag was changed while writing liquid consumed. This warning is reported because the Uniq. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290034",
+    "obs_type": "error_code",
+    "obs_label": "Error 290034 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Liquid consumed is not correctly written to the RFID before draining. The RFID is not present at the moment of writing t. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290035",
+    "obs_type": "error_code",
+    "obs_label": "Error 290035 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "The level sensor of a printhead has three levels: empty, full and overfilled. When the ink level of the white printhead . Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_EC_290036",
+    "obs_type": "error_code",
+    "obs_label": "Error 290036 active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "This warning will be reported if the level sensor of the printhead reaches the upper limit during recirculation. The pum. Binary: 1=active at session open, 0=not active."
+  },
+  {
+    "obs_id": "OBS_HIST_290005",
+    "obs_type": "error_history",
+    "obs_label": "Recurrence of 290005 in lookback window",
+    "subsystem": "ink",
+    "domain": [
+      "none",
+      "low",
+      "high"
+    ],
+    "bucketing_thresholds": {
+      "none": [
+        0,
+        0
+      ],
+      "low": [
+        1,
+        3
+      ],
+      "high": [
+        4,
+        "Infinity"
+      ]
+    },
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Explicitly referenced as precursor to 250001 (ink flow correction factor indicates pump tube wear). Thresholds: none=0, low=1-3, high=4+. Pending domain expert confirmation."
+  },
+  {
+    "obs_id": "OBS_HIST_290020",
+    "obs_type": "error_history",
+    "obs_label": "Recurrence of 290020 in lookback window",
+    "subsystem": "ink",
+    "domain": [
+      "none",
+      "low",
+      "high"
+    ],
+    "bucketing_thresholds": {
+      "none": [
+        0,
+        0
+      ],
+      "low": [
+        1,
+        3
+      ],
+      "high": [
+        4,
+        "Infinity"
+      ]
+    },
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Explicitly referenced as precursor to 250001 (expired ink causes downstream delivery failures). Thresholds: none=0, low=1-3, high=4+. Pending domain expert confirmation."
+  },
+  {
+    "obs_id": "OBS_HIST_250001",
+    "obs_type": "error_history",
+    "obs_label": "Recurrence of 250001 in lookback window",
+    "subsystem": "ink",
+    "domain": [
+      "none",
+      "low",
+      "high"
+    ],
+    "bucketing_thresholds": {
+      "none": [
+        0,
+        0
+      ],
+      "low": [
+        1,
+        3
+      ],
+      "high": [
+        4,
+        "Infinity"
+      ]
+    },
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Recurrence of ink delivery failure is diagnostically relevant for persistent vs transient faults. Thresholds: none=0, low=1-3, high=4+. Pending domain expert confirmation."
+  },
+  {
+    "obs_id": "OBS_HIST_270001",
+    "obs_type": "error_history",
+    "obs_label": "Recurrence of 270001 in lookback window",
+    "subsystem": "ink",
+    "domain": [
+      "none",
+      "low",
+      "high"
+    ],
+    "bucketing_thresholds": {
+      "none": [
+        0,
+        0
+      ],
+      "low": [
+        1,
+        3
+      ],
+      "high": [
+        4,
+        "Infinity"
+      ]
+    },
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Closed valve ORE is a precursor relevant to delivery failures. Thresholds: none=0, low=1-3, high=4+. Pending domain expert confirmation."
+  },
+  {
+    "obs_id": "OBS_CTR_28005",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Operating time ink pump [0.1s]",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: lifetime. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_CTR_28007",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Recirculation valve 1 cycles",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: lifetime. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_CTR_28001",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Number of inserted cartridges",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: counter. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_CTR_28006",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Operating time pump tube [0.1s]",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: lifetime. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_CTR_28008",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Total loaded Ink [mL]",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: counter. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_CTR_28002",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Number of inserted cartridges current ink refill unit",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: lifetime. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_CTR_28003",
+    "obs_type": "lifetime_counter",
+    "obs_label": "Total time that the motor has been running",
+    "subsystem": "ink",
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "bucketing_thresholds": "PENDING_DOMAIN_EXPERT",
+    "source": "machine",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "CounterType: lifetime. Bucketing thresholds to be defined with domain experts. Extensibility note: key by (obs_id, printer_model) in multi-machine deployment."
+  },
+  {
+    "obs_id": "OBS_SYM_INK_LEAKAGE_VISIBLE",
+    "obs_type": "symptom_indicator",
+    "obs_label": "ink_leakage_visible",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician or customer observable. Links to leakage and seal-related root causes."
+  },
+  {
+    "obs_id": "OBS_SYM_WHITE_INK_OVERPRESSURE",
+    "obs_type": "symptom_indicator",
+    "obs_label": "white_ink_discharged_overpressure",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician observable. Indicates blockage in white ink recirculation path."
+  },
+  {
+    "obs_id": "OBS_SYM_PUMPS_NOT_PUMPING",
+    "obs_type": "symptom_indicator",
+    "obs_label": "pumps_not_pumping_ink",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician observable during inspection."
+  },
+  {
+    "obs_id": "OBS_SYM_LOADING_MECHANISM_BLOCKED",
+    "obs_type": "symptom_indicator",
+    "obs_label": "ink_loading_mechanism_blocked",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician or customer observable during ink bottle replacement."
+  },
+  {
+    "obs_id": "OBS_SYM_LEVER_UNEXPECTED_UP",
+    "obs_type": "symptom_indicator",
+    "obs_label": "lever_moved_unexpectedly_upper",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician or customer observable."
+  },
+  {
+    "obs_id": "OBS_SYM_LEVER_UNEXPECTED_DOWN",
+    "obs_type": "symptom_indicator",
+    "obs_label": "lever_moved_unexpectedly_lower",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician or customer observable."
+  },
+  {
+    "obs_id": "OBS_SYM_LEVER_UP_NO_RFID_STARTUP",
+    "obs_type": "symptom_indicator",
+    "obs_label": "lever_upper_no_rfid_at_startup",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician observable at printer startup."
+  },
+  {
+    "obs_id": "OBS_SYM_LEVER_UP_NO_RFID_WRITE",
+    "obs_type": "symptom_indicator",
+    "obs_label": "lever_upper_no_rfid_during_drain",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician observable during ink drain procedure."
+  },
+  {
+    "obs_id": "OBS_SYM_CONNECTOR_SHORT_PBA02",
+    "obs_type": "symptom_indicator",
+    "obs_label": "connector_short_02pba02_x52",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Technician-observed during electrical inspection. Included as technicians may report this in service descriptions."
+  },
+  {
+    "obs_id": "OBS_SYM_GREEN_HANDLE_BLOCKS",
+    "obs_type": "symptom_indicator",
+    "obs_label": "green_handle_blocks_upper_position",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Source entry has no valid error code ('02' is a chapter reference). Symptom maps directly to RC_INK_BOTTLE_SEAL_NOT_REMOVED. Customer or technician observable."
+  },
+  {
+    "obs_id": "OBS_SYM_REFILL_LED_NO_BLINK",
+    "obs_type": "symptom_indicator",
+    "obs_label": "refill_led_no_blink_after_bottle_placement",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "Source entry has no valid error code ('02' is a chapter reference). Symptom maps directly to RCs from enriched file. Customer or technician observable."
+  },
+  {
+    "obs_id": "OBS_SYM_SAFE_MODE_ACTIVE",
+    "obs_type": "symptom_indicator",
+    "obs_label": "ink_safe_mode_active",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "System state observable on operator panel. Maps to RC_INK_NON_GENUINE."
+  },
+  {
+    "obs_id": "OBS_SYM_INK_LOADING_NOT_POSSIBLE",
+    "obs_type": "symptom_indicator",
+    "obs_label": "ink_loading_not_possible",
+    "subsystem": "ink",
+    "domain": [
+      "0",
+      "1"
+    ],
+    "bucketing_thresholds": null,
+    "source": "nlp",
+    "unregistered_obs_behaviour": "marginalise",
+    "missing_cpt_behaviour": "uniform_fallback",
+    "notes": "System state visible on operator panel. Customer or technician reportable."
+  }
+]

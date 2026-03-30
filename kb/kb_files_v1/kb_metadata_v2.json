@@ -1,0 +1,52 @@
+{
+  "kb_version": "1.0",
+  "scope": "ink_subsystem",
+  "generated_at": "2026-03-27T13:01:12.872Z",
+  "flagged_data_quality": [
+    {
+      "error_code": "02",
+      "issue": "Error_code '02' is not a valid error code — appears to be a chapter/section reference (subsystem 02 = ink). Both entries excluded from KB population.",
+      "description_excerpt": "Green handle of the ink bottle blocks before reaching the upper position."
+    },
+    {
+      "error_code": "02",
+      "issue": "Error_code '02' is not a valid error code — appears to be a chapter/section reference (subsystem 02 = ink). Both entries excluded from KB population.",
+      "description_excerpt": "When an ink bottle is placed in the ink refill unit the RFID reader should detect an RFID (of the in"
+    }
+  ],
+  "unrecognized_root_causes": [],
+  "summary": {
+    "rc_registry": {
+      "total": 58
+    },
+    "observation_registry": {
+      "total": 64,
+      "by_type": {
+        "error_code": 40,
+        "error_history": 4,
+        "lifetime_counter": 7,
+        "symptom_indicator": 13
+      }
+    },
+    "cpt_store": {
+      "total": 8062,
+      "domain_expert": 6169,
+      "uniform_placeholder": 1893
+    },
+    "action_catalogue": {
+      "total": 137,
+      "sds_tests": 26,
+      "diagnostic_checks": 60,
+      "resolution_actions": 51
+    }
+  },
+  "pending_items": [
+    "All SDS test linked_rc_ids are PENDING_DOMAIN_EXPERT — domain expert to assign during M1",
+    "All lifetime counter bucketing thresholds are PENDING_DOMAIN_EXPERT",
+    "All CPT entries with estimate_source=uniform_placeholder need domain expert review",
+    "All outcome_likelihoods are uniform placeholders — to be refined with expert estimates",
+    "Action cost values for checks and resolution actions based on label heuristics — pending domain expert validation",
+    "Domain expert to confirm action_type for checks and resolution actions (some may be misclassified)",
+    "Symptom indicators (OBS_SYM_*) populated from enriched diagnostics file — CPT entries initialised from source error code and direct RC linkages. Domain expert verification of P(sym|RC) values still required."
+  ]
+}

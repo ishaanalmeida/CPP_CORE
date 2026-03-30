@@ -6,61 +6,61 @@
     <systemType value="Colorado M5W 4.5.0.0"/>
     <systemIdentification value="990400003"/>
     <windowsActivationStatus value="Not activated"/>
-    <masterUsageCounter value="6419"/>
+    <masterUsageCounter value="6470"/>
     <parameter name="MacAddress" value="00-03-2D-53-02-38"/>
-    <parameter description="COUNTERID_WF_TOTAL_PRINTED_AREA" name="C" value="6657"/>
-    <parameter description="COUNTERID_SERVICE" name="ServiceCounter" value="6419"/>
-    <parameter description="COUNTERID_WF_INK_CONSUMPTION_BLACK" name="H" value="20965"/>
-    <parameter description="COUNTERID_WF_INK_CONSUMPTION_CYAN" name="E" value="17084"/>
-    <parameter description="COUNTERID_WF_INK_CONSUMPTION_MAGENTA" name="F" value="19981"/>
-    <parameter description="COUNTERID_WF_INK_CONSUMPTION_YELLOW" name="G" value="20483"/>
-    <parameter description="COUNTERID_WF_INK_CONSUMPTION_WHITE" name="K" value="60689"/>
-    <parameter description="COUNTERID_WF_TOTAL_INK_CONSUMPTION" name="D" value="139202"/>
-    <parameter description="COUNTERID_WF_TOTAL_MEDIA_AREA" name="A" value="10638"/>
-    <parameter description="COUNTERID_WF_TOTAL_MEDIA_LENGTH" name="B" value="8230"/>
-    <parameter description="COUNTERID_WF_TOTAL_MEDIA_AREA_COLOR_LAYERS" name="P" value="13166"/>
-    <parameter description="COUNTERID_WF_TOTAL_MEDIA_AREA_FLOOD_LAYERS" name="R" value="4361"/>
-    <parameter description="COUNTERID_WF_TOTAL_PRINTED_AREA_COLOR_LAYERS" name="I" value="785"/>
-    <parameter description="COUNTERID_WF_TOTAL_PRINTED_AREA_FLOOD_LAYERS" name="L" value="23"/>
+    <parameter description="COUNTERID_WF_TOTAL_PRINTED_AREA" name="C" value="6710"/>
+    <parameter description="COUNTERID_SERVICE" name="ServiceCounter" value="6470"/>
+    <parameter description="COUNTERID_WF_INK_CONSUMPTION_BLACK" name="H" value="21371"/>
+    <parameter description="COUNTERID_WF_INK_CONSUMPTION_CYAN" name="E" value="17504"/>
+    <parameter description="COUNTERID_WF_INK_CONSUMPTION_MAGENTA" name="F" value="20227"/>
+    <parameter description="COUNTERID_WF_INK_CONSUMPTION_YELLOW" name="G" value="20711"/>
+    <parameter description="COUNTERID_WF_INK_CONSUMPTION_WHITE" name="K" value="60850"/>
+    <parameter description="COUNTERID_WF_TOTAL_INK_CONSUMPTION" name="D" value="140663"/>
+    <parameter description="COUNTERID_WF_TOTAL_MEDIA_AREA" name="A" value="10727"/>
+    <parameter description="COUNTERID_WF_TOTAL_MEDIA_LENGTH" name="B" value="8311"/>
+    <parameter description="COUNTERID_WF_TOTAL_MEDIA_AREA_COLOR_LAYERS" name="P" value="13342"/>
+    <parameter description="COUNTERID_WF_TOTAL_MEDIA_AREA_FLOOD_LAYERS" name="R" value="4368"/>
+    <parameter description="COUNTERID_WF_TOTAL_PRINTED_AREA_COLOR_LAYERS" name="I" value="904"/>
+    <parameter description="COUNTERID_WF_TOTAL_PRINTED_AREA_FLOOD_LAYERS" name="L" value="29"/>
   </systemInfo>
-  <creationInfo creationTime="2026-02-02T15:04:44" generator="com.oce.mnt.sh.DataLogs">
+  <creationInfo creationTime="2026-03-09T15:30:00" generator="com.oce.mnt.sh.DataLogs">
     <timeZone offset="-01:00" daylightSaving="0"/>
   </creationInfo>
   <versions>
     <version name="Build" value="27.4.308.0"/>
     <version name="System" value="4.5.0.0"/>
   </versions>
-  <snapshot date="2026-02-02T15:04:44" counter="6419" current="true">
+  <snapshot date="2026-03-09T15:30:00" counter="6470" current="true">
     <resource name="system">
       <resource name="printer">
         <counters>
-          <counter description="Engine initializations" name="218501" type="counter" value="2807"/>
-          <counter description="Engine uptime [min]" name="218502" type="counter" value="1630423"/>
-          <counter description="Printing time (winder) [s]" name="218566" type="counter" value="3624272"/>
-          <counter description="Printing time (freefall) [s]" name="218565" type="counter" value="870421"/>
-          <counter description="Number of runs" name="218503" type="counter" value="110128"/>
-          <counter description="Number of times in Keep-Healthy mode" name="218504" type="counter" value="2025"/>
-          <counter description="Standby time [s]" name="218505" type="counter" value="20931883"/>
-          <counter description="Busy time [s]" name="218506" type="counter" value="8257623"/>
-          <counter description="Keep-Healthy time [s]" name="218507" type="counter" value="68287412"/>
-          <counter description="Total media area [m2]" name="218508" type="counter" value="10638"/>
-          <counter description="Total media length [m]" name="218509" type="counter" value="8230"/>
-          <counter description="Total printed area [m2]" name="218510" type="counter" value="6657"/>
-          <counter description="Total ink consumption [mL]" name="218519" type="counter" value="139202"/>
-          <counter description="Ink consumption Cyan [mL]" name="218512" type="counter" value="17084"/>
-          <counter description="Ink consumption Magenta [mL]" name="218513" type="counter" value="19981"/>
-          <counter description="Ink consumption Yellow [mL]" name="218514" type="counter" value="20483"/>
-          <counter description="Ink consumption Black [mL]" name="218515" type="counter" value="20965"/>
-          <counter description="Ink consumption White [mL]" name="218516" type="counter" value="60689"/>
-          <counter description="Total media area color layers [m2]" name="218526" type="counter" value="13166"/>
-          <counter description="Total media area flood layers [m2]" name="218527" type="counter" value="4361"/>
-          <counter description="Successfully printed area [m2]" name="218550" type="counter" value="6419"/>
-          <counter description="Total printed area towards the winder [m2]" name="218520" type="counter" value="5567"/>
-          <counter description="Total printed area in freefall [m2]" name="218551" type="counter" value="1090"/>
-          <counter description="Printed length calibrations - nozzle checks [m]" name="218553" type="counter" value="480"/>
+          <counter description="Engine initializations" name="218501" type="counter" value="2866"/>
+          <counter description="Engine uptime [min]" name="218502" type="counter" value="1680836"/>
+          <counter description="Printing time (winder) [s]" name="218566" type="counter" value="3682593"/>
+          <counter description="Printing time (freefall) [s]" name="218565" type="counter" value="877776"/>
+          <counter description="Number of runs" name="218503" type="counter" value="110765"/>
+          <counter description="Number of times in Keep-Healthy mode" name="218504" type="counter" value="2081"/>
+          <counter description="Standby time [s]" name="218505" type="counter" value="21123205"/>
+          <counter description="Busy time [s]" name="218506" type="counter" value="8349525"/>
+          <counter description="Keep-Healthy time [s]" name="218507" type="counter" value="70813735"/>
+          <counter description="Total media area [m2]" name="218508" type="counter" value="10727"/>
+          <counter description="Total media length [m]" name="218509" type="counter" value="8311"/>
+          <counter description="Total printed area [m2]" name="218510" type="counter" value="6710"/>
+          <counter description="Total ink consumption [mL]" name="218519" type="counter" value="140663"/>
+          <counter description="Ink consumption Cyan [mL]" name="218512" type="counter" value="17504"/>
+          <counter description="Ink consumption Magenta [mL]" name="218513" type="counter" value="20227"/>
+          <counter description="Ink consumption Yellow [mL]" name="218514" type="counter" value="20711"/>
+          <counter description="Ink consumption Black [mL]" name="218515" type="counter" value="21362"/>
+          <counter description="Ink consumption White [mL]" name="218516" type="counter" value="60850"/>
+          <counter description="Total media area color layers [m2]" name="218526" type="counter" value="13342"/>
+          <counter description="Total media area flood layers [m2]" name="218527" type="counter" value="4368"/>
+          <counter description="Successfully printed area [m2]" name="218550" type="counter" value="6470"/>
+          <counter description="Total printed area towards the winder [m2]" name="218520" type="counter" value="5610"/>
+          <counter description="Total printed area in freefall [m2]" name="218551" type="counter" value="1100"/>
+          <counter description="Printed length calibrations - nozzle checks [m]" name="218553" type="counter" value="486"/>
           <counter description="Total area printed on Heavy paper [m2]" name="218555" type="counter" value="515"/>
-          <counter description="Total area printed on Paper [m2]" name="218556" type="counter" value="1932"/>
-          <counter description="Total area printed on Film [m2]" name="218557" type="counter" value="1173"/>
+          <counter description="Total area printed on Paper [m2]" name="218556" type="counter" value="1941"/>
+          <counter description="Total area printed on Film [m2]" name="218557" type="counter" value="1209"/>
           <counter description="Total area printed on Polymeric - cast vinyl [m2]" name="218558" type="counter" value="5"/>
           <counter description="Total area printed on Canvas [m2]" name="218559" type="counter" value="451"/>
           <counter description="Total area printed on Heavy Banner [m2]" name="218560" type="counter" value="11"/>
@@ -70,22 +70,22 @@
           <counter description="Total area printed on Monomeric Vinyl [m2]" name="218564" type="counter" value="50"/>
           <counter description="Total area printed on Thick film [m2]" name="218549" type="counter" value="66"/>
           <counter description="Total area printed on Light film [m2]" name="218567" type="counter" value="417"/>
-          <counter description="Total area printed on Self adhesive [m2]" name="218568" type="counter" value="1050"/>
+          <counter description="Total area printed on Self adhesive [m2]" name="218568" type="counter" value="1057"/>
           <counter description="Total area printed on Magnetic Media [m2]" name="218554" type="counter" value="0"/>
           <counter description="Total area printed on Wall Covering [m2]" name="218569" type="counter" value="33"/>
-          <counter description="Total printed area color layers [m2]" name="218528" type="counter" value="785"/>
-          <counter description="Total printed area flood layers [m2]" name="218529" type="counter" value="23"/>
+          <counter description="Total printed area color layers [m2]" name="218528" type="counter" value="904"/>
+          <counter description="Total printed area flood layers [m2]" name="218529" type="counter" value="29"/>
           <counter description="Total media area on Heavy paper [m2]" name="218700" type="counter" value="675"/>
-          <counter description="Total media area on Paper [m2]" name="218701" type="counter" value="1396"/>
-          <counter description="Total media area on Film [m2]" name="218702" type="counter" value="1262"/>
+          <counter description="Total media area on Paper [m2]" name="218701" type="counter" value="1418"/>
+          <counter description="Total media area on Film [m2]" name="218702" type="counter" value="1311"/>
           <counter description="Total media area on Canvas [m2]" name="218703" type="counter" value="649"/>
           <counter description="Total media area on Heavy Banner [m2]" name="218704" type="counter" value="29"/>
           <counter description="Total media area on Light Banner [m2]" name="218705" type="counter" value="38"/>
           <counter description="Total media area on Light Paper [m2]" name="218706" type="counter" value="424"/>
           <counter description="Total media area on Textile [m2]" name="218707" type="counter" value="1113"/>
           <counter description="Total media area on Thick film [m2]" name="218708" type="counter" value="94"/>
-          <counter description="Total media area on Light film [m2]" name="218709" type="counter" value="662"/>
-          <counter description="Total media area on Self adhesive [m2]" name="218710" type="counter" value="1889"/>
+          <counter description="Total media area on Light film [m2]" name="218709" type="counter" value="663"/>
+          <counter description="Total media area on Self adhesive [m2]" name="218710" type="counter" value="1907"/>
           <counter description="Total media area on Magnetic Media [m2]" name="218711" type="counter" value="0"/>
           <counter description="Total media area on Wall Covering [m2]" name="218712" type="counter" value="63"/>
           <counter description="Total area printed in 1 Pass [m2]" name="218590" type="counter" value="0"/>
@@ -108,13 +108,13 @@
           <counter description="m2 printed in printMode #211631" name="218601" type="counter" value="0"/>
           <counter description="m2 printed in printMode #211632" name="218602" type="counter" value="0"/>
           <counter description="m2 printed in printMode #211633" name="218603" type="counter" value="24"/>
-          <counter description="m2 printed in printMode #211634" name="218604" type="counter" value="22"/>
-          <counter description="m2 printed in printMode #211635" name="218605" type="counter" value="184"/>
+          <counter description="m2 printed in printMode #211634" name="218604" type="counter" value="24"/>
+          <counter description="m2 printed in printMode #211635" name="218605" type="counter" value="189"/>
           <counter description="m2 printed in printMode #211636" name="218606" type="counter" value="251"/>
           <counter description="m2 printed in printMode #211637" name="218607" type="counter" value="29"/>
           <counter description="m2 printed in printMode #211638" name="218608" type="counter" value="42"/>
           <counter description="m2 printed in printMode #211639" name="218609" type="counter" value="124"/>
-          <counter description="m2 printed in printMode #211640" name="218610" type="counter" value="853"/>
+          <counter description="m2 printed in printMode #211640" name="218610" type="counter" value="854"/>
           <counter description="m2 printed in printMode #211641" name="218611" type="counter" value="551"/>
           <counter description="m2 printed in printMode #211642" name="218612" type="counter" value="32"/>
           <counter description="m2 printed in printMode #211643" name="218613" type="counter" value="45"/>
@@ -137,40 +137,40 @@
           <counter description="m2 printed in printMode #211660" name="218630" type="counter" value="5"/>
           <counter description="m2 printed in printMode #211661" name="218631" type="counter" value="53"/>
           <counter description="m2 printed in printMode #211662" name="218632" type="counter" value="3"/>
-          <counter description="m2 printed in printMode #211663" name="218633" type="counter" value="1175"/>
-          <counter description="Number of finished images" name="218524" type="counter" value="9422"/>
-          <counter description="Number of cancelled images" name="218523" type="counter" value="331"/>
-          <counter description="Number of failed images" name="218521" type="counter" value="399"/>
-          <counter description="Number of images towards the winder" name="218522" type="counter" value="6523"/>
-          <counter description="Number of images as freefall" name="218525" type="counter" value="3629"/>
-          <counter description="Number of calibration images" name="218570" type="counter" value="3567"/>
-          <counter description="Number of images with yellow markers" name="218572" type="counter" value="5532"/>
-          <counter description="Number of images with wide yellow markers" name="218573" type="counter" value="3728"/>
+          <counter description="m2 printed in printMode #211663" name="218633" type="counter" value="1220"/>
+          <counter description="Number of finished images" name="218524" type="counter" value="9551"/>
+          <counter description="Number of cancelled images" name="218523" type="counter" value="333"/>
+          <counter description="Number of failed images" name="218521" type="counter" value="406"/>
+          <counter description="Number of images towards the winder" name="218522" type="counter" value="6610"/>
+          <counter description="Number of images as freefall" name="218525" type="counter" value="3680"/>
+          <counter description="Number of calibration images" name="218570" type="counter" value="3613"/>
+          <counter description="Number of images with yellow markers" name="218572" type="counter" value="5641"/>
+          <counter description="Number of images with wide yellow markers" name="218573" type="counter" value="3757"/>
           <counter description="Number of images without yellow markers" name="218574" type="counter" value="322"/>
-          <counter description="printed ink Cyan [mL]" name="28512" type="counter" value="10744"/>
-          <counter description="printed ink Magenta [mL]" name="28513" type="counter" value="13614"/>
-          <counter description="printed ink Yellow [mL]" name="28514" type="counter" value="14107"/>
-          <counter description="printed ink Black [mL]" name="28515" type="counter" value="14820"/>
-          <counter description="printed ink White [mL]" name="28516" type="counter" value="53428"/>
-          <counter description="Ink for maintenance Cyan [mL]" name="28522" type="counter" value="6012"/>
-          <counter description="Ink for maintenance Magenta [mL]" name="28523" type="counter" value="6068"/>
-          <counter description="Ink for maintenance Yellow [mL]" name="28524" type="counter" value="6067"/>
-          <counter description="Ink for maintenance Black [mL]" name="28525" type="counter" value="6009"/>
-          <counter description="Ink for maintenance White [mL]" name="28526" type="counter" value="6569"/>
+          <counter description="printed ink Cyan [mL]" name="28512" type="counter" value="11027"/>
+          <counter description="printed ink Magenta [mL]" name="28513" type="counter" value="13724"/>
+          <counter description="printed ink Yellow [mL]" name="28514" type="counter" value="14199"/>
+          <counter description="printed ink Black [mL]" name="28515" type="counter" value="15088"/>
+          <counter description="printed ink White [mL]" name="28516" type="counter" value="53452"/>
+          <counter description="Ink for maintenance Cyan [mL]" name="28522" type="counter" value="6150"/>
+          <counter description="Ink for maintenance Magenta [mL]" name="28523" type="counter" value="6206"/>
+          <counter description="Ink for maintenance Yellow [mL]" name="28524" type="counter" value="6204"/>
+          <counter description="Ink for maintenance Black [mL]" name="28525" type="counter" value="6147"/>
+          <counter description="Ink for maintenance White [mL]" name="28526" type="counter" value="6707"/>
           <counter description="Number of times engine was longer than 24 hours off" name="228100" type="counter" value="4"/>
-          <counter description="Number of times Top door is opened" name="248503" type="counter" value="2019"/>
+          <counter description="Number of times Top door is opened" name="248503" type="counter" value="2026"/>
           <counter description="Number of times PHD maintenance door is opened" name="248504" type="counter" value="76"/>
           <counter description="Number of times CUR maintenance door is opened" name="248505" type="counter" value="31"/>
-          <counter description="Number of times input door is opened" name="248506" type="counter" value="797"/>
-          <counter description="Number of cold start ups" name="48501" type="counter" value="2127"/>
-          <counter description="Number of warm start ups" name="48503" type="counter" value="866"/>
-          <counter description="Total time all printheads on jetting temperature [s]" name="48502" type="counter" value="12176945"/>
+          <counter description="Number of times input door is opened" name="248506" type="counter" value="802"/>
+          <counter description="Number of cold start ups" name="48501" type="counter" value="2177"/>
+          <counter description="Number of warm start ups" name="48503" type="counter" value="874"/>
+          <counter description="Total time all printheads on jetting temperature [s]" name="48502" type="counter" value="12377806"/>
           <counter description="Number of manual maintenance actions printheads" name="78014" type="counter" value="31"/>
           <counter description="Number of automatic maintenance actions printheads" name="78015" type="counter" value="42"/>
           <counter description="Number of soaking action printheads" name="78016" type="counter" value="2"/>
           <counter description="Number of dabbing action printheads" name="78017" type="counter" value="22"/>
           <counter description="Number of carriage media crashes" name="58501" type="counter" value="0"/>
-          <counter description="Total number of spit actions" name="78042" type="counter" value="72908"/>
+          <counter description="Total number of spit actions" name="78042" type="counter" value="74376"/>
         </counters>
         <parameters>
           <parameter name="211631" description="printMode1Name" value="71;108;111;115;115;32;72;105;103;104;32;75;101;121;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"/>
@@ -241,57 +241,57 @@
             <parameter name="191008" description="Enhanced guideplate positioning" value="0"/>
           </parameters>
           <counters>
-            <counter description="Total distance Xtran pinch rotated [m]" name="158001" type="lifetime" value="19809"/>
-            <counter description="Number of cuts media output knife" name="168001" type="lifetime" value="2975"/>
+            <counter description="Total distance Xtran pinch rotated [m]" name="158001" type="lifetime" value="20149"/>
+            <counter description="Number of cuts media output knife" name="168001" type="lifetime" value="3061"/>
           </counters>
         </resource>
         <resource name="07_CLE">
           <parameters>
-            <parameter name="71101" description="Calibration offset of the pressure sensor [0.01mbar]" value="55"/>
+            <parameter name="71101" description="Calibration offset of the pressure sensor [0.01mbar]" value="60"/>
           </parameters>
           <counters>
-            <counter description="APSU release valve cycles" name="78009" type="lifetime" value="104589"/>
-            <counter description="APSU switch valve cycles" name="78008" type="lifetime" value="13950"/>
+            <counter description="APSU release valve cycles" name="78009" type="lifetime" value="106558"/>
+            <counter description="APSU switch valve cycles" name="78008" type="lifetime" value="14208"/>
             <counter description="Usage pressure pulses normal [count]" name="78010" type="counter" value="41"/>
-            <counter description="Usage pressure pulses long [count]" name="78011" type="counter" value="12194"/>
+            <counter description="Usage pressure pulses long [count]" name="78011" type="counter" value="12407"/>
             <counter description="Usage pressure pulses powerful [count]" name="78012" type="counter" value="248"/>
             <counter description="Usage pressure pulses filling overpressure [count]" name="78020" type="counter" value="174"/>
-            <counter description="Usage pressure pulses inkcap overpressure [count]" name="78023" type="counter" value="1293"/>
-            <counter description="APSU pump time [s]" name="78007" type="lifetime" value="218417"/>
-            <counter description="Number of activations of the air valve at position 1" name="78033" type="lifetime" value="6568"/>
-            <counter description="Number of activations of the air valve at position 2" name="78034" type="lifetime" value="6868"/>
-            <counter description="Number of activations of the air valve at position 3" name="78035" type="lifetime" value="6904"/>
+            <counter description="Usage pressure pulses inkcap overpressure [count]" name="78023" type="counter" value="1338"/>
+            <counter description="APSU pump time [s]" name="78007" type="lifetime" value="222724"/>
+            <counter description="Number of activations of the air valve at position 1" name="78033" type="lifetime" value="6710"/>
+            <counter description="Number of activations of the air valve at position 2" name="78034" type="lifetime" value="7010"/>
+            <counter description="Number of activations of the air valve at position 3" name="78035" type="lifetime" value="7046"/>
             <counter description="Number of leak detections of the air valve at position 1" name="78037" type="lifetime" value="17"/>
             <counter description="Number of leak detections of the air valve at position 2" name="78038" type="lifetime" value="29"/>
             <counter description="Number of leak detections of the air valve at position 3" name="78039" type="lifetime" value="25"/>
-            <counter description="Number of maintenance tray replacements" name="78005" type="counter" value="69"/>
-            <counter description="Estimated ink level of the maintenance tray [ul]" name="78002" type="lifetime" value="490972"/>
-            <counter description="Total maintenance ink [ul]" name="78006" type="counter" value="36972912"/>
-            <counter description="Total number of tissue cassettes placed" name="78045" type="counter" value="24"/>
-            <counter description="Total number of new tissue cassettes placed" name="78046" type="counter" value="20"/>
-            <counter description="Used tissue length of the tissue wipe unit [mm]" name="78047" type="counter" value="541046"/>
-            <counter description="Operating time purge tray heater(07E1) [s]" name="78025" type="lifetime" value="861105"/>
-            <counter description="Number of initializations of the tissue wipe unit" name="78040" type="lifetime" value="3704"/>
-            <counter description="Number of wipe actions of the tissue wipe unit" name="78041" type="lifetime" value="9865"/>
+            <counter description="Number of maintenance tray replacements" name="78005" type="counter" value="70"/>
+            <counter description="Estimated ink level of the maintenance tray [ul]" name="78002" type="lifetime" value="408383"/>
+            <counter description="Total maintenance ink [ul]" name="78006" type="counter" value="37621418"/>
+            <counter description="Total number of tissue cassettes placed" name="78045" type="counter" value="25"/>
+            <counter description="Total number of new tissue cassettes placed" name="78046" type="counter" value="21"/>
+            <counter description="Used tissue length of the tissue wipe unit [mm]" name="78047" type="counter" value="552302"/>
+            <counter description="Operating time purge tray heater(07E1) [s]" name="78025" type="lifetime" value="876730"/>
+            <counter description="Number of initializations of the tissue wipe unit" name="78040" type="lifetime" value="3776"/>
+            <counter description="Number of wipe actions of the tissue wipe unit" name="78041" type="lifetime" value="10078"/>
           </counters>
         </resource>
         <resource name="02_INK">
           <resource name="C">
             <counters>
-              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="89202332"/>
-              <counter description="Number of inserted cartridges" name="28001" type="counter" value="26"/>
-              <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="26"/>
-              <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="19700"/>
+              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="91956451"/>
+              <counter description="Number of inserted cartridges" name="28001" type="counter" value="27"/>
+              <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="27"/>
+              <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="20400"/>
             </counters>
             <parameters>
-              <parameter name="21003" description="Expiry date of the ink in the intermediate ink reservoir" value="126;0;26"/>
-              <parameter name="21004" description="Expiry state of the ink in the intermediate ink reservoir" value="1"/>
+              <parameter name="21003" description="Expiry date of the ink in the intermediate ink reservoir" value="126;3;18"/>
+              <parameter name="21004" description="Expiry state of the ink in the intermediate ink reservoir" value="0"/>
               <parameter name="21005" description="Ink safe mode state" value="0"/>
             </parameters>
           </resource>
           <resource name="M">
             <counters>
-              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="89201349"/>
+              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="91955468"/>
               <counter description="Number of inserted cartridges" name="28001" type="counter" value="29"/>
               <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="29"/>
               <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="22400"/>
@@ -304,7 +304,7 @@
           </resource>
           <resource name="Y">
             <counters>
-              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="89201119"/>
+              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="91955238"/>
               <counter description="Number of inserted cartridges" name="28001" type="counter" value="30"/>
               <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="30"/>
               <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="23400"/>
@@ -317,24 +317,24 @@
           </resource>
           <resource name="K">
             <counters>
-              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="89202964"/>
-              <counter description="Number of inserted cartridges" name="28001" type="counter" value="31"/>
-              <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="31"/>
-              <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="24700"/>
+              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="91957083"/>
+              <counter description="Number of inserted cartridges" name="28001" type="counter" value="32"/>
+              <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="32"/>
+              <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="25400"/>
             </counters>
             <parameters>
-              <parameter name="21003" description="Expiry date of the ink in the intermediate ink reservoir" value="126;1;16"/>
+              <parameter name="21003" description="Expiry date of the ink in the intermediate ink reservoir" value="126;5;6"/>
               <parameter name="21004" description="Expiry state of the ink in the intermediate ink reservoir" value="0"/>
               <parameter name="21005" description="Ink safe mode state" value="0"/>
             </parameters>
           </resource>
           <resource name="W">
             <counters>
-              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="89201887"/>
+              <counter description="Total time that the motor has been running" name="28003" type="lifetime" value="91956006"/>
               <counter description="Number of inserted cartridges" name="28001" type="counter" value="81"/>
               <counter description="Number of inserted cartridges current ink refill unit" name="28002" type="lifetime" value="81"/>
               <counter description="Total loaded Ink [mL]" name="28008" type="counter" value="66900"/>
-              <counter description="Recirculation valve 1 cycles" name="28007" type="lifetime" value="1284"/>
+              <counter description="Recirculation valve 1 cycles" name="28007" type="lifetime" value="1323"/>
             </counters>
             <parameters>
               <parameter name="21003" description="Expiry date of the ink in the intermediate ink reservoir" value="126;4;25"/>
@@ -344,8 +344,8 @@
           </resource>
           <resource name="INK_PUMP_2_MO">
             <counters>
-              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="596975"/>
-              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="162071"/>
+              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="602375"/>
+              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="167471"/>
             </counters>
             <parameters>
               <parameter name="21001" description="Mark ink tube as empty" value="0"/>
@@ -353,8 +353,8 @@
           </resource>
           <resource name="INK_PUMP_3_MO">
             <counters>
-              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="520254"/>
-              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="165206"/>
+              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="531574"/>
+              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="176526"/>
             </counters>
             <parameters>
               <parameter name="21001" description="Mark ink tube as empty" value="0"/>
@@ -362,8 +362,8 @@
           </resource>
           <resource name="INK_PUMP_4_MO">
             <counters>
-              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="598185"/>
-              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="194091"/>
+              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="604480"/>
+              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="200386"/>
             </counters>
             <parameters>
               <parameter name="21001" description="Mark ink tube as empty" value="0"/>
@@ -371,8 +371,8 @@
           </resource>
           <resource name="INK_PUMP_5_MO">
             <counters>
-              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="627462"/>
-              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="208211"/>
+              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="637892"/>
+              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="218641"/>
             </counters>
             <parameters>
               <parameter name="21001" description="Mark ink tube as empty" value="0"/>
@@ -380,8 +380,8 @@
           </resource>
           <resource name="INK_PUMP_6_MO">
             <counters>
-              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="8104543"/>
-              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="3051602"/>
+              <counter description="Operating time ink pump [0.1s]" name="28005" type="lifetime" value="8294268"/>
+              <counter description="Operating time pump tube [0.1s]" name="28006" type="lifetime" value="3241327"/>
             </counters>
             <parameters>
               <parameter name="21001" description="Mark ink tube as empty" value="0"/>
@@ -393,15 +393,15 @@
         </resource>
         <resource name="01_CUR">
           <counters>
-            <counter description="Number of turns of the curing carriage" name="18004" type="lifetime" value="2867151"/>
-            <counter description="Distance traveled of the guidance cleaners [m]" name="18006" type="lifetime" value="1882368"/>
-            <counter description="Distance travelled of the curing carriage [m]" name="18005" type="lifetime" value="4009665"/>
-            <counter description="Power-on time pre-curing lamp (01PBA01) [s]" name="18007" type="lifetime" value="21677880"/>
-            <counter description="LED-on time pre-curing lamp (01PBA01) [s]" name="18008" type="lifetime" value="1518274"/>
-            <counter description="Power-on time post-curing lamp (01PBA02) [s]" name="18009" type="lifetime" value="21678720"/>
-            <counter description="LED-on time post-curing lamp (01PBA02) [s]" name="18010" type="lifetime" value="2285562"/>
-            <counter description="Power-on time pin-curing lamp (01PBA02) [s]" name="18011" type="lifetime" value="21678720"/>
-            <counter description="LED-on time pin-curing lamp (01PBA02) [s]" name="18014" type="lifetime" value="1835798"/>
+            <counter description="Number of turns of the curing carriage" name="18004" type="lifetime" value="2902138"/>
+            <counter description="Distance traveled of the guidance cleaners [m]" name="18006" type="lifetime" value="1925377"/>
+            <counter description="Distance travelled of the curing carriage [m]" name="18005" type="lifetime" value="4052674"/>
+            <counter description="Power-on time pre-curing lamp (01PBA01) [s]" name="18007" type="lifetime" value="22172220"/>
+            <counter description="LED-on time pre-curing lamp (01PBA01) [s]" name="18008" type="lifetime" value="1533619"/>
+            <counter description="Power-on time post-curing lamp (01PBA02) [s]" name="18009" type="lifetime" value="22173060"/>
+            <counter description="LED-on time post-curing lamp (01PBA02) [s]" name="18010" type="lifetime" value="2308713"/>
+            <counter description="Power-on time pin-curing lamp (01PBA02) [s]" name="18011" type="lifetime" value="22173060"/>
+            <counter description="LED-on time pin-curing lamp (01PBA02) [s]" name="18014" type="lifetime" value="1852803"/>
           </counters>
           <parameters>
             <parameter name="11033" description="Install date of the guidance cleaners" value="20251010"/>
@@ -434,13 +434,13 @@
             <parameter name="61003" description="The serial number of the Chiller." value="102"/>
           </parameters>
           <counters>
-            <counter description="The amount of time the chiller has been operational [minutes]" name="68001" type="lifetime" value="385708"/>
-            <counter description="The number of times the chiller has been switched on" name="68002" type="lifetime" value="2663"/>
+            <counter description="The amount of time the chiller has been operational [minutes]" name="68001" type="lifetime" value="389423"/>
+            <counter description="The number of times the chiller has been switched on" name="68002" type="lifetime" value="2722"/>
           </counters>
         </resource>
         <resource name="24_FRA">
           <counters>
-            <counter description="Lifetime of filters [s]" name="248001" type="lifetime" value="1108879"/>
+            <counter description="Lifetime of filters [s]" name="248001" type="lifetime" value="1190695"/>
           </counters>
           <parameters>
             <parameter name="241001" description="Type of air filtering" value="1"/>
@@ -452,25 +452,25 @@
             <parameter name="51034" description="Expiry date of the guidance cleaners" value="20351007"/>
           </parameters>
           <counters>
-            <counter description="Distance travelled of the printing carriage [m]" name="58005" type="lifetime" value="2022348"/>
-            <counter description="Number of starts of YMS_CAR_MO (05M1)" name="58003" type="lifetime" value="168501"/>
-            <counter description="Number of turns of the printing carriage" name="58004" type="lifetime" value="2434990"/>
-            <counter description="Number of turns of the current strip support" name="58010" type="lifetime" value="2434990"/>
-            <counter description="Distance travelled of the guidance cleaners [m]" name="58006" type="lifetime" value="1745194"/>
-            <counter description="Ink volume jetted in right-to-left swaths with current right ink mist filter" name="58007" type="lifetime" value="3654"/>
-            <counter description="Ink volume jetted in left-to-right swaths with current left ink mist filter" name="58008" type="lifetime" value="3574"/>
+            <counter description="Distance travelled of the printing carriage [m]" name="58005" type="lifetime" value="2058012"/>
+            <counter description="Number of starts of YMS_CAR_MO (05M1)" name="58003" type="lifetime" value="172732"/>
+            <counter description="Number of turns of the printing carriage" name="58004" type="lifetime" value="2461620"/>
+            <counter description="Number of turns of the current strip support" name="58010" type="lifetime" value="2461620"/>
+            <counter description="Distance travelled of the guidance cleaners [m]" name="58006" type="lifetime" value="1780858"/>
+            <counter description="Ink volume jetted in right-to-left swaths with current right ink mist filter" name="58007" type="lifetime" value="4042"/>
+            <counter description="Ink volume jetted in left-to-right swaths with current left ink mist filter" name="58008" type="lifetime" value="3962"/>
             <counter description="Number of times the ink mist filters have been replaced" name="58009" type="counter" value="7"/>
           </counters>
         </resource>
         <resource name="03_ZMS">
           <resource name="HeightAdjLeft">
             <counters>
-              <counter description="Number of starts of the ZMS motor" name="38007" type="lifetime" value="14137"/>
+              <counter description="Number of starts of the ZMS motor" name="38007" type="lifetime" value="14456"/>
             </counters>
           </resource>
           <resource name="HeightAdjRight">
             <counters>
-              <counter description="Number of starts of the ZMS motor" name="38007" type="lifetime" value="14144"/>
+              <counter description="Number of starts of the ZMS motor" name="38007" type="lifetime" value="14463"/>
             </counters>
           </resource>
         </resource>
@@ -484,12 +484,12 @@
               <parameter name="41036" description="Hardware level" value="0"/>
             </parameters>
             <counters>
-              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="53784"/>
-              <counter description="Warm hours [h]" name="48032" type="lifetime" value="3700"/>
-              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="1436"/>
-              <counter description="Media area [sqm]" name="48034" type="lifetime" value="20014"/>
+              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="53809"/>
+              <counter description="Warm hours [h]" name="48032" type="lifetime" value="3761"/>
+              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="1454"/>
+              <counter description="Media area [sqm]" name="48034" type="lifetime" value="20323"/>
               <counter description="Manual clean actions" name="48035" type="lifetime" value="31"/>
-              <counter description="Low power hours [h]" name="48036" type="lifetime" value="21698"/>
+              <counter description="Low power hours [h]" name="48036" type="lifetime" value="22397"/>
               <counter description="Manual soaking actions" name="48037" type="lifetime" value="0"/>
               <counter description="Dabbing actions" name="48038" type="lifetime" value="86"/>
             </counters>
@@ -522,12 +522,12 @@
               <parameter name="41036" description="Hardware level" value="1"/>
             </parameters>
             <counters>
-              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="4599"/>
-              <counter description="Warm hours [h]" name="48032" type="lifetime" value="1473"/>
-              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="441"/>
-              <counter description="Media area [sqm]" name="48034" type="lifetime" value="6054"/>
+              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="4710"/>
+              <counter description="Warm hours [h]" name="48032" type="lifetime" value="1534"/>
+              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="459"/>
+              <counter description="Media area [sqm]" name="48034" type="lifetime" value="6364"/>
               <counter description="Manual clean actions" name="48035" type="lifetime" value="11"/>
-              <counter description="Low power hours [h]" name="48036" type="lifetime" value="12331"/>
+              <counter description="Low power hours [h]" name="48036" type="lifetime" value="13030"/>
               <counter description="Manual soaking actions" name="48037" type="lifetime" value="0"/>
               <counter description="Dabbing actions" name="48038" type="lifetime" value="1"/>
             </counters>
@@ -541,12 +541,12 @@
               <parameter name="41036" description="Hardware level" value="0"/>
             </parameters>
             <counters>
-              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="14226"/>
-              <counter description="Warm hours [h]" name="48032" type="lifetime" value="3707"/>
-              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="1439"/>
-              <counter description="Media area [sqm]" name="48034" type="lifetime" value="20035"/>
+              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="14319"/>
+              <counter description="Warm hours [h]" name="48032" type="lifetime" value="3768"/>
+              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="1457"/>
+              <counter description="Media area [sqm]" name="48034" type="lifetime" value="20345"/>
               <counter description="Manual clean actions" name="48035" type="lifetime" value="31"/>
-              <counter description="Low power hours [h]" name="48036" type="lifetime" value="21713"/>
+              <counter description="Low power hours [h]" name="48036" type="lifetime" value="22412"/>
               <counter description="Manual soaking actions" name="48037" type="lifetime" value="1"/>
               <counter description="Dabbing actions" name="48038" type="lifetime" value="86"/>
             </counters>
@@ -560,12 +560,12 @@
               <parameter name="41036" description="Hardware level" value="0"/>
             </parameters>
             <counters>
-              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="14950"/>
-              <counter description="Warm hours [h]" name="48032" type="lifetime" value="3701"/>
-              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="1436"/>
-              <counter description="Media area [sqm]" name="48034" type="lifetime" value="20018"/>
+              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="15219"/>
+              <counter description="Warm hours [h]" name="48032" type="lifetime" value="3762"/>
+              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="1454"/>
+              <counter description="Media area [sqm]" name="48034" type="lifetime" value="20327"/>
               <counter description="Manual clean actions" name="48035" type="lifetime" value="31"/>
-              <counter description="Low power hours [h]" name="48036" type="lifetime" value="21698"/>
+              <counter description="Low power hours [h]" name="48036" type="lifetime" value="22397"/>
               <counter description="Manual soaking actions" name="48037" type="lifetime" value="0"/>
               <counter description="Dabbing actions" name="48038" type="lifetime" value="86"/>
             </counters>
@@ -579,12 +579,12 @@
               <parameter name="41036" description="Hardware level" value="1"/>
             </parameters>
             <counters>
-              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="3547"/>
-              <counter description="Warm hours [h]" name="48032" type="lifetime" value="1474"/>
-              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="441"/>
-              <counter description="Media area [sqm]" name="48034" type="lifetime" value="6054"/>
+              <counter description="Jetted ink [mL]" name="48031" type="lifetime" value="3831"/>
+              <counter description="Warm hours [h]" name="48032" type="lifetime" value="1534"/>
+              <counter description="Bias voltage hours [h]" name="48033" type="lifetime" value="459"/>
+              <counter description="Media area [sqm]" name="48034" type="lifetime" value="6364"/>
               <counter description="Manual clean actions" name="48035" type="lifetime" value="11"/>
-              <counter description="Low power hours [h]" name="48036" type="lifetime" value="12331"/>
+              <counter description="Low power hours [h]" name="48036" type="lifetime" value="13030"/>
               <counter description="Manual soaking actions" name="48037" type="lifetime" value="0"/>
               <counter description="Dabbing actions" name="48038" type="lifetime" value="1"/>
             </counters>
@@ -631,20 +631,20 @@
       </resource>
       <resource name="controller">
         <counters>
-          <counter description="COUNTERID_WF_TOTAL_PRINTED_AREA" meter="C" name="228103" type="counter" value="6657"/>
-          <counter description="COUNTERID_SERVICE" meter="ServiceCounter" name="228009" type="counter" value="6419"/>
-          <counter description="COUNTERID_WF_INK_CONSUMPTION_BLACK" meter="H" name="228108" type="counter" value="20965"/>
-          <counter description="COUNTERID_WF_INK_CONSUMPTION_CYAN" meter="E" name="228105" type="counter" value="17084"/>
-          <counter description="COUNTERID_WF_INK_CONSUMPTION_MAGENTA" meter="F" name="228106" type="counter" value="19981"/>
-          <counter description="COUNTERID_WF_INK_CONSUMPTION_YELLOW" meter="G" name="228107" type="counter" value="20483"/>
-          <counter description="COUNTERID_WF_INK_CONSUMPTION_WHITE" meter="K" name="228110" type="counter" value="60689"/>
-          <counter description="COUNTERID_WF_TOTAL_INK_CONSUMPTION" meter="D" name="228104" type="counter" value="139202"/>
-          <counter description="COUNTERID_WF_TOTAL_MEDIA_AREA" meter="A" name="228101" type="counter" value="10638"/>
-          <counter description="COUNTERID_WF_TOTAL_MEDIA_LENGTH" meter="B" name="228102" type="counter" value="8230"/>
-          <counter description="COUNTERID_WF_TOTAL_MEDIA_AREA_COLOR_LAYERS" meter="P" name="228111" type="counter" value="13166"/>
-          <counter description="COUNTERID_WF_TOTAL_MEDIA_AREA_FLOOD_LAYERS" meter="R" name="228112" type="counter" value="4361"/>
-          <counter description="COUNTERID_WF_TOTAL_PRINTED_AREA_COLOR_LAYERS" meter="I" name="228113" type="counter" value="785"/>
-          <counter description="COUNTERID_WF_TOTAL_PRINTED_AREA_FLOOD_LAYERS" meter="L" name="228114" type="counter" value="23"/>
+          <counter description="COUNTERID_WF_TOTAL_PRINTED_AREA" meter="C" name="228103" type="counter" value="6710"/>
+          <counter description="COUNTERID_SERVICE" meter="ServiceCounter" name="228009" type="counter" value="6470"/>
+          <counter description="COUNTERID_WF_INK_CONSUMPTION_BLACK" meter="H" name="228108" type="counter" value="21371"/>
+          <counter description="COUNTERID_WF_INK_CONSUMPTION_CYAN" meter="E" name="228105" type="counter" value="17504"/>
+          <counter description="COUNTERID_WF_INK_CONSUMPTION_MAGENTA" meter="F" name="228106" type="counter" value="20227"/>
+          <counter description="COUNTERID_WF_INK_CONSUMPTION_YELLOW" meter="G" name="228107" type="counter" value="20711"/>
+          <counter description="COUNTERID_WF_INK_CONSUMPTION_WHITE" meter="K" name="228110" type="counter" value="60850"/>
+          <counter description="COUNTERID_WF_TOTAL_INK_CONSUMPTION" meter="D" name="228104" type="counter" value="140663"/>
+          <counter description="COUNTERID_WF_TOTAL_MEDIA_AREA" meter="A" name="228101" type="counter" value="10727"/>
+          <counter description="COUNTERID_WF_TOTAL_MEDIA_LENGTH" meter="B" name="228102" type="counter" value="8311"/>
+          <counter description="COUNTERID_WF_TOTAL_MEDIA_AREA_COLOR_LAYERS" meter="P" name="228111" type="counter" value="13342"/>
+          <counter description="COUNTERID_WF_TOTAL_MEDIA_AREA_FLOOD_LAYERS" meter="R" name="228112" type="counter" value="4368"/>
+          <counter description="COUNTERID_WF_TOTAL_PRINTED_AREA_COLOR_LAYERS" meter="I" name="228113" type="counter" value="904"/>
+          <counter description="COUNTERID_WF_TOTAL_PRINTED_AREA_FLOOD_LAYERS" meter="L" name="228114" type="counter" value="29"/>
         </counters>
         <SettingsInfo>
           <settings>
@@ -842,14 +842,14 @@
                   <setting user="system" key="/lui020/serialNumber" keyname="Serial number" value="990400003"/>
                   <setting user="system" key="/lui022/versionoftheprintermainsoftware" keyname="Version of printer software" value="4.5.0.0"/>
                   <setting user="system" key="/lui023/versionofthesmartimager" keyname="Version of software" value="27.4.308 (Mark 10.10)"/>
-                  <setting user="system" key="/lui024/versionofthesmartimageroperatingsystem" keyname="Version of operating system" value="10.0.17763.8027.WINx64"/>
+                  <setting user="system" key="/lui024/versionofthesmartimageroperatingsystem" keyname="Version of operating system" value="10.0.17763.8280.WINx64"/>
                 </group>
               </subTab>
             </tab>
             <tab name="Preferences">
               <subTab name="System settings">
                 <group name="Regional settings">
-                  <setting user="system" key="/lui012/dateandtime" keyname="Date and time" value="Jan 20, 2026 8:35:45 AM"/>
+                  <setting user="system" key="/lui012/dateandtime" keyname="Date and time" value="Feb 19, 2026 11:36:10 AM"/>
                   <setting user="system" key="/lui013/timezone" keyname="Time zone" value="(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"/>
                   <setting user="system" key="/pfe/ntp/client/enabled" keyname="NTP client" value="Enabled"/>
                   <setting user="system" key="/pfe/ntp/client/servername" keyname="NTP server name" value="ovl-dc1-v.ocevenlo.oce.net"/>
@@ -860,7 +860,7 @@
                   <setting user="system" key="/system/printing/spitbar" keyname="Spit area" value="As in print mode"/>
                 </group>
                 <group name="Wake-up temperature">
-                  <setting user="system" key="/system/printing/wakeuptemperature" keyname="Wake-up temperature" value="Gloss and matte (24C)"/>
+                  <setting user="" key="/system/printing/wakeuptemperature" keyname="Wake-up temperature" value="WAKE_UP_TEMPERATURE_DEFAULT"/>
                 </group>
                 <group name="Winder">
                   <setting user="system" key="/system/printing/winderslack" keyname="Winder slack" value="Increased winder slack"/>
@@ -912,7 +912,7 @@
           <parameter name="111983" description="Processor speed [MHz]" value="3696"/>
           <parameter name="111987" description="GPU type" value="Intel(R) UHD Graphics 610"/>
           <parameter name="111984" description="Harddisk size 1 {capacity of pdl, bitmap, system and transaction disks}, [GB]" value="306.26; 34.03; 55.00; 4.00"/>
-          <parameter name="111985" description="Harddisk size 2 {free space of pdl, bitmap, system and transaction disks}, [GB]" value="305.28; 30.47; 24.61; 3.35"/>
+          <parameter name="111985" description="Harddisk size 2 {free space of pdl, bitmap, system and transaction disks}, [GB]" value="305.23; 30.34; 23.94; 3.35"/>
           <parameter name="111986" description="Memory size {capacity}, [MB]" value="8085.15"/>
           <parameter name="115993" description="Main Software Version" value="4.5.0.0"/>
           <parameter name="115994" description="Printer Software Version" value="0.0.0.0"/>
@@ -45103,6 +45103,1186 @@
       </eventSimple>
       <eventSimple name="systemStateChange" counter="6419" date="2026-02-02T08:41:16">
         <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-02T16:34:56">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-02T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-02T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-03T00:34:56">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-03T08:34:55">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-03T08:35:33">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-03T16:34:55">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-04T00:34:54">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-04T08:25:32">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <error counter="6419" date="2026-02-04T08:26:18" errorCode="5719" mri="//system/printer/05_YMS" class="ORE">
+        <counter mri="//system/printer/05_YMS" name="58005" value="2022354"/>
+        <parameter name="ErrorDetails" value="carriageHomePositionDeviation"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-04T08:34:54">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-04T08:35:31">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-04T08:59:03">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <error counter="6419" date="2026-02-04T09:24:28" errorCode="24706" mri="//system/printer/21_CTL" class="ORE">
+        <counter mri="//system/printer/21_CTL" name="218503" value="110135"/>
+        <parameter name="ErrorDetails" value="unexpectedCoverOpen"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-04T16:34:53">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-04T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-04T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-05T00:34:53">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-05T08:34:52">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-05T08:35:30">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-05T10:43:36">
+        <parameter name="message" value="A service backup was created successfully by client: OSL Adapter"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-05T16:34:52">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-06T00:34:51">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-06T08:34:51">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-06T08:35:28">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-06T08:53:30">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-06T08:53:33">
+        <parameter name="almostExpired" value="Cyan"/>
+        <parameter name="confirmationRequestedAt" value="03-02-2026 08:30:29"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6419" date="2026-02-06T09:00:29">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP Film Generic 460CMYKSS-EU2302"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="7e72c6ed-19e5-4e09-8324-d9cce75a94dc"/>
+        <parameter name="width" value="1067"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6419" date="2026-02-06T09:06:49">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-06T16:34:51">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6425" date="2026-02-06T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6425" date="2026-02-06T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-07T00:34:50">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-07T08:34:50">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-07T08:35:27">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-07T16:34:49">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-08T00:34:49">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-08T08:34:48">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-08T08:35:26">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-08T16:34:48">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-09T00:34:47">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-09T08:34:47">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-09T08:35:24">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-09T16:34:46">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-10T00:34:46">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-10T08:34:45">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-10T08:35:24">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-10T16:34:45">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-11T00:34:45">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-11T08:34:44">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-11T08:35:21">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6425" date="2026-02-11T12:59:45">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6425" date="2026-02-11T13:00:00">
+        <parameter name="almostExpired" value="Cyan"/>
+        <parameter name="confirmationRequestedAt" value="07-02-2026 08:53:33"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6425" date="2026-02-11T13:10:06">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6428" date="2026-02-11T16:34:44">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6428" date="2026-02-11T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6428" date="2026-02-11T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6428" date="2026-02-12T00:34:43">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6428" date="2026-02-12T08:04:31">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6428" date="2026-02-12T08:15:22">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6428" date="2026-02-12T08:34:43">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6428" date="2026-02-12T08:35:20">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6432" date="2026-02-12T11:09:30">
+        <parameter name="message" value="A service backup was created successfully by client: OSL Adapter"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6432" date="2026-02-12T15:48:04">
+        <parameter name="almostExpired" value="Cyan"/>
+        <parameter name="confirmationRequestedAt" value="12-02-2026 13:00:01"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6433" date="2026-02-12T16:30:49">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Started"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6433" date="2026-02-12T16:34:42">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6433" date="2026-02-12T16:53:55">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6434" date="2026-02-12T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6434" date="2026-02-12T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6434" date="2026-02-13T00:34:42">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6434" date="2026-02-13T08:34:41">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6434" date="2026-02-13T08:35:18">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6434" date="2026-02-13T15:35:40">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6434" date="2026-02-13T15:46:34">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6434" date="2026-02-13T15:59:54">
+        <parameter name="almostExpired" value="Cyan"/>
+        <parameter name="confirmationRequestedAt" value="13-02-2026 15:48:04"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6434" date="2026-02-13T16:34:41">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6435" date="2026-02-13T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6435" date="2026-02-13T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-14T00:34:40">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-14T08:34:40">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-14T08:35:17">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-14T16:34:40">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-15T00:34:39">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-15T08:34:39">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-15T08:35:15">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-15T16:34:38">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-16T00:34:38">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-16T08:34:37">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-16T08:35:14">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <error counter="6435" date="2026-02-16T15:42:16" errorCode="290022" mri="//system/printer/02_INK/K" class="Warning">
+        <counter mri="//system/printer/02_INK/K" name="28002" value="31"/>
+        <parameter name="ErrorDetails" value="InkAlmostExpiredInReservoir"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-16T16:34:37">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-17T00:34:36">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6435" date="2026-02-17T08:27:29">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-17T08:27:31">
+        <parameter name="almostExpired" value="Black, Cyan"/>
+        <parameter name="confirmationRequestedAt" value="14-02-2026 15:59:55"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-17T08:34:36">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6435" date="2026-02-17T08:35:14">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6435" date="2026-02-17T08:38:29">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-17T16:34:35">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="replace" counter="6441" date="2026-02-17T16:45:33">
+        <parameter name="EstimatedLevelOfReplacedTray" value="648506"/>
+        <parameter name="mri" value="/Process/deviceMaintenanceTray"/>
+        <parameter name="newSerialNumber" value=""/>
+        <parameter name="replacedPartType" value="MaintenanceTray"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6441" date="2026-02-17T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6441" date="2026-02-17T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T00:34:35">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6441" date="2026-02-18T08:14:25">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6441" date="2026-02-18T08:25:28">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T08:28:41">
+        <parameter name="almostExpired" value="Black, Cyan"/>
+        <parameter name="confirmationRequestedAt" value="18-02-2026 08:27:32"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T08:29:16">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP Paper Generic 460CMYKSS-EU2302"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="0116c445-672e-4e11-b9e9-0eb43878e30f"/>
+        <parameter name="width" value="1600"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T08:29:24">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Started"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T08:34:34">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T08:35:12">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T09:03:41">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <error counter="6441" date="2026-02-18T09:18:07" errorCode="1702" mri="//system/printer/01_CUR" class="ORE">
+        <counter mri="//system/printer/01_CUR" name="18005" value="4026763"/>
+        <parameter name="ErrorDetails" value="carriageStoppedByRightCrashSensorTrigger : position: 0.936970, speed: +1.600"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T09:25:26">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP Paper Generic 460CMYKSS-EU2302"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="0116c445-672e-4e11-b9e9-0eb43878e30f"/>
+        <parameter name="width" value="1600"/>
+      </eventSimple>
+      <error counter="6441" date="2026-02-18T09:30:18" errorCode="1705" mri="//system/printer/01_CUR" class="ORE">
+        <counter mri="//system/printer/01_CUR" name="18005" value="4026788"/>
+        <parameter name="ErrorDetails" value="carriageStoppedByLatchedCrashSensorTrigger : position: 0.930536, speed: -1.411"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6441" date="2026-02-18T11:01:02">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP Paper Generic 460CMYKSS-EU2302"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="0116c445-672e-4e11-b9e9-0eb43878e30f"/>
+        <parameter name="width" value="840"/>
+      </eventSimple>
+      <error counter="6441" date="2026-02-18T11:07:15" errorCode="19717" mri="//system/printer/12_15_16_19_MediaHandling" class="ORE">
+        <counter mri="//system/printer/12_15_16_19_MediaHandling" name="218509" value="8263"/>
+        <parameter name="ErrorDetails" value="BlouseLowSensor_residualMediaDetected"/>
+      </error>
+      <error counter="6443" date="2026-02-18T11:26:19" errorCode="19717" mri="//system/printer/12_15_16_19_MediaHandling" class="ORE">
+        <counter mri="//system/printer/12_15_16_19_MediaHandling" name="218509" value="8266"/>
+        <parameter name="ErrorDetails" value="BlouseLowSensor_residualMediaDetected"/>
+      </error>
+      <eventSimple name="replace" counter="6447" date="2026-02-18T14:21:25">
+        <parameter name="BatchNumber" value="1"/>
+        <parameter name="DSFID" value="2"/>
+        <parameter name="ExpiryDate" value="2026-08-25"/>
+        <parameter name="FormatExtension" value="1"/>
+        <parameter name="InitialFillLevel" value="700"/>
+        <parameter name="Liquid" value="Cyan"/>
+        <parameter name="LiquidConsumed" value="-1"/>
+        <parameter name="ManufacturerDate" value="2025-08-25"/>
+        <parameter name="PackageNumber" value="168"/>
+        <parameter name="ProductType" value="5"/>
+        <parameter name="RecipeMajor" value="2"/>
+        <parameter name="RecipeMinor" value="1"/>
+        <parameter name="Region" value="All"/>
+        <parameter name="SignatureValid" value="true"/>
+        <parameter name="SubRegion" value="0"/>
+        <parameter name="Supplier" value="MnLCVenlo"/>
+        <parameter name="mri" value="/Process/deviceInkSupplyC"/>
+        <parameter name="newSerialNumber" value="e007808a10c41830"/>
+        <parameter name="replacedPartType" value="InkContainer"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-18T16:34:34">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-18T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-18T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T00:34:33">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T08:34:33">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T08:35:10">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T10:20:39">
+        <parameter name="message" value="A management backup was created successfully by client: VDL_oce.vdl.config.system.SystemImpl"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T10:26:19">
+        <parameter name="message" value="SWUP, WUI, upload file, succeeded=true, 'MSUs74798N_ndp48_kb5066137.msu', 'MSUs08280F_UV_lcu_kb5077795.msu'"/>
+      </eventSimple>
+      <versionChange date="2026-02-19T10:26:19" counter="6448" type="change">
+        <version name="Build" value="27.4.308.0"/>
+        <version name="System" value="4.5.0.0"/>
+      </versionChange>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T10:44:30">
+        <parameter name="message" value="A service backup was created successfully by client: OSL Adapter"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T10:51:03">
+        <parameter name="message" value="SWUP, WUI, start installation, result=NO_ERROR, 'ndp48_kb5066137', 'UV_lcu_kb5077795'"/>
+      </eventSimple>
+      <versionChange date="2026-02-19T10:51:03" counter="6448" type="change">
+        <version name="Build" value="27.4.308.0"/>
+        <version name="System" value="4.5.0.0"/>
+      </versionChange>
+      <versionChange date="2026-02-19T11:12:04" counter="6448" type="change">
+        <version name="Build" value="27.4.308.0"/>
+        <version name="System" value="4.5.0.0"/>
+      </versionChange>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T11:12:06">
+        <parameter name="message" value="SWUP, end installation, succeeded=true, details=UPGRADE_ALREADY_INSTALLED, 'ndp48_kb5066137'"/>
+      </eventSimple>
+      <versionChange date="2026-02-19T11:12:06" counter="6448" type="change">
+        <version name="Build" value="27.4.308.0"/>
+        <version name="System" value="4.5.0.0"/>
+      </versionChange>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T11:12:07">
+        <parameter name="message" value="SWUP, end installation, succeeded=true, details=NO_ERROR_REBOOT, 'UV_lcu_kb5077795'"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-19T11:25:54">
+        <parameter name="controller" value="stopped"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-19T11:36:13">
+        <parameter name="controller" value="started"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T11:36:25">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-19T19:35:43">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-19T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-19T19:59:59">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-20T03:35:42">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-20T08:01:40">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6448" date="2026-02-20T08:12:37">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-20T11:35:42">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-20T11:36:14">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-20T11:36:19">
+        <parameter name="almostExpired" value="Black"/>
+        <parameter name="confirmationRequestedAt" value="19-02-2026 11:37:38"/>
+        <parameter name="description" value="Operator confirmed consequences of using (almost)expired ink"/>
+        <parameter name="expired" value=""/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6448" date="2026-02-20T11:37:34">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP R4_6 Film Generic CMYKSS 2602"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="5dc3264d-8fbf-4ff0-807d-c1c2d06893b6"/>
+        <parameter name="width" value="1067"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6451" date="2026-02-20T16:46:16">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="~LFG High Density Paper"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="03d8726f-e18f-4510-9516-9f4cb7af9024"/>
+        <parameter name="width" value="1067"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-20T19:35:41">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-20T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-20T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-21T03:35:41">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-21T11:35:40">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-21T11:36:13">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-21T19:35:40">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-22T03:35:39">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-22T11:35:39">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-22T11:36:11">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-22T19:35:38">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-23T03:35:38">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-23T11:30:34">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-23T11:35:37">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-23T11:36:10">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-23T11:41:28">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-23T19:35:37">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-23T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-23T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-24T03:35:36">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-24T08:33:35">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="replace" counter="6452" date="2026-02-24T08:34:28">
+        <parameter name="BatchNumber" value="2"/>
+        <parameter name="DSFID" value="2"/>
+        <parameter name="ExpiryDate" value="2026-11-27"/>
+        <parameter name="FormatExtension" value="1"/>
+        <parameter name="InitialFillLevel" value="700"/>
+        <parameter name="Liquid" value="Black"/>
+        <parameter name="LiquidConsumed" value="-1"/>
+        <parameter name="ManufacturerDate" value="2025-11-27"/>
+        <parameter name="PackageNumber" value="127"/>
+        <parameter name="ProductType" value="5"/>
+        <parameter name="RecipeMajor" value="2"/>
+        <parameter name="RecipeMinor" value="1"/>
+        <parameter name="Region" value="All"/>
+        <parameter name="SignatureValid" value="true"/>
+        <parameter name="SubRegion" value="0"/>
+        <parameter name="Supplier" value="MnLCVenlo"/>
+        <parameter name="mri" value="/Process/deviceInkSupplyK"/>
+        <parameter name="newSerialNumber" value="e007808a10c9500d"/>
+        <parameter name="replacedPartType" value="InkContainer"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6452" date="2026-02-24T08:44:25">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-24T08:55:44">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="test film layers"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="5dc3264d-8fbf-4ff0-807d-c1c2d06893b6"/>
+        <parameter name="width" value="1067"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-24T09:18:32">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="test film layers"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="5dc3264d-8fbf-4ff0-807d-c1c2d06893b6"/>
+        <parameter name="width" value="1220"/>
+      </eventSimple>
+      <error counter="6452" date="2026-02-24T09:23:21" errorCode="5913" mri="//system/printer" class="Warning">
+        <counter mri="//system/printer" name="218503" value="110462"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasure"/>
+      </error>
+      <error counter="6452" date="2026-02-24T09:24:03" errorCode="5713" mri="//system/printer" class="ORE">
+        <counter mri="//system/printer" name="218503" value="110462"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasureError"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6452" date="2026-02-24T09:34:50">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="test film layers"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="5dc3264d-8fbf-4ff0-807d-c1c2d06893b6"/>
+        <parameter name="width" value="1220"/>
+      </eventSimple>
+      <error counter="6455" date="2026-02-24T11:13:19" errorCode="5913" mri="//system/printer" class="Warning">
+        <counter mri="//system/printer" name="218503" value="110479"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasure"/>
+      </error>
+      <error counter="6455" date="2026-02-24T11:14:05" errorCode="5713" mri="//system/printer" class="ORE">
+        <counter mri="//system/printer" name="218503" value="110479"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasureError"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6455" date="2026-02-24T11:35:36">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6455" date="2026-02-24T11:36:09">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <error counter="6455" date="2026-02-24T13:29:24" errorCode="5913" mri="//system/printer" class="Warning">
+        <counter mri="//system/printer" name="218503" value="110498"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasure"/>
+      </error>
+      <error counter="6455" date="2026-02-24T13:30:10" errorCode="5713" mri="//system/printer" class="ORE">
+        <counter mri="//system/printer" name="218503" value="110498"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasureError"/>
+      </error>
+      <error counter="6455" date="2026-02-24T13:44:14" errorCode="5913" mri="//system/printer" class="Warning">
+        <counter mri="//system/printer" name="218503" value="110503"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasure"/>
+      </error>
+      <error counter="6455" date="2026-02-24T13:44:59" errorCode="5713" mri="//system/printer" class="ORE">
+        <counter mri="//system/printer" name="218503" value="110503"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasureError"/>
+      </error>
+      <error counter="6455" date="2026-02-24T13:52:09" errorCode="5913" mri="//system/printer" class="Warning">
+        <counter mri="//system/printer" name="218503" value="110507"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasure"/>
+      </error>
+      <error counter="6455" date="2026-02-24T13:52:54" errorCode="5713" mri="//system/printer" class="ORE">
+        <counter mri="//system/printer" name="218503" value="110507"/>
+        <parameter name="ErrorDetails" value="controlPaperStepCannotMeasureError"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6455" date="2026-02-24T14:00:27">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP R4_6 Film Generic Density+White CMYKSS 2602"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="e2982156-87c5-4a4f-a531-8263422272a5"/>
+        <parameter name="width" value="1220"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-24T15:16:42">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP R4_6 Film Generic Density+White Marks CMYKSS 2602"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="93facc8d-808a-414a-abde-3d4729355157"/>
+        <parameter name="width" value="1220"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-24T19:35:35">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6456" date="2026-02-24T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6456" date="2026-02-24T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-25T03:35:35">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6456" date="2026-02-25T08:39:52">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6456" date="2026-02-25T08:50:40">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-25T08:52:37">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP R4_6 Film Generic CMYKSS 2602"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="5dc3264d-8fbf-4ff0-807d-c1c2d06893b6"/>
+        <parameter name="width" value="910"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-25T08:53:31">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="CPP R4_6 Film Generic CMYKSS 2602"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="5dc3264d-8fbf-4ff0-807d-c1c2d06893b6"/>
+        <parameter name="width" value="914"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-25T08:54:00">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Started"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6456" date="2026-02-25T09:05:02">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6458" date="2026-02-25T11:35:34">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6458" date="2026-02-25T11:36:07">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6458" date="2026-02-25T19:35:34">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6458" date="2026-02-25T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6458" date="2026-02-25T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6458" date="2026-02-26T03:35:33">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6458" date="2026-02-26T09:48:05">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6458" date="2026-02-26T09:58:49">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-26T11:01:58">
+        <parameter name="message" value="A service backup was created successfully by client: OSL Adapter"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-26T11:35:33">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-26T11:36:05">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-26T19:35:32">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-02-26T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-02-26T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-27T03:35:32">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-02-27T08:11:31">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <error counter="6461" date="2026-02-27T08:21:36" errorCode="7777" mri="//system/printer/07_CLE" class="ORE">
+        <counter mri="//system/printer/07_CLE" name="218501" value="2853"/>
+        <parameter name="ErrorDetails" value="tissueMovementError"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-27T11:35:31">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-27T11:36:03">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-27T19:35:31">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-28T03:35:30">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-28T11:35:30">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-28T11:36:02">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-02-28T19:35:29">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-01T03:35:29">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-01T11:35:28">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-01T11:36:01">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-01T19:35:28">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-02T03:35:27">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-02T11:35:27">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-02T11:36:00">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-02T15:52:29">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="Film test 4_6"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="c47324f2-57ea-4388-864f-22d77a081bdd"/>
+        <parameter name="width" value="915"/>
+      </eventSimple>
+      <eventSimple name="replace" counter="6461" date="2026-03-02T16:04:24">
+        <parameter name="mri" value="/InkHandling/TissueWiperUnit"/>
+        <parameter name="newSerialNumber" value=""/>
+        <parameter name="remainingTissueOfNewlyPlacedCassette" value="26.266"/>
+        <parameter name="remainingTissueOfRemovedCassette" value="1.806"/>
+        <parameter name="replacedPartType" value="TissueCassette"/>
+        <parameter name="totalAmountOfUsedTissue" value="549.869"/>
+      </eventSimple>
+      <error counter="6461" date="2026-03-02T16:06:10" errorCode="290035" mri="//system/printer/02_INK/W" class="Warning">
+        <counter mri="//system/printer/02_INK/W" name="218502" value="1670792"/>
+        <parameter name="ErrorDetails" value="inkRecirculationTooLongNotPossible"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-02T16:10:44">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="Film test 4_6"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="c47324f2-57ea-4388-864f-22d77a081bdd"/>
+        <parameter name="width" value="1600"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-03-02T16:14:13">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-02T19:35:26">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-03-02T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-03-02T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-03T03:35:26">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-03-03T08:38:29">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6461" date="2026-03-03T08:49:18">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-03T11:35:25">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-03T11:35:58">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-03T15:15:40">
+        <parameter name="cleancut" value="short"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="IJM648 Smart DOT Self Adh Vinyl 460CMYKSS-EU 2304"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="d77bebaf-f275-4922-9335-60e523bbda51"/>
+        <parameter name="width" value="1372"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-03T15:17:24">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Started"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6461" date="2026-03-03T15:32:30">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+      </eventSimple>
+      <error counter="6461" date="2026-03-03T15:37:15" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T15:37:27" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T15:38:15" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T15:38:20" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T15:38:35" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T15:38:38" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T16:27:37" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <error counter="6461" date="2026-03-03T16:27:39" errorCode="11956" mri="//system/controller" class="Warning">
+        <parameter name="ErrorDetails" value="Incorrect job detected: MediaTypeId [f0edcd2c-26ad-4563-83c8-b191a46d458f] is not defined"/>
+      </error>
+      <eventSimple name="operatingAction" counter="6463" date="2026-03-03T19:35:25">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6463" date="2026-03-03T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6463" date="2026-03-03T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6463" date="2026-03-04T03:35:24">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6463" date="2026-03-04T08:08:12">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6463" date="2026-03-04T08:19:00">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6463" date="2026-03-04T09:34:41">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="Generic Paper R4_5  CPP 2602 C"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="9840a217-1bc2-4b85-afdf-b02dd701c941"/>
+        <parameter name="width" value="1372"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6463" date="2026-03-04T09:44:29">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="Generic Paper R4_5  CPP 2602 C"/>
+        <parameter name="roll" value="roll_1"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="9840a217-1bc2-4b85-afdf-b02dd701c941"/>
+        <parameter name="width" value="840"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6463" date="2026-03-04T10:15:46">
+        <parameter name="message" value="user: service - dongle: 3-6204367 - reason: SAM key is valid"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6463" date="2026-03-04T10:15:46">
+        <parameter name="message" value="Service during run entered"/>
+      </eventSimple>
+      <eventSimple name="Start of Service Visit" counter="6463" date="2026-03-04T10:15:56">
+        <parameter name="Event" value="Start of Service Visit"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6463" date="2026-03-04T10:25:26">
+        <parameter name="message" value="Service during run exit"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6464" date="2026-03-04T11:35:24">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6464" date="2026-03-04T11:35:56">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-04T19:35:23">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6465" date="2026-03-04T19:59:58">
+        <parameter name="message" value="Entering Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6465" date="2026-03-04T19:59:58">
+        <parameter name="message" value="Keep-Healthy mode entered"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-05T03:35:23">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-05T11:06:38">
+        <parameter name="message" value="A service backup was created successfully by client: OSL Adapter"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-05T11:35:22">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-05T11:35:55">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-05T19:35:22">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-06T03:35:21">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-06T11:35:21">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-06T11:35:53">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-06T19:35:21">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-07T03:35:20">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-07T11:35:20">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-07T11:35:51">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-07T19:35:19">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-08T03:35:19">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-08T11:35:18">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-08T11:35:51">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-08T19:35:18">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-09T03:35:17">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6465" date="2026-03-09T10:19:22">
+        <parameter name="message" value="Leaving Keep-Healthy mode"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-09T10:22:03">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="IJM648 Smart DOT Self Adh Vinyl 460CMYKSS-EU 2304"/>
+        <parameter name="roll" value="roll_2"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="d77bebaf-f275-4922-9335-60e523bbda51"/>
+        <parameter name="width" value="1372"/>
+      </eventSimple>
+      <eventSimple name="systemStateChange" counter="6465" date="2026-03-09T10:30:05">
+        <parameter name="message" value="Keep-Healthy mode left"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6465" date="2026-03-09T10:46:24">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="IJM648 Smart DOT Self Adh Vinyl 460CMYKSS-EU 2304"/>
+        <parameter name="roll" value="roll_2"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="d77bebaf-f275-4922-9335-60e523bbda51"/>
+        <parameter name="width" value="1370"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6466" date="2026-03-09T10:51:05">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="Folie med G7"/>
+        <parameter name="roll" value="roll_2"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="4b8aa646-1c17-4dec-b4ed-38dd8f7594be"/>
+        <parameter name="width" value="1370"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6466" date="2026-03-09T11:35:17">
+        <parameter name="message" value="8 hours elapsed"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6466" date="2026-03-09T11:35:49">
+        <parameter name="message" value="A recovery backup was created successfully by client: internal"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6466" date="2026-03-09T12:46:44">
+        <parameter name="cleancut" value="none"/>
+        <parameter name="description" value="Change media source parameters"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="name" value="IJM648 Smart DOT Self Adh Vinyl 460CMYKSS-EU 2304"/>
+        <parameter name="roll" value="roll_2"/>
+        <parameter name="state" value="Completed"/>
+        <parameter name="type" value="d77bebaf-f275-4922-9335-60e523bbda51"/>
+        <parameter name="width" value="1370"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6466" date="2026-03-09T12:55:29">
+        <parameter name="message" value="Setting: /system/printing/wakeuptemperature changed to: WAKE_UP_TEMPERATURE_DEFAULT"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6467" date="2026-03-09T13:02:37">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_2"/>
+        <parameter name="state" value="Started"/>
+      </eventSimple>
+      <eventSimple name="operatingAction" counter="6467" date="2026-03-09T13:18:08">
+        <parameter name="description" value="Media calibration"/>
+        <parameter name="message" value="OperatorAction"/>
+        <parameter name="roll" value="roll_2"/>
+        <parameter name="state" value="Completed"/>
       </eventSimple>
     </history>
     <modifications>

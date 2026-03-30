@@ -1,0 +1,121 @@
+{
+  "mapped": {
+    "ACT_SDS_001_021003_Expire_date_of_the_intermedi": {
+      "rcs": [
+        "RC_INK_BOTTLE_EXPIRED",
+        "RC_INK_BOTTLE_ALMOST_EXPIRED",
+        "RC_INK_IN_PRINTER_EXPIRED"
+      ],
+      "rationale": "Directly reads expiry date from ink reservoir \u2014 expired result implicates expiry RCs"
+    },
+    "ACT_SDS_002_021004_Expire_state_of_the_ink_in_t": {
+      "rcs": [
+        "RC_INK_BOTTLE_EXPIRED",
+        "RC_INK_BOTTLE_ALMOST_EXPIRED",
+        "RC_INK_IN_PRINTER_EXPIRED"
+      ],
+      "rationale": "Reads expiry state flag \u2014 same expiry RC cluster"
+    },
+    "ACT_SDS_003_021005_Ink_safe_mode_state_C_M_Y_K_": {
+      "rcs": [
+        "RC_INK_NON_GENUINE"
+      ],
+      "rationale": "Safe mode activates specifically for non-genuine ink"
+    },
+    "ACT_SDS_004_021006_The_supported_ink_type_Param": {
+      "rcs": [
+        "RC_INK_BOTTLE_WRONG_TYPE",
+        "RC_INK_NON_GENUINE"
+      ],
+      "rationale": "Checks ink type compatibility \u2014 wrong type or non-genuine triggers unsupported"
+    },
+    "ACT_SDS_006_022102_Check_INK_LEAK_SE_02B18_Sens": {
+      "rcs": [
+        "RC_INK_LEAKAGE",
+        "RC_INK_LEAK_SENSOR_FAULTY",
+        "RC_INK_LEAK_SENSOR_CONNECTION_FAULTY"
+      ],
+      "rationale": "Leak sensor test \u2014 detects ink = leak or sensor fault"
+    },
+    "ACT_SDS_007_022103_Check_INK_x_HIGH_SE_C_M_Y_K_": {
+      "rcs": [
+        "RC_INK_HIGH_LEVEL_SENSOR_DEFECT",
+        "RC_INK_SUPPLY_PBA_WIRING_FAULTY"
+      ],
+      "rationale": "High level sensor test \u2014 unexpected reading implicates sensor or wiring"
+    },
+    "ACT_SDS_008_022104_Check_INK_x_LOW_SE_C_M_Y_K_o": {
+      "rcs": [
+        "RC_INK_LOW_LEVEL_SENSOR_DEFECT",
+        "RC_INK_SUPPLY_PBA_WIRING_FAULTY",
+        "RC_INK_TANK_LEVEL_LOW"
+      ],
+      "rationale": "Low level sensor test \u2014 no ink detected could be sensor fault, wiring, or genuinely low"
+    },
+    "ACT_SDS_009_022105_Check_INK_x_CART_LOCKED_SE_C": {
+      "rcs": [
+        "RC_INK_CART_LOCKED_SENSOR_DEFECT",
+        "RC_INK_REFILL_UNIT_CONNECTION_FAULTY"
+      ],
+      "rationale": "Cart locked sensor test \u2014 inactive when should be active = sensor or connection"
+    },
+    "ACT_SDS_010_022106_Check_INK_x_CART_OPENED_SE_C": {
+      "rcs": [
+        "RC_INK_CART_OPENED_SENSOR_DEFECT",
+        "RC_INK_REFILL_UNIT_CONNECTION_FAULTY"
+      ],
+      "rationale": "Cart opened sensor test \u2014 same logic as locked sensor"
+    },
+    "ACT_SDS_011_024101_Activate_INK_x_REFILL_LED_C_": {
+      "rcs": [
+        "RC_INK_SUPPLY_PBA_FAULTY",
+        "RC_INK_RFID_CONNECTION_FAULTY"
+      ],
+      "rationale": "LED activation test \u2014 LED not responding = PBA or connection fault"
+    },
+    "ACT_SDS_012_024102_Activate_INK_x_CART_UNLOCK_S": {
+      "rcs": [
+        "RC_INK_SUPPLY_PBA_FAULTY",
+        "RC_INK_REFILL_UNIT_CONNECTION_FAULTY"
+      ],
+      "rationale": "Solenoid activation test \u2014 not activating = PBA or connection fault"
+    },
+    "ACT_SDS_013_024103_Activate_RECIRC_VALVE_HIT_1_": {
+      "rcs": [
+        "RC_INK_3WAY_RECIRC_VALVE_FAULTY",
+        "RC_INK_RECIRC_VALVE_FAULTY"
+      ],
+      "rationale": "Recirculation valve hit test \u2014 not functioning = valve fault"
+    },
+    "ACT_SDS_014_024104_Activate_RECIRC_VALVE_HOLD_1": {
+      "rcs": [
+        "RC_INK_3WAY_RECIRC_VALVE_FAULTY",
+        "RC_INK_RECIRC_VALVE_FAULTY"
+      ],
+      "rationale": "Recirculation valve hold test \u2014 same valve cluster"
+    },
+    "ACT_SDS_020_026009_Recirculation_valve_W_Specia": {
+      "rcs": [
+        "RC_INK_3WAY_RECIRC_VALVE_FAULTY",
+        "RC_INK_RECIRC_VALVE_FAULTY",
+        "RC_INK_WHITE_RECIRCULATION_BLOCKED"
+      ],
+      "rationale": "White recirculation valve special test \u2014 not functioning = valve or blockage"
+    },
+    "ACT_SDS_021_026010_White_Ink_Recirculation_Spec": {
+      "rcs": [
+        "RC_INK_WHITE_RECIRCULATION_BLOCKED",
+        "RC_INK_3WAY_RECIRC_VALVE_FAULTY",
+        "RC_INK_RECIRC_VALVE_FAULTY",
+        "RC_INK_BOILER_TUBE_BLOCKED"
+      ],
+      "rationale": "Full white ink recirculation test \u2014 failure implicates recirculation path"
+    }
+  },
+  "skipped": {
+    "ACT_SDS_000_021001_Mark_ink_tube_as_empty_W1_M3": "Parameter read (Full/Empty/Not Critical) \u2014 unclear which RCs this discriminates without domain input",
+    "ACT_SDS_005_021007_White_Ink_Hardware_Installed": "Binary hardware presence check \u2014 only relevant if white ink option not installed, edge case",
+    "ACT_SDS_016_026002_Disable__Enable_ink_dosing_t": "Toggle test, not diagnostic \u2014 enabling/disabling dosing doesn't point to specific RCs",
+    "ACT_SDS_022_028002_Number_of_inserted_cartridge": "Counter read \u2014 high/low cartridge count doesn't map cleanly to specific failure RCs"
+  }
+}

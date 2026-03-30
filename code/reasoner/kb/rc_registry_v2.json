@@ -1,0 +1,720 @@
+[
+  {
+    "rc_id": "RC_INK_PRINTHEAD_VALVE_BLOCKED",
+    "rc_label": "printhead valve blocked",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001",
+      "250002"
+    ],
+    "notes": "Source label: \"Blocked printhead valve\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_LEAKAGE",
+    "rc_label": "leakage",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001",
+      "250009"
+    ],
+    "notes": "Source label: \"Ink Leakage\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PUMP_TUBE_WORN",
+    "rc_label": "pump tube worn",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001",
+      "290001",
+      "290005"
+    ],
+    "notes": "Source label: \"Worn out pump tube\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PRINTHEAD_FAULTY",
+    "rc_label": "printhead faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001",
+      "290035"
+    ],
+    "notes": "Source label: \"Faulty printhead\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_TUBE_CLOGGED",
+    "rc_label": "tube clogged",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001"
+    ],
+    "notes": "Source label: \"Clogged ink tube\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_AIR_FILTER_CLOGGED",
+    "rc_label": "air filter clogged",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001"
+    ],
+    "notes": "Source label: \"Clogged air filter\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOILER_UNIT_FAULTY",
+    "rc_label": "boiler unit faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250001"
+    ],
+    "notes": "Source label: \"Faulty boiler unit\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PUMP_TUBE_WRONG_POSITION",
+    "rc_label": "pump tube wrong position",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250002"
+    ],
+    "notes": "Source label: \"Wrong position of pump tube.\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_AIR_HOSE_CLAMP_MISSING",
+    "rc_label": "air hose clamp missing",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250002"
+    ],
+    "notes": "Source label: \"No closed clamp on the air hose / Unopened air hose.\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_SUPPLY_PBA_WIRING_FAULTY",
+    "rc_label": "supply pba wiring faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250006"
+    ],
+    "notes": "Source label: \"Faulty electrical wiring of Ink Supply PBA\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_HIGH_LEVEL_SENSOR_DEFECT",
+    "rc_label": "high level sensor defect",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250006",
+      "250014"
+    ],
+    "notes": "Source label: \"HIGH_SE defect\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_LOW_LEVEL_SENSOR_DEFECT",
+    "rc_label": "low level sensor defect",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250006",
+      "250014"
+    ],
+    "notes": "Source label: \"LOW_SE defect\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_REFILL_UNIT_CONNECTION_FAULTY",
+    "rc_label": "refill unit connection faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250007"
+    ],
+    "notes": "Source label: \"Faulty electrical connection of ink refill unit\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_CART_OPENED_SENSOR_DEFECT",
+    "rc_label": "cart opened sensor defect",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250007"
+    ],
+    "notes": "Source label: \"CART_OPENED_SE defect\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_CART_LOCKED_SENSOR_DEFECT",
+    "rc_label": "cart locked sensor defect",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250007"
+    ],
+    "notes": "Source label: \"CART_LOCKED_SE defect\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_LEAK_SENSOR_CONNECTION_FAULTY",
+    "rc_label": "leak sensor connection faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009",
+      "290001"
+    ],
+    "notes": "Source label: \"Faulty electrical connection of Ink Leak sensor\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_LEAK_SENSOR_FAULTY",
+    "rc_label": "leak sensor faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009"
+    ],
+    "notes": "Source label: \"Fault Ink Leak sensor\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOILER_TUBE_BLOCKED",
+    "rc_label": "boiler tube blocked",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009"
+    ],
+    "notes": "Source label: \"Blockage in the Print Head Boiler Tube\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_WHITE_RECIRCULATION_BLOCKED",
+    "rc_label": "white recirculation blocked",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009"
+    ],
+    "notes": "Source label: \"Blockade in white ink recirculation\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_3WAY_VALVE_TO_PH_TUBE_BLOCKED",
+    "rc_label": "3way valve to ph tube blocked",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009"
+    ],
+    "notes": "Source label: \"Blockage in ink tube from 3-way valve to Printhead\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_OVERPRESSURE_VALVE_DAMAGED",
+    "rc_label": "overpressure valve damaged",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009"
+    ],
+    "notes": "Source label: \"Over pressure valve damaged\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PUMP_TUBE_COUNTER_NOT_RESET",
+    "rc_label": "pump tube counter not reset",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250009"
+    ],
+    "notes": "Source label: \"Pump tube recently replaced without resetting the maintenance counter\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_ELECTRICAL_WIRING_FAULTY",
+    "rc_label": "electrical wiring faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250010",
+      "290005"
+    ],
+    "notes": "Source label: \"Faulty electrical wiring or connectors\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_LEVEL_SENSOR_FAULTY",
+    "rc_label": "level sensor faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250010"
+    ],
+    "notes": "Source label: \"Faullty Ink level sensor.\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_RFID_CONNECTION_FAULTY",
+    "rc_label": "rfid connection faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250011"
+    ],
+    "notes": "Source label: \"Faulty RFID electrical connection\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_RFID_READER_FAULTY",
+    "rc_label": "rfid reader faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250011"
+    ],
+    "notes": "Source label: \"Fault RFID reader 02PBA02/3/4/5\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PRINTHEAD_AIR_TUBE_BLOCKED",
+    "rc_label": "printhead air tube blocked",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250012"
+    ],
+    "notes": "Source label: \"Pressure failure inside the printhead due to a blocked air-tube\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PUMP_TUBE_NOT_IN_PUMP",
+    "rc_label": "pump tube not in pump",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250014"
+    ],
+    "notes": "Source label: \"Tube is not in the pump\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_LEVER_NOT_BLOCKED",
+    "rc_label": "lever not blocked",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250014"
+    ],
+    "notes": "Source label: \"Ink Levers are not blocked\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_TANK_LEVEL_LOW",
+    "rc_label": "tank level low",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250014"
+    ],
+    "notes": "Source label: \"Ink level low in ink tank\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PUMP_MOTOR_VERSION_MISMATCH",
+    "rc_label": "pump motor version mismatch",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250015"
+    ],
+    "notes": "Source label: \"PBA (02PBA01partnumber 1070066986) detects via the X52 pin5 and 6 loopback, that new ink pump motors are configured\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_SUPPLY_PBA_FAULTY",
+    "rc_label": "supply pba faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250016",
+      "290001",
+      "290005"
+    ],
+    "notes": "Source label: \"Faulty Ink supply PBA\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_REFILL_UNIT_FAULTY",
+    "rc_label": "refill unit faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "250027",
+      "250028"
+    ],
+    "notes": "Source label: \"Faulty ink refill unit\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PRINTHEAD_VALVE_CLOSED",
+    "rc_label": "printhead valve closed",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "270001"
+    ],
+    "notes": "Source label: \"Closed ink valves at printhead\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_TANK_EMPTY",
+    "rc_label": "tank empty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "270008"
+    ],
+    "notes": "Source label: \"No ink in ink tank\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_TUBE_FAULTY",
+    "rc_label": "tube faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290001"
+    ],
+    "notes": "Source label: \"Faulty Ink tube\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_TUBE_PARAMETER_OUT_OF_RANGE",
+    "rc_label": "tube parameter out of range",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290005"
+    ],
+    "notes": "Source label: \"Ink tube out of parameter\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BUNDLE_02W03_FAULTY",
+    "rc_label": "bundle 02w03 faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290005"
+    ],
+    "notes": "Source label: \"Faulty bundle 02W03\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_PUMP_FAULTY",
+    "rc_label": "pump faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290005"
+    ],
+    "notes": "Source label: \"Faulty ink pump\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_FAULTY",
+    "rc_label": "bottle faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290011",
+      "290012",
+      "290014",
+      "290018"
+    ],
+    "notes": "Source label: \"Faulty ink bottle\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_CONSUMED",
+    "rc_label": "bottle consumed",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290013"
+    ],
+    "notes": "Source label: \"Ink already consumed from ink bottle\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_EXPIRED",
+    "rc_label": "bottle expired",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290015"
+    ],
+    "notes": "Source label: \"Expired ink\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_ALMOST_EXPIRED",
+    "rc_label": "bottle almost expired",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290016",
+      "290022"
+    ],
+    "notes": "Source label: \"Ink almost expired\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_WRONG_REGION",
+    "rc_label": "bottle wrong region",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290017"
+    ],
+    "notes": "Source label: \"Ink bottle from wrong ink region\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_SYSTEM_REGION_MISCONFIGURED",
+    "rc_label": "system region misconfigured",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290017"
+    ],
+    "notes": "Source label: \"System ink region misconfigured\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_RFID_SKEWED",
+    "rc_label": "rfid skewed",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290019",
+      "290032",
+      "290033",
+      "290034"
+    ],
+    "notes": "Source label: \"Ink bottle or RFID sticker is skewed\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_IN_PRINTER_EXPIRED",
+    "rc_label": "in printer expired",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290020"
+    ],
+    "notes": "Source label: \"Ink expired in printer\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_BLACKLISTED",
+    "rc_label": "bottle blacklisted",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290021"
+    ],
+    "notes": "Source label: \"Wrong / Blacklisted ink bottle\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_NON_GENUINE",
+    "rc_label": "non genuine",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290023"
+    ],
+    "notes": "Source label: \"Non-genuine ink loaded into the system\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_UID_DUPLICATE",
+    "rc_label": "bottle uid duplicate",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290025"
+    ],
+    "notes": "Source label: \"The ID of the ink bottle has been loaded already previously.\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_WRONG_TYPE",
+    "rc_label": "bottle wrong type",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290026"
+    ],
+    "notes": "Source label: \"Incorrect ink type\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_NOT_APPROVED",
+    "rc_label": "bottle not approved",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290029"
+    ],
+    "notes": "Source label: \"Jar contains not approved ink\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_MISSING",
+    "rc_label": "bottle missing",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290031"
+    ],
+    "notes": "Source label: \"Ink bottle missing or not placed\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_RFID_NOT_DETECTABLE",
+    "rc_label": "bottle rfid not detectable",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290031"
+    ],
+    "notes": "Source label: \"Ink bottle RFID tag not detectable\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_SKEWED",
+    "rc_label": "bottle skewed",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290032",
+      "290033",
+      "290034"
+    ],
+    "notes": "Source label: \"Ink bottle skewed\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_BOTTLE_REMOVED_DURING_WRITE",
+    "rc_label": "bottle removed during write",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290034"
+    ],
+    "notes": "Source label: \"Ink bottle removed during write operation\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_3WAY_RECIRC_VALVE_FAULTY",
+    "rc_label": "3way recirc valve faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290035",
+      "290036"
+    ],
+    "notes": "Source label: \"Malfunctioning 3-way recirculation valve (02Y5)\". Uniform prior 1/58. Pending domain expert validation."
+  },
+  {
+    "rc_id": "RC_INK_RECIRC_VALVE_FAULTY",
+    "rc_label": "recirc valve faulty",
+    "subsystem": "ink",
+    "prior_probability": 0.017241,
+    "prior_count": 0,
+    "kb_validated": false,
+    "relevant_error_codes": [
+      "290036"
+    ],
+    "notes": "Source label: \"Faulty recirculation valve\". Uniform prior 1/58. Pending domain expert validation."
+  }
+]
